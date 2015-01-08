@@ -1,0 +1,32 @@
+\documentclass{poets}
+
+\makeindex
+%\pdfmapfile{=fullembed.map} % created by the script create_fullembed_file
+
+\begin{document}
+
+%\include{cover/cover}
+
+%\cleardoublepage
+
+%\include{cover/inside-title-page}
+
+%\include{cover/copyright}
+
+\tableofcontents
+
+%========================= main matter =========================
+\mainmatter
+%-- I want the whole book numbered sequentially, arabic:
+  \pagenumbering{arabic} 
+  \addtocounter{page}{10} 
+%========================= chapters =========================
+	\renewcommand{\chapdir}{ch01}\include{ch01/ch01}
+
+%=================================================================================================================================
+
+\backmatter
+
+\printindex
+
+\end{document}
