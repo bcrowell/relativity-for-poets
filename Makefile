@@ -3,7 +3,7 @@ default:
 	makeindex poets.idx 1>/dev/null 2>/dev/null
 
 book:
-	make && make
+	make && make && make
 
 figs:
 	#make cover
