@@ -6,14 +6,18 @@ use strict;
 #   pdf_to_bitmap.pl foo.pdf
 #   pdf_to_bitmap.pl foo.pdf jpg
 #   pdf_to_bitmap.pl foo.pdf png
+#   pdf_to_bitmap.pl foo.pdf png 1
 # default format is png
 # quality for jpg is set to imagemagick's default of 92
 # If the file foo.jpg or foo.png exists and is newer than foo.pdf, then nothing is done, and this is not an error.
+#   [currently I have the date checking commented out...why?]
 # If the file foo.jpg or foo.png exists and foo.pdf doesn't exist, then nothing is done, and this is not an error.
+# Adding the 1 as the third command-line arg forces rendering even if it seems up to date.
 
 my $pdf = $ARGV[0];
 my $dest_fmt = $ARGV[1];
 if ($dest_fmt=='') {$dest_fmt='png'}
+my $force = ($ARGV[2] eq '1');
 
 my @temp_files = ();
 
@@ -23,7 +27,7 @@ my $rendered = $pdf;
 $rendered =~ s/\.pdf$/.$dest_fmt/;
 
 
-if (-e $rendered && (! (-e $pdf))) {exit(0)}
+if ((!$force) && -e $rendered && (! (-e $pdf))) {exit(0)}
 ###if (-e $rendered && -M $pdf > -M $rendered) {exit(0)} # -M finds age in days
 
 print "rendering $pdf to $rendered\n";
@@ -34,9 +38,9 @@ print "rendering $pdf to $rendered\n";
 my $ppm = 'z-1.ppm'; # only 1 page in pdf
 push @temp_files,$ppm;
 if (system("pdftoppm -r 300 $pdf z")!=0) {finit("Error in pdf_to_bitmap.pl, pdftoppm")}
-if (system("convert $ppm -density 300 -gamma 2.3 -units PixelsPerInch $rendered")!=0) {finit("Error in pdf_to_bitmap.pl, ImageMagick's convert")}
+if (system("convert $ppm -density 300 -evaluate Pow 0.44 -units PixelsPerInch $rendered")!=0) {finit("Error in pdf_to_bitmap.pl, ImageMagick's convert")}
 # ... uses default quality of 92
-#     without -gamma 2.3 it comes out much too dark -- why??
+#     without -evaluate Pow 0.44 it comes out much too dark -- why??
 
 print "\n";
 finit();

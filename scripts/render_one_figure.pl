@@ -4,8 +4,10 @@ use strict;
 
 # usage:
 #   render_one_figure.pl foo.svg
+#   render_one_figure.pl foo.svg 1
 # Renders it unless rendering already exists and is newer than svg. Attempts to render it to pdf first. If that
 # fails preflight, redoes it as a bitmap.
+# Adding the 1 as the second command-line arg forces rendering even if it seems up to date.
 
 use FindBin;
 use File::Glob;
@@ -15,6 +17,7 @@ use File::Temp qw(tempdir);
 my $not_for_real = 0;
 
 my $svg = $ARGV[0];
+my $force = ($ARGV[1] eq '1');
 
 my @temp_files = ();
 
@@ -23,7 +26,7 @@ foreach my $e('pdf','jpg','png') {
   my $rendered = $svg;
   $rendered =~ s/\.svg$/.$e/;
   $exists = $exists || -e $rendered;
-  if (-e $rendered && -M $svg > -M $rendered) {exit(0)} # -M finds age in days
+  if ((!$force) && -e $rendered && -M $svg > -M $rendered) {exit(0)} # -M finds age in days
 }
 
 if ($exists) {
