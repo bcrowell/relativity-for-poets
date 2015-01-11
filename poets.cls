@@ -10,7 +10,7 @@
 %====================== packages =====================================================
 \RequirePackage{amsmath}
 \def\maketag@@@#1{\hbox{\m@th#1}} % workaround for bug in amsmath; see http://tex.stackexchange.com/a/155719/6853
-\RequirePackage{url,makeidx,float,varioref,shaddap}
+\RequirePackage{url,makeidx,float,varioref,shaddap,surtitle,lipsum}
 \usepackage[pass,paperwidth=5.625in,paperheight=8.75in]{geometry}
   % This appears to be the only way of setting paperwidth and paperheight that works in all implementations of latex.
   % http://tex.stackexchange.com/questions/31973/latex-how-do-i-force-pdf-page-height-width

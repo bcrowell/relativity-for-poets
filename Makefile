@@ -7,7 +7,7 @@ DO_PDFLATEX_RAW = $(NICE) $(TEX_INTERPRETER) -interaction=nonstopmode $(BOOK) >$
 # ... if using write18, need to add -shell-escape
 #     environment variable  openout_any=a allows writing to files (?) [see lm]
 SHOW_ERRORS = \
-        system("../scripts/filter_latex_messages.rb <$(TERMINAL_OUTPUT) >a.a && mv a.a $(TERMINAL_OUTPUT)")
+        system("scripts/filter_latex_messages.rb <$(TERMINAL_OUTPUT) >a.a && mv a.a $(TERMINAL_OUTPUT)")
         print "========error========\n"; \
         open(F,"$(TERMINAL_OUTPUT)"); \
         while ($$line = <F>) { \

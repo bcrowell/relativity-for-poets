@@ -1,0 +1,17 @@
+% http://tex.stackexchange.com/questions/222556/surtitle-for-section
+
+\newcommand\sectionwithsurtitle[3]{%
+  \printsectionsurtitle{#1}%
+  \section[#1: #3]{#2}%
+  \sectionmark{#3}
+}
+
+
+\makeatletter
+\newcommand{\printsectionsurtitle}[1]{%
+  {\parindent0pt\vspace*{20pt}%
+  \sffamily\uppercase{#1}%
+  \par\nobreak}
+  \@afterheading%
+}
+\makeatother
