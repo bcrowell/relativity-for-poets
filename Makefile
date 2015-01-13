@@ -26,6 +26,8 @@ book:
 	@$(DO_PDFLATEX)
 	@$(DO_PDFLATEX)
 	makeindex $(BOOK).idx 1>/dev/null 2>/dev/null
+	scripts/harvest_aux_files.rb
+	end/photo-credits.rb >end/photo-credits.tex
 	@$(DO_PDFLATEX)
 
 figs:
