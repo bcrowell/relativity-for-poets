@@ -18,6 +18,7 @@ photo_credit("twin-paradox","Plane","Redrawn from a photo by Wikimedia Commons u
 photo_credit("twin-paradox","Rotating earth","NASA image, public domain; animated gif by Wikimedia Commons user Marvel, CC-BY-SA")
   # http://commons.wikimedia.org/wiki/File:Rotating_earth_%28large%29.gif
 photo_credit("cern-muons","Muon storage ring at CERN","(c) 1974 by CERN; used here under the U.S.~fair use doctrine")
+photo_credit("galilean-transformation","Cow and car","As for the figure on p.~\\pageref{fig:cow-and-car}")
 
 
 
@@ -25,6 +26,21 @@ photo_credit("cern-muons","Muon storage ring at CERN","(c) 1974 by CERN; used he
 
 print <<-'HEAD'
 
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
 
 
 

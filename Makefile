@@ -2,6 +2,7 @@ BOOK = poets
 NICE = nice ionice -n7
 TEX_INTERPRETER = pdflatex
 # ... can also try lualatex
+PROBLEMS_CSV = /dev/null
 TERMINAL_OUTPUT = err
 DO_PDFLATEX_RAW = $(NICE) $(TEX_INTERPRETER) -interaction=nonstopmode $(BOOK) >$(TERMINAL_OUTPUT)
 # ... if using write18, need to add -shell-escape
@@ -19,10 +20,12 @@ SHOW_ERRORS = \
         exit(1)
 DO_PDFLATEX = echo "$(DO_PDFLATEX_RAW)" ; perl -e 'if (system("$(DO_PDFLATEX_RAW)")) {$(SHOW_ERRORS)};'
 
-default:
+book1:
+	@make preflight
 	@$(DO_PDFLATEX)
 
 book:
+	@make preflight
 	@$(DO_PDFLATEX)
 	@$(DO_PDFLATEX)
 	makeindex $(BOOK).idx 1>/dev/null 2>/dev/null
@@ -47,4 +50,7 @@ clean:
 
 very_clean:
 	make clean
-	rm poets.pdf
+	rm -f poets.pdf
+
+preflight:
+	@perl -e 'if (-e "../scripts/custom/enable") {system("chmod +x ../scripts/custom/*"); foreach $$f(<../scripts/custom/*.pl>) {$$c="$$f $(BOOK) $(PROBLEMS_CSV)"; system($$c)}}'
