@@ -88,8 +88,59 @@ In panel b, we stretch the horizontal scale quite a bit, although nowhere near a
 need to do in order to convert from, say, light-seconds to meters. The result is nearly indistinguishable
 from a Galilean transformation.
 
-\section{Scale}
+\section{Scale, squish, and stretch factors}
 
-\section{Proof that area stays the same in a Lorentz transformation}
+The physical arguments we've made so far are enough to pin down every feature of the Lorentz transformation
+except for an over-all scaling factor. That is, we could take either of the grids and blow it up or reduce it
+like a photograph. This scale can be fixed by using the fact, proved in section \ref{sec:area-proof},
+p.~\pageref{sec:area-proof}, that \emph{areas} have to stay the same when we carry out a Lorentz transformation.
+
+\fig{stretch}
+
+This makes it possible to give a very simple geometrical description of the Lorentz transformation.
+It's done by stretching one diagonal by a certain amount and squishing the other diagonal by the inverse
+of that factor, so that the total area stays the same. The figure shows the case where the velocity is $3/5$ of
+$c$, which happens to give a stretch by a factor of 2 and a squish by 1/2.
+
+\section{No acceleration past $c$}
+
+The stretch and squish factors give us an easy way to visualize what happens if we try to keep accelerating
+an object past the speed of light. Since the numbers are simple for a velocity of $3/5$, let's imagine that
+we take an object and accelerate it to $3/5$ of $c$ relative to the earth. The corresponding Lorentz transformation
+is stretched and squished by a factor of 2. Now let's say that we continue accelerating it until it's moving at
+$3/5$ of $c$ relative to its previous motion. If velocities added the way Galileo imagined, then this would
+give $6/5$ of $c$, which is greater than $c$. But what will actually happen here is that we'll have stretched the
+long diagonal by a factor of 4 and shrunk the short one by the same factor (left panel of the figure below).
+This is a Lorentz transformation that
+still corresponds to some velocity less than $c$. (It turns out to be $15/17$ of $c$.)
+No matter how many times we do this, the velocity will still be
+less than $c$. Thus no continuous process can accelerate an object past the speed of light, although this
+argument doesn't rule out a discontinuous process such as Star Trek's transporter.
+
+\fig{limiting-speed}
+
+By about 1930, particle accelerators had progressed to the point
+at which relativistic effects were routinely taken into account. In
+1964, W.~Bertozzi at MIT did a special-purpose experiment to test the predictions of relativity using an electron accelerator.
+The accelerator was powerful enough to have accelerated the electrons to many times
+the speed of light, had Galileo been right. As shown in the right panel of the figure,
+the actual speeds measured just got closer
+and closer to $c$.
+
+\sectionwithsurtitle{Optional}{Proof that area stays the same in a Lorentz transformation}%
+           {Proof that area stays the same}\label{sec:area-proof}
+
+This optional section gives a proof that
+ Lorentz transformations don't change area in the $t-x$ plane
 
 \fig{area-proof}
+
+We first subject the square in the figure to a transformation with velocity $v$, and 
+this increases its area by a factor $A$, which
+we want to prove equals 1. We chop the resulting parallelogram up
+into little squares and finally apply a $-v$ transformation, i.e., a Lorentz transformation with the same speed but
+in the opposite direction.
+This changes each little square's area by a factor $B$, so that the whole figure's area is also scaled by $B$.
+The final result is to restore the square to its original shape and area, so $AB=1$.
+But we must have $A=B$, because space is symmetrical, and we can't treat one direction differently than theother.
+Since $A$ and $B$ are both positive, they must both equal 1, which was what we wanted to prove.
