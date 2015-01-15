@@ -39,6 +39,12 @@
 % figures
 
 \newcommand{\fignakedfullpage}[1]{\includegraphics{\chapdir/figs/#1}}
+\newcommand{\fig}[2][]{%
+  \begin{figure}[#1]\label{fig:#2}
+  \fignakedfullpage{#2}
+  \end{figure}
+}
+
 
 % math
 
