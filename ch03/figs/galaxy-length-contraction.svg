@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="galaxy-length-contraction.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3897">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop3899" />
+      <stop
+         id="stop3939"
+         offset="0.5"
+         style="stop-color:#000000;stop-opacity:0.14166667;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3901" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3889">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop3891" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3893" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3889"
+       id="radialGradient3895"
+       cx="390.99615"
+       cy="1275.6737"
+       fx="390.99615"
+       fy="1275.6737"
+       r="299.99997"
+       gradientTransform="matrix(1,0,0,0.28973266,0,906.06932)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3897"
+       id="radialGradient3903"
+       cx="337.1423"
+       cy="640.04016"
+       fx="337.1423"
+       fy="640.04016"
+       r="299.99942"
+       gradientTransform="matrix(0.44510355,0,0,0.08318995,-449.73311,800.27735)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3897-8"
+       id="radialGradient3903-7"
+       cx="337.1423"
+       cy="640.04016"
+       fx="337.1423"
+       fy="640.04016"
+       r="299.99942"
+       gradientTransform="matrix(1.4266374,-6.7357782e-8,1.9270321e-8,0.40814527,-143.83752,378.81081)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3897-8">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop3899-0" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3901-8" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.54179027"
+     inkscape:cx="88.504394"
+     inkscape:cy="412.56663"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3095-5"
+       width="187.19656"
+       height="191.87721"
+       x="-393.26816"
+       y="757.58368" />
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/ch03/figs/galaxy-length-contraction-bitmaps/galaxy.jpg"
+       xlink:href="galaxy-length-contraction-bitmaps/galaxy.jpg"
+       width="187.19691"
+       height="191.87685"
+       id="image3063"
+       x="-588.57141"
+       y="757.58386" />
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/ch03/figs/galaxy-length-contraction-bitmaps/galaxy.jpg"
+       xlink:href="galaxy-length-contraction-bitmaps/galaxy.jpg"
+       width="187.19691"
+       height="49.250622"
+       id="image3063-6"
+       x="-393.26834"
+       y="828.89697" />
+    <rect
+       style="fill:url(#radialGradient3903);fill-opacity:1;stroke:none"
+       id="rect3095"
+       width="187.19656"
+       height="191.87721"
+       x="-393.26816"
+       y="757.58368" />
+  </g>
+</svg>

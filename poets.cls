@@ -10,7 +10,7 @@
 %====================== packages =====================================================
 \RequirePackage{amsmath}
 \def\maketag@@@#1{\hbox{\m@th#1}} % workaround for bug in amsmath; see http://tex.stackexchange.com/a/155719/6853
-\RequirePackage{url,makeidx,float,varioref,shaddap,surtitle,lipsum}
+\RequirePackage{url,makeidx,float,varioref,shaddap,surtitle,lipsum,ifthen}
 \usepackage[pass,paperwidth=5.625in,paperheight=8.75in]{geometry}
   % This appears to be the only way of setting paperwidth and paperheight that works in all implementations of latex.
   % http://tex.stackexchange.com/questions/31973/latex-how-do-i-force-pdf-page-height-width
@@ -49,3 +49,14 @@
 % math
 
 \newcommand{\zu}[1]{\textup{#1}}
+
+%
+
+\newenvironment{important}[1][]%
+        {%
+          \setlength{\saveleftskip}{\leftskip}%
+          \addtolength{\leftskip}{10mm}%
+          \noindent\ifthenelse{\equal{#1}{}}{}{\textbf{#1}\\*}%
+        }{%
+          \par  \setlength{\leftskip}{\saveleftskip} \par%
+        } 
