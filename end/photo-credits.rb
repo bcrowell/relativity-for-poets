@@ -21,8 +21,8 @@ photo_credit("cern-muons","Muon storage ring at CERN","(c) 1974 by CERN; used he
 photo_credit("galilean-transformation","Cow and car","As for the figure on p.~\\pageref{fig:cow-and-car}")
 photo_credit("galaxy-lorentz-contraction","Galaxy","NASA/STScI/ESA, public domain")
   # http://upload.wikimedia.org/wikipedia/commons/b/b3/UGC_12158.jpg
-
-
+photo_credit("convertible-and-cube","Cadillac","Redrawn from a photo by That Hartford Guy, CC-BY-SA")
+  # http://commons.wikimedia.org/wiki/File:1965_Cadillac_Deville_convertible_left.jpg
 
 
 
