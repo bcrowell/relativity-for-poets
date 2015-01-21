@@ -23,6 +23,13 @@ photo_credit("galaxy-lorentz-contraction","Galaxy","NASA/STScI/ESA, public domai
   # http://upload.wikimedia.org/wikipedia/commons/b/b3/UGC_12158.jpg
 photo_credit("convertible-and-cube","Cadillac","Redrawn from a photo by That Hartford Guy, CC-BY-SA")
   # http://commons.wikimedia.org/wiki/File:1965_Cadillac_Deville_convertible_left.jpg
+photo_credit("define-mass","Astronaut","NASA")
+photo_credit("e-p","Sprinters","Darren Wilkinson, CC-BY-SA")
+  # http://en.wikipedia.org/wiki/File:London_2012_Olympic_100m_final_start.jpg
+photo_credit("e-p","Fireworks","Kristina Servant, CC-BY")
+  # http://en.wikipedia.org/wiki/File:Fireworks_June_23_2012.jpg
+photo_credit("duck-rabbit-illusion","Duck-rabbit illusion","J.~Jastrow, Popular Science Monthly, 1899")
+  # http://commons.wikimedia.org/wiki/File:Duck-Rabbit_illusion.jpg
 
 
 

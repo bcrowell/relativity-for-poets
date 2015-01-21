@@ -1,0 +1,123 @@
+\chapter{\boldmath $E=mc^2$}
+
+We now trace essentially the same chain of reasoning that Einstein used in arriving at his most famous equation.
+
+\section{Energy shift of a beam of light}
+
+A ray of light always moves at $c$, and this leads to some big differences in behavior between the energy of matter
+and the energy of light. If a boxer throws a harder punch, his fist has more energy because of its greater speed.
+But we can't make a flashlight brighter by making its beam come out faster.
+
+This leads to the following relativistic question, which turned out to be crucial to Einstein.
+Suppose we move toward an oncoming beam of light at a significant fraction of $c$, as in a head-on collision
+between two cars. What happens to the beam's energy when we switch to this frame of reference?
+
+Since its speed is the same in the new frame, we might imagine that its energy was unchanged as well.
+After all, if you don't change the speed of a baseball or a bullet, you don't change its energy.
+But this can't be right, for the following reason. The law of conservation of energy is delicately
+constructed so that if energy is conserved in one frame of reference, it's conserved in other frames
+as well. In a typical energy-transformation process, such as the emission of a beam of light by
+a flashlight, we have a bunch of different forms of energy
+before the transformation, and a similar list afterwards. The sum of all the initial forms of energy
+has to equal the sum of all the final forms. If we switch to a different frame of reference, the numerical
+values of many of these numbers change. (For example, if the flashlight was at rest in the original frame,
+with zero kinetic energy, then in the other frame, where it's moving at a substantial fraction of $c$, it
+has more energy than a nuclear warhead.) If energy is to be conserved in the new frame as well, then all
+of the various forms of energy must be different in the new frame, and the differences must be such that
+the books still balance. There is no way to make this work if we insist that a beam of light keep the \emph{same}
+energy in all frames.
+
+So a beam of light must be brighter to an observer rushing into the beam. How much brighter?
+The effect turns out to be that the energy gets multiplied by the stretch factor introduced
+in section \ref{sec:stretch}, p.~\pageref{sec:stretch}. For example, if the observer moves at $3/5$ of
+$c$, then the stretch factor equals 2, and the beam has twice as much energy. This use of the stretch
+factor is pretty much the only possibility that makes sense, because we could have a chain of observers,
+with B in motion relative to A, and C in motion relative to B. When we combine velocities like this,
+the stretch factors multiply, but so do the intensity factors for a beam of light. For example, if B
+says the beam is twice as bright as A, and C says it's twice as bright as B, then C says it's four
+times as bright as A.
+
+By the way, we do see this effect in real life. Because of the expansion of the universe, distant galaxies
+are moving away from us at speeds comparable to $c$. This makes their light dimmer and harder to detect
+through a telescope. (There is also a color shift toward the red end of the spectrum, which in the wave
+model of light is described as a lengthening of the wavelength. This wavelength effect is called the
+Doppler shift.)
+
+\section{Einstein's argument}
+
+We now have all the necessary ingredients to go through Einstein's argument leading to $E=mc^2$, and to
+interpret what the equation means. In Einstein's 1905 paper on this topic, he gave an argument using algebra,
+but I'll present it using a numerical example instead.
+
+Suppose that in Alice's frame of reference A, we have a battery-powered
+lantern that is initially at rest. The lantern is set
+up so that it shoots one beam of light to the right, and simultaneously another beam of equal intensity to the left.
+We turn the lantern on and then back off, and each of the two escaping beams of light carries away 0.5 units
+of energy. Although the beams of light do have momentum, momentum is a vector, so the momenta in opposite directions
+cancel out, and the lantern doesn't recoil. Since the lantern is still at rest after the emission of the beams, its
+kinetic energy both before and after emission is zero. Therefore by conservation of energy, the $0.5+0.5=1$ unit
+of energy in the light must have come from the dissipation of 1 unit of energy that had been stored in the battery.
+
+\fig[h]{lantern}
+
+Now suppose that this same process is observed by Betty, who is moving to the right at $3/5$ of $c$ relative to
+Alice and the lantern. In Betty's frame B, the leftward beam is increased in energy by a factor of 2, while the
+rightward beam has its energy cut in half. Their energies in frame B are 0.25 and 1.0 units.
+But now we have a problem making the books balance on conservation of energy.
+The lantern has some kinetic energy, but we don't expect it to change its mass or velocity when the light is
+emitted, so we would think the kinetic energy would remain unchanged between the initial and final state, and we
+would be able to ignore it for purposes of conservation of energy. Initially, we have:
+\begin{align*}
+  1&\ \text{unit of energy stored in the battery}
+\end{align*}
+After emission, we have:
+\begin{align*}
+   0&\ \text{energy stored in the battery} \\
+  +0.25&\ \text{units of energy in the right-going beam} \\
+  +1.00&\ \text{units of energy in the left-going beam} 
+\end{align*}
+We have a discrepancy of 0.25 units. If we don't patch things up somehow, conservation of energy will be violated.
+That is of course logically possible, and there were in fact a couple of occasions in the early twentieth century
+in which physicists did seriously consider abandoning energy conservation as a fundamental law of physics.
+Einstein decided to do something trickier. He decided to \emph{redefine} energy. He proposed the following:
+
+\begin{important}[Equivalence of mass and energy]
+Mass and energy are equivalent, and the conversion between mass and energy units is given by the equation $E=mc^2$.
+\end{important}
+
+Let's see what happens when we apply this idea to the example of the lantern. Initially, the battery contains
+1 unit of energy. This is equivalent to an amount of mass $m=E/c^2$. In metric units, where $c$ is a huge number,
+this comes out tiny. For example, 1 joule of energy would be equivalent to about $0.00000000000000001$ kilograms (or
+$10^{-17}\ \zu{kg}$ in scientific notation). But when we switch to Betty's frame, the lantern is moving at a
+very high speed, so this miniscule amount of mass could end up contributing quite a bit of kinetic energy.
+How much extra kinetic energy do we get? We can't immediately answer this question because although we have
+a formula for kinetic energy (p.~\pageref{ke-formula}), that formula is only a nonrelativistic approximation.
+The speed of $3/5$ of $c$ that we're dealing with in our numerical example is pretty high, so we shouldn't
+expect the nonrelativistic formula to work exactly. 
+If we nevertheless go ahead, take this mass and the velocity of $(3/5)c$, and plug them
+into the formula, we get an energy of 0.18 units, which is close to, but not exactly equal to, the 0.25
+units that we need in order to make conservation of energy work. An advantage of Einstein's use of algebra
+over our numerical approach is that his method makes it easier to demonstrate that at low velocities, where
+the nonrelativistic formula for kinetic energy is known to be a good approximation, the discrepancy in
+conservation of energy is eliminated. It is eliminated at higher velocities as well, but only if we use
+the correct relativistic equation for kinetic energy.
+
+\fig[h]{bell-jar}
+
+The correspondence principle plays a crucial role here. We get to rewrite the rules, redefining
+energy, but our new rules have to be approximately consistent with the old ones in the situations where the old
+rules had already been checked by experiments. The figure shows an example.
+The match is lit inside the bell jar. It burns, and energy escapes from the jar
+in the form of light. After it stops burning, all the same atoms are still in the
+jar: none have entered or escaped. The burnt match is lighter, but only because some of its
+atoms are now in the form of gases such as carbon dioxide. The gases were trapped by the bell jar,
+so they still contribute to the total weight. The figure shows the outcome expected before
+relativity, which was that the mass measured on the balance would remain exactly the same.
+Mass is conserved.
+
+Now Einstein claims that the energy of the light escaping from the jar is equivalent to some mass.
+How can this be? Experiments like this had been done by physicists as far back in history as Lavoisier, at the time of
+the French Revolution. But recall our numerical estimate above. A joule is actually a pretty reasonable
+estimate of the energy released by a burning match, and we saw that a joule is only equivalent to an
+extremely small amount of mass. Lavoisier was right, to within the precision of the balances he had available.
+He simply didn't have a scale that measured weights to seventeen decimal places.
