@@ -30,6 +30,8 @@ photo_credit("e-p","Fireworks","Kristina Servant, CC-BY")
   # http://en.wikipedia.org/wiki/File:Fireworks_June_23_2012.jpg
 photo_credit("duck-rabbit-illusion","Duck-rabbit illusion","J.~Jastrow, Popular Science Monthly, 1899")
   # http://commons.wikimedia.org/wiki/File:Duck-Rabbit_illusion.jpg
+photo_credit("pet-scan","PET scan","NIH, public domain")
+  # http://en.wikipedia.org/wiki/File:PET_scan_image3699-PH.jpg
 
 
 
