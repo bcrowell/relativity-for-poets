@@ -1,3 +1,5 @@
+<% require "./scripts/simple_figures.rb" %>
+
 \chapter{Light and matter before Einstein}
 
 \section{How much does matter really matter?}
@@ -15,7 +17,7 @@ you'd get exactly the same results, because mass doesn't depend on gravity. This
 a technique sometimes used by astronauts to check on their body mass while they're in orbit.
 They sit in a chair attached to a spring, and measure how fast the vibrations are.
 
-\fig[h]{define-mass}
+<% fig("define-mass","h") %>
 
 As an \emph{interpretation} (not a definition), we can say that mass is a measure of how
 much inertia an object has: how hard it is to change its state of motion.
@@ -54,7 +56,7 @@ initially have zero momentum. Once they kick off from the starting blocks, they 
 the planet earth recoils at a very small speed in the opposite direction, so that the total is
 still zero.
 
-\fig[h]{e-p}
+<% fig("e-p","h") %>
 
 As a measure of ``oomph,'' however, momentum can't be the whole story. The firework in
 the photo has pieces that move in all directions symmetrically. Since momentum is a vector,
@@ -97,7 +99,7 @@ The wave model has the advantage of providing a straightforward explanation of c
 colors are different wavelengths of light. The particle model seems to contradict the wave model, but in fact
 can be reconciled with it; today light is believed to have both wave and particle properties.
 
-\fig[h]{three-models-of-light}
+<% fig("three-models-of-light","h") %>
 
 In the ray model of light, the only way your eyes can see anything is if a ray goes into your eye.
 When you look directly at a luminous object such as a candle flame, rays travel straight from the flame to your eye.

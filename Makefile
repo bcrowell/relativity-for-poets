@@ -22,20 +22,32 @@ DO_PDFLATEX = echo "$(DO_PDFLATEX_RAW)" ; perl -e 'if (system("$(DO_PDFLATEX_RAW
 
 book1:
 	@make preflight
+	@rm -f figures.csv
+	@make eruby
 	@$(DO_PDFLATEX)
 
 book:
 	@make preflight
+	@rm -f figures.csv
+	@make eruby
 	@$(DO_PDFLATEX)
 	@$(DO_PDFLATEX)
 	makeindex $(BOOK).idx 1>/dev/null 2>/dev/null
 	scripts/harvest_aux_files.rb
 	end/photo-credits.rb >end/photo-credits.tex
 	@$(DO_PDFLATEX)
+	@make slides
+
+slides:
+	@./scripts/make_slides.rb figures.csv >slides.tex
+	@pdflatex slides
 
 figs:
 	#make cover
 	make interior_figures
+
+eruby:
+	perl -e 'foreach $$f(<ch*/*rbtex>) {$$g=$$f; $$g=~s/\.rbtex/temp.tex/; $$c="RBTEX=$$f ./scripts/fruby $$f >$$g"; system $$c}'
 
 interior_figures:
 	# The following requires Inkscape 0.47 or later.
@@ -46,7 +58,7 @@ interior_figures:
 
 clean:
 	rm -f *.toc *.log *.idx *.ind *.ilg *~ *.aux
-	rm -f ch*/*.aux ch*/*~
+	rm -f ch*/*.aux ch*/*~ ch*/*temp.tex
 
 very_clean:
 	make clean

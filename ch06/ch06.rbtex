@@ -1,3 +1,5 @@
+<% require "./scripts/simple_figures.rb" %>
+
 \chapter{\boldmath $E=mc^2$}
 
 We now trace essentially the same chain of reasoning that Einstein used in arriving at his most famous equation.
@@ -58,7 +60,7 @@ cancel out, and the lantern doesn't recoil. Since the lantern is still at rest a
 kinetic energy both before and after emission is zero. Therefore by conservation of energy, the $0.5+0.5=1$ unit
 of energy in the light must have come from the dissipation of 1 unit of energy that had been stored in the battery.
 
-\fig[h]{lantern}
+<% fig("lantern","h") %>
 
 Now suppose that this same process is observed by Betty, who is moving to the right at $3/5$ of $c$ relative to
 Alice and the lantern. In Betty's frame B, the leftward beam is increased in energy by a factor of 2, while the
@@ -104,7 +106,7 @@ the correct relativistic equation for kinetic energy.
 
 \section{Correspondence principle}
 
-\fig[h]{bell-jar}
+<% fig("bell-jar","h") %>
 
 The correspondence principle plays a crucial role here. We get to rewrite the rules, redefining
 energy, but our new rules have to be approximately consistent with the old ones in the situations where the old
@@ -144,7 +146,7 @@ but have the opposite electric charge.
 A form of antimatter, positrons annihilate with electrons to produce gamma
 rays, a form of short-wavelength light.
 
-\fig[h]{pet-scan}
+<% fig("pet-scan","h") %>
 
 Positron annihilation forms the basis for the medical imaging technique called
 a PET (positron emission tomography) scan, in which a positron-emitting chemical
@@ -166,7 +168,7 @@ We saw earlier that spatial displacement wasn't a valid relativistic vector, and
 a valid one, we had to combine it with a time interval. A similar approach works for mass-energy
 and momentum. To get a valid relativistic vector, we have to combine mass-energy with momentum.
 
-\fig{energy-momentum}
+<% fig("energy-momentum") %>
 
 The figure shows how this plays out in a couple of examples involving different frames of reference.
 A point on the graph represents a thing with a certain energy and a certain momentum.
@@ -216,7 +218,7 @@ address the question of whether one could surpass $c$ through some discontinuous
 fixed property of a material object, and it therefore seems that a material object like the Millenium Falcon
 could not go faster than $c$, or else it would have to be transformed into a cloud of tachyons.
 
-\fig[h]{antitelephone}
+<% fig("antitelephone","h") %>
 
 But that doesn't mean that tachyons don't exist. If they did, it would be cool. Consider the figure above.
 In the frame of reference represented by the white grid, someone uses a burst of tachyons to send a signal from event A

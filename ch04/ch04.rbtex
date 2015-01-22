@@ -1,3 +1,5 @@
+<% require "./scripts/simple_figures.rb" %>
+
 \chapter{The measure of all things}
 
 \section{Operationalism}
@@ -37,7 +39,7 @@ when we turn it around. Force is a vector. When I play tug-of-war with my dog,
 her force and mine are the same in strength, but they're in opposite directions.
 If we swap positions, our forces reverse their directions, just as an arrow would.
 
-\fig[h]{vectors-and-scalars}
+<% fig("vectors-and-scalars","h") %>
 
 The simplest example of a Galilean vector is a motion from one place to another,
 called a displacement vector.
@@ -60,7 +62,7 @@ two force vectors, we get a single force vector that would give the same result,
 if it acted on a certain object, as the two individual vectors would have given
 if they had both acted on that object.
 
-\fig[h]{vector-addition}
+<% fig("vector-addition","h") %>
 
 A vector has a magnitude, which means its size, length, or amount. Rotating a vector
 can change the vector, but it will never change its magnitude.
@@ -117,7 +119,7 @@ proper time becomes zero for any observer. In this sense, a ray of light experie
 This type of displacement is called \emph{lightlike} rather than timelike, and its magnitude is defined to be
 zero, even if the vector itself isn't zero.
 
-\fig[h]{vectors-and-light-cone}
+<% fig("vectors-and-light-cone","h") %>
 
 A vector that is neither timelike nor lightlike is \emph{spacelike}. Spacelike vectors are of
 less interest because they can't trace out the world-line of any thing. Although it is possible to define a magnitude

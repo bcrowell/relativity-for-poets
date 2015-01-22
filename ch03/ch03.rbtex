@@ -1,3 +1,5 @@
+<% require "./scripts/simple_figures.rb" %>
+
 \chapter{The Lorentz transformation}
 
 \section{Surveying space and time}
@@ -49,7 +51,7 @@ the Lorentz transformation, after Hendrik Lorentz (1853-1928),\index{Lorentz, He
 who partially anticipated Einstein's work, without arriving at the correct interpretation.
 The distortion of the graph-paper grid is a kind of smooshing and stretching.
 
-\fig[h]{lorentz-transformation}
+<% fig("lorentz-transformation","h") %>
 
 
 
@@ -79,7 +81,7 @@ Lorentz transformation. Let's say that we're using seconds as our unit of time, 
 distance has to be the light-second, the distance traveled by light in one second. A light-second
 is a huge distance, roughly equal to the distance from the earth to the moon.
 
-\fig[h]{lorentz-correspondence}
+<% fig("lorentz-correspondence","h") %>
 
 
 
@@ -97,7 +99,7 @@ one and blow it up or reduce it
 like a photograph. This scale can be fixed by using the fact, proved in section \ref{sec:area-proof},
 p.~\pageref{sec:area-proof}, that \emph{areas} have to stay the same when we carry out a Lorentz transformation.
 
-\fig{stretch}
+<% fig("stretch") %>
 
 This makes it possible to give a very simple geometrical description of the Lorentz transformation.
 It's done by stretching one diagonal by a certain amount and squishing the other diagonal by the inverse
@@ -119,7 +121,7 @@ No matter how many times we do this, the velocity will still be
 less than $c$. Thus no continuous process can accelerate an object past the speed of light, although this
 argument doesn't rule out a discontinuous process such as Star Trek's transporter.
 
-\fig{limiting-speed}
+<% fig("limiting-speed") %>
 
 By about 1930, particle accelerators had progressed to the point
 at which relativistic effects were routinely taken into account. In
@@ -144,7 +146,7 @@ symbol for this ratio, and a formula that would allow us to plug in the $3/5$ an
 the focus of this book isn't on that kind of numerical calculation. For our purposes, drawing the graph
 is just as reasonable a way of working out the result.
 
-\fig{time-dilation-gamma}
+<% fig("time-dilation-gamma") %>
 
 In this example, the velocity was moderate compared to $c$, and the time-dilation factor was moderately big.
 For velocities small compared to $c$, the correspondence principle tells us that time-dilation factor must get close to 1,
@@ -166,7 +168,7 @@ on earth. But due to time dilation, this time interval would seem shorter to the
 at ultrarelativistic speeds, the time dilation could be extreme enough so that they could
 live long enough to complete the trip within their lifetimes.
 
-\fig{galaxy-length-contraction}
+<% fig("galaxy-length-contraction") %>
 
 But what does this all look like according to the voyagers? To them, their own time seems normal, and it's the
 people back on earth who are slowed down. So how can they explain the fact that they traveled 10,000 light-years
@@ -183,7 +185,7 @@ A clock appears to run fastest to an observer at rest relative to  the clock.
 A meter stick appears longest to an observer who is at rest relative to it.
 \end{important}
 
-\fig{convertible-and-cube}
+<% fig("convertible-and-cube") %>
 
 \section{Not what you see}
 
@@ -245,7 +247,7 @@ of reference as well.
 This optional section gives a proof that
  Lorentz transformations don't change area in the $t-x$ plane
 
-\fig{area-proof}
+<% fig("area-proof") %>
 
 We first subject the square in the figure to a transformation with velocity $v$, and 
 this increases its area by a factor $F$, which

@@ -1,3 +1,5 @@
+<% require "./scripts/simple_figures.rb" %>
+
 \chapter{Einstein's relativity}
 
 \section{Time is relative}
@@ -19,7 +21,7 @@ as you'd learn to represent it if Aristotle was your schoolteacher. He tells you
 paper, because its blue parallel lines represent a state of rest. The series of positions of the earth
 has to be drawn so that it lines up correctly. The earth is, after all, at rest.
 
-\fig{no-simulplaceity}
+<% fig("no-simulplaceity") %>
 
 
 
@@ -57,7 +59,7 @@ Absolute, true, and mathematical time, of itself, and from its own nature,
 flows uniformly without relation to anything external [...]
 \end{quote}
 
-\fig[h]{hk-in-cabin}
+<% fig("hk-in-cabin","h") %>
 
 
 
@@ -104,7 +106,7 @@ correspondingly reduced. The fact that the east-going clock fell behind, and the
 shows that the effect of motion is to make time go more slowly. This effect of motion on time was predicted by
 Einstein in his original 1905 paper on relativity, written when he was 26.
 
-\fig[h]{iijima}
+<% fig("iijima","h") %>
 
 
 
@@ -139,7 +141,7 @@ demanded that the satellites have special software switches designed into them s
 could be turned off if necessary. In fact, both special and general relativity are crucially important to GPS,
 and the system would be completely broken without them.
 
-\fig{correspondence-dramatized}
+<% fig("correspondence-dramatized") %>
 
 
 
@@ -173,7 +175,7 @@ before heading home and stopping off at the store for milk. An early, low-precis
 performed by Rossi and Hall in 1941, using naturally occurring cosmic rays. The figure shows
 a 1974 particle-accelerator experiment of a similar type.
 
-\fig[h]{cern-muons}
+<% fig("cern-muons","h") %>
 
 
 
@@ -199,7 +201,7 @@ A paradox now arises: how can all of this be reconciled with the fact that motio
 If clocks run more slowly because they're in motion, couldn't we determine a preferred rest frame
 by looking for the frame in which clocks run the fastest?
 
-\fig{twin-paradox}
+<% fig("twin-paradox") %>
 
 
 
@@ -268,7 +270,7 @@ that \emph{no} form of communication, no method of cause and effect, can operate
 certain time lag. The whole logical structure of relativity falls apart unless we assume 
 a universal speed limit for all motion in the universe. We refer to this speed with the letter $c$.
 
-\fig[h]{symmetric-signals}
+<% fig("symmetric-signals","h") %>
 
 
 
@@ -296,7 +298,7 @@ We've seen that if simultaneity isn't absolute, then there must be a universal s
 The converse is also true: if $c$ is universal, then simultaneity must be relative.
 The figure shows a famous thought experiment used by Einstein to present this idea.
 
-\fig[h]{einstein-train}
+<% fig("einstein-train","h") %>
 
 
 
@@ -360,7 +362,7 @@ precision of $\pm0.01$\%.
 
 \section{The light cone}
 
-\fig{light-cone}
+<% fig("light-cone") %>
 
 
 
@@ -423,7 +425,7 @@ surface. But in fact the sun-centered Copernican system did not make more accura
 of the motion of the planets than the earth-centered one. By Popper's criterion, the whole argument was
 unscientific.
 
-\fig[h]{duck-rabbit-illusion}
+<% fig("duck-rabbit-illusion","h") %>
 
 A controversial alternative to Popper comes from Thomas Kuhn (1922-1996), who argues that
 science operates in two different modes, a normal one in which knowledge is steadily accumulated,

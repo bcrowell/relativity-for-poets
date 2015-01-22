@@ -1,3 +1,5 @@
+<% require "./scripts/simple_figures.rb" %>
+
 \chapter{Galilean relativity}\label{ch:galilean-relativity}
 
 \section{Galileo versus Aristotle}
@@ -33,7 +35,7 @@ because someone kicks it, but once the force stops, the motion goes away.
 In other words, vertical lines on these graphs are special. They represent a natural, universal
 state of rest.
 
-\fig{soccer-ball}
+<% fig("soccer-ball") %>
 
 
 
@@ -56,7 +58,7 @@ it seems as though we need to apply a continuous force to keep going. The figure
 happening. At b, the runner's heel strikes the ground, and friction slows him down. A forward
 force in c serves only to recover from the loss in speed.
 
-\fig{runner}
+<% fig("runner") %>
 
 
 
@@ -79,7 +81,7 @@ plays no special role here. The moons circle Jupiter, not the earth. Galileo's o
 the earth from its Aristotelian place as the universal reference point for the rest of the cosmos,
 making it into just one of several planets in the solar system.
 
-\fig{galileo-jovian-moons-sketch}
+<% fig("galileo-jovian-moons-sketch") %>
 
 
 
@@ -98,7 +100,7 @@ a number line along the length of the plane, with a reference point near the fro
 The measurements like 23 and 38 are called \emph{coordinates}, and in order to define them you need to pick
 a frame of reference.
 
-\fig{cow-and-car}
+<% fig("cow-and-car") %>
 
 
 
@@ -119,7 +121,7 @@ For an example of the distinction between good and bad frames of reference, cons
 the director wants to depict an earthquake.
 The easy way to do it is to shake the camera around --- but we can tell it's fake.
 
-\fig[h]{plane-noninertial}
+<% fig("plane-noninertial","h") %>
 
 
 
@@ -151,7 +153,7 @@ cilantro and grated carrots from a
 taco shack that has the best food in the known universe. Alice stays home. The diagram shows the story using our usual
 graphical conventions, with time running vertically and space horizontally.
 
-\fig[h]{galilean-twin-paradox}
+<% fig("galilean-twin-paradox","h") %>
 
 
 
@@ -172,7 +174,7 @@ physical effects. The earth's motion is inertial, and the spaceship's isn't.
 
 \section{The Galilean transformation}\label{sec:galilean-transformation}
 
-\fig{galilean-transformation}
+<% fig("galilean-transformation") %>
 
 
 
