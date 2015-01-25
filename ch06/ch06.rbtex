@@ -205,10 +205,51 @@ say that a beam of light has zero mass. Again, all observers will agree on this 
 In general, matter is made out of particles whose energy-momentum vectors are spacelike, because they have nonzero
 mass. Light, as well as more exotic massless phenomena such as gluons and gravitational waves, has zero mass
 and therefore a timelike energy-momentum vector.
-
-\section{Tachyons}
-
 A hypothetical third category of particles, called tachyons, would have a spacelike energy-momentum vector.
+Tachyons probably don't exist, which is a shame because the universe would be a wilder place if we had them.
+In section \ref{sec:tachyons}, p.~\pageref{sec:tachyons}, I'll say a little about searches for tachyons and
+what tachyons might be like.
+
+Money isn't much fun if you can't spend it, and energy-momentum isn't much fun if you don't ever change it
+from one form to another. The first figure below shows a collision between two pool balls, with a diagram
+showing how their energy-momentum vectors add up. As actually happens in this kind of head-on shot (unless you use
+a lot of spin on the cube-ball), the cue ball stops dead, transferring all of its motion to the ball it hits.
+(The diagram is actually a little unrealistic, because I've
+drawn the balls moving at about 20\% of $c$, which would not only destroy them on impact but also kill everyone
+within a considerable radius.)
+
+<% fig("pool-balls-energy-momentum","h") %>
+
+One way to check that energy-momentum is conserved here is to set up each pair
+of vectors tip-to-tail as in the method of vector addition shown in section \ref{sec:galilean-scalars-and-vectors},
+p.~\pageref{sec:galilean-scalars-and-vectors}. An easier way to verify it is that the two sides of the equation are
+the same except that the order of the things being added up has been reversed; vector addition doesn't care about
+the order, just as in ordinary addition, where $1+3$ is the same as $3+1$. 
+
+Most of what we see in this diagram is simply the mass of the balls. The moving ball does however have a little bit
+of energy (extra height) and some momentum (leaning to the right, so that its spacelike part isn't zero).
+
+Now here's a diagram of a somewhat more realistic example, one that really requires relativity. This is a head-on
+collision of two subatomic particles called quarks, such as occurs at the Large Hadron Collider near Geneva,
+Switzerland. The quarks are
+actually parts of larger particles --- protons --- but on this scale we only see one quark from one proton colliding
+with one quark from another proton. We don't actually know if quarks are pointlike or have a finite size, but
+I've drawn them here as having some bulk to them, and as ovals rather than circles to represent the effect of
+Lorentz contraction. In this example, some of the energy of the incoming quarks happens to produce something called
+a Higgs particle. That is, energy has been converted into matter via $E=mc^2$. The Higgs particle was predicted
+to exist in the 1960s, and the LHC finally confirmed its detection in 2012. When the LHC was being designed, it was
+expected to be almost certain to find the Higgs. In fact, the fear was that the Higgs was the only thing it would
+find at all, and that appears to be what has happened. If so, then many particle physicists will be very depressed,
+but no doubt they will use it as a justification for another project, even larger and more expensive than the LHC.
+
+<% fig("accelerator-experiment","h") %>
+
+
+
+\section[Tachyons]{Why can't I have tachyons?}\label{sec:tachyons}
+
+The energy-momentum vector is timelike for matter and lightlike for massless phenomena such as light.
+A hypothetical third category of particles, called tachyons (``TACK-y-ons''), would have a spacelike energy-momentum vector.
 They would always go \emph{faster} than $c$, and their mass would be an imaginary number, like the square root of $-1$.
 
 In section \ref{sec:no-accel-past-c}, p.~\pageref{sec:no-accel-past-c}, we saw both theoretical and experimental

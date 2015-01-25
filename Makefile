@@ -36,11 +36,15 @@ book:
 	scripts/harvest_aux_files.rb
 	end/photo-credits.rb >end/photo-credits.tex
 	@$(DO_PDFLATEX)
-	@make slides
+
+post:
+	cp poets.pdf ~/Lightandmatter/poets
 
 slides:
 	@./scripts/make_slides.rb figures.csv >slides.tex
 	@pdflatex slides
+	@mv slides.pdf ~/Lightandmatter/alr/slides_poets.pdf
+	@make clean
 
 figs:
 	#make cover
@@ -59,6 +63,7 @@ interior_figures:
 clean:
 	rm -f *.toc *.log *.idx *.ind *.ilg *~ *.aux
 	rm -f ch*/*.aux ch*/*~ ch*/*temp.tex
+	@rm -f slides.nav slides.out slides.snm slides.tex
 
 very_clean:
 	make clean

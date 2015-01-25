@@ -27,7 +27,7 @@ certain measurement operations, and, according to Bridgman,
 the concept is synonymous with the corresponding set of operations.''
 It may not work for love, but it does work pretty well for time.
 
-\section{Galilean scalars and vectors}
+\section{Galilean scalars and vectors}\label{sec:galilean-scalars-and-vectors}
 
 Most of the things we want to measure in physics fall into two categories,
 called vectors and scalars. In Galilean relativity, a scalar is something
