@@ -221,15 +221,16 @@ in which Betty arrives home still a teenager, while Alice has aged into an old w
 But how can this be? In Betty's frame of reference, isn't it the earth that's moving, so that it should
 be the other way around, with Alice aging less and Betty more?
 
-The resolution of the paradox is exactly the same as
+The resolution of the paradox is the same as
 in the Galilean case. Alice's motion is inertial, and we can see this because her track across the diagram, called
-her \emph{world-line} in relativistic parlance, is a straight line. Betty's motion isn't inertial; it consists of
+her \emph{world-line} in relativistic parlance,\footnote{The odd-sounding term is a translation from German of
+a phrase intended to mean ``line \emph{through} the world,'' i.e., through spacetime.} is a straight line. Betty's motion isn't inertial; it consists of
 two segments at an angle to one another. In fact, there is a nice way of stating the relativistic rule for time dilation
 in these terms. The \emph{principle of greatest time} states that among all the possible world-lines that a clock
 can follow from one event to another, the one that gives the greatest elapsed time is the inertial one.
 The shortened time interval is said to be \emph{dilated}.
 
-Analyzing the Hafele-Keating experiment becomes almost as easy if we simplify things a little bit by pretending
+Analyzing the Hafele-Keating experiment becomes almost as easy if we simplify by pretending
 that the west-flying plane was going at exactly the right speed to cancel out the earth's rotation. (In reality this
 was probably roughly, but not quite, true.) Then this plane actually stood still relative to the center of the earth,
 whose motion is inertial. Therefore the plane's motion is inertial, as shown in panel b of the figure. The east-going

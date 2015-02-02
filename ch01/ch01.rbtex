@@ -137,6 +137,25 @@ as meaning that the plane's motion was not steady. The person didn't really pop 
 happened, as suggested in the figure, was that the ceiling swerved downward and hit the person on the head. The cabin is a \emph{noninertial frame
 of reference}. Moving frames are all right, but noninertial ones aren't.
 
+\section{Circular motion}
+
+In the era of Galileo and Newton, there was quite a bit of confusion about whether inertial
+motion was a broad enough notion to include both motion in a straight line and motion in a circle.
+Circular motion is not inertial. The figure is an overhead view of a person whirling a rock on the
+end of a string. When the string breaks, the rock flies off straight. It doesn't keep going in a circle.
+The inward force from the string is necessary to the circular motion, and when it disappears, we get straight-line motion.
+Similarly, when we spin a coin on a tabletop, the atoms in the coin are being held together by attractive
+electrical forces from the neighboring atoms.
+
+Linear, inertial motion is never detectable without reference to something external. Not so
+for circular motion. For example, if the room in which you're reading this book started to
+rotate, you would be able to tell because, for example, you'd feel dizzy. This would be your
+inner ear acting like a gyroscope. Passenger jets use a type of optical gyroscope in order
+to sense and maintain their orientation and stay on course.
+For these reasons, a rotating frame of reference is not considered an inertial frame.
+
+<% fig("rock-on-string") %>
+
 \section{Addition of velocities}\label{sec:galilean-velocity-addition}
 
 All inertial frames of reference are equally valid. However, observers in different frames of reference
@@ -145,6 +164,40 @@ suppose that Sparkly Elf Lady is riding her unicorn at 30 kilometers per hour to
 an arrow from her bow. To her, the bow fires the arrow at its normal speed of 20 km/hr. To an observer
 watching her go by, however, the arrow is going 50 km/hr. That is, to convert velocities between different
 frames of reference, we add and subtract.
+
+\pagebreak
+
+As a more realistic example, with real-world consequences,
+Air France flight 447 disappeared without warning on June 1, 2009,
+over the Atlantic Ocean. All 232 people aboard were killed.
+Investigators believe the disaster was triggered because the pilots
+lost the ability to accurately determine their speed relative to the
+air. This is done using sensors called Pitot tubes, mounted outside
+the plane on the wing. Automated radio signals showed that these
+sensors gave conflicting readings before the crash, possibly because
+they iced up. For fuel efficiency, modern passenger jets fly at a
+very high altitude, but in the thin air they can only fly within a
+very narrow range of speeds. If the speed is too low, the plane
+stalls, and if it's too high, it breaks up. If the pilots can't tell
+what their airspeed is, they can't keep it in the safe range.
+
+\vspace{20mm}
+
+Many
+people's reaction to this story is to wonder why planes don't just
+use GPS to measure their speed. The answer has to do with addition of
+velocities. Passenger jets do have GPS these days, but GPS tells you your
+speed relative to the ground, not relative to the air. We have
+\begin{align*}
+  &(\text{velocity of the plane relative to the ground}) \\
+  = &(\text{velocity of the plane relative to the air}) \\
+     +&(\text{velocity of the air relative to the ground}).
+\end{align*}
+Given two of these numbers, you could find the third, but GPS only tells you one of these
+numbers, and the one it tells you is not the one that the pilots on Air France 447 needed to know.
+
+
+\pagebreak
 
 \section{The Galilean twin paradox}\label{sec:galilean-twin-paradox}
 
@@ -194,6 +247,7 @@ What we're doing here is switching back and forth between the coordinates of two
 of reference. Coordinates are like names that we attach to events. When we switch coordinate systems,
 reality doesn't change, only the names do. It's just like translating words to a different language.
 This method of translating between two frames of reference is called the Galilean transformation.
+
 
 \pagebreak
 

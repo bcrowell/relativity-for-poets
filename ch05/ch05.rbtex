@@ -1,6 +1,6 @@
 <% require "./scripts/simple_figures.rb" %>
 
-\chapter{Light and matter before Einstein}
+\chapter[Light and matter]{Light and matter before Einstein}
 
 \section{How much does matter really matter?}
 

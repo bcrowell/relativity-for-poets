@@ -202,7 +202,7 @@ how we \emph{define} mass in relativity: as the magnitude of the energy-momentum
 The beam of light has an energy-momentum vector that is lightlike, so its magnitude is zero. This is why we
 say that a beam of light has zero mass. Again, all observers will agree on this fact.
 
-In general, matter is made out of particles whose energy-momentum vectors are spacelike, because they have nonzero
+In general, matter is made out of particles whose energy-momentum vectors are timelike, because they have nonzero
 mass. Light, as well as more exotic massless phenomena such as gluons and gravitational waves, has zero mass
 and therefore a timelike energy-momentum vector.
 A hypothetical third category of particles, called tachyons, would have a spacelike energy-momentum vector.
@@ -243,8 +243,6 @@ find at all, and that appears to be what has happened. If so, then many particle
 but no doubt they will use it as a justification for another project, even larger and more expensive than the LHC.
 
 <% fig("accelerator-experiment","h") %>
-
-
 
 \section[Tachyons]{Why can't I have tachyons?}\label{sec:tachyons}
 

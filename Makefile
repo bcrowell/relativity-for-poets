@@ -26,6 +26,12 @@ book1:
 	@make eruby
 	@$(DO_PDFLATEX)
 
+z:
+	make book
+	make post
+	make slides
+	cd alr && make figs && make && cd -
+
 book:
 	@make preflight
 	@rm -f figures.csv
@@ -70,4 +76,6 @@ very_clean:
 	rm -f poets.pdf
 
 preflight:
+	@chmod +x scripts/*
+	@chmod +x end/photo-credits.rb
 	@perl -e 'if (-e "../scripts/custom/enable") {system("chmod +x ../scripts/custom/*"); foreach $$f(<../scripts/custom/*.pl>) {$$c="$$f $(BOOK) $(PROBLEMS_CSV)"; system($$c)}}'
