@@ -39,6 +39,7 @@ photo_credit("ep","M100","European Southern Observatory, CC-BY-SA")
   # http://en.wikipedia.org/wiki/File:M100.jpg
 photo_credit("ep","Saturn","NASA, public domain")
   # http://en.wikipedia.org/wiki/File:Saturn_PIA06077.jpg
+photo_credit("pound-rebka","Pound and Rebka photo","Harvard University. I presume this photo to be in the public domain, since it is unlikely to have had its copyright renewed")
 
 print <<-'HEAD'
 

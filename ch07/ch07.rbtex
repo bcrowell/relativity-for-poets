@@ -194,15 +194,48 @@ by a small interval of time, so that one chases the other as they rise toward th
 be detected. In an inertial
 frame, we say that the box is accelerating upward. Therefore after the first flash arrives at the detector,
 the continued acceleration of the box causes the second flash to take a little extra time to arrive.
+It matters that the box is accelerating, not just moving. 
+Figure 1 shows the case where the box's motion is inertial rather than accelerated. Flashes are emitted from the
+floor at A and B,
+and detected at the ceiling at C and D. (You have to visualize the box tipped over sideways.)
+The time intervals AB and CD are the same.
+But the accelerated case, shown in figure 2, is different: GH is longer than EF.
 Because the speed of light is big, this effect would be small, but the time interval between the arrival of the flashes
 would be slightly lengthened compared to the time between their emission.
 
-Now let's think about how we would interpret this if the box is actually sitting on the earth.
-Adopting the earth's frame of reference, we say that the box isn't moving at all, so we can't
-explain the lengthened time interval in the same way. In this frame, the ceiling isn't accelerating away from the
-light flashes. We would start to wonder instead about the clock used to measure the time between the emission
-of the two flashes. Maybe that clock was running too slow. Or, alternatively, maybe there was something wrong
-with the clock positioned at the ceiling. It could have been running too fast.
+<% fig("elevator-argument-and-pound-rebka","h") %>
+
+If we're willing to take the equivalence principle seriously, then we should expect exactly the same effect
+in a laboratory that sits in a gravitational field. That is exactly what was observed in a famous experiment by
+Pound and Rebka at Harvard in 1959. Figure 3 above shows the basic idea. The experiment was done in a 22 meter
+tower in one of the university's lab buildings. Rather than sending two discrete flashes of light up from the
+floor to the ceiling, they used the fact that light is a wave, so that two successive wave crests play the role
+of the two flashes. The light waves used were gamma rays emitted in the decay of a radioactive source.
+The figure below shows a simplified diagram of the setup, and photos of the two experimenters at the top and
+bottom of the tower.
+
+<% fig("pound-rebka","h") %>
+
+The effect Pound and Rebka were trying to measure was extremely small. The time of flight for a gamma ray,
+moving at the speed of light, to travel 22 meters is only about 70 nanoseconds (billionths of a second).
+If we describe the tower in a free-falling, inertial frame of reference, then its upward acceleration at 10
+meters per second squared makes it move upward by only about three millionths of a billionth of a meter
+($3\times 10^{-14}\ \zu{m}$) during this time of flight. The lengthening of the time interval
+between the arrivals of the two flashes is thus extremely small, and detecting it required several tricky
+techniques. The result was exactly as predicted by the equivalence principle.
+
+So far it might seem like we've been discussing an obscure scientific effect that is very small and of interest
+only to specialists. Keep reading. As we continue this train of reasoning, craziness ensues.
+
+How would we interpret these results in a frame attached to the earth, if we'd never heard of the
+equivalence principle? For conceptual clarity, let's return to the original, simplified version of the experiment,
+in which discrete flashes of light are emitted from the floor of a box at events E and F and detected overhead at G and H.
+We use a clock on the floor to measure the time interval EF and a clock up on top for GH.
+We observe that GH is longer than EF.
+In the earth's frame, we say that the box isn't moving at all, so it seems impossible to explain the effect.
+We would start to wonder instead about the clocks.
+Maybe the clock on the floor was running a little slow. Or, alternatively, maybe there was something wrong
+with the one at the top. It could have been running too fast.
 
 But if we try to track down the problem and fix whichever clock is out of adjustment, we'll find that we
 can never establish which clock is at fault. To do that, we would have to synchronize the two clocks, but
