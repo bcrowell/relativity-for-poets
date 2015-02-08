@@ -21,14 +21,18 @@
   \pagenumbering{arabic} 
   \addtocounter{page}{4}  % make sure this is even
 %========================= chapters =========================
+\newcommand{\dochapter}[1]{\renewcommand{\chapdir}{ch#1}\include{ch#1/ch#1temp}}
 \part{Space and time}
-	\renewcommand{\chapdir}{ch01}\include{ch01/ch01temp}
-	\renewcommand{\chapdir}{ch02}\include{ch02/ch02temp}
-	\renewcommand{\chapdir}{ch03}\include{ch03/ch03temp}
-	\renewcommand{\chapdir}{ch04}\include{ch04/ch04temp}
+    \dochapter{01}
+    \dochapter{02}
+    \dochapter{03}
+    \dochapter{04}
 \part{Matter and \boldmath $E=mc^2$}
-	\renewcommand{\chapdir}{ch05}\include{ch05/ch05temp}
-	\renewcommand{\chapdir}{ch06}\include{ch06/ch06temp}
+    \dochapter{05}
+    \dochapter{06}
+\part{Gravity}
+    \dochapter{07}
+
 
 %=================================================================================================================================
 

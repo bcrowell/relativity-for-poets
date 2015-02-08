@@ -56,7 +56,7 @@ that this was a nontrivial assumption, but Isaac Newton (1642-1726) did, and he 
 %
 \begin{quote}
 Absolute, true, and mathematical time, of itself, and from its own nature,
-flows uniformly without relation to anything external [...]
+flows uniformly without regard to anything external [...]
 \end{quote}
 
 <% fig("hk-in-cabin","h") %>
@@ -383,7 +383,7 @@ as the circle in Euclidean geometry.
 
 \pagebreak
 
-\sectionwithsurtitle{Science and society}{Scientific revolutions}{Scientific revolutions}
+\sectionwithsurtitle{Science and society}{Scientific revolutions}{Scientific revolutions}\label{sec:scientific-revolutions}
 
 Special relativity overthrew Galilean relativity, a scientific theory that
 physicists had wholeheartedly believed in for hundreds of years.

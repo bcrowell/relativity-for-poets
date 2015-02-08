@@ -1,0 +1,117 @@
+<% require "./scripts/simple_figures.rb" %>
+
+\chapter{The equivalence principle}
+
+\section{Galileo and free fall}
+
+Galileo had an astounding knack for zeroing in on scientific issues that we still
+consider crucial four centuries later. Special relativity can be traced directly
+back to his insistence on the principle of inertia, as opposed to the Aristotelian
+idea that motion naturally stops if no force is applied. A similar Galileo-Aristotle
+controversy holds within it the seed of general relativity.
+
+Aristotle thought that an object falling in air was analogous to one sinking in water,
+and claimed that objects fell at a certain speed, which would be proportional to the object's weight
+and would also depend on both the object
+and the medium through which it was falling. In some ways this is a reasonable description,
+but it's very complicated and in some ways inaccurate. It's both simpler and more fundamentally
+important to consider the case in which the frictional force from the surrounding medium is
+negligible, which is what happens when the density of the medium is low, and the falling object
+is relatively dense and heavy. You might want to give this a try yourself right now. You probably
+have some handy objects of contrasting weight, such as a coin and a shoe. Stand up and release them
+side by side.
+
+My own shoe is about 50 times
+heavier than the nickel I had handy, but it looks to me like
+they hit the ground at exactly the same moment. So much for
+Aristotle! Galileo, who had a flair for the theatrical, did
+the experiment by dropping a bullet and a heavy cannonball
+from a tall tower\footnote{His contemporary and first biographer Viviani says that it was the
+Leaning Tower of Pisa, although some historians are skeptical about this.} (panel 1 of the figure).
+
+<% fig("galileo-drops-balls","h") %>
+
+Nor does a given object fall with a single definite speed. Starting from rest, it speeds up and speeds up.
+The ingenious Galileo, who had only primitive clocks, convinced himself of this by doing experiments
+with balls rolling down inclined planes. By extrapolation, we expect the same to hold when the plane is tipped
+all the way up to the vertical, so that the object is falling freely (panel 2). In modern units, it turns out
+that objects on earth gain very nearly 10 meters per second (m/s) of speed in every second, so that if we release a rock
+at rest (0 m/s), then after one second of falling its speed is 10 m/s, after two seconds 20 m/s, and so on.
+This rate of speeding up is called the rock's \emph{acceleration}, and it is 10 meters per second every second,
+i.e., 10 meters per second per second, also written as $10\ \zu{m}/\zu{s}^2$.
+
+Not only did Galileo disprove Aristotle empirically,
+but he also pointed out a logical
+contradiction in Aristotle's own reasoning. Aristotle said that heavier objects fell
+faster than lighter ones (panel 3). If two rocks
+are tied together, that makes an extra-heavy rock, which should fall faster, 4.
+But Aristotle's theory would also
+predict that the light rock would hold
+back the heavy rock, resulting in a
+slower fall, 5. In reality, we find that all of these objects fall with the \emph{same} acceleration, 6.
+
+This universality of free fall turns out to have surprisingly far-reaching consequences. Eventually, starting
+from little more than this fact, we will see that gravity can be described as not being a force at all, but
+rather a warping or \emph{curvature} of spacetime.
+
+Free fall includes more possibilities than falling straight down. If we watch Galileo's experiment in a frame
+of reference moving vertically or horizontally, we may see the balls as going up rather than down, or flying along
+curved arcs. Therefore projectiles must also have universal motion, in the absence of friction. The figure below
+shows computer simulations of the trajectories of a golf ball, baseball, and softball, all shot at the same initial
+speed and angle. (The baseball hit
+in this sumulation goes a distance of 200 meters, roughly a home-run distance.) Although the trajectories of the three types of
+balls are not the same in air, their trajectories
+would be exactly the same (and considerably longer) in vacuum.
+
+<% fig("balls","h") %>
+
+The universality of free fall has been tested in many different experiments over the years.
+In a silly educational demonstration, Apollo 15 astronaut David Scott dropped a feather and a geologist's rock
+hammer side by side. Online, you can watch video footage in which the two objects fall to the lunar surface side by
+side.
+One can vary not just the weight but also the composition of the falling body, verifying, for example, that
+a brass ball and a lead ball fall with the same motion.
+It was realized early on --- by Galileo himself, in fact --- that the same fundamental issue could be
+probed
+by experiments that appeared superficially very different and that allowed higher precision.
+For example, if gravity produces different
+accelerations in free-falling balls made of brass and lead, then pendulums with bobs made of brass and lead
+should also oscillate at different rates.
+Experiments of this type were done by E\"otvos around 1900, and later refined by
+Braginskii, Dicke, and their co-workers to give a precision of about one part in 100 billion.
+Attempts are even under way to test whether the universality extends to antimatter. It's conceivable that
+antimatter is actually \emph{repelled} by the earth, so that it would fall \emph{up}, like the imaginary
+``upsydaisium'' from the Rocky and Bullwinkle cartoon series.
+
+\section{Orbits}
+
+You can count yourself lucky to live in a universe where free fall is universal. At this moment, both
+you and the planet earth are in a state of free fall, being pulled in by the sun's gravitational attraction.
+As a result, Aristotle would have expected the earth to accelerate toward the sun much more violently than your body,
+with the result that the moment you stepped outside, the world would fall out from under you and you would go
+flying off into outer space. Ouch!
+
+The earth revolves around the sun in an approximately circular orbit.
+On p.~\pageref{fig:rock-on-string} we saw that circular motion requires a force; in the figure on the facing
+page, if the string breaks the rock will fly off in a straight line. Similarly, the sun's gravitational
+force is what keeps the earth from zooming away.
+
+<% fig("rock-on-string-and-earth") %>
+
+Understanding the motion of the planets was originally considered important partly because in ancient
+Europe, one of the best ways to make a living doing astronomy was to cast horoscopes --- at the time,
+there was no clear distinction between the science of astronomy and the pseudoscience of astrology.
+After the Copernican-Galilean revolution (see section \pageref{sec:scientific-revolutions},
+p.~\pageref{sec:scientific-revolutions}), the planets were described as revolving around the sun, and
+the observational astronomer Johannes Kepler (1571-1630) arrived at a complete and fairly accurate mathematical
+characterization of their motion in terms of three laws. Two of these laws describe the speeds of the planets'
+motion, while the remaining one states that each planet's orbit is an ellipse,
+with the sun lying at a certain well-defined off-center point called a focus.
+One way of defining an ellipse is that it's a circle that
+has been distorted by shrinking and stretching along perpendicular axes.
+An ellipse can also be constructed by tying a string to two
+pins and drawing a curve as shown in the figure, with the pencil stretching the string taut.
+Each pin constitutes one focus of the ellipse. Just as a square is a special type of rectangle,
+a circle is a special case of the ellipse. In a circle, the two foci coincide.
+
+<% fig("kepler-ellipse") %>
