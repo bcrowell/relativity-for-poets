@@ -35,7 +35,7 @@ supernova in the year 1054, in the constellation Taurus. We now know that the st
 that exploded was about 6000 light years from earth. (A light year is the distance
 light travels in one year.) Therefore the explosion must have really happened around the
 year 5000 B.C. The ``now'' wasn't really now, it was a long time ago.
-This correction technique is called \emph{Einstein synchronization}.
+This correction technique is called \emph{Einstein synchronization}.\label{einstein-synchronization}
 But even with Einstein synchronization, the example of the train, section
 \ref{sec:einstein-train}, p.~\pageref{sec:einstein-train}, shows that simultaneity
 is relative. If  observers A and B are not at rest relative to one another, they have

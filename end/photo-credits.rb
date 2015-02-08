@@ -33,6 +33,12 @@ photo_credit("duck-rabbit-illusion","Duck-rabbit illusion","J.~Jastrow, Popular 
 photo_credit("pet-scan","PET scan","NIH, public domain")
   # http://en.wikipedia.org/wiki/File:PET_scan_image3699-PH.jpg
 photo_credit("old-lady","Football player and old lady","Hazel Abaya")
+photo_credit("ep","Girl","Georges H\\'ebert, L'\\'education Physique f\\'eminine, 1921, public domain")
+  # http://commons.wikimedia.org/wiki/File:Bonne_et_mauvaises_attitudes_en_station_assise.png
+photo_credit("ep","M100","European Southern Observatory, CC-BY-SA")
+  # http://en.wikipedia.org/wiki/File:M100.jpg
+photo_credit("ep","Saturn","NASA, public domain")
+  # http://en.wikipedia.org/wiki/File:Saturn_PIA06077.jpg
 
 print <<-'HEAD'
 

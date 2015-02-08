@@ -2,7 +2,7 @@
 
 \chapter{Einstein's relativity}
 
-\section{Time is relative}
+\section{Time is relative}\label{sec:time-is-relative}
 
 In chapter \ref{ch:galilean-relativity} I laid out a beautiful theory of motion, which,
 by the way, is wrong. To see why it's wrong, we have to think about the assumptions hidden
@@ -69,7 +69,7 @@ shows a 1971 experiment that proves this hidden assumption to be wrong.
 There had been plenty of earlier evidence, but this experiment is particularly direct and easy to explain.
 Physicist J.C.~Hafele and astronomer R.E.~Keating  brought atomic clocks aboard commercial
 airliners and flew around the world, once from east to west and once from west to east.
-The clocks took up two seats, and two tickets were bought for them under the name of ``Mr.~Clock.''
+The clocks took up two seats, and two tickets were bought for them under the name of ``Mr.~Clock.''\label{hafele-keating}
 
 When they got back, Hafele and Keating observed that there was a discrepancy between the times measured by the
 traveling clocks and the times measured by similar clocks that stayed home at the U.S.~Naval Observatory in Washington.

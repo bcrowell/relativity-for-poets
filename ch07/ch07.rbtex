@@ -145,3 +145,70 @@ can't tell us why they're equal. He just observes that they are. When I shake a 
 its inertia, or inertial mass. When I put it on a scale, I measure its gravitational mass. There is no known reason
 why these two things \emph{have} to be related; it just seems that they are.
 Besides gravity, we have other fundamental forces, such as electricity. These forces have no such property.
+
+\section{The equivalence principle}
+
+The universality of free fall has the following very subversive consequences. Consider Alice, the girl in panel 1
+of the figure. She is shown in a cutaway view, sealed inside a well-lit and air-conditioned box, which happens to be
+her favorite place to go and think about physics. (It's small, but it's private and it's all hers.)
+She feels pressure from the seat of the chair, and this would normally suggest that she was experiencing a gravitational
+force, perhaps from a nearby planet (panel 2). But Alice can't infer this without peeking outside at her surroundings.
+It's equally possible that the box is in deep space (panel 3), with no gravity whatsoever, but is being
+towed by a rocket ship, so that it accelerates constantly. No possible experiment done inside the box
+can tell her which of these is the case. 
+
+<% fig("ep","h") %>
+
+For example, suppose that she drops a shoe and a coin side by side.
+If she's really experiencing gravity, then due to the universality of free fall, they will hit the floor at the
+same time. But this is exactly the same observation she would make in the rocket-tow scenario: the shoe and coin
+would continue moving forward at constant speed, but the accelerating floor would catch up with them and hit them
+both at the same time.
+
+From the perspective of Newton and Galileo, this is deeply disturbing. According to one scenario, the box is an inertial
+frame of reference. Based on the other, it's not.
+
+It may seem artificial that I've concocted the story so that Alice doesn't peek outside. 
+For a more realistic example of such an ambiguity, how about this. Based on our current understanding, ordinary
+matter (the kind made of atoms) constitutes only a small fraction of the mass-energy in the universe. The vast
+majority is in the form of mysterious things called dark matter and dark energy, which are completely invisible.
+Suppose that there's a big, dense cloud of dark matter off in the direction of the constellation Sagittarius,
+pulling our solar system toward it with some enormous gravitational force. From the Newton-Galileo perspective,
+it's vitally important that we know how massive the cloud is and how far away it lies, so that we can take into
+account its huge gravitational force on every object around us. But these forces are in some sense unimportant, or
+even nonexistent. We can't detect them, and in that sense they aren't real.
+
+These ideas lead relativists to the following point of view. Gravity is not really a force. Any observer who
+thinks she's experiencing a gravitational field can equally well interpret her observations by switching to a
+different frame of reference, a \emph{free-falling} frame of reference, in which there is no gravity. These free-falling
+frames are the ones that deserve to be called inertial. (By this definition, the room in which you're reading this
+book is not an inertial frame.) Summarizing these observations, we say that the existence of gravitational field
+is equivalent to choosing an accelerated frame of reference. This is called the \emph{equivalence principle}, and
+it is the single most important feature of Einstein's theory of general relativity.
+
+\section{Gravitational time dilation}
+
+The equivalence principle makes powerful and surprising predictions.
+Suppose that a light source on the floor of Alice's box emits two upward flashes of light, separated
+by a small interval of time, so that one chases the other as they rise toward the ceiling, where they can 
+be detected. In an inertial
+frame, we say that the box is accelerating upward. Therefore after the first flash arrives at the detector,
+the continued acceleration of the box causes the second flash to take a little extra time to arrive.
+Because the speed of light is big, this effect would be small, but the time interval between the arrival of the flashes
+would be slightly lengthened compared to the time between their emission.
+
+Now let's think about how we would interpret this if the box is actually sitting on the earth.
+Adopting the earth's frame of reference, we say that the box isn't moving at all, so we can't
+explain the lengthened time interval in the same way. In this frame, the ceiling isn't accelerating away from the
+light flashes. We would start to wonder instead about the clock used to measure the time between the emission
+of the two flashes. Maybe that clock was running too slow. Or, alternatively, maybe there was something wrong
+with the clock positioned at the ceiling. It could have been running too fast.
+
+But if we try to track down the problem and fix whichever clock is out of adjustment, we'll find that we
+can never establish which clock is at fault. To do that, we would have to synchronize the two clocks, but
+the emission and detection of the two flashes is itself very much like the Einstein synchronization
+procedure (p.~\pageref{einstein-synchronization}), and we can't do any better than Einstein synchronization.
+We are forced to conclude instead that time itself runs at a different rate at the floor and ceiling of the box.
+That is, we predict that time goes more slowly when we are lower down in a gravitational field.
+This is in fact one of the effects measured in the atomic clock experiments
+described in section \ref{sec:time-is-relative}, p.~\pageref{sec:time-is-relative}.
