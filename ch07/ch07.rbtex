@@ -101,7 +101,7 @@ force is what keeps the earth from zooming away.
 Understanding the motion of the planets was originally considered important partly because in ancient
 Europe, one of the best ways to make a living doing astronomy was to cast horoscopes --- at the time,
 there was no clear distinction between the science of astronomy and the pseudoscience of astrology.
-After the Copernican-Galilean revolution (see section \pageref{sec:scientific-revolutions},
+After the Copernican-Galilean revolution (see section \ref{sec:scientific-revolutions},
 p.~\pageref{sec:scientific-revolutions}), the planets were described as revolving around the sun, and
 the observational astronomer Johannes Kepler (1571-1630) arrived at a complete and fairly accurate mathematical
 characterization of their motion in terms of three laws. Two of these laws describe the speeds of the planets'
@@ -114,4 +114,34 @@ pins and drawing a curve as shown in the figure, with the pencil stretching the 
 Each pin constitutes one focus of the ellipse. Just as a square is a special type of rectangle,
 a circle is a special case of the ellipse. In a circle, the two foci coincide.
 
-<% fig("kepler-ellipse") %>
+<% fig("kepler-ellipse","h") %>
+
+Isaac Newton (1642-1727) firmed up Galileo's work on motion by defining a set of natural laws
+that applied both to objects on earth and to the heavens --- a radical idea at the time.
+Using these laws, he was able to prove all three of Kepler's laws for the motion of the planets.
+
+In Newton's description, objects push and pull on each other through attractive and repulsive forces.
+Gravity is a specific type of force, a universal attraction between any two objects that is proportional
+to their masses. When objects interact through a force, each one's momentum is changed --- in fact, we
+can \emph{define} force as the rate of change of momentum. The changes in momentum are like transferring money
+from one bank account to another; the total amount of momentum is conserved.
+
+<% fig("old-lady","h") %>
+
+When an object has more inertia --- more mass --- it takes less motion to express the same amount of momentum.
+For example, if I throw a golf ball at an empty can, the can recoils violently, while the same hit on an aircraft
+carrier produces an imperceptibly small recoil. The momentum absorbed by the can and the aircraft carrier are the same.
+In the figure, a professional football player collides head-on with a little old lady. Momentum is conserved, so
+whetever momentum she gains is just enough to balance out what he loses. Therefore their forces on each other are
+equal. But the effects on their motion are not equal. Her mass is much less, so the change in her motion is much more
+violent.
+
+Newton's laws give an explanation for the universality of free fall. If my shoe is 50 times more massive than a nickel,
+then the earth's gravitational force on the shoe is 50 times greater. But the shoe's inertia is also 50 times greater,
+so that when I drop shoe and coin together, their responses to the force are exactly the same.
+But Newton's explanation is a sort of non-explanation explanation. It depends on the fact that an object's
+inertia is proportional to its gravitational mass. That is, we have two separate concepts of mass, and Newton
+can't tell us why they're equal. He just observes that they are. When I shake a lead brick back and force, I sense
+its inertia, or inertial mass. When I put it on a scale, I measure its gravitational mass. There is no known reason
+why these two things \emph{have} to be related; it just seems that they are.
+Besides gravity, we have other fundamental forces, such as electricity. These forces have no such property.

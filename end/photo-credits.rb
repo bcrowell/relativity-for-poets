@@ -32,8 +32,7 @@ photo_credit("duck-rabbit-illusion","Duck-rabbit illusion","J.~Jastrow, Popular 
   # http://commons.wikimedia.org/wiki/File:Duck-Rabbit_illusion.jpg
 photo_credit("pet-scan","PET scan","NIH, public domain")
   # http://en.wikipedia.org/wiki/File:PET_scan_image3699-PH.jpg
-
-
+photo_credit("old-lady","Football player and old lady","Hazel Abaya")
 
 print <<-'HEAD'
 
