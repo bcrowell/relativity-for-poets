@@ -186,6 +186,45 @@ book is not an inertial frame.) Summarizing these observations, we say that the 
 is equivalent to choosing an accelerated frame of reference. This is called the \emph{equivalence principle}, and
 it is the single most important feature of Einstein's theory of general relativity.
 
+An advantage of this approach is that it allows us to say for sure whether a certain frame of reference is
+inertial. In the Newton-Galileo theory, there was a crippling chicken-and-egg problem with this.
+For example, on p.~\pageref{fig:cow-and-car} we visualized the frames of reference of
+a cow and a passing car. Suppose we're already convinced that the cow's
+frame is inertial. The cow sees the car moving along in a straight line, at a speed that appears to be constant
+in the cow's frame. Therefore the cow says that the car's motion is inertial --- the car isn't going over bumps,
+running into a tree, or anything like that.
+Similarly, if the driver is already convinced that the car's motion is inertial, then she can tell that the cow,
+who to her is moving backward at constant speed, also has a good inertial frame.
+
+But now perhaps you've noticed the difficulty. Given one inertial frame of reference, we can tell which other
+frames are also inertial. But how do we get started? Similarly, imagine that you were in Tanzania,
+and needed to make sure that the money you were handling was valid currency. If you had a 1000 shilling note from
+a reputable source, you could compare other bills with it and make sure they looked the same. But without a
+known-good example to start with, you'd have no way of telling whether shopkeepers were all handing you Monopoly money
+as change.
+
+<% fig("waage-box","h") %>
+
+Let's say the girl in the box on p.~\pageref{fig:ep} wants to know whether she's in an inertial frame.
+To do this, she needs to know whether forces are causing her to accelerate. She knows about general
+relativity, so she doesn't consider gravity to be a force. Therefore the question of whether gravity is acting
+on her doesn't even arise. She does notice, however, that the seat of the chair is touching her and making a force
+on her. She knows that this force is accelerating her, so she knows her frame is noninertial.
+
+For an example of a frame that we know \emph{is} inertial, imagine building a box with layers
+of shielding, as suggested in the figure
+\vpageref{fig:waage-box}, where the box is free-falling in outer space.
+One layer of shielding is aluminum foil to keep out any external electric forces. Another layer provides
+shielding against magnetism. (There are special products sold for this purpose, with trade names such
+as mu-metal.) We shield against all the forces except for the ``force'' of gravity, we don't consider to be
+a force. Now inside the box we introduce a black ball and a white ball. The roles played by the
+two balls are completely symmetrical, but if we like, we can think of one ball as playing the role of
+an observer. For this reason I've drawn a ladybug clinging to the white ball. The bug can, if she
+likes, define herself to be at rest, so that in her frame of reference only the black ball is moving.
+She knows she's shielded from all forces, so she knows her frame of reference is inertial. The chicken-and-egg
+problem is solved. Once she knows that her frame, tied to the white ball, is inertial, she can determine
+that the black ball's motion is inertial as well.
+
 \section{Gravitational time dilation}
 
 The equivalence principle makes powerful and surprising predictions.
