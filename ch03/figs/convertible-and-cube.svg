@@ -443,7 +443,11 @@
            y="186.08725"
            x="203.30946"
            id="tspan5598"
-           sodipodi:role="line">v=0.99</tspan></text>
+           sodipodi:role="line"><tspan
+   style="font-style:italic;-inkscape-font-specification:Sans Italic"
+   id="tspan4303">v</tspan>=0.99<tspan
+   style="font-style:italic;-inkscape-font-specification:Sans Italic"
+   id="tspan4301">c</tspan></tspan></text>
       <path
          inkscape:connector-curvature="0"
          id="path13939"
@@ -6660,7 +6664,11 @@
            y="230.92377"
            x="311.52322"
            id="tspan5598-1"
-           sodipodi:role="line">v=-0.99</tspan></text>
+           sodipodi:role="line"><tspan
+   style="font-style:italic;-inkscape-font-specification:Sans Italic"
+   id="tspan4307">v</tspan>=-0.99<tspan
+   style="font-style:italic;-inkscape-font-specification:Sans Italic"
+   id="tspan4305">c</tspan></tspan></text>
     </g>
     <text
        xml:space="preserve"

@@ -85,7 +85,7 @@ antimatter is actually \emph{repelled} by the earth, so that it would fall \emph
 
 \section{Orbits}
 
-You can count yourself lucky to live in a universe where free fall is universal. At this moment, both
+You can count yourself lucky to live in a universe where free fall seems to be universal. At this moment, both
 you and the planet earth are in a state of free fall, being pulled in by the sun's gravitational attraction.
 As a result, Aristotle would have expected the earth to accelerate toward the sun much more violently than your body,
 with the result that the moment you stepped outside, the world would fall out from under you and you would go
@@ -135,6 +135,20 @@ In the figure, a professional football player collides head-on with a little old
 whetever momentum she gains is just enough to balance out what he loses. Therefore their forces on each other are
 equal. But the effects on their motion are not equal. Her mass is much less, so the change in her motion is much more
 violent.
+
+\pagebreak
+
+In summary, Newton's description of motion consists of the following three laws:
+
+\begin{enumerate}
+\item If no force acts on an object, its momentum doesn't change.
+\item If forces act on an object, its momentum changes at a rate given by the total force.
+\item Forces always occur in pairs. If object A exerts a force on object B, then B is also
+         exerting a force on A. These forces are in opposite directions and have equal magnitudes.
+\end{enumerate}
+
+\noindent Newton's first law is a special case of the second law. The third law is essentially a statement of
+conservation of momentum; the rate at which A loses momentum to B equals the rate at which B gains it from A.
 
 Newton's laws give an explanation for the universality of free fall. If my shoe is 50 times more massive than a nickel,
 then the earth's gravitational force on the shoe is 50 times greater. But the shoe's inertia is also 50 times greater,
