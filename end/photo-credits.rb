@@ -40,6 +40,12 @@ photo_credit("ep","M100","European Southern Observatory, CC-BY-SA")
 photo_credit("ep","Saturn","NASA, public domain")
   # http://en.wikipedia.org/wiki/File:Saturn_PIA06077.jpg
 photo_credit("pound-rebka","Pound and Rebka photo","Harvard University. I presume this photo to be in the public domain, since it is unlikely to have had its copyright renewed")
+photo_credit("jumping-twin-paradox","Jumping man","Redrawn by the author from photos by Eadweard Muybridge,ca.~1880")
+photo_credit("jumping-twin-paradox","Standing woman","Redrawn from work by William Crochot, CC-BY-SA")
+  # http://en.wikipedia.org/wiki/File:Spinal_column_curvature-en.svg
+photo_credit("hawking-vomit-comet","Hawking aboard Vomit Comet","Public domain product of NASA")
+  # http://en.wikipedia.org/wiki/File:Physicist_Stephen_Hawking_in_Zero_Gravity_NASA.jpg
+
 
 print <<-'HEAD'
 

@@ -116,9 +116,13 @@ a circle is a special case of the ellipse. In a circle, the two foci coincide.
 
 <% fig("kepler-ellipse","h") %>
 
+\section{Newton's laws}
+
 Isaac Newton (1642-1727) firmed up Galileo's work on motion by defining a set of natural laws
 that applied both to objects on earth and to the heavens --- a radical idea at the time.
-Using these laws, he was able to prove all three of Kepler's laws for the motion of the planets.
+We'll soon see that these laws give a simple and natural explanation for the universality of free fall.
+Newton was also able to use his laws to prove all three of Kepler's laws for the motion of the planets, although
+this proof is a longer and more mathematical, and we won't go into it here.
 
 In Newton's description, objects push and pull on each other through attractive and repulsive forces.
 Gravity is a specific type of force, a universal attraction between any two objects that is proportional
@@ -132,7 +136,7 @@ When an object has more inertia --- more mass --- it takes less motion to expres
 For example, if I throw a golf ball at an empty can, the can recoils violently, while the same hit on an aircraft
 carrier produces an imperceptibly small recoil. The momentum absorbed by the can and the aircraft carrier are the same.
 In the figure, a professional football player collides head-on with a little old lady. Momentum is conserved, so
-whetever momentum she gains is just enough to balance out what he loses. Therefore their forces on each other are
+whatever momentum she gains is just enough to balance out what he loses. Therefore their forces on each other are
 equal. But the effects on their motion are not equal. Her mass is much less, so the change in her motion is much more
 violent.
 
@@ -160,16 +164,18 @@ its inertia, or inertial mass. When I put it on a scale, I measure its gravitati
 why these two things \emph{have} to be related; it just seems that they are.
 Besides gravity, we have other fundamental forces, such as electricity. These forces have no such property.
 
+\pagebreak
+
 \section{The equivalence principle}
 
-The universality of free fall has the following very subversive consequences. Consider Alice, the girl in panel 1
-of the figure. She is shown in a cutaway view, sealed inside a well-lit and air-conditioned box, which happens to be
+The universality of free fall has the following very subversive consequences. Consider Alice, the girl in figure 1.
+She is shown in a cutaway view, sealed inside a well-lit and air-conditioned box, which happens to be
 her favorite place to go and think about physics. (It's small, but it's private and it's all hers.)
 She feels pressure from the seat of the chair, and this would normally suggest that she was experiencing a gravitational
-force, perhaps from a nearby planet (panel 2). But Alice can't infer this without peeking outside at her surroundings.
-It's equally possible that the box is in deep space (panel 3), with no gravity whatsoever, but is being
+force, perhaps from a nearby planet (figure 2). But Alice can't infer this without peeking outside at her surroundings.
+It's equally possible that the box is in deep space (figure 3), with no gravity whatsoever, but is being
 towed by a rocket ship, so that it accelerates constantly. No possible experiment done inside the box
-can tell her which of these is the case. 
+can tell her which of these is the case.\label{alice-in-box}
 
 <% fig("ep","h") %>
 
@@ -181,16 +187,6 @@ both at the same time.
 
 From the perspective of Newton and Galileo, this is deeply disturbing. According to one scenario, the box is an inertial
 frame of reference. Based on the other, it's not.
-
-It may seem artificial that I've concocted the story so that Alice doesn't peek outside. 
-For a more realistic example of such an ambiguity, how about this. Based on our current understanding, ordinary
-matter (the kind made of atoms) constitutes only a small fraction of the mass-energy in the universe. The vast
-majority is in the form of mysterious things called dark matter and dark energy, which are completely invisible.
-Suppose that there's a big, dense cloud of dark matter off in the direction of the constellation Sagittarius,
-pulling our solar system toward it with some enormous gravitational force. From the Newton-Galileo perspective,
-it's vitally important that we know how massive the cloud is and how far away it lies, so that we can take into
-account its huge gravitational force on every object around us. But these forces are in some sense unimportant, or
-even nonexistent. We can't detect them, and in that sense they aren't real.
 
 These ideas lead relativists to the following point of view. Gravity is not really a force. Any observer who
 thinks she's experiencing a gravitational field can equally well interpret her observations by switching to a
@@ -239,9 +235,74 @@ She knows she's shielded from all forces, so she knows her frame of reference is
 problem is solved. Once she knows that her frame, tied to the white ball, is inertial, she can determine
 that the black ball's motion is inertial as well.
 
+\section{Apparent weightlessness}
+
+This may all seem pretty bizarre, so let's connect it to the real world. At an amusement park near where I
+live in Southern California, there is a ride called the Supreme Scream. Riders are raised in chairs up to the
+top of a tower, then dropped toward the ground in free fall. When I tried this ride, I got a queasy feeling
+as though my guts were floating rather than staying tied down --- probably the same sensation that the Apollo
+astronauts got when they experienced weightlessness by traveling very far from the earth. A popular practice
+among people who get on this ride is to take a coin and release it in the air in front of them after the free fall has
+begun. An observer on the ground describes the coin as falling along with the rider, but to the rider, the coin
+appears to float weightlessly. The rider is doing a local experiment in an inertial (free-falling) frame of reference.
+In this frame, gravity doesn't exist.
+
+The Supreme Scream is 95 meters tall, which limits the period of free fall to about four seconds. If we want to
+experience apparent weightlessness for longer we have to fall from higher. For example, NASA maintains a plane,
+affectionately known as the Vomit Comet, for training purposes. The plane climbs steeply and then free-falls
+along an trajectory that in the earth's frame is an arc of a parabola.
+The rise and fall together last about 25 seconds. Physicists use ``free fall''
+to refer to any such motion in which no forces act --- remember, gravity isn't a force --- so we don't
+say ``free rise'' for the rising part. The photo shows physicist Stephen Hawking
+on a ride in the Vomit Comet.
+
+<% fig("hawking-vomit-comet","!htpb") %>
+
+Exactly the same thing is going on for astronauts aboard the International Space Station.
+As in the case of the Vomit Comet, their free ``fall'' carries them not straight down but along an arc
+(according to an observer in the earth's frame). Because they're moving at such a high speed (about eight
+kilometers per second), the arc is a very broad one --- broad enough to carry them around the world in
+a circular orbit, without ever hit the ground.
+
+\pagebreak
+
 \section{Gravitational time dilation}
 
 The equivalence principle makes powerful and surprising predictions.
+In figure 1, Amy (gray) stands on the ground while her twin brother Bob (white) jumps straight up in the air
+next to her. Because we're using our standard graphical conventions for spacetime diagrams, it looks like Bob is
+doing a long jump, but remember, this is just a straight up-and-down jump --- the vertical axis here is time.
+If we didn't know about the equivalence principle, we'd expect that slightly less time would pass for Bob than for
+Amy, since he's moving and she's not; we'd think there would be time dilation.
+
+<% fig("jumping-twin-paradox","!htpb") %>
+
+But the equivalence principle makes exactly the opposite prediction. Based on the equivalence principle, we've
+been led to define \emph{free-falling} frames as inertial. Therefore the more natural depiction of the situation
+is the one in figure 2, where we adopt Bob's frame of reference. Bob is not experiencing any forces (remember,
+gravity isn't a force), so his frame is inertial. According to Bob, Amy's frame is noninertial,
+because she does experience a force from the floor on her feet. That force
+is accelerating her. Her world-line is the one that is
+curved, not his. Based on the principle of greatest time, he will experience more time than she does. Less time
+will pass for her, not him.
+
+A more practical version of this experiment was carried out in 1976 by the Gravity Probe A experiment,
+in which an atomic clock was launched straight up (relative to the ground)
+aboard a space probe, to an altitude of about 10,000 km.
+As predicted by the equivalence principle, the clock aboard the free-falling rocket experienced a little more time
+(about half a part per billion) than similar clocks on the ground.
+
+\pagebreak
+
+\section{Sending signals}
+
+Gravity Probe A crashed into the Atlantic Ocean at the end of its flight and was destroyed, so it couldn't be
+reunited with the ground-based clocks and compared with them again side by side. Instead, radio signals were
+sent back and forth between the probe and the ground station. To understand how this works, let's simplify the
+situation and go back to the scenario of Alice in her noninertial box (p.~\pageref{alice-in-box}).
+
+<% fig("elevator-argument-and-pound-rebka","!htpb") %>
+
 Suppose that a light source on the floor of Alice's box emits two upward flashes of light, separated
 by a small interval of time, so that one chases the other as they rise toward the ceiling, where they can 
 be detected. In an inertial
@@ -256,8 +317,6 @@ But the accelerated case, shown in figure 2, is different: GH is longer than EF.
 Because the speed of light is big, this effect would be small, but the time interval between the arrival of the flashes
 would be slightly lengthened compared to the time between their emission.
 
-<% fig("elevator-argument-and-pound-rebka","h") %>
-
 If we're willing to take the equivalence principle seriously, then we should expect exactly the same effect
 in a laboratory that sits in a gravitational field. That is exactly what was observed in a famous experiment by
 Pound and Rebka at Harvard in 1959. Figure 3 above shows the basic idea. The experiment was done in a 22 meter
@@ -267,7 +326,7 @@ of the two flashes. The light waves used were gamma rays emitted in the decay of
 The figure below shows a simplified diagram of the setup, and photos of the two experimenters at the top and
 bottom of the tower.
 
-<% fig("pound-rebka","h") %>
+<% fig("pound-rebka","!htpb") %>
 
 The effect Pound and Rebka were trying to measure was extremely small. The time of flight for a gamma ray,
 moving at the speed of light, to travel 22 meters is only about 70 nanoseconds (billionths of a second).
@@ -276,25 +335,3 @@ meters per second squared makes it move upward by only about three millionths of
 ($3\times 10^{-14}\ \zu{m}$) during this time of flight. The lengthening of the time interval
 between the arrivals of the two flashes is thus extremely small, and detecting it required several tricky
 techniques. The result was exactly as predicted by the equivalence principle.
-
-So far it might seem like we've been discussing an obscure scientific effect that is very small and of interest
-only to specialists. Keep reading. As we continue this train of reasoning, craziness ensues.
-
-How would we interpret these results in a frame attached to the earth, if we'd never heard of the
-equivalence principle? For conceptual clarity, let's return to the original, simplified version of the experiment,
-in which discrete flashes of light are emitted from the floor of a box at events E and F and detected overhead at G and H.
-We use a clock on the floor to measure the time interval EF and a clock up on top for GH.
-We observe that GH is longer than EF.
-In the earth's frame, we say that the box isn't moving at all, so it seems impossible to explain the effect.
-We would start to wonder instead about the clocks.
-Maybe the clock on the floor was running a little slow. Or, alternatively, maybe there was something wrong
-with the one at the top. It could have been running too fast.
-
-But if we try to track down the problem and fix whichever clock is out of adjustment, we'll find that we
-can never establish which clock is at fault. To do that, we would have to synchronize the two clocks, but
-the emission and detection of the two flashes is itself very much like the Einstein synchronization
-procedure (p.~\pageref{einstein-synchronization}), and we can't do any better than Einstein synchronization.
-We are forced to conclude instead that time itself runs at a different rate at the floor and ceiling of the box.
-That is, we predict that time goes more slowly when we are lower down in a gravitational field.
-This is in fact one of the effects measured in the atomic clock experiments
-described in section \ref{sec:time-is-relative}, p.~\pageref{sec:time-is-relative}.
