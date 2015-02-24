@@ -192,7 +192,7 @@ These ideas lead relativists to the following point of view. Gravity is not real
 thinks she's experiencing a gravitational field can equally well interpret her observations by switching to a
 different frame of reference, a \emph{free-falling} frame of reference, in which there is no gravity. These free-falling
 frames are the ones that deserve to be called inertial. (By this definition, the room in which you're reading this
-book is not an inertial frame.) Summarizing these observations, we say that the existence of gravitational field
+book is not an inertial frame.) Summarizing these observations, we say that the existence of a gravitational field
 is equivalent to choosing an accelerated frame of reference. This is called the \emph{equivalence principle}, and
 it is the single most important feature of Einstein's theory of general relativity.
 
@@ -215,9 +215,9 @@ as change.
 
 <% fig("waage-box","h") %>
 
-Let's say the girl in the box on p.~\pageref{fig:ep} wants to know whether she's in an inertial frame.
-To do this, she needs to know whether forces are causing her to accelerate. She knows about general
-relativity, so she doesn't consider gravity to be a force. Therefore the question of whether gravity is acting
+Let's say the girl Alice in the box on p.~\pageref{fig:ep} wants to know whether she's in an inertial frame.
+To do this, she needs to know whether forces are causing her to accelerate. She knows about the equivalence principle,
+so she doesn't consider gravity to be a force. Therefore the question of whether gravity is acting
 on her doesn't even arise. She does notice, however, that the seat of the chair is touching her and making a force
 on her. She knows that this force is accelerating her, so she knows her frame is noninertial.
 
@@ -251,22 +251,20 @@ The Supreme Scream is 95 meters tall, which limits the period of free fall to ab
 experience apparent weightlessness for longer we have to fall from higher. For example, NASA maintains a plane,
 affectionately known as the Vomit Comet, for training purposes. The plane climbs steeply and then free-falls
 along an trajectory that in the earth's frame is an arc of a parabola.
-The rise and fall together last about 25 seconds. Physicists use ``free fall''
-to refer to any such motion in which no forces act --- remember, gravity isn't a force --- so we don't
-say ``free rise'' for the rising part. The photo shows physicist Stephen Hawking
+The rise and fall together last about 25 seconds. The photo shows physicist Stephen Hawking
 on a ride in the Vomit Comet.
 
 <% fig("hawking-vomit-comet","!htpb") %>
 
 Exactly the same thing is going on for astronauts aboard the International Space Station.
-As in the case of the Vomit Comet, their free ``fall'' carries them not straight down but along an arc
+As in the case of the Vomit Comet, their free fall carries them not straight down but along an arc
 (according to an observer in the earth's frame). Because they're moving at such a high speed (about eight
 kilometers per second), the arc is a very broad one --- broad enough to carry them around the world in
-a circular orbit, without ever hit the ground.
+a circular orbit, without ever hitting the ground.
 
 \pagebreak
 
-\section{Gravitational time dilation}
+\section{Gravitational time dilation}\label{sec:gravitational-time-dilation}
 
 The equivalence principle makes powerful and surprising predictions.
 In figure 1, Amy (gray) stands on the ground while her twin brother Bob (white) jumps straight up in the air
@@ -328,6 +326,8 @@ bottom of the tower.
 
 <% fig("pound-rebka","!htpb") %>
 
+\pagebreak
+
 The effect Pound and Rebka were trying to measure was extremely small. The time of flight for a gamma ray,
 moving at the speed of light, to travel 22 meters is only about 70 nanoseconds (billionths of a second).
 If we describe the tower in a free-falling, inertial frame of reference, then its upward acceleration at 10
@@ -335,3 +335,55 @@ meters per second squared makes it move upward by only about three millionths of
 ($3\times 10^{-14}\ \zu{m}$) during this time of flight. The lengthening of the time interval
 between the arrivals of the two flashes is thus extremely small, and detecting it required several tricky
 techniques. The result was exactly as predicted by the equivalence principle.
+
+An observer in a free-falling, inertial frame of reference explains the results of the experiment as in
+figures 2 and 3 on p.~\pageref{fig:elevator-argument-and-pound-rebka}: we have two successive signals, and
+they travel at the same speed $c$, but they have to travel unequal distances so the reception of the second
+one is delayed.
+
+But an observer in the noninertial frame of the earth's surface does not have this explanation available.
+In this frame, the tower was not moving, so the signals traveled equal distances. This observer is forced
+to conclude instead that time itself runs at different rates at the top and bottom of the tower. This is
+similar to the gravitational time dilation effect discussed in section \ref{sec:gravitational-time-dilation}.
+The cobalt-57 nucleus in the Pound-Rebka experiment is acting like a tiny clock. When it emits a gamma ray,
+the successive wave crests are like the clock making two ticks. An observer at the top of the tower, receiving
+the ticks, observes them to be abnormally far apart. This is exactly what we would expect if the clock was running
+slow because of a slower flow of time at the bottom of the tower.
+
+This may seem like a rash generalization, and indeed there were probably quite a few physicists back
+in the 1950s who would have expressed some doubt that a result like Pound and Rebka's would also be
+observed with ``real'' clocks that count and measure time units, as opposed to microscopic ``clocks''
+that are merely subatomic particles. But remember that exactly such an effect was observed, for example, in 1978 by
+Iijima (p.~\pageref{iijima}) in an experiment using one atomic clock at the base of a mountain and another clock
+at the top.
+
+Summarizing all of these examples, we conclude that time runs more slowly when you're
+low down in a gravitational field, faster if you're higher up.
+This summary also works as an alternative explanation for the thought experiment in which Bob jumps
+while his twin sister Amy stands on the ground. Analyzing figure 2 on p.~\pageref{fig:jumping-twin-paradox},
+we previously said:
+
+\begin{itemize}
+Bob's motion is inertial while Amy's is not. Therefore by the principle of greatest time, Amy experiences
+less time than Bob.
+\end{itemize}
+
+\noindent An equally valid explanation, leading to exactly the same numerical predictions, is:
+
+\begin{itemize}
+Amy experiences less time for a combination of
+two reasons. (1) As seen in Bob's inertial frame, she is the one who is moving.
+Motion causes time dilation. (2) Amy is also lower in a gravitational field than Bob is.
+For this reason as well, Amy experiences less time. These two effects reinforce each other,
+and their sum is the observed amount by which time was slowed.
+\end{itemize}
+
+By the way, there seems to be a very common misconception about gravitational time dilation, which is
+that it involves time slowing down where gravity is stronger. Not true! It's \emph{height}
+that matters. For example, consider the scenario in figure 3 on p.~\pageref{fig:ep}, where
+Alice's box is being towed by the spaceship. If she measures the fake ``gravity'' near the floor of the box and near the
+ceiling, she will get exactly equal results. If she duplicates the Pound-Rebka experiment inside her box, she
+will see an effect, because of the difference in \emph{height}. 
+Or imagine sending a clock to the center of the earth. At that location,
+the planet's gravity pulls equally in all directions, so by symmetry there is zero gravitational force.
+We would nevertheless find that this clock was \emph{slow} compared to one on the earth's surface.

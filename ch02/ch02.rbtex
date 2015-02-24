@@ -117,7 +117,7 @@ implies that there is a second effect involved, simply due to the planes' being 
 This was verified more directly in a 1978 experiment by Iijima and Fujiwara, in which one clock was
 kept in Mitaka, a suburb of Tokyo, while an identical clock was driven up nearby Mount Norikura,
 left motionless there for about a week, and then brought back down and compared with the one at the bottom of the mountain.
-Their results are shown in the graph.
+Their results are shown in the graph.\label{iijima}
 This experiment, unlike the Hafele-Keating one, isolates one effect on time, the gravitational one: time's
 rate of flow increases with height in a gravitational field. Einstein didn't figure out
 how to incorporate gravity into relativity until 1915, after much frustration and many false starts. The
