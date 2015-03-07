@@ -374,14 +374,23 @@ clear from figure b, which attempts to represent two dimensions of space as well
 
 You might not guess from this description that the light cone is fundamentally important, or that it
 doesn't have much to do with light. Remember, $c$ isn't really the speed of light, it's the ultimate
-speed limit on cause and effect. We can draw a light cone starting from any event E, such as the
-Russian Revolution or the publication of Harry Potter. Events inside the light cone are ones that we could
-reach, from E, by traveling at less than the speed of light. A signal could be sent from E to any of these
-events. E could be the \emph{cause} of any of these events.
+speed limit on cause and effect. We can draw a light cone centered on any event, such as the one
+labeled $\star$ in the figure on the next page. If $\star$ is the Russian Revolution, then events inside
+$\star$'s future light cone can be described as all the ones that we could reach, starting from the
+Russian Revolution, by traveling at less than the speed of light. A signal could be sent from $\star$ to any of these
+events, and $\star$ could be the \emph{cause} of any of these events.
 In Einstein's theory of space and time, the light cone plays the same fundamental geometrical role
-as the circle in Euclidean geometry.
+as the circle in Euclidean geometry. 
 
-\pagebreak
+Events inside $\star$'s light cone are said to have a \emph{timelike} relation to $\star$, because they are separated
+from it by more time than space. For example, one of these events could be separated in time from $\star$ by
+100 years, but in space by only 50 light-years (the distance light travels in 50 years).
+Then a spaceship could get  there by going at half the speed of light.
+Timelike relationships can be future-timelike or past-timelike. Events outside $\star$'s light cone are
+said to be \emph{spacelike} in relation to $\star$, and events on the surface of the light cone as \emph{lightlike}.
+
+<% fig("light-cone-conical","!htpb") %>
+
 
 \sectionwithsurtitle{Science and society}{Scientific revolutions}{Scientific revolutions}\label{sec:scientific-revolutions}
 

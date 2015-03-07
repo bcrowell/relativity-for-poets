@@ -78,14 +78,14 @@ them useful in relativity. In relativity we think of space and time as a single,
 on which events play out. The basic example of a vector is now a displacement in spacetime.
 Such a displacement could take me from here to Buenos Aires, or it could take me from now to next week.
 Imagine that you have a magic doorway that can take you to any time or place. You have to twiddle some
-knobs to tell it where you want to go. The settings on the knobs are a relativistic displacement vector.
+knobs to tell it where and when. The settings on the knobs specify a relativistic displacement vector.
 
 Such a vector could change not just because an observer viewed it from a different direction, but also because
 the observer was in a different state of motion. The direction change is a rotation. The change in motion is
 referred to as a ``boost.'' A relativistic scalar is something that doesn't change under rotations or boosts.
 A good example of a relativistic scalar is electric charge, the property that makes your socks cling together
 when they come out of the dryer. Although time is a Galilean scalar, it's not a relativistic scalar, because
-a time interval can change under a boost due to time dilation. A time interval by itself is neither a relativistic
+when we do a boost, a time interval can suffer time dilation. A time interval by itself is neither a relativistic
 vector nor a relativistic scalar; it could be \emph{part} of the description of a spacetime
 displacement.
 
@@ -95,7 +95,8 @@ We would like to be able to measure relativistic vectors and describe their magn
 we did with Galilean vectors. We can do that, because Einstein's relativity, unlike Galileo's, gives us
 a way of expressing times and distances in the same system of units.
 
-As you live your life, your body traces out a world-line through spacetime, starting at your birth and ending at your death.
+An example is the relativistic displacement vector from your birth to your death.
+As you live your life, your body traces out a world-line through spacetime.
 You can't go faster than $c$, so for example the displacement from your birth to your death is guaranteed to have
 a time component that is bigger than its spatial part. If you live to be 80 years old, your place of
 death is guaranteed to be less than 80 light-years from your place of birth. (In the earth's frame of reference,
