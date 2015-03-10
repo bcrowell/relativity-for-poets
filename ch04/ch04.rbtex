@@ -100,8 +100,9 @@ As you live your life, your body traces out a world-line through spacetime.
 You can't go faster than $c$, so for example the displacement from your birth to your death is guaranteed to have
 a time component that is bigger than its spatial part. If you live to be 80 years old, your place of
 death is guaranteed to be less than 80 light-years from your place of birth. (In the earth's frame of reference,
-it's much, much less.) A vector like this, that has a time part bigger than its spatial part, is called
-a timelike vector.
+it's much, much less.) In the terminology of section \ref{sec:light-cone}, p.~\pageref{sec:light-cone},
+these events are therefore timelike in relation to each other. The vector connecting them is likewise
+called a timelike vector.
 
 The magnitude of a timelike vector is defined as the time elapsed on a clock that moves inertially along that
 vector. This clock-time is called \emph{proper time}. The word ``proper'' is
@@ -117,11 +118,11 @@ If we imagine the alien as moving relative to us (and us relative to her) at a s
 factor can get very large. It might take a trillion years of telescope observing for the alien to see you finish
 brushing your teeth this morning. If some thing, say a ray of light, moves at \emph{exactly} $c$, then its
 proper time becomes zero for any observer. In this sense, a ray of light experiences no time at all.
-This type of displacement is called \emph{lightlike} rather than timelike, and its magnitude is defined to be
+This type of displacement is lightlike, and its magnitude is defined to be
 zero, even if the vector itself isn't zero.
 
 <% fig("vectors-and-light-cone","h") %>
 
-A vector that is neither timelike nor lightlike is \emph{spacelike}. Spacelike vectors are of
+Spacelike vectors are of
 less interest because they can't trace out the world-line of any thing. Although it is possible to define a magnitude
 for a spacelike vector, we won't go into that now because it leads to complications involving plus and minus signs.

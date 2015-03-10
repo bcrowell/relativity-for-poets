@@ -361,7 +361,7 @@ precision of $\pm0.01$\%.
 
 \pagebreak
 
-\section{The light cone}
+\section{The light cone}\label{sec:light-cone}
 
 <% fig("light-cone") %>
 
