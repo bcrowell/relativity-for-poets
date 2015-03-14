@@ -41,7 +41,7 @@ But even with Einstein synchronization, the example of the train, section
 is relative. If  observers A and B are not at rest relative to one another, they have
 different definitions of ``now.''
 
-\begin{section}{The Lorentz transformation}
+\section{The Lorentz transformation}
 
 Subject to these limitations, the best we can do is to construct the relativistic
 version of the Galilean transformation (section \ref{sec:galilean-transformation},

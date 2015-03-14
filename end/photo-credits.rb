@@ -45,10 +45,58 @@ photo_credit("jumping-twin-paradox","Standing woman","Redrawn from work by Willi
   # http://en.wikipedia.org/wiki/File:Spinal_column_curvature-en.svg
 photo_credit("hawking-vomit-comet","Hawking aboard Vomit Comet","Public domain product of NASA")
   # http://en.wikipedia.org/wiki/File:Physicist_Stephen_Hawking_in_Zero_Gravity_NASA.jpg
-
+photo_credit("artificial-horizon","Airplane","From a photo by Major James Skitt Matthews (Canada), 1930, public domain")
+  # http://commons.wikimedia.org/wiki/File:Rear_view_of_the_%22Southern_Cross%22_airplane_at_Harbour_Grace.jpg
+photo_credit("artificial-horizon","Artificial horizon","NASA, public domain")
+  # http://en.wikipedia.org/wiki/File:VMS_Artificial_Horizon.jpg
 
 print <<-'HEAD'
 
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
 %
 %
 %

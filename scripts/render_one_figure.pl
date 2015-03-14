@@ -62,9 +62,11 @@ unless (-e $pdf && -M $svg > -M $pdf) { #
   $pdf_version eq '1.4' or die "error in render_one_figure.pl, inkscape output pdf version='$pdf_version'; see https://bugs.launchpad.net/inkscape/+bug/1110549";
 }
 
--x "scripts/preflight_one_fig.pl" or die "couldn't find scripts/preflight_one_fig.pl -- are you running me from home dir?";
+# -x "scripts/preflight_one_fig.pl" or die "couldn't find scripts/preflight_one_fig.pl -- are you running me from home dir?";
 
-if (system("scripts/preflight_one_fig.pl $svg")==0) {finit('')}
+# if (system("scripts/preflight_one_fig.pl $svg")==0) {finit('')}
+
+finit('');
 
 print "  preflight failed on pdf rendering of $svg , probably due to transparency; rendering to bitmap instead\n";
 push @temp_files,$pdf;

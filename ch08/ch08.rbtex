@@ -1,0 +1,246 @@
+<% require "./scripts/simple_figures.rb" %>
+
+\chapter{The equivalence principle}
+\section{The equivalence principle}
+
+The universality of free fall has the following very subversive consequences. Consider Alice, the girl in figure 1.
+She is shown in a cutaway view, sealed inside a well-lit and air-conditioned box, which happens to be
+her favorite place to go and think about physics. (It's small, but it's private and it's all hers.)
+She feels pressure from the seat of the chair, and this would normally suggest that she was experiencing a gravitational
+force, perhaps from a nearby planet (figure 2). But Alice can't infer this without peeking outside at her surroundings.
+It's equally possible that the box is in deep space (figure 3), with no gravity whatsoever, but is being
+towed by a rocket ship, so that it accelerates constantly. No possible experiment done inside the box
+can tell her which of these is the case.\label{alice-in-box}
+
+<% fig("ep","h") %>
+
+For example, suppose that she drops a shoe and a coin side by side.
+If she's really experiencing gravity, then due to the universality of free fall, they will hit the floor at the
+same time. But this is exactly the same observation she would make in the rocket-tow scenario: the shoe and coin
+would continue moving forward at constant speed, but the accelerating floor would catch up with them and hit them
+both at the same time.
+
+From the perspective of Newton and Galileo, this is deeply disturbing. According to one scenario, the box is an inertial
+frame of reference. Based on the other, it's not.
+
+These ideas lead relativists to the following point of view. Gravity is not really a force. Any observer who
+thinks she's experiencing a gravitational field can equally well interpret her observations by switching to a
+different frame of reference, a \emph{free-falling} frame of reference, in which there is no gravity. These free-falling
+frames are the ones that deserve to be called inertial. (By this definition, the room in which you're reading this
+book is not an inertial frame.) Summarizing these observations, we say that the existence of a gravitational field
+is equivalent to choosing an accelerated frame of reference. This is called the \emph{equivalence principle}, and
+it is the single most important feature of Einstein's theory of general relativity.
+
+The equivalence principle has an important application to flying an
+airplane.  The pilot of a plane cannot always easily tell which
+way is up. The horizon may not be level simply because the ground has
+an actual slope, and in any case the horizon may not be visible if the
+weather is foggy. One might imagine that the problem could be solved
+simply by hanging a pendulum and observing which way it pointed, but
+by the equivalence principle the pendulum cannot tell the difference
+between a gravitational field and an acceleration of the aircraft
+relative to the ground --- nor can any other accelerometer, such as
+the pilot's inner ear. For example, when the plane is turning to the
+right, accelerometers will be tricked into believing that ``down'' is
+down and to the left. To get around this problem, airplanes use a
+device called an artificial horizon, which is essentially a gyroscope.
+The gyroscope has to be initialized when the plane is known to be
+oriented in a horizontal plane.\footnote{No gyroscope is perfect, so over time
+it will drift. For this reason the instrument also contains an
+accelerometer, and the gyroscope is always forced into agreement with
+the accelerometer's average output over the preceding several minutes.
+If the plane is flown in circles for several minutes, the artificial
+horizon will be fooled into indicating that the wrong direction is
+vertical.}
+
+<% fig("artificial-horizon","!htpb") %>
+
+
+\section[Chicken and egg]{Solving the chicken-and-egg problem of inertial frames}
+
+An advantage of equivalence principle is that it allows us to say for sure whether a certain frame of reference is
+inertial. In the Newton-Galileo theory, there was a crippling chicken-and-egg problem with this.
+For example, on p.~\pageref{fig:cow-and-car} we visualized the frames of reference of
+a cow and a passing car. Suppose we're already convinced that the cow's
+frame is inertial. The cow sees the car moving along in a straight line, at a speed that appears to be constant
+in the cow's frame. Therefore the cow says that the car's motion is inertial --- the car isn't going over bumps,
+running into a tree, or anything like that.
+Similarly, if the driver is already convinced that the car's motion is inertial, then she can tell that the cow,
+who to her is moving backward at constant speed, also has a good inertial frame.
+
+But now perhaps you've noticed the difficulty. Given one inertial frame of reference, we can tell which other
+frames are also inertial. But how do we get started? Similarly, imagine that you were in Tanzania,
+and needed to make sure that the money you were handling was valid currency. If you had a 1000 shilling note from
+a reputable source, you could compare other bills with it and make sure they looked the same. But without a
+known-good example to start with, you'd have no way of telling whether shopkeepers were all handing you Monopoly money
+as change.
+
+<% fig("waage-box","h") %>
+
+Let's say the girl Alice in the box on p.~\pageref{fig:ep} wants to know whether she's in an inertial frame.
+To do this, she needs to know whether forces are causing her to accelerate. She knows about the equivalence principle,
+so she doesn't consider gravity to be a force. Therefore the question of whether gravity is acting
+on her doesn't even arise. She does notice, however, that the seat of the chair is touching her and making a force
+on her. She knows that this force is accelerating her, so she knows her frame is noninertial.
+
+For an example of a frame that we know \emph{is} inertial, imagine building a box with layers
+of shielding, as suggested in the figure
+\vpageref{fig:waage-box}, where the box is free-falling in outer space.
+One layer of shielding is aluminum foil to keep out any external electric forces. Another layer provides
+shielding against magnetism. (There are special products sold for this purpose, with trade names such
+as mu-metal.) We shield against all the forces except for the ``force'' of gravity, we don't consider to be
+a force. Now inside the box we introduce a black ball and a white ball. The roles played by the
+two balls are completely symmetrical, but if we like, we can think of one ball as playing the role of
+an observer. For this reason I've drawn a ladybug clinging to the white ball. The bug can, if she
+likes, define herself to be at rest, so that in her frame of reference only the black ball is moving.
+She knows she's shielded from all forces, so she knows her frame of reference is inertial. The chicken-and-egg
+problem is solved. Once she knows that her frame, tied to the white ball, is inertial, she can determine
+that the black ball's motion is inertial as well.
+
+\section{Apparent weightlessness}
+
+This may all seem pretty bizarre, so let's connect it to the real world. At an amusement park near where I
+live in Southern California, there is a ride called the Supreme Scream. Riders are raised in chairs up to the
+top of a tower, then dropped toward the ground in free fall. When I tried this ride, I got a queasy feeling
+as though my guts were floating rather than staying tied down --- probably the same sensation that the Apollo
+astronauts got when they experienced weightlessness by traveling very far from the earth. A popular practice
+among people who get on this ride is to take a coin and release it in the air in front of them after the free fall has
+begun. An observer on the ground describes the coin as falling along with the rider, but to the rider, the coin
+appears to float weightlessly. The rider is doing a local experiment in an inertial (free-falling) frame of reference.
+In this frame, gravity doesn't exist.
+
+The Supreme Scream is 95 meters tall, which limits the period of free fall to about four seconds. If we want to
+experience apparent weightlessness for longer we have to fall from higher. For example, NASA maintains a plane,
+affectionately known as the Vomit Comet, for training purposes. The plane climbs steeply and then free-falls
+along an trajectory that in the earth's frame is an arc of a parabola.
+The rise and fall together last about 25 seconds. The photo shows physicist Stephen Hawking
+on a ride in the Vomit Comet.
+
+<% fig("hawking-vomit-comet","!htpb") %>
+
+Exactly the same thing is going on for astronauts aboard the International Space Station.
+As in the case of the Vomit Comet, their free fall carries them not straight down but along an arc
+(according to an observer in the earth's frame). Because they're moving at such a high speed (about eight
+kilometers per second), the arc is a very broad one --- broad enough to carry them around the world in
+a circular orbit, without ever hitting the ground.
+
+
+\section{Gravitational time dilation}\label{sec:gravitational-time-dilation}
+
+The equivalence principle makes powerful and surprising predictions.
+In figure 1, Amy (gray) stands on the ground while her twin brother Bob (white) jumps straight up in the air
+next to her. Because we're using our standard graphical conventions for spacetime diagrams, it looks like Bob is
+doing a long jump, but remember, this is just a straight up-and-down jump --- the vertical axis here is time.
+If we didn't know about the equivalence principle, we'd expect that slightly less time would pass for Bob than for
+Amy, since he's moving and she's not; we'd think there would be time dilation.
+
+<% fig("jumping-twin-paradox","!htpb") %>
+
+But the equivalence principle makes exactly the opposite prediction. Based on the equivalence principle, we've
+been led to define \emph{free-falling} frames as inertial. Therefore the more natural depiction of the situation
+is the one in figure 2, where we adopt Bob's frame of reference. Bob is not experiencing any forces (remember,
+gravity isn't a force), so his frame is inertial. According to Bob, Amy's frame is noninertial,
+because she does experience a force from the floor on her feet. That force
+is accelerating her. Her world-line is the one that is
+curved, not his. Based on the principle of greatest time, he will experience more time than she does. Less time
+will pass for her, not him.
+
+A more practical version of this experiment was carried out in 1976 by the Gravity Probe A experiment,
+in which an atomic clock was launched straight up (relative to the ground)
+aboard a space probe, to an altitude of about 10,000 km.
+As predicted by the equivalence principle, the clock aboard the free-falling rocket experienced a little more time
+(about half a part per billion) than similar clocks on the ground.
+
+\section{Time dilation with signals}
+
+Gravity Probe A crashed into the Atlantic Ocean at the end of its flight and was destroyed, so it couldn't be
+reunited with the ground-based clocks and compared with them again side by side. Instead, radio signals were
+sent back and forth between the probe and the ground station. To understand how this works, let's simplify the
+situation and go back to the scenario of Alice in her noninertial box (p.~\pageref{alice-in-box}).
+
+<% fig("elevator-argument-and-pound-rebka","!htpb") %>
+
+Suppose that a light source on the floor of Alice's box emits two upward flashes of light, separated
+by a small interval of time, so that one chases the other as they rise toward the ceiling, where they can 
+be detected. In an inertial
+frame, we say that the box is accelerating upward. Therefore after the first flash arrives at the detector,
+the continued acceleration of the box causes the second flash to take a little extra time to arrive.
+It matters that the box is accelerating, not just moving. 
+Figure 1 shows the case where the box's motion is inertial rather than accelerated. Flashes are emitted from the
+floor at A and B,
+and detected at the ceiling at C and D. (You have to visualize the box tipped over sideways.)
+The time intervals AB and CD are the same.
+But the accelerated case, shown in figure 2, is different: GH is longer than EF.
+Because the speed of light is big, this effect would be small, but the time interval between the arrival of the flashes
+would be slightly lengthened compared to the time between their emission.
+
+If we're willing to take the equivalence principle seriously, then we should expect exactly the same effect
+in a laboratory that sits in a gravitational field. That is what was observed in a famous experiment by
+Pound and Rebka at Harvard in 1959. Figure 3 above shows the basic idea. The experiment was done in a 22 meter
+tower in one of the university's lab buildings. Rather than sending two discrete flashes of light up from the
+floor to the ceiling, they used the fact that light is a wave, so that two successive wave crests play the role
+of the two flashes. The light waves used were gamma rays emitted in the decay of a radioactive source.
+The figure below shows a simplified diagram of the setup, and photos of the two experimenters at the top and
+bottom of the tower.
+
+<% fig("pound-rebka","!htpb") %>
+
+The effect Pound and Rebka were trying to measure was extremely small. The time of flight for a gamma ray,
+moving at the speed of light, to travel 22 meters is only about 70 nanoseconds (billionths of a second).
+If we describe the tower in a free-falling, inertial frame of reference, then its upward acceleration at 10
+meters per second squared makes it move upward by only about three millionths of a billionth of a meter
+($3\times 10^{-14}\ \zu{m}$) during this time of flight. The lengthening of the time interval
+between the arrivals of the two flashes is thus extremely small, and detecting it required several tricky
+techniques. The result was exactly as predicted by the equivalence principle.
+
+An observer in a free-falling, inertial frame of reference explains the results of the experiment as in
+figures 2 and 3 on p.~\pageref{fig:elevator-argument-and-pound-rebka}: we have two successive signals, and
+they travel at the same speed $c$, but they have to travel unequal distances so the reception of the second
+one is delayed.
+
+But an observer in the noninertial frame of the earth's surface does not have this explanation available.
+In this frame, the tower was not moving, so the signals traveled equal distances. This observer is forced
+to conclude instead that time itself runs at different rates at the top and bottom of the tower. This is
+similar to the gravitational time dilation effect discussed in section \ref{sec:gravitational-time-dilation}.
+The cobalt-57 nucleus in the Pound-Rebka experiment is acting like a tiny clock. When it emits a gamma ray,
+the successive wave crests are like the clock making two ticks. An observer at the top of the tower, receiving
+the ticks, observes them to be abnormally far apart. This is exactly what we would expect if the clock was running
+slow because of a slower flow of time at the bottom of the tower.
+
+This may seem like a rash generalization, and indeed there were probably quite a few physicists back
+in the 1950s who would have expressed some doubt that a result like Pound and Rebka's would also be
+observed with ``real'' clocks that count and measure time units, as opposed to microscopic ``clocks''
+that are merely subatomic particles. But remember that such an effect was observed, for example, in 1978 by
+Iijima (p.~\pageref{iijima}) in an experiment using one atomic clock at the base of a mountain and another clock
+at the top.
+
+Summarizing all of these examples, we conclude that time runs more slowly when you're
+low down in a gravitational field, faster if you're higher up.
+This summary also works as an alternative explanation for the thought experiment in which Bob jumps
+while his twin sister Amy stands on the ground. Analyzing figure 2 on p.~\pageref{fig:jumping-twin-paradox},
+we previously said:
+
+\begin{itemize}
+Bob's motion is inertial while Amy's is not. Therefore by the principle of greatest time, Amy experiences
+less time than Bob.
+\end{itemize}
+
+\noindent An equally valid explanation, leading to the same numerical predictions, is:
+
+\begin{itemize}
+Amy experiences less time for a combination of
+two reasons. (1) As seen in Bob's inertial frame, she is the one who is moving.
+Motion causes time dilation. (2) Amy is also lower in a gravitational field than Bob is.
+For this reason as well, Amy experiences less time. These two effects reinforce each other,
+and their sum is the observed amount by which time was slowed.
+\end{itemize}
+
+By the way, there seems to be a very common misconception about gravitational time dilation, which is
+that it involves time slowing down where gravity is stronger. Not true! It's \emph{height}
+that matters. For example, consider the scenario in figure 3 on p.~\pageref{fig:ep}, where
+Alice's box is being towed by the spaceship. If she measures the fake ``gravity'' near the floor of the box and near the
+ceiling, she will get exactly equal results. If she duplicates the Pound-Rebka experiment inside her box, she
+will see an effect, because of the difference in \emph{height}. 
+Or imagine sending a clock to the center of the earth. At that location,
+the planet's gravity pulls equally in all directions, so by symmetry there is zero gravitational force.
+We would nevertheless find that this clock was \emph{slow} compared to one on the earth's surface.
