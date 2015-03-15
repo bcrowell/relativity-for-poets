@@ -49,6 +49,8 @@ photo_credit("artificial-horizon","Airplane","From a photo by Major James Skitt 
   # http://commons.wikimedia.org/wiki/File:Rear_view_of_the_%22Southern_Cross%22_airplane_at_Harbour_Grace.jpg
 photo_credit("artificial-horizon","Artificial horizon","NASA, public domain")
   # http://en.wikipedia.org/wiki/File:VMS_Artificial_Horizon.jpg
+photo_credit("cannon-inertial","Standing woman","Redrawn from work by William Crochot, CC-BY-SA")
+  # http://en.wikipedia.org/wiki/File:Spinal_column_curvature-en.svg
 
 print <<-'HEAD'
 
