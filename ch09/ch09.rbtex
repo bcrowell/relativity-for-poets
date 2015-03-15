@@ -1,0 +1,54 @@
+<% require "./scripts/simple_figures.rb" %>
+
+\chapter{Curvature of spacetime}
+
+This chapter is called ``curvature of spacetime,'' which sounds pretty scary,
+but if you're willing to wholeheartedly accept the equivalence principle, it
+isn't really that bad.
+
+\section{What is straight?}
+
+What do we mean when we say something is straight rather than curved? If Maria wants to check that
+a line on a piece of paper is straight, she'll probably use a ruler. But how
+does she know the ruler is straight? To check that the ruler was straight, she might
+hold it up to her eye and sight along it. That amounts to checking its straightness
+against the straightness of a ray of light. Now how does she know that a ray of light
+is straight?
+
+We'll never get anywhere unless we go ahead and \emph{define} something as straight to start with.
+Maria ended up resorting to a ray of light. A ray of light is a \emph{thing} that, in this example,
+we assume was not being acted on by any force. In other words, the best we can probably do is to
+define a straight line as the path of an object that is moving inertially. That object could be a
+flash of light from a laser, or it could be a baseball. And since we're talking about relativity, we want
+to define straightness in the context of spacetime, i.e., we want to take this as a definition of
+what it means for an object's world-line to be straight.
+
+So ``straight'' just means ``inertial.'' Recall that according to the principle of greatest time
+(section \ref{sec:greatest-time}, p.~\pageref{sec:greatest-time}), of all the possible world-lines that a clock
+can follow from one event to another, the one that gives the greatest elapsed time is the inertial one.
+This leads to a nice analogy between straightness in space and straightness in spacetime.
+In space, a straight line gives the smallest distance between two points.
+In spacetime, a straight world-line gives the largest proper time between two events.
+The analogy is a very close one except that \emph{smallest} switches to \emph{largest}.
+
+<% fig("cannon-inertial","!htpb") %>
+
+The figure on the facing page shows a realistic example. The woman fires her toy cannon, which shoots
+a fist-sized steel ball bearing upward at about the speed and angle of a home-run baseball.\footnote{If you're
+curious, this was simulated for a steel ball of 4 cm diameter, shot at an angle of 40 degrees above horizontal
+and an initial speed of 45 meters per second.}
+The spacetime diagram shows one dimension of time and one dimension of space (the vertical one); the horizontal
+dimension has been suppressed, which is why the ball looks like it's going to hit her
+on the head at the end. The diagram is constructed in an inertial frame of reference that coincides with the initial rest frame
+of the ball. In other words, the point of reference is a hypothetical projectile shot just like the ball bearing,
+but for which air friction is negligible, so that no forces act on it. (Remember, we don't count gravity as a force.)
+In this frame, the woman, the cannon, the air, and the dirt all zoom downward, turn around, and then come back up; this
+is sort of like the view you'd see of the ground if you were a bug riding on the perfectly inertial ball. Because
+of air resistance, the ball's trajectory is slightly curved; it is swept downward by the air rushing down past it,
+and then decelerated again as the air comes back up.
+
+genrel p. 22, figure with plane on earth
+
+bugs, lune
+
+bottom of page http://www.lightandmatter.com/cgi-bin/meki?teaching/9_relativity_for_poets
