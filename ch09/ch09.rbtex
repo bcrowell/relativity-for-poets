@@ -8,8 +8,8 @@ isn't really that bad.
 
 \section{What is straight?}
 
-What do we mean when we say something is straight rather than curved? If Maria wants to check that
-a line on a piece of paper is straight, she'll probably use a ruler. But how
+What do we mean when we say something is straight rather than curved? Say Maria wants to check that
+a line on a piece of paper is straight. She'll probably use a ruler. But how
 does she know the ruler is straight? To check that the ruler was straight, she might
 hold it up to her eye and sight along it. That amounts to checking its straightness
 against the straightness of a ray of light. Now how does she know that a ray of light
@@ -23,19 +23,13 @@ flash of light from a laser, or it could be a baseball. And since we're talking 
 to define straightness in the context of spacetime, i.e., we want to take this as a definition of
 what it means for an object's world-line to be straight.
 
-So ``straight'' just means ``inertial.'' Recall that according to the principle of greatest time
-(section \ref{sec:greatest-time}, p.~\pageref{sec:greatest-time}), of all the possible world-lines that a clock
-can follow from one event to another, the one that gives the greatest elapsed time is the inertial one.
-This leads to a nice analogy between straightness in space and straightness in spacetime.
-In space, a straight line gives the smallest distance between two points.
-In spacetime, a straight world-line gives the largest proper time between two events.
-The analogy is a very close one except that \emph{smallest} switches to \emph{largest}.
 
 <% fig("cannon-inertial","!htpb") %>
 
+So ``straight'' just means ``inertial.'' 
 The figure on the facing page shows a realistic example. The woman fires her toy cannon, which shoots
-a fist-sized steel ball bearing upward at about the speed and angle of a home-run baseball.\footnote{If you're
-curious, this was simulated for a steel ball of 4 cm diameter, shot at an angle of 40 degrees above horizontal
+a fist-sized steel ball bearing upward at about the speed and angle of a 
+home-run baseball.\footnote{This was simulated for a steel ball of 4 cm diameter, shot at an angle of 40 degrees above horizontal
 and an initial speed of 45 meters per second.}
 The spacetime diagram shows one dimension of time and one dimension of space (the vertical one); the horizontal
 dimension has been suppressed, which is why the ball looks like it's going to hit her
@@ -47,8 +41,65 @@ is sort of like the view you'd see of the ground if you were a bug riding on the
 of air resistance, the ball's trajectory is slightly curved; it is swept downward by the air rushing down past it,
 and then decelerated again as the air comes back up.
 
-genrel p. 22, figure with plane on earth
+The principle of greatest time
+(section \ref{sec:greatest-time}, p.~\pageref{sec:greatest-time}) says that of all the possible world-lines that a clock
+can follow from one event to another, the one that gives the greatest elapsed time is the inertial one.
+This leads to an analogy between straightness in space and straightness in spacetime.
+In space, a straight line gives the smallest distance between two points.
+In spacetime, a straight world-line gives the largest proper time between two events.
+The only change is that \emph{smallest} switches to \emph{largest}.
+The reason for the switch is simple. Of the three world-lines in the figure, the cannon's
+takes the \emph{most} ink to draw, and this means that its world-line is the one that least
+resembles an inertial one. A clock moving along with the cannon would therefore suffer the
+most time dilation, and show the \emph{least} elapsed time.
 
-bugs, lune
+<% fig("parable-of-the-bugs","!htpb") %>
 
-bottom of page http://www.lightandmatter.com/cgi-bin/meki?teaching/9_relativity_for_poets
+\section{The parable of the bugs}
+
+The close analogy between spatial straightness and straightness in spacetime leads to the following
+parable, illustrated in the figure. Two blind bugs get in an argument.
+
+``A Flock of Seagulls was the greatest band ever.''
+
+``Oh, they were totally derivative. I'd say Sonic Youth ---''
+
+The argument escalates. Words are said that can't be taken back. Embittered,
+the bugs set off from A in different directions to find new urban spaces with better brewpubs and
+more access to sustainably grown kale. Unexpectedly, they run into each other again at a drum circle
+in a public park in B.
+
+``What are you doing here?''
+
+``Me? I went straight and never looked back.''
+
+``That's not possible. I went straight too, and we left A traveling in different directions.''
+
+Because I've drawn the figure in a certain way, the explanation of the mystery seems obvious to us.
+But the bugs are blind and cling to the surface of their world, so their mental picture of their universe
+is two-dimensional. They can nevertheless work out what has happened. Their two straight paths have
+formed a kind of shape that you never learned about in kindergarten. The shape with
+four sides is a square, three sides make a triangle, and two is ---
+
+``Oh yeah,'' says one bug knowingly, ``it's a lune. Really obscure shape, you probably never heard of it.''
+
+You can't draw a lune on a flat surface using straight lines. If a lune exists, it means that the surface
+is curved. What's crucial is that the bugs can detect, understand, and measure this curvature without knowing
+that their two-dimensional world is embedded in a three-dimensional space. I could rewrite the story so that
+the third dimension \emph{didn't} actually exist in the bugs' universe, and all the events would be the same.
+
+The bugs can even define numerically how curved their world is. One good measure of curvature would be to
+take the angle at the top or bottom of a lune, and divide by its area. This is essentially\footnote{``Essentially''
+means we don't worry about constant factors such as the one that arises from choosing the units of measurement
+for the angle.} the same as a measure of curvature called the Gaussian curvature. We can imagine
+making the bugs' world less and less curved by making the sphere bigger and bigger. As it gets very big,
+its surface becomes very flat, the distance between A and B gets very big, the area of the lune also
+gets very big, and the Gaussian curvature gets very small (because dividing by a big number produces a small
+result).
+
+Although I presented this using a fairy-tale scenario, we can encounter all of these concepts on the earth's
+surface. Because the earth is big, its curvature is small, and we don't notice in everyday life that it's
+not flat. A motorboat cruising without turning, or an airplane flying straight and level, will trace a path
+on the earth's curved surface that is in some sense straight --- it's as straight as any path could be. Such
+a path is called a \emph{geodesic}, and the same term as also been coopted by relativists for use in spacetime,
+where it describes the world-line of an object moving inertially.

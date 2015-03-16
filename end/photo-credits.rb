@@ -51,6 +51,11 @@ photo_credit("artificial-horizon","Artificial horizon","NASA, public domain")
   # http://en.wikipedia.org/wiki/File:VMS_Artificial_Horizon.jpg
 photo_credit("cannon-inertial","Standing woman","Redrawn from work by William Crochot, CC-BY-SA")
   # http://en.wikipedia.org/wiki/File:Spinal_column_curvature-en.svg
+photo_credit("parable-of-the-bugs","Ladybugs","Redrawn from a photo by Wikimedia Commons user Gilles San Martin, CC-BY-SA")
+  # http://commons.wikimedia.org/wiki/File:Coccinella_magnifica01.jpg
+photo_credit("parable-of-the-bugs","M100","European Southern Observatory, CC-BY-SA")
+  # http://en.wikipedia.org/wiki/File:M100.jpg
+
 
 print <<-'HEAD'
 
