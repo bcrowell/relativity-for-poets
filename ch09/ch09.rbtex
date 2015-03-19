@@ -103,3 +103,12 @@ not flat. A motorboat cruising without turning, or an airplane flying straight a
 on the earth's curved surface that is in some sense straight --- it's as straight as any path could be. Such
 a path is called a \emph{geodesic}, and the same term as also been coopted by relativists for use in spacetime,
 where it describes the world-line of an object moving inertially.
+
+<% fig("gravitational-lune","!htpb") %>
+
+\section{Gravity as curvature}
+
+The figure on this page shows the parable of the bugs translated from space into spacetime.
+Spacesuited astronauts 1 and 2 are initially flying off in opposite directions. Each astronaut can verify
+that she is not being acted on by any forces --- gravity isn't a force --- and therefore knows that her
+world-line is ``straight,'' or, in fancy terminology, a geodesic.

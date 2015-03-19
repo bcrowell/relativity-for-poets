@@ -55,6 +55,13 @@ photo_credit("parable-of-the-bugs","Ladybugs","Redrawn from a photo by Wikimedia
   # http://commons.wikimedia.org/wiki/File:Coccinella_magnifica01.jpg
 photo_credit("parable-of-the-bugs","M100","European Southern Observatory, CC-BY-SA")
   # http://en.wikipedia.org/wiki/File:M100.jpg
+photo_credit("gravitational-lune","Galaxy and star","Hubble Space Telescope. Hubble material is copyright-free and may be freely used as in the public domain without fee, on the condition that NASA and ESA is credited as the source of the material. The material was created for NASA by STScI under Contract NAS5-26555 and for ESA by the Hubble European Space Agency Information Centre")
+photo_credit("gravitational-lune","Saturn","Public domain, NASA")  
+  # http://en.wikipedia.org/wiki/File:Saturn-cassini-March-27-2004.jpg
+photo_credit("gravitational-lune","Human figures","Line art by B.~Crowell, CC-BY-SA licensed. Based on a photo by Richard Peter/Deutsche Fotothek, CC-BY-SA licensed.")  
+  # http://en.wikipedia.org/wiki/File:Fotothek_df_ps_0000628_Sport_%5E_Felsen.jpg
+photo_credit("gravitational-lune","Vesta (made spherical)","NASA, public domain")  
+  # http://en.wikipedia.org/wiki/File:Vesta_full_mosaic.jpg
 
 
 print <<-'HEAD'
