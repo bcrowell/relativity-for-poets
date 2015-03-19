@@ -1,6 +1,6 @@
 <% require "./scripts/simple_figures.rb" %>
 
-\chapter{Newtonian gravity}
+\chapter{Newtonian gravity}\label{ch:newtonian-gravity}
 
 \section{Galileo and free fall}
 

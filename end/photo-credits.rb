@@ -62,6 +62,7 @@ photo_credit("gravitational-lune","Human figures","Line art by B.~Crowell, CC-BY
   # http://en.wikipedia.org/wiki/File:Fotothek_df_ps_0000628_Sport_%5E_Felsen.jpg
 photo_credit("gravitational-lune","Vesta (made spherical)","NASA, public domain")  
   # http://en.wikipedia.org/wiki/File:Vesta_full_mosaic.jpg
+photo_credit("eclipse","Eclipse","1919, public domain")  
 
 
 print <<-'HEAD'

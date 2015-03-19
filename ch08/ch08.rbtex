@@ -131,7 +131,8 @@ a free-falling object as a point of reference.
 It would be convenient if we could define a single inertial frame big enough to
 cover the entire universe, but we can't.  In the figure,
 two girls simultaneously drop down from
-tree branches --- one in Los Angeles and one in Mumbai.  The girl
+tree branches --- one in Los Angeles and one in Mumbai.\label{la-and-mumbai}
+The girl
 free-falling in Los Angeles defines an inertial frame.
 But if the LA girl tries to expand her frame of reference to cover her counterpart in Mumbai, the girl falling
 in Mumbai does not appear to have inertial motion: to the LA girl she looks like she is falling \emph{up}
