@@ -135,39 +135,22 @@ astronauts will attribute their unfortunate fates to the fact that their spaceti
 being caused by the gravity of the planet. In relativity, this is how we describe gravity: gravity \emph{is}
 curvature of spacetime.
 
-In Newton's nonrelativistic description (ch.~\ref{ch:newtonian-gravity}, p.~\pageref{ch:newtonian-gravity}),
-gravity was a universal attraction between masses and other masses. It was a force, and it acted instantaneously
-from a distance. The relativistic description is completely different. Matter, such as the planet in the
-figure, causes curvature in the spacetime around it. This curvature then influences the motion of matter.
-The relativistic picture is called Einstein's theory of general relativity. The word ``general'' is used because
-in special relativity, the curvature of spacetime is assumed to be zero; general relativity generalizes
-the theory to allow the curvature to be nonzero. In relativist John Wheeler's succinct formulation:
-
-\begin{important}
-``Spacetime tells matter how to move; matter tells spacetime how to curve.''
-\end{important}
-
-\noindent This requires us to define what we mean by ``matter.'' Newton would have said that mass
-was the correct way to measure the quantity of matter.
-Since relativity tells us that mass and energy are equivalent, we expect ``matter'' in
-general relativity should be mass-energy, not just mass.
-
-\pagebreak
-
-<% fig("eclipse","!htpb") %>
 
 \section{Tests of general relativity}
 
 Since the mass of a ray of light is zero, Newton would have expected it to be immune to gravity.
-But the ray does have energy, so general relativity predicts something different: it should be possible
+But the ray does have energy, and energy is equivalent to mass,
+so general relativity predicts something different: it should be possible
 to deflect a ray of light with a gravitational field.
 The first important experimental confirmation of relativity
-came in 1919 when stars next to the sun during a solar eclipse were
+came in 1919 when stars next to the sun during a solar eclipse were\label{eclipse}
 observed to have shifted a little from their ordinary
-position, as shown in the photograph above. (If there was no eclipse, the glare of the sun
+position, as shown in the photograph below. (If there was no eclipse, the glare of the sun
 would prevent the stars from being observed.) Starlight had
 been deflected by the sun's gravity. The picture is a
 photographic negative, so the circle that appears bright is actually the 
 dark face of the moon, and the dark area is really the bright corona of
 the sun. The stars, marked by lines above and below them, appeared at   
 positions slightly different than their normal ones.
+
+<% fig("eclipse","!htpb") %>

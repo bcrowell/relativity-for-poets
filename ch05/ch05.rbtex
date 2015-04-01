@@ -2,7 +2,7 @@
 
 \chapter[Light and matter]{Light and matter before Einstein}
 
-\section{How much does matter really matter?}
+\section{How much does matter really matter?}\label{sec:mass}
 
 Everyone knows $E=mc^2$, even if they don't know what the letters stand for.
 You already know about $c$, so let's move on to $m$. It stands for mass,

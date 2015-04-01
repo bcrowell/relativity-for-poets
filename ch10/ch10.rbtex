@@ -1,0 +1,213 @@
+<% require "./scripts/simple_figures.rb" %>
+
+
+\chapter{Matter}
+
+In Newton's nonrelativistic description
+(ch.~\ref{ch:newtonian-gravity}, p.~\pageref{ch:newtonian-gravity}),
+gravity was a universal attraction between masses and other masses. It
+was a force, and it acted instantaneously from a distance. The
+relativistic description is completely different. Matter, such as the
+planet in the figure on p.~\pageref{fig:gravitational-lune}, causes
+curvature in the spacetime around it. This curvature then influences
+the motion of matter.  The relativistic picture is called Einstein's
+theory of general relativity. The word ``general'' is used because in
+special relativity, the curvature of spacetime is assumed to be zero;
+general relativity generalizes the theory to allow the curvature to be
+nonzero. In relativist John Wheeler's succinct formulation:
+
+\begin{important}
+``Spacetime tells matter how to move; matter tells spacetime how to curve.''
+\end{important}
+
+\noindent This requires us to define what we mean by ``matter.'' Newton would have said that mass
+was the correct way to measure the quantity of matter.
+Since relativity tells us that mass and energy are equivalent, we expect ``matter'' in
+general relativity should be mass-energy, not just mass.
+
+One of the most surprising predictions of general relativity is the existence of black holes,
+which are formed when matter is sufficiently compressed by gravity.
+To understand how this can happen, we need to understand how matter should be expected to
+behave under extreme conditions. Luckily this turns out to be unexpectedly easy. Understanding
+the \emph{detailed} properties of matter is the highly technical province of specialists such as
+metallurgists, physical chemists, and condensed-matter physicists. But, surprisingly, relativity
+itself makes some more \emph{general} predictions about matter that are independent of its
+detailed structure.
+
+\section{No nongravitating matter}
+
+One such prediction is that there is no such thing as matter that is immune to gravity; anything
+that has mass-energy \emph{is} affected by gravity.
+We see objects in everyday life that superficially seem to have such an immunity. Birds can fly,
+but that's not because they ignore gravity.
+Birds exploit forces from the air acting on their wings. The same kind of explanation
+holds for a speck of dust floating in the air, the microscopic drops of water that form clouds,
+helium balloons, or air molecules themselves. In particular, if we use a vacuum pump to suck the air out
+of a flask, the flask becomes lighter, because the air that was removed had weight. If air didn't have
+weight, the earth's gravity wouldn't keep the planet's thin film of atmosphere from escaping, and our
+world would be an airless body like the moon. This universal susceptibility to gravity even extends to things that
+nobody but a relativist would call matter, such as the rays of sunlight in the 1919 test of general
+relativity described on p.~\pageref{eclipse}.
+
+Suppose, on the contrary, that we \emph{could} find some form of exotic
+matter --- call it $\textup{FloatyStuff}^\textup{TM}$ ---  that had the
+ordinary amount of inertia, but was completely unaffected by gravity.
+If FloatyStuff existed, it would cause us to doubt the equivalence principle. The basis
+for the equivalence principle is the universality of free fall, which is violated by FloatyStuff.
+
+To dramatize this a little more, say that alien gangsters land in a
+flying saucer, kidnap you out of your back yard, konk you on the head,
+and take you away. When you regain consciousness, you're locked up in
+a sealed cabin in their spaceship.  You pull your keychain out of your
+pocket and release it, and you observe that it accelerates toward the
+floor with an acceleration that seems quite a bit slower than what
+you're used to on earth, perhaps a third of a gee. There are two
+possible explanations for this. One is that the aliens have taken you
+to some other planet, maybe Mars, where the strength of gravity is a
+third of what we have on earth.  The other is that your keychain
+didn't really accelerate at all: you're still inside the flying
+saucer, which is in interplanetary space and accelerating at a third of a gee,
+so that it was really the deck that accelerated up and hit the keys. 
+
+There is absolutely no way to tell which of these two scenarios is
+actually the case --- unless you happen to have a chunk of FloatyStuff
+in your other pocket. If you release the FloatyStuff and it hovers
+above the deck, then you're on another planet and experiencing genuine
+gravity; your keychain responded to the gravity, but the FloatyStuff
+didn't. But if you release the FloatyStuff and see it hit the deck,
+then the flying saucer is accelerating through outer space. In this situation,
+you are able to tell the difference between a gravitational field and an accelerated
+frame of reference, which according to the equivalence principle are supposed to be
+equivalent things.
+
+Thus the existence of matter that is immune to gravity is forbidden by the equivalence
+principle. It is an ironclad prediction of general relativity that no such form of matter
+exists. If any such material were ever discovered, general relativity would be disproved.
+
+For similar reasons, we can never shield against gravitational fields in the same way that
+we can with electrical, magnetic, or other forces. If we could, then we could take any
+ordinary piece of matter, such as a brick, and turn it into a gravity-immune object by
+wrapping it in gravitational shielding. This is why, in our operational definition of an inertial
+frame of reference (section \ref{sec:inertial-frame-defined}, p.~\pageref{sec:inertial-frame-defined}),
+we shielded against all forces \emph{except} for gravity, which would have been impossible.
+
+\pagebreak
+
+<% fig("hovercraft","!htpb") %>
+
+As an example, the figure shows an old ad that was frequently found in comic books.
+If the ad claimed that the car worked by antigravity, then we could be pretty sure
+that it was a scam, since it would violate general relativity. But a careful reading of
+the text shows that the car is supposed to work by floating on a cushion of air, which
+is more scientifically plausible, and in fact, people who bought the car way back when
+have posted descriptions on the internet stating that the car did work. (But note that
+it's only 11 inches long, so you can't ride in it.)
+
+I've structured this book so that the next few chapters revolve around black holes. As we'll
+see in more detail later, there are some pop-culture ideas about black holes that turn out to be
+right, and others that are wrong. One of the correct ones is that once you've fallen into a black
+hole, you can never escape. The nonexistence of gravitationless matter and gravitational shielding help to explain
+why this should be so. If you had a flying car that was made out of gravitationless matter, it certainly
+does seem like it would be able to escape a black hole's gravity.
+
+\section{No repulsive gravity}
+
+The black holes that we observe are believed to have formed by the runaway gravitational collapse
+of stars or clouds of gas and dust. This would be much like the formation of objects such as the earth and the
+sun, except that the collapse would have progressed much further, to extremely high densities.
+When the idea of black holes was first proposed (long before they had actually been observed),
+various objections were raised to their formation, one of them being that we don't necessarily know
+the properties of matter under such extreme conditions. By analogy, suppose that we place two hydrogen atoms
+at some small distance from each other, say a distance equal to a few of their own diameters. They will
+experience an attractive electrical force and will ``fall'' toward each other. But once they get close enough,
+so that their electron clouds start to overlap significantly, the attraction turns into a repulsion. The
+collapse stops, and we end up with a stable hydrogen molecule, the form of the gas that is actually
+encountered normally.
+
+Is it possible, then, that under certain conditions gravity might also behave repulsively, possibly
+preventing the formation of black holes? A silly pop-culture version of this,
+from the Rocky and Bullwinkle cartoon series, is the fictional
+substance upsidaisium, which falls up rather than down. The figure shows a soldier guarding
+a military stockpile of upsidaisium bricks, which have to be kept staked down so they don't
+fly up into the sky.
+
+<% fig("upsidaisium","!htpb") %>
+
+If upsidaisium were discovered, it would violate the universality of free fall, and therefore
+invalidate the equivalence principle and disprove general relativity.
+
+But there is a way to get repulsive gravity without throwing general
+relativity down the toilet. Recall that mass is defined not in terms
+of weight but as a measure of inertia (section \ref{sec:mass},
+p.~\pageref{sec:mass}). Suppose that we have a brick whose \emph{mass}
+is \emph{minus} one kilogram. This is admittedly very strange. For
+example, if I hit such a brick with a baseball bat toward the east, it
+would accelerate to the west. If I whacked a car with it, the brick's
+momentum would be in the opposite of the expected direction, so the
+sheet metal would pucker outward rather than forming an inward dent.
+But if this brick also had negative weight (like upsidaisium), it
+would fall down, just like normal matter: since it responds to forces
+in the opposite of the usual way, the upward force of gravity would
+accelerate it downward. Thus we could have repulsive gravity while
+preserving the equivalence principle. 
+
+The nonexistence of repulsive gravity, or negative mass-energy, is
+therefore not completely ruled out by general relativity, and we have
+to posit it as an extra assumption.  Giving an exact mathematical
+statement turns out to be somewhat complicated and
+beyond the scope of this book, but the foregoing discussion should
+make it clear what the general idea is.  It turns out that there is
+more than one way of giving an exact formulation, and the different
+ways are not equivalent to one another; some are stricter requirements
+and some are weaker. These are referred to as \emph{energy
+conditions}. If we look at the ordinary forms of matter that surround
+us in our solar system, or that we have been able to test in the
+laboratory, all of them obey all of the energy conditions. A notable
+exception is \emph{dark energy}, a recently discovered, mysterious
+phenomenon that seems to pervade the universe, but that has a
+negligible effect except at cosmic scales. 
+
+\section{Finite strength of materials}
+
+A final possible objection to the possibility of runaway gravitational
+collapse is that with many materials, the more we compress them, the more
+they resist compression. For example, pumping up the tire of a bicycle is
+relatively easy at first, but as the pressure inside the tire gets greater and
+greater, it gets harder and harder to pump. Now suppose we had a powerful
+mechanical pump. It could compress air to much greater pressures than we could
+achieve using a hand pump, but at a certain point, something new would happen:
+under sufficient pressure, air turns from a gas into a liquid. (A similar example
+is the carbon dioxide canisters hidden behind the soda dispensers at restaurants.
+The $\textup{CO}_2$ inside has been pressurized so much that it is a liquid.)
+A liquid has qualitatively different properties than a gas, and in particular
+it strongly resists further compression. This is why, when you squeeze a water balloon,
+it just bulges outward in the gaps between your fingers.
+
+Under higher and higher pressures, matter is believed to pass through a series
+of abrupt changes. The evidence comes from astronomy. Most stars, including
+our sun, will eventually end up collapsing into a very dense state called degenerate matter,
+with a density of about a ton per cubic centimeter. These burned-out cinders of stars are observed
+as objects called white dwarfs. Under further compression, as in the collapse of a more massive star,
+we get a yet-denser form of matter. We now have an object known as a neutron star, whose
+entire mass is compressed into an object about the size of a town.
+
+Our scientific knowledge is always limited and progresses in steps. Is it possible
+that beyond neutron stars there is some other, as yet unsuspected, form of matter
+that is even more dense, and that represents the ultimate possible state of compression of matter?
+
+Surprisingly, relativity allows us to answer this question, and the answer is no.
+It tells us that there must be a limit to the ability of matter to resist compression.
+
+The key here is to consider the speed at which vibrations travel in a material.
+When you pop a champagne bottle, the disturbance in the air spreads outward as an audible
+sound. The speed of sound in air is fast --- several hundred meters per second.
+In a more incompressible substance like water, the speed of sound is about five times
+greater. This is because stronger forces now resist compression, and these stronger forces
+cause the little portions of water to accelerate more violently. If a substance had infinite
+resistance to compression, then it would be perfectly rigid, and the speed of sounds in that
+substance would be infinite. But relativity tells us that this is impossible. No signal or
+physical effect can propagate at a speed greater than $c$.
+
+We therefore conclude that there is some limit to the ability of matter to withstand compression.
+When a sufficiently massive body collapses gravitationally, the result must be a runaway
+collapse.

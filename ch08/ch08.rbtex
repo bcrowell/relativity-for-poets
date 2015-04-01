@@ -56,7 +56,7 @@ vertical.}
 <% fig("artificial-horizon","!htpb") %>
 
 
-\section[Chicken and egg]{Solving the chicken-and-egg problem of inertial frames}
+\section[Chicken and egg]{Solving the chicken-and-egg problem of inertial frames}\label{sec:inertial-frame-defined}
 
 An advantage of equivalence principle is that it allows us to say for sure whether a certain frame of reference is
 inertial. In the Newton-Galileo theory, there was a crippling chicken-and-egg problem with this.

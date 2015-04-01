@@ -63,6 +63,8 @@ photo_credit("gravitational-lune","Human figures","Line art by B.~Crowell, CC-BY
 photo_credit("gravitational-lune","Vesta (made spherical)","NASA, public domain")  
   # http://en.wikipedia.org/wiki/File:Vesta_full_mosaic.jpg
 photo_credit("eclipse","Eclipse","1919, public domain")  
+photo_credit("hovercraft","Hovercraft","Copyright status unknown; used here under the U.S.~fair use doctrine")  
+photo_credit("upsidaisium","Upsidaisium","Copyright Jay Ward Productions; used here under the U.S.~fair use doctrine")  
 
 
 print <<-'HEAD'
