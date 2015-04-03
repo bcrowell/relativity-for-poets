@@ -3,7 +3,7 @@
 
 \chapter{Black holes}
 
-\section{The deaths of stars}\label{sec:death-of-stars}
+\section{Collapse to a singularity}\label{sec:death-of-stars}
 
 Let's talk about death.
 Our sun is very close to the end of the time during which it will be the right brightness to support
@@ -60,9 +60,9 @@ pulsar.
 
 As we saw in section \ref{sec:finite-strength}, p.~\pageref{sec:finite-strength},
 relativity predicts that we can't go on discovering more and more compressed forms
-of matter. It's a bit like the situation of Columbus and Magellan: they may have been
+of matter. (It's a bit like the situation of Columbus and Magellan: they may have been
 surprised to come across two or three new continents, but they knew that the world was round, so at
-some point there had to be an end to what there was to discover.
+some point there had to be an end to what there was to discover.)
 For a sufficiently massive star, we expect that gravity will win and matter
 will lose. There will be a runaway collapse. The end result is expected to be a
 black hole: a star with all its mass squeezed down to a space smaller
@@ -72,7 +72,7 @@ is called a \emph{singularity}. It represents a point where either the laws of
 physics break down completely, or general relativity stops making sense and should
 not be trusted.
 
-\section{Expected properties}
+\section{The event horizon}
 
 The most distinctive property of black holes is that they are expected to be black.
 To see why, consider what we know about gravitational time dilation
@@ -97,6 +97,8 @@ parts-per-billion range. The ultimate reason for this is simply that
 the earth has a certain size, and we can't get any closer to all of
 its mass than that. 
 
+<% fig("more-time-dilation","!htpb") %>
+
 With a white dwarf we can do quite a bit better. The mass is a million
 times greater, so we can get a time dilation effect almost in the parts-per-thousand
 range. The detection of this effect was one of the early experimental tests of
@@ -104,8 +106,8 @@ relativity.
 
 % calc -x -e "ms=2 10^30 kg; r=6400 km; m=ms; (Gm/r)/c^2"
 
-Now what about a neutron star? Whereas a white dwarf is about the size of the
-earth, a neutron star is more like the size of Los Angeles. The mass isn't that
+What about a neutron star? Whereas a white dwarf is about the size of the
+earth, a neutron star is the size of a city. The mass isn't
 much more, but we can get \emph{closer} to all of it. The result is time dilation
 of something like ten percent.
 
@@ -135,3 +137,123 @@ an information-bearing signal but simply a light wave. At emission, the
 time between one vibration of the wave and the next is very short, but
 to a distant observer it's an infinite time. Clearly the light wave
 simply isn't escaping.
+
+\section{Detection}
+
+Because light can't escape from inside the event horizon, we can never hope to observe
+black holes by seeing them shine, as normal stars do. There are nevertheless several
+methods that have either been used already or may be used in the future for detecting black holes.
+
+One method, which is so far purely hypothetical, is gravitational lensing, as shown in figures 1 and 2.
+Figure 1 shows a telescope's magnified view of a distant galaxy.
+Now suppose that, by pure luck, a black hole happens to lie very nearly along our line of sight to this
+galaxy. As in the 1919 test of general
+relativity described on p.~\pageref{eclipse}, any rays of light that happen to pass very close to the black
+hole (but without entering its event horizon) will be bent by the black hole's gravity. The result would be
+a type of distortion of the image, as in figure 2. Although gravitational lensing has been detected many
+times, lensing by a black hole has not yet been observed.
+
+<% fig("detection-by-lensing-and-accretion","!htpb") %>
+
+A far easier method is to exploit the fact that, as in the simulated view in figure 3, black holes
+are often actively feeding on nearby matter. In this simulation, an entire star has wandered too close
+to the black hole, which is at the position marked with crosshairs. The star has been broken up by
+tidal forces (more about this in section \ref{sec:tidal}) and is now falling toward the black hole as a cloud
+of gas. Internal friction causes the gas to become so hot that it glows in the x-ray part of the spectrum.
+These x-rays are a highly distinctive sign of a black hole. 
+The object known as Cygnus X-1\index{Cygnus X-1} is
+the best-studied example. This X-ray-emitting object was discovered by
+a rocket-based experiment in 1964.
+
+Around the turn of the 21st century, new evidence was found for the
+prevalence of supermassive black holes near the centers of nearly all
+galaxies, including our own. Near our galaxy's center is an object
+called Sagittarius A*,\index{Sagittarius A*} detected because nearby
+stars orbit around it. The orbital data show that Sagittarius A* has a
+mass of about four million solar masses, confined within a sphere with
+a radius less than 22 million kilometers.  There is no known
+astrophysical model that could prevent the collapse of such a compact
+object into a black hole, nor is there any plausible model that would
+allow this much mass to exist in equilibrium in such a small space,
+without emitting enough light to be observable. 
+
+The existence of supermassive black holes is surprising. Gas clouds
+with masses greater than about 100 solar masses cannot form stable
+stars, so supermassive black holes cannot be the end-point of the
+evolution of heavy stars.  Mergers of multiple stars to form more
+massive objects are generally statistically unlikely, since a star is
+such a small target in relation to the distance between the stars.
+Once astronomers were confronted with the empirical fact of these
+supermassive black holes' existence, a variety of mechanisms was
+proposed for their formation. Little is known about which of these
+mechanisms is correct. 
+
+\section{Light cones}
+
+A typical scheme for evading the one-way nature of the event horizon would be to put a space
+probe on the end of a rope, lower the rope down through the horizon, and then pull it back out.
+The plan won't work, because the rope will break. Why can't we just use a stronger rope?
+The answer is that, as we've seen in section \ref{sec:finite-strength}, p.~\pageref{sec:finite-strength},
+relativity imposes ultimate limits on the strengths of materials. This example demonstrates
+a more general fact, which is that the event horizon is not just a barrier that is difficult
+to escape through. The reason it's called the \emph{event} horizon is that it marks a fundamental
+disconnection of cause and effect. Events inside the horizon can never cause events outside.
+
+The figure on the facing page shows a good way to visualize this. It's a standard spacetime diagram,
+with the time axis running vertical and space horizontal. The black hole is stationary in this frame
+of reference, so the singularity's world-line is a vertical line, and so is the event horizon's.
+Astronauts Alice and Bob start at rest, at unequal distances from the black hole, and under the influence
+of gravity they begin to accelerate toward it in free fall.
+
+Since they're so close to a black hole, you might imagine that they
+would feel very heavy, but they're free-falling, so they both
+experience apparent weightlessness (section
+\ref{sec:apparent-weightlessness},
+p.~\pageref{sec:apparent-weightlessness}).  This is the equivalence
+principle at work. Locally, gravity is an illusion that we only experience
+if we adopt a frame of reference that's not inertial (not free-falling).
+
+Suppose Alice carries out physics experiments in the small region of spacetime indicated by the dashed
+square. She will find absolutely nothing unusual, and everything will be explainable in terms of
+\emph{special} relativity, because the curvature of spacetime is not detectable on such a small scale.
+(Similarly, we don't worry about the curvature of the earth when driving around town.)
+In particular, she will be able to define a future light cone for herself, as special relativity says she
+can always do. 
+
+But now consider the situation at the final position shown in the diagram, when Alice is just crossing the
+event horizon. We know that if she emits a ray of light from this position, aiming it outward, it will not
+escape the black hole. But to Alice, in her frame of reference, special relativity is still locally valid,
+and the ray of light travels, as light always does, at $c$. How can this be, if the light isn't going to escape?
+The resolution of the paradox is that if we draw her light-cones on this type of diagram, they're tipped.
+In her local frame of reference, light moves at the expected speed in both the inward and outward directions,
+and if she were drawing the light cone, she'd draw it upright. But to us, in our global view, it's tipped.
+
+<% fig("gravity-light-cones","!htpb") %>
+
+The light cone, as we've already seen, is not fundamentally about
+light. It's about mapping out the possible cause-and-effect relationships between events.
+As Alice crosses the event horizon, her entire future
+light cone tips over so far that it all points inward, not outward. Alice can no longer physically
+escape, nor can she send a signal back to Bob. For her, there is no future other than the region
+inside the black hole.
+
+\section{Tidal forces}\label{sec:tidal}
+
+In the figure on the preceding page, note that Alice and Bob are getting farther apart.
+This is because Alice is closer to the black hole, and falls into it with a greater acceleration.
+This is a real effect of gravity, and neither of them can dismiss it as an illusion. Only \emph{locally}
+can we call gravity an illusion; globally, gravity is real, as in
+the example of the girls in Mumbai and Los Angeles on p.~\pageref{la-and-mumbai}.
+The situation is very similar to the one with the two bugs on p.~\pageref{fig:parable-of-the-bugs},
+except that curvature is causing the two world-lines to diverge rather than converge.
+
+Imagine that Bob wants to keep Alice safe, so he ties a rope between him and her, like two mountaineers
+on a rope team. The rope will become taut, and will break before Alice crosses the event horizon.
+This physical strain is called a tidal force, because it is the same as the mechanism by which the
+moon's gravity causes the ocean tides. Depending on details such as the mass of the black hole, this
+tidal force may or may not be enough to rip Alice to shreds before she ever reaches the event horizon.
+
+In 2014, a team of astronomers observed a gas cloud (imaginatively dubbed G2) that was moving
+toward Sagittarius A*, and they attempted to observe its disruption by tidal forces. The cloud held
+together better than they expected and failed to do anything spectacular. The interpretation of the
+event is uncertain.

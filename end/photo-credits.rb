@@ -71,6 +71,16 @@ photo_credit("evolution","Sun","NASA/SDO (AIA), public domain")
   # http://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg?fastcci_from=20450588
 photo_credit("evolution","Star field","G.~Bacon (NASA/ESA/STScI), public domain")
   # http://commons.wikimedia.org/wiki/File:Sirius_A_and_B_artwork.jpg?fastcci_from=20450588
+photo_credit("more-time-dilation","Astronauts","Line art by B.~Crowell, CC-BY-SA licensed. Based on a photo by Richard Peter/Deutsche Fotothek, CC-BY-SA licensed")
+  # http://en.wikipedia.org/wiki/File:Fotothek_df_ps_0000628_Sport_%5E_Felsen.jpg
+photo_credit("more-time-dilation","Woman on earth","Redrawn from work by William Crochot, CC-BY-SA")
+  # http://en.wikipedia.org/wiki/File:Spinal_column_curvature-en.svg
+photo_credit("more-time-dilation","Satellite","From a public-domain artist's conception of a GPS satellite, product of NASA")
+  # http://en.wikipedia.org/wiki/File:GPS_Satellite_NASA_art-iif.jpg
+photo_credit("detection-by-lensing-and-accretion","Lensing","Wikimedia Commons user Alain r, CC-BY-SA")
+  # https://commons.wikimedia.org/wiki/File:BlackHole_Lensing.gif
+photo_credit("detection-by-lensing-and-accretion","Accretion","S.~Gezari, J.~Guillochon, STScI/NASA, public domain")
+  # http://commons.wikimedia.org/wiki/File:A_star_is_consumed_by_a_black_hole.ogv
 
 
 print <<-'HEAD'
