@@ -154,7 +154,7 @@ preserving the equivalence principle.
 The nonexistence of repulsive gravity, or negative mass-energy, is
 therefore not completely ruled out by general relativity, and we have
 to posit it as an extra assumption.  Giving an exact mathematical
-statement turns out to be somewhat complicated and
+statement of this assumption is complicated and
 beyond the scope of this book, but the foregoing discussion should
 make it clear what the general idea is.  It turns out that there is
 more than one way of giving an exact formulation, and the different
@@ -167,7 +167,7 @@ exception is \emph{dark energy}, a recently discovered, mysterious
 phenomenon that seems to pervade the universe, but that has a
 negligible effect except at cosmic scales. 
 
-\section{Finite strength of materials}
+\section{Finite strength of materials}\label{sec:finite-strength}
 
 A final possible objection to the possibility of runaway gravitational
 collapse is that with many materials, the more we compress them, the more
@@ -184,15 +184,12 @@ it strongly resists further compression. This is why, when you squeeze a water b
 it just bulges outward in the gaps between your fingers.
 
 Under higher and higher pressures, matter is believed to pass through a series
-of abrupt changes. The evidence comes from astronomy. Most stars, including
-our sun, will eventually end up collapsing into a very dense state called degenerate matter,
-with a density of about a ton per cubic centimeter. These burned-out cinders of stars are observed
-as objects called white dwarfs. Under further compression, as in the collapse of a more massive star,
-we get a yet-denser form of matter. We now have an object known as a neutron star, whose
-entire mass is compressed into an object about the size of a town.
-
-Our scientific knowledge is always limited and progresses in steps. Is it possible
-that beyond neutron stars there is some other, as yet unsuspected, form of matter
+of abrupt changes similar to the gas-liquid transition ---
+more about this in section \ref{sec:death-of-stars}, p.~\pageref{sec:death-of-stars}.
+With each such transition, it crunches down into a denser and yet more exotic state.
+Our scientific knowledge is always limited, and these are conditions that we can't
+replicate in the laboratory. Is it possible
+that beyond the states of matter currently hypothesized there is some other, as yet unsuspected, form of matter
 that is even more dense, and that represents the ultimate possible state of compression of matter?
 
 Surprisingly, relativity allows us to answer this question, and the answer is no.
@@ -203,11 +200,14 @@ When you pop a champagne bottle, the disturbance in the air spreads outward as a
 sound. The speed of sound in air is fast --- several hundred meters per second.
 In a more incompressible substance like water, the speed of sound is about five times
 greater. This is because stronger forces now resist compression, and these stronger forces
-cause the little portions of water to accelerate more violently. If a substance had infinite
-resistance to compression, then it would be perfectly rigid, and the speed of sounds in that
+cause the water to accelerate more violently. If a substance had infinite
+resistance to compression, then it would be perfectly rigid, and the speed of sound in that
 substance would be infinite. But relativity tells us that this is impossible. No signal or
 physical effect can propagate at a speed greater than $c$.
 
+<% fig("crushed-cars","!htpb") %>
+
 We therefore conclude that there is some limit to the ability of matter to withstand compression.
-When a sufficiently massive body collapses gravitationally, the result must be a runaway
+Every substance, like the crushed cars in the photo, will compress if squished hard enough.
+Thus it seems that if a sufficiently massive body collapses gravitationally, the result must be a runaway
 collapse.

@@ -65,6 +65,12 @@ photo_credit("gravitational-lune","Vesta (made spherical)","NASA, public domain"
 photo_credit("eclipse","Eclipse","1919, public domain")  
 photo_credit("hovercraft","Hovercraft","Copyright status unknown; used here under the U.S.~fair use doctrine")  
 photo_credit("upsidaisium","Upsidaisium","Copyright Jay Ward Productions; used here under the U.S.~fair use doctrine")  
+photo_credit("crushed-cars","Crushed cars","Wikimedia Commons user IFCAR, public domain")  
+  # http://commons.wikimedia.org/wiki/File:Auto_scrapyard_1.jpg
+photo_credit("evolution","Sun","NASA/SDO (AIA), public domain")
+  # http://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg?fastcci_from=20450588
+photo_credit("evolution","Star field","G.~Bacon (NASA/ESA/STScI), public domain")
+  # http://commons.wikimedia.org/wiki/File:Sirius_A_and_B_artwork.jpg?fastcci_from=20450588
 
 
 print <<-'HEAD'
