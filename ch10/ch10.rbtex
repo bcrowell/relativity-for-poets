@@ -14,7 +14,7 @@ the motion of matter.  The relativistic picture is called Einstein's
 theory of general relativity. The word ``general'' is used because in
 special relativity, the curvature of spacetime is assumed to be zero;
 general relativity generalizes the theory to allow the curvature to be
-nonzero. In relativist John Wheeler's succinct formulation:
+nonzero. Relativist John Wheeler summarizes this in a slogan:
 
 \begin{important}
 ``Spacetime tells matter how to move; matter tells spacetime how to curve.''
@@ -22,8 +22,8 @@ nonzero. In relativist John Wheeler's succinct formulation:
 
 \noindent This requires us to define what we mean by ``matter.'' Newton would have said that mass
 was the correct way to measure the quantity of matter.
-Since relativity tells us that mass and energy are equivalent, we expect ``matter'' in
-general relativity should be mass-energy, not just mass.
+But for the reasons discussed in section \ref{sec:bending-light},
+``matter'' in general relativity should be taken to mean mass-energy, not just mass.
 
 One of the most surprising predictions of general relativity is the existence of black holes,
 which are formed when matter is sufficiently compressed by gravity.

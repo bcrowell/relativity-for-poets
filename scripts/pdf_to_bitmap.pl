@@ -38,9 +38,32 @@ print "rendering $pdf to $rendered\n";
 my $ppm = 'z-1.ppm'; # only 1 page in pdf
 push @temp_files,$ppm;
 if (system("pdftoppm -r 300 $pdf z")!=0) {finit("Error in pdf_to_bitmap.pl, pdftoppm")}
-if (system("convert $ppm -density 300 -evaluate Pow 0.44 -units PixelsPerInch $rendered")!=0) {finit("Error in pdf_to_bitmap.pl, ImageMagick's convert")}
+
+# Work around misfeature in ImageMagick's convert. See notes in computer/apps. It's possible that ca. 2015
+# ImageMagick's color handling will change, and I will need to get rid of this code.
+# Detect whether or not it's color:
+my $stats = `identify -colorspace HSL -verbose $ppm`;
+$stats =~ s/\n//g; # strip newlines
+my $is_color = !($stats=~quotemeta("Green:      min: 0 (0)      max: 0 (0)"));
+  # when ImageMagick's identify utility is given the -colorspace HSL, saturation is in the green channel
+my $gamma_correction = 1.0;
+if (!$is_color) {$gamma_correction=0.44} # grayscale images are much too dark otherwise
+
+if (system("convert $ppm -density 300 -evaluate Pow $gamma_correction -units PixelsPerInch $rendered")!=0) {finit("Error in pdf_to_bitmap.pl, ImageMagick's convert")}
 # ... uses default quality of 92
-#     without -evaluate Pow 0.44 it comes out much too dark -- why??
+
+# It seems that some tool on my toolchain has had inconsistencies/regressions in its behavior with respect to
+# how it handles gamma. I think this was probably inkscape, although imagemagick has also had some flaky changes
+# in how it handles color management.
+# Currently I have this:
+#   $ inkscape --version
+#   Inkscape 0.48.4 r9939 (Jan 22 2014)
+#   $ convert --version
+#   Version: ImageMagick 6.7.7-10 2014-03-06 Q16 http://www.imagemagick.org
+#   $ pdftoppm -v
+#   pdftoppm version 0.24.5
+# With these versions, it seems OK if I set gamma_correction to 1.0. With some other versions, previously,
+# I needed 0.44.
 
 print "\n";
 finit();

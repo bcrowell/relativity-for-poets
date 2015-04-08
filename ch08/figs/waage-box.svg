@@ -669,9 +669,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7634007"
-     inkscape:cx="407.80677"
-     inkscape:cy="785.86948"
+     inkscape:zoom="1.0304034"
+     inkscape:cx="403.51068"
+     inkscape:cy="770.01032"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -706,13 +706,13 @@
        x="143.16177"
        y="66.685181" />
     <image
-       sodipodi:absref="waage-box-bitmaps/m100.jpg"
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/ch08/figs/waage-box-bitmaps/m100.jpg"
        xlink:href="waage-box-bitmaps/m100.jpg"
-       y="94.635063"
-       x="147.29308"
-       id="image2964"
+       width="115.24628"
        height="93.464722"
-       width="115.24628" />
+       id="image2964"
+       x="147.29308"
+       y="94.635063" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect4180"
@@ -1186,5 +1186,11 @@
          d="m 649.24745,214.97413 c -0.24615,0.12308 -2.52311,2.15388 -2.21541,2.15388 0.30769,0 2.52311,0.36923 2.52311,0.36923 l -0.18462,2.46158 c 0,0 1.35387,-2.21542 1.60003,-2.40004 0.24615,-0.18462 2.64619,-2.33849 2.64619,-2.33849 l -1.60002,-0.24616 z"
          style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.625;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
+    <path
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.84422302;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:14.75378392, 1.84422299;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 317.14573,237.35796 c -2.80776,31.90295 -9.04727,37.58863 -8.73529,46.43301 0.31197,8.84439 -0.93593,29.376 5.30357,41.37909 6.23951,12.00309 17.78257,27.1649 38.37293,26.84902 20.59035,-0.31586 37.74897,-6.31741 55.21957,-18.63638 17.4706,-12.31896 36.50107,-24.32205 42.11662,-37.90451 5.61556,-13.58244 9.98321,-23.05857 3.43173,-46.43302 -6.55148,-23.37443 -18.09455,-48.32824 -26.2059,-58.12023 -8.11135,-9.792 -16.84665,-20.21573 -33.38132,-24.9538 -16.53468,-4.73806 -36.1891,-9.792 -43.98847,-8.84439 -7.79939,0.94762 -12.47901,0.63175 -21.52628,8.52851 -8.04785,7.02444 -14.66283,14.53007 -16.53467,24.32206 -1.87186,9.792 -1.49554,7.99194 3.43172,24.95381 3.11974,10.7396 2.49579,22.42683 2.49579,22.42683 z"
+       id="path3946"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssssssssssc" />
   </g>
 </svg>

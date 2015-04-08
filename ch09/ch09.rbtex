@@ -136,12 +136,26 @@ being caused by the gravity of the planet. In relativity, this is how we describ
 curvature of spacetime.
 
 
-\section{Tests of general relativity}
+\section{A test of general relativity}\label{sec:bending-light}
 
 Since the mass of a ray of light is zero, Newton would have expected it to be immune to gravity.
-But the ray does have energy, and energy is equivalent to mass,
-so general relativity predicts something different: it should be possible
-to deflect a ray of light with a gravitational field.
+But in general relativity, several different arguments lead us to expect that a ray of light
+can be deflected by a gravitational field:
+
+\begin{enumerate}
+  \item A ray of light does have energy, and energy is equivalent to mass.
+  \item Suppose, for example, that we send a ray of light in the horizontal direction here on earth.
+         In a free-falling frame, gravity doesn't exist, and by symmetry there is no reason for the ray
+         to bend in any direction. But if the ray is straight in a free-falling frame, then it is curved
+         in a frame fixed to the earth's surface.
+  \item Consider the following analogy with special relativity. Suppose that time dilation affected some clocks but
+         not others, and length contraction affected some rulers but not others.
+         Then we would not be able to interpret the Lorentz transformation as describing a distortion of spacetime
+         itself. Similarly, suppose that gravity affected the motion of some objects (rocks) but not others
+         (flashlight beams). We would then have good reason to abandon general relativity, which describes gravity
+         as a curvature of spacetime itself.
+\end{enumerate}
+
 The first important experimental confirmation of relativity
 came in 1919 when stars next to the sun during a solar eclipse were\label{eclipse}
 observed to have shifted a little from their ordinary
