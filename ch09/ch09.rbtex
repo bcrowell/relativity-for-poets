@@ -53,7 +53,7 @@ takes the \emph{most} ink to draw, and this means that its world-line is the one
 resembles an inertial one. A clock moving along with the cannon would therefore suffer the
 most time dilation, and show the \emph{least} elapsed time.
 
-<% fig("parable-of-the-bugs","!htpb") %>
+<% fig("parable-of-the-bugs","!htpb") %>\label{sec:parable-of-the-bugs}
 
 \section{The parable of the bugs}
 
@@ -136,7 +136,7 @@ being caused by the gravity of the planet. In relativity, this is how we describ
 curvature of spacetime.
 
 
-\section{A test of general relativity}\label{sec:bending-light}
+\section{Deflection of starlight}\label{sec:bending-light}
 
 Since the mass of a ray of light is zero, Newton would have expected it to be immune to gravity.
 But in general relativity, several different arguments lead us to expect that a ray of light
@@ -168,3 +168,81 @@ the sun. The stars, marked by lines above and below them, appeared at
 positions slightly different than their normal ones.
 
 <% fig("eclipse","!htpb") %>
+
+The diagram below shows an explanation of the effect. A ray of light from the star arrives from
+a different direction than the one from which it would have come if the sun's gravity had not
+interfered. This leads to a change in the star's apparent position in the sky.
+
+<% fig("eclipse-explanation","!htpb") %>
+
+\section{No extra dimensions}
+
+In the parable of the bugs (section \ref{sec:parable-of-the-bugs}, p.~\pageref{sec:parable-of-the-bugs}),
+we visualized their universe as a two-dimensional surface embedded in a three-dimensional space. The third
+dimension just happened to be invisible to the bugs. In science, we usually try not to invoke the
+existence of things that can't be empirically observed, such as invisible pink unicorns
+(cf.~section \ref{sec:operationalism}, p.~\pageref{sec:operationalism}).
+To the bugs, \emph{there are no extra dimensions}. They exist in two dimensions of space and
+one dimension of time, abbreviated as $2+1$. Similarly, you and I live in $3+1$ dimensions. Although we may
+find it useful, when we want to conceptualize curvature, to draw pictures like the pictures of the bugs
+on a sphere, that doesn't mean that our universe actually has extra dimensions that are invisible to us.
+Nobody has ever succeeded in observing a fifth dimension, although attempts have been made using
+particle accelerators (Franceschini \emph{et al.}, \url{arxiv.org/abs/1101.4919}).
+
+\section{Parallel transport}
+
+This unobservability of extra dimensions has some interesting consequences. In figure 1, a woman walks
+from the earth's equator to the north pole, and as she does so, her body rotates by 90 degrees relative to
+the stars. If she was living in the bugs' universe, the stars wouldn't exist. But she isn't, they do,
+and she can detect the rotation, e.g., when she was at the equator, the pole star was on the horizon,
+but once she got to the north pole, it was directly overhead.
+
+<% fig("bug-gyroscope","!htpb") %>
+
+Even if the weather was always cloudy, so that she could never observe any external reference points, it
+would still be possible for her to verify, using only local measurements, that she had rotated. For example,
+as in figure 2, she could carry a gyroscope with her.\footnote{The figure shows a toy mechanical gyroscope, which
+wouldn't actually be practical for this purpose, but many smart phones contain a tiny gyroscope
+fabricated as part of a silicon chip.}
+When she starts out at the equator, the gyroscope's axle is perpendicular to her body. When she gets
+to the north pole, it's parallel to her spine. Since the gyroscope is supposed to maintain its orientation,
+she can infer that it was her body that rotated.
+
+But consider how this would work out for the bug in figure 3. We can imagine that the bug owns a smartphone
+with a built-in gyroscope. But because there is no third spatial dimension in the bug's reality, the smartphone's
+screen always lies in the plane of the surface, and if it displays a fixed direction as an arrow on the phone's
+screen, that arrow always lies in that plane as well. If the bug travels 90 degrees around the sphere,
+it's not possible to obtain the same result as in figure 2, because that would require the arrow to point in
+a direction that doesn't exist. The bug simply sees the arrow point steadily in the direction that the bug is going.
+We say that the arrow has been \emph{parallel-transported} along the surface of the sphere. Parallel transport
+means taking a vector and moving it to a new location along a certain path, without allowing any external
+influence to twist the vector (or change its magnitude).
+
+Similarly, suppose that the bug had a frictionless hockey puck. He could push the puck forward, and it
+would glide with a certain momentum vector. No external influence is deflecting the
+puck, so its momentum vector is parallel-transported.
+
+<% fig("bug-path-dependence","!htpb") %>
+
+Figure 4 duplicates figure 3: our bug parallel-transports his cell-phone gyroscope from what we would describe as
+his world's ``equator'' up to its ``north pole.'' Meanwhile, in figure 5, his friend 
+starts from the same point and ends up at the same destination, but via a different path: he first travels
+west 90 degrees along the equator, then goes north to the pole.
+When the bugs start out, they make sure that their gyroscopes agree. When they are reunited, they find that
+the gyroscopes are out of whack. Each bug could claim that the other's gyro is broken, but in reality what
+has happened is an effect of the curvature of their world. In fact, this is a good general definition of what
+we mean by curvature: when curvature is present, parallel-transport from point A to point B will in general
+give a different result, depending on the path chosen.
+
+This path-dependence of parallel transport was verified directly in 2005 in a satellite-based experiment
+called Gravity Probe B. On board the satellite was a gyroscope in the form of a silicon ball spinning frictionlessly
+in a vacuum inside a box. The satellite was orbiting the earth, so on a spacetime diagram we would visualize
+its world-line as a helix. Parallel-transporting the gyroscope along this helical world-line gives a different
+result than if its path through spacetime had not been orbiting. If the gyroscope had then been brought down
+from orbit and compared with one left on the surface of the earth, they would have disagreed by a small amount,
+due to the earth's gravity: the earth's gravitational field is a curvature of the surrounding space.
+In reality, the gyroscope was too delicate to be handled in this way without disrupting its motion,
+so the effect was observed as
+a change in the orientation of its axis relative to the stars.
+Over the one-year duration of the mission, the axis twisted around by an angle of about 0.002
+degrees, in good agreement with the predictions of general relativity.
