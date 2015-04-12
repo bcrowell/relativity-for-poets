@@ -41,7 +41,8 @@ Inside a big enough dying star, the atoms themselves begin to collapse under the
 electrons and protons fusing to form neutrons. The result is a ball made mostly of pure neutrons, called a neutron star.
 Observational evidence for the existence of neutron stars came in 1967
 with the detection by Bell and Hewish at Cambridge of a mysterious
-radio signal, repeating at an interval of exactly 1.3373011 seconds. The signal's
+radio signal, repeating at an interval of exactly 1.3373011 seconds.\label{neutron-star}
+The signal's
 observability was synchronized with the rotation of the earth relative
 to the stars, rather than with legal clock time or the earth's
 rotation relative to the sun. This led to the conclusion that its

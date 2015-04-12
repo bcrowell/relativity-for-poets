@@ -81,6 +81,8 @@ photo_credit("detection-by-lensing-and-accretion","Lensing","Wikimedia Commons u
   # https://commons.wikimedia.org/wiki/File:BlackHole_Lensing.gif
 photo_credit("detection-by-lensing-and-accretion","Accretion","S.~Gezari, J.~Guillochon, STScI/NASA, public domain")
   # http://commons.wikimedia.org/wiki/File:A_star_is_consumed_by_a_black_hole.ogv
+photo_credit("gravitational-wave","Einstein","Oren Jack Turner, 1947, public domain in the U.S")
+  # http://commons.wikimedia.org/wiki/File:Albert_Einstein_1947.jpg
 
 
 print <<-'HEAD'

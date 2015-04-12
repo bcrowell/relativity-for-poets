@@ -75,7 +75,7 @@ Newton is wrong. Both effects would travel at $c$, and they would be detected si
 
 \pagebreak
 
-\section{Electromagnetic waves}
+\section{Electromagnetic waves}\label{sec:em-waves}
 
 ``And God said, Let there be light: and there was light.''
 Light is pretty important to us, as implied by this passage's prominent placement in
@@ -106,6 +106,7 @@ Because of this close relationship between the two fields, any vibration of the 
 vibration of the magnetic field, and vice versa. Therefore there are no purely electric or purely magnetic
 waves. As shown in the diagram, the waves are structured so that the fields vibrate in directions that are
 perpendicular both to each other and to the direction in which the wave is moving.
+Unlike sound waves and water waves, electromagnetic waves are not vibrations of any physical medium.
 
 <% fig("em-spectrum","!htpb") %>
 
@@ -114,3 +115,72 @@ of wave crests that pass over a certain position in one unit of time. A higher f
 Visible light is an electromagnetic wave that has a frequency within a certain range, with the blue and red ends of
 the rainbow differing by about a factor of two. Visible light is only one small segment of the vast electromagnetic
 spectrum, which includes such superficially disparate phenomena as radio waves and x-rays.
+
+Electromagnetic waves carry energy, as you can tell when you use a microwave oven to heat your food.
+
+\section{Gravitational waves}
+
+The equivalence principle tells us that the gravitational field can, at least locally, be considered to be
+an illusion: for a free-falling observer, there is no field. This suggests the possibility that waves in
+the gravitational field might also be illusions. In fact, Einstein tried to publish a paper in 1936 making
+exactly this claim. The paper was wrong, and was rejected based on the report of the Physical Review's
+anonymous referee. (Einstein held a grudge, and never submitted another paper to that journal.) In nontechnical
+language, the important point is that although \emph{locally} we can always consider a gravitational field to be
+fictitious, that doesn't hold on larger scales. On larger scales, we can have tidal forces
+(section \ref{sec:tidal}, p.~\pageref{sec:tidal}), which are objectively real; for example, they can cause water
+to rise higher on a beach.
+
+<% fig("gravitational-wave","!htpb") %>
+
+The figure shows what would happen if a strong enough gravitational wave passed through Albert Einstein's head.
+The effect is to alternately squish and stretch him along two axes perpendicular to the direction in which the
+wave is moving. Because Einstein's head isn't perfectly flexible, it resists these distortions, and the result is
+frictional heating; just like electromagnetic waves, gravitational waves transport energy. A more realistic
+way of detecting a gravitational wave is to replace Einstein's head with a kilometer-long vacuum tube, and monitor
+any stretching or squishing of the tube using a laser; there is a ground-based
+project called LIGO already in operation to try to 
+do this, and a European Space Agency project to launch a space-based system called LISA.
+
+There's good news and bad news about detecting gravitational waves.
+
+First the good news. In order to produce strong gravitational waves, you need large masses (such as stars)
+moving very violently (preferably at speeds close to the speed of light). This means that if astronomers can
+detect gravitational waves coming from outer space, they can learn about rare awesomely apocalyptic processes, such
+as the collision of two black holes. Also, gravitational waves do not interact very strongly with matter, so
+the universe is essentially transparent to them. Our view of the universe through the gravitational-wave spectrum
+would never be blocked by clouds of gas or dust, as is often the case with electromagnetic waves. In particular,
+the very early universe (less than about 100,000 years after the big bang) was full of hot, ionized gas, which was
+completely opaque to light, so gravitational waves are probably the only way we could ever hope to ``see'' the
+early universe directly. Direct detection of any gravitational waves would also be a spectacular confirmation of
+one of general relativity's most important predictions.
+
+The bad news is the same as the good news. Processes violent enough to produce strong gravitational
+waves are uncommon. If such events happen, they happen rarely and typically at vast distances from us.
+The weak interaction of gravitational waves with matter also means that detectors made out of matter
+are not very sensitive to them.
+Therefore it's very difficult to get such a detector to work well enough to give a definite blip.
+
+Luckily direct detection is not the only possible way to verify that
+gravitational waves exist.  In 1974, Russell Hulse and Joseph Taylor
+used the Arecibo radio telescope to discover a pair of neutron stars
+(see p.~\pageref{neutron-star}) orbiting around each other once every
+7.75 hours. They found that this orbital period was gradually shortening,
+by about 68 nanoseconds with each revolution. Detailed analysis of the radio signals
+allowed the stars' masses and orbits to be fully characterized.
+Because these are large masses moving very violently, general
+relativity predicts that they will radiate a huge amount of energy in
+the form of gravitational waves ---  $7\times10^{24}$ watts, or
+about a trillion times our world's total production of electrical
+power.  Because of this loss of energy, the stars are predicted to be
+gradually spiraling inward toward one another, resulting in a
+quickening of their revolutions that matches the observed speed-up to
+within a fraction of a percent. Because of the excellent agreement
+with general relativity in this as well as other observations of the system,
+physicists consider Hulse and Taylor's observations to be a very clearcut,
+albeit indirect, confirmation of the existence of gravitational waves,
+and the two physicists were awarded the Nobel Prize in 1993.
+
+% calc -e "t=(7.75)/(365*24); (76.5 us)t->ns"
+
+% calc -e "x=20000*(10^9)(10^3)(3600 J); y=365*24*3600 s; x/y"
+% http://www.eia.gov/cfapps/ipdbproject/IEDIndex3.cfm?tid=2&pid=2&aid=12

@@ -95,7 +95,8 @@ As a physics student, Einstein was taught that the universe consisted of two ing
 Because we can't touch and feel light, and can't manipulate it with our hands, its properties can be hard to
 pin down. But it often suffices to work with some \emph{model} of light. The ray model is the simplest. Rays
 of light were probably one of the things Euclid had in mind when he imagined perfectly straight lines.
-The wave model has the advantage of providing a straightforward explanation of color: the different rainbow
+The wave model, discussed in section \ref{sec:em-waves}, p.~\pageref{sec:em-waves},
+has the advantage of providing a straightforward explanation of color: the different rainbow
 colors are different wavelengths of light. The particle model seems to contradict the wave model, but in fact
 can be reconciled with it; today light is believed to have both wave and particle properties.
 
