@@ -72,3 +72,45 @@ would be the first way in which earthlings learn the bad news --- the sun would 
 visibly start receding until a little later.
 
 Newton is wrong. Both effects would travel at $c$, and they would be detected simultaneously on earth.
+
+\pagebreak
+
+\section{Electromagnetic waves}
+
+``And God said, Let there be light: and there was light.''
+Light is pretty important to us, as implied by this passage's prominent placement in
+the creation myth. Light is a vibration of the electric and magnetic fields, and to make
+sense out of that statement, you need to have at least some idea of what electric and magnetic fields are.
+The operationalist philosophy (section \ref{sec:operationalism}, p.~\pageref{sec:operationalism}) is that
+this means knowing how to measure them. A magnetic compass measures the direction of the magnetic field.
+A crude method of measuring an electric field is to rub a balloon against your hair in order to put
+some electric charge on it, and then release the balloon; any ambient electric field will cause the balloon
+to accelerate in a certain direction, which is the direction of the field. 
+
+Although physicists didn't realize
+it until late in the game, it turns out that electric and magnetic fields are very closely related.
+If an observer in frame of reference A detects only an electric field, an observer in frame B, moving relative to A,
+sees a mixture of magnetic and electric fields. Similarly, a field that is purely magnetic in one frame
+is a mixture in another frame. For related reasons, a changing electric field creates ---
+or ``induces'' --- a magnetic
+field, and vice versa. This is the principle behind devices such as generators and transformers.
+
+<% fig("em-wave","!htpb") %>
+
+Vibrations in these fields will be emitted by any electric charge that shakes back and forth.
+For example, in a candle flame, the high temperature indicates rapid vibration of the atoms and charged subatomic particles
+in the flames. When you transmit radio waves from the radio antenna hidden inside your cell phone,
+electrons are wiggling back and forth between the ends of a hidden antenna.
+
+Because of this close relationship between the two fields, any vibration of the electric field produces a
+vibration of the magnetic field, and vice versa. Therefore there are no purely electric or purely magnetic
+waves. As shown in the diagram, the waves are structured so that the fields vibrate in directions that are
+perpendicular both to each other and to the direction in which the wave is moving.
+
+<% fig("em-spectrum","!htpb") %>
+
+A wave has a wavelength, which is the distance from one crest to the next, and a frequency, which is the number
+of wave crests that pass over a certain position in one unit of time. A higher frequency means a shorter wavelength.
+Visible light is an electromagnetic wave that has a frequency within a certain range, with the blue and red ends of
+the rainbow differing by about a factor of two. Visible light is only one small segment of the vast electromagnetic
+spectrum, which includes such superficially disparate phenomena as radio waves and x-rays.
