@@ -1,0 +1,74 @@
+<% require "./scripts/simple_figures.rb" %>
+
+
+\chapter{Waves}
+
+\section{No action at a distance}
+
+The Newtonian picture of the universe has particles interacting with each other by exerting
+forces from a distance, and these forces are imagined to occur without any time
+delay. But as we've seen, relativity forbids this. The universal speed $c$ is the maximum
+speed at which cause and effect can propagate. This blanket prohibition applies to any
+force at all. In Star Wars, Obi Wan Kenobi senses the destruction of the planet Alderaan and
+says, ``I felt a great disturbance in the Force, as if millions of voices suddenly
+cried out in terror, and were suddenly silenced.'' No matter what kind of force ``the
+Force'' is, this is impossible. The planet is light-years away, so any information about
+its destruction can only arrive after a time delay of years.
+
+\section{Fields}
+
+Since forces can't be transmitted instantaneously, it becomes natural to imagine force-effects
+spreading outward from their source like ripples on a pond, and we then have no choice but to
+impute some physical reality to these ripples. We call them fields, and they have their own
+independent existence. Gravity is transmitted through the gravitational field.
+Besides gravity, there are other fundamental fields of force such as electricity and magnetism.
+Ripples of the electricity and magnetism are light waves.
+
+Even empty space, then, is not perfectly featureless. It has measurable
+properties. This concept made a deep impression
+on Einstein as a child. He recalled that
+as a five-year-old, the gift of a magnetic compass convinced him that there was ``something behind 
+things, something deeply hidden.''
+
+The smoking-gun argument for this strange notion of
+traveling force ripples comes from the fact that they carry energy. In figure 1,
+Alice and Betty hold  magnets
+A and B at some distance from one another. If Alice chooses to move
+her magnet father from Betty's, as in figure 2, Alice will have to expend some energy
+to fight against the magnetic force, burning off some of the calories from that
+chocolate cheesecake she had at lunch.
+
+<% fig("field-energy-argument","!htpb") %>
+
+But now suppose, as shown in figure 3, that Betty decides to play a trick on Alice
+by tossing magnet B far away just as Alice is getting ready to move magnet A.
+We have already established that Alice can't feel magnet B's motion instantaneously, so the magnetic forces
+must actually be propagated by a magnetic \emph{field}. Of course this experiment is
+utterly impractical, but suppose for the sake of argument that the time it takes the change in the magnetic field
+to propagate across the diagram is long enough so that Alice can complete her motion before she feels the
+effect of B's disappearance. She is still getting stale information about B's position. As she moves A to the
+left, she feels resistance, because the field in her region of space is still the field caused by
+B in its \emph{old} position. She has burned some chocolate cheesecake calories, and it appears that
+conservation of energy has been violated, because these calories can't be properly accounted for
+by any interaction with B, which is long gone.
+
+If we hope to preserve the law of conservation of energy, then the only possible conclusion is that
+the magnetic field itself carries away the cheesecake energy. In fact, this example
+represents an impractical method of transmitting radio waves. Alice burns calories by moving magnet A, and that energy
+goes into the radio waves. Even if B had never existed, the radio waves would still have carried energy,
+and Alice would still have had to do work in order to create them.
+
+Although I referred to magnets in this argument, I never appealed to any properties of the magnetic force,
+so it follows that force-ripples in \emph{any} field carry energy.
+For example, suppose that super-powerful aliens, angered by the advent of disco
+music, come to our solar system on a mission to
+cleanse the universe of our aesthetic contamination. They apply a force to our
+sun, causing it to go flying out of the solar system at a gazillion miles an hour.
+
+Newton expects the gravitational force of the sun on
+the earth to \emph{immediately} start dropping off, and
+and since sunlight takes eight minutes to get from the sun to the earth, the change in gravitational force
+would be the first way in which earthlings learn the bad news --- the sun would not
+visibly start receding until a little later.
+
+Newton is wrong. Both effects would travel at $c$, and they would be detected simultaneously on earth.
