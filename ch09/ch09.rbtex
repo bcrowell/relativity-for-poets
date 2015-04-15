@@ -231,8 +231,8 @@ west 90 degrees along the equator, then goes north to the pole.
 When the bugs start out, they make sure that their gyroscopes agree. When they are reunited, they find that
 the gyroscopes are out of whack. Each bug could claim that the other's gyro is broken, but in reality what
 has happened is an effect of the curvature of their world. In fact, this is a good general definition of what
-we mean by curvature: when curvature is present, parallel-transport from point A to point B will in general
-give a different result, depending on the path chosen.
+we mean by curvature: when curvature is present, parallel-transport from point A to point B can
+give a result that depends on the path chosen.
 
 This path-dependence of parallel transport was verified directly in 2005 in a satellite-based experiment
 called Gravity Probe B. On board the satellite was a gyroscope in the form of a silicon ball spinning frictionlessly
@@ -246,3 +246,5 @@ so the effect was observed as
 a change in the orientation of its axis relative to the stars.
 Over the one-year duration of the mission, the axis twisted around by an angle of about 0.002
 degrees, in good agreement with the predictions of general relativity.
+
+<% fig("gravity-probe-b-geodetic","!htpb") %>
