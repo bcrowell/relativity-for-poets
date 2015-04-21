@@ -274,7 +274,14 @@ it look as though light isn't moving at the speed of light! In fact you are free
 book to any angle you like, and by doing this you can view any particular light cone the way an observer
 in that local area would prefer to draw it --- upright and law-abiding.
 
-We can interpret this as an example of the ambiguity of parallel transport
+The basic problem here is that when we try to visualize everything-that-is all-at-once,
+we run up against the hard realities of relativity.
+An observer O has no technique of measurement that can tell her unambiguously the state of
+motion of some distant thing T. Such a measurement technique would require sending signals from T
+to O, and these signals could be distorted by effects such as Doppler shifts.
+Furthermore, we would have to ask ``motion relative to what?'' The local points of reference near T are different
+than the ones near O.
+A good example of such an ambiguity is the ambiguity of parallel transport
 (section \ref{sec:parallel-transport}, p.~\pageref{sec:parallel-transport}).
 In any local region of spacetime, we can define velocity vectors for things like basketballs and rays of light.
 But if we want to ask how a distant observer would perceive such a velocity vector, we have no unambiguous
