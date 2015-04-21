@@ -81,6 +81,12 @@ photo_credit("detection-by-lensing-and-accretion","Lensing","Wikimedia Commons u
   # https://commons.wikimedia.org/wiki/File:BlackHole_Lensing.gif
 photo_credit("detection-by-lensing-and-accretion","Accretion","S.~Gezari, J.~Guillochon, STScI/NASA, public domain")
   # http://commons.wikimedia.org/wiki/File:A_star_is_consumed_by_a_black_hole.ogv
+photo_credit("map-projections","Landforms for Goode homolosine","Wikimedia Commons user Strebe, CC-BY-SA")
+  # http://commons.wikimedia.org/wiki/File:Goode_homolosine_projection_SW.jpg
+photo_credit("map-projections","Grid for Goode homolosine","Wikimedia Commons user Strebe, CC-BY-SA")
+  # http://commons.wikimedia.org/wiki/File:Goode_homolosine_projection_Tissot_indicatrix.svg
+photo_credit("map-projections","Mercator projection","Wikimedia Commons user Eric Gaba, CC-BY-SA")
+  # http://commons.wikimedia.org/wiki/File:Tissot_indicatrix_world_map_Mercator_proj.svg
 photo_credit("gravitational-wave","Einstein","Oren Jack Turner, 1947, public domain in the U.S")
   # http://commons.wikimedia.org/wiki/File:Albert_Einstein_1947.jpg
 
