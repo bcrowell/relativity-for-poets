@@ -133,10 +133,10 @@ cover the entire universe, but we can't.  In the figure,
 two girls simultaneously drop down from
 tree branches --- one in Los Angeles and one in Mumbai.\label{la-and-mumbai}
 The girl
-free-falling in Los Angeles defines an inertial frame.
-But if the LA girl tries to expand her frame of reference to cover her counterpart in Mumbai, the girl falling
-in Mumbai does not appear to have inertial motion: to the LA girl she looks like she is falling \emph{up}
-with some acceleration (twice the normal acceleration of gravity as viewed in an earth-fixed frame).
+in LA defines an inertial frame, but
+if she tries to expand her frame of reference to cover her counterpart in Mumbai, the Mumbai girl 
+does not appear to have inertial motion: to the LA girl she looks like she is falling \emph{up}
+(with twice the normal acceleration of gravity as viewed in an earth-fixed frame).
 
 <% fig("ep-is-local-girls-and-trees","!htpb") %>
 
@@ -145,6 +145,8 @@ This example shows that the equivalence principle is a purely local thing.
 exist, so that in this sense gravity is only an illusion.
 But we can't do the same thing \emph{globally}, i.e., across all of time and space.
 Gravity is after all inescapably real, if we look at large scales.
+Similarly, tidal forces cannot be dismissed as illusions;
+for example, they destroyed of the comet in figure 2 on p.~\pageref{fig:tidal-force}.
 
 \section{Gravitational time dilation}\label{sec:gravitational-time-dilation}
 

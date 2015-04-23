@@ -163,3 +163,21 @@ can't tell us why they're equal. He just observes that they are. When I shake a 
 its inertia, or inertial mass. When I put it on a scale, I measure its gravitational mass. There is no known reason
 why these two things \emph{have} to be related; it just seems that they are.
 Besides gravity, we have other fundamental forces, such as electricity. These forces have no such property.
+
+\section{Tidal forces}\label{sec:tidal}
+
+If the shoe and the coin start out right next to each other, they stay right next to each other as they fall.
+A different situation is shown in figure 1. In this spacetime diagram, objects A and B start out at unequal distances
+from the earth. Because A is closer, it feels a stronger gravitational force, so it accelerates more rapidly.
+The result is that A and B become more and more separated from each other.
+
+<% fig("tidal-force","h") %>
+
+Figures 2 and 3 show a spectacular example of this effect. In 1994, a comet named Shoemaker-Levy 9
+approached the planet Jupiter on a collision course. A comet is a loosely packed dirty snowball, so
+there is not much holding it together. As this comet approached Jupiter, the small difference in Jupiter's
+gravity between the front and back of the comet was enough to pull it apart, and the fragments subsequently
+separated from each other even more, forming the string of pearls shown in figure 2.
+The fragments hit Jupiter in succession, and because Jupiter spins on its own axis, the impacts occurred at
+different places in the jovian cloud-tops. Figure 3 shows the resulting string of bruises, each about as big
+as the planet earth.

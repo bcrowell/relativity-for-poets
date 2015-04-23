@@ -159,7 +159,7 @@ times, lensing by a black hole has not yet been observed.
 A far easier method is to exploit the fact that, as in the simulated view in figure 3, black holes
 are often actively feeding on nearby matter. In this simulation, an entire star has wandered too close
 to the black hole, which is at the position marked with crosshairs. The star has been broken up by
-tidal forces (more about this in section \ref{sec:tidal}) and is now falling toward the black hole as a cloud
+tidal forces (section \ref{sec:tidal}, p.~\pageref{sec:tidal}) and is now falling toward the black hole as a cloud
 of gas. Internal friction causes the gas to become so hot that it glows in the x-ray part of the spectrum.
 These x-rays are a highly distinctive sign of a black hole. 
 The object known as Cygnus X-1\index{Cygnus X-1} is
@@ -193,7 +193,7 @@ mechanisms is correct.
 
 A typical scheme for evading the one-way nature of the event horizon would be to put a space
 probe on the end of a rope, lower the rope down through the horizon, and then pull it back out.
-The plan won't work, because the rope will break. Why can't we just use a stronger rope?
+The plan won't work, because tidal forces will break the rope. Why can't we just use a stronger rope?
 The answer is that, as we've seen in section \ref{sec:finite-strength}, p.~\pageref{sec:finite-strength},
 relativity imposes ultimate limits on the strengths of materials. This example demonstrates
 a more general fact, which is that the event horizon is not just a barrier that is difficult
@@ -221,7 +221,7 @@ square. She will find absolutely nothing unusual, and everything will be explain
 In particular, she will be able to define a future light cone for herself, as special relativity says she
 can always do. 
 
-But now consider the situation at the final position shown in the diagram, when Alice is just crossing the
+But now consider the situation shown near the top of the diagram, when Alice has crossed the
 event horizon. We know that if she emits a ray of light from this position, aiming it outward, it will not
 escape the black hole. But to Alice, in her frame of reference, special relativity is still locally valid,
 and the ray of light travels, as light always does, at $c$. How can this be, if the light isn't going to escape?
@@ -238,26 +238,42 @@ light cone tips over so far that it all points inward, not outward. Alice can no
 escape, nor can she send a signal back to Bob. For her, there is no future other than the region
 inside the black hole.
 
-\section{Tidal forces}\label{sec:tidal}
+\section{Penrose diagrams}
 
-In the figure on the preceding page, note that Alice and Bob are getting farther apart.
-This is because Alice is closer to the black hole, and falls into it with a greater acceleration.
-This is a real effect of gravity, and neither of them can dismiss it as an illusion. Only \emph{locally}
-can we call gravity an illusion; globally, gravity is real, as in
-the example of the girls in Mumbai and Los Angeles on p.~\pageref{la-and-mumbai}.
-The situation is very similar to the one with the two bugs on p.~\pageref{fig:parable-of-the-bugs},
-except that curvature is causing the two world-lines to diverge rather than converge.
+Because the world is round, we can never reproduce it perfectly on a flat map.
+To flatten its curved surface, we must distort, fold, or cut it.
+The figure below shows two of the many possible ways of accomplishing this.
 
-Imagine that Bob wants to keep Alice safe, so he ties a rope between him and her, like two mountaineers
-on a rope team. The rope will become taut, and will break before Alice crosses the event horizon.
-This physical strain is called a tidal force, because it is the same as the mechanism by which the
-moon's gravity causes the ocean tides. Depending on details such as the mass of the black hole, this
-tidal force may or may not be enough to rip Alice to shreds before she ever reaches the event horizon.
+<% fig("map-projections","!htpb") %>
 
-In 2014, a team of astronomers observed a gas cloud (imaginatively dubbed G2) that was moving
-toward Sagittarius A*, and they attempted to observe its disruption by tidal forces. The cloud held
-together better than they expected and failed to do anything spectacular. The interpretation of the
-event is uncertain.
+In the version on the left, the latitude-longitude grid is rendered such
+that where the lines intersect, they always form right angles. We pay for this feature
+with an extreme distortion of lengths and areas. For example, Greenland looks almost
+as big as Africa, whereas in reality Africa is much larger.
+
+The version on the right has its own pros and cons. Lengths and areas are much more accurately
+represented, but the latitude-longitude boxes have funny nonrectangular shapes.
+
+Something exactly analogous happens when we represent curved spacetime on a flat diagram.
+Two options are shown in the diagram on the facing page. The one on the right is
+just like the one we drew in section \ref{sec:black-hole-light-cones}, with the light cones
+tipping over drunkenly. This tipping is analogous to the non-perpendicularity of the lines
+of latitude and longitude in the right-hand map of the earth. As in the earth map, we have
+the advantage that the sizes of things make sense: the interior region of the black hole is
+of finite size, whereas the exterior region is much bigger --- limited in size only by the
+edge of the page.
+
+<% fig("tipping-vs-penrose","!htpb") %>
+
+The figure on the left is called a Penrose diagram, after mathematician and relativist
+Roger Penrose. Here the light cones are all lined up
+in an orderly way, which is analogous to the orderly rectangular structure of the grid
+lines in the left-hand map of the world. This is an overwhelming advantage, since the
+light cone dictates all of the possible cause-and-effect relationships. For this reason,
+professional relativists use Penrose diagrams much more frequently than the ones
+with tipping light cones. The disadvantage of the Penrose diagram is that sizes are not
+represented accurately. For example, the triangle representing the interior of the black
+hole looks half as big as the diamond showing the whole outside universe.
 
 \section{Speed of light}
 
@@ -287,42 +303,3 @@ In any local region of spacetime, we can define velocity vectors for things like
 But if we want to ask how a distant observer would perceive such a velocity vector, we have no unambiguous
 way to answer the question. This would require parallel-transporting the velocity vector over to where the
 observer is sitting, but parallel-transport is ambiguous and path-dependent.
-
-\pagebreak
-
-\section{Penrose diagrams}
-
-Because the world is round, we can never reproduce it perfectly on a flat map.
-To flatten its curved surface, we must distort, fold, or cut it.
-The figure below shows two of the many possible ways of accomplishing this.
-
-<% fig("map-projections","!htpb") %>
-
-In the version on the left, the grid of latitude and longitude lines is rendered such
-that where the lines intersect, they always form 90-degree angles. We pay for this feature
-with an extreme distortion of lengths and areas. For example, Greenland is made to look almost
-as big as Africa, whereas in reality Africa is much larger.
-
-The version on the right has its own pros and cons. Lengths and areas are much more accurately
-represented, but the latitude-longitude boxes have funny nonrectangular shapes.
-
-Something exactly analogous happens when we represent curved spacetime on a flat diagram.
-Two options are shown in the diagram on the facing page. The one on the right is
-just like the one we drew in section \ref{sec:black-hole-light-cones}, with the light cones
-tipping over drunkenly. This tipping is analogous to the non-perpendicularity of the lines
-of latitude and longitude in the right-hand map of the earth. As in the earth map, we have
-the advantage that the sizes of things make sense: the interior region of the black hole is
-of finite size, whereas the exterior region is much bigger --- limited in size only by the
-edge of the page.
-
-<% fig("tipping-vs-penrose","!htpb") %>
-
-The figure on the left is called a Penrose diagram, after mathematician and relativist
-Roger Penrose. Here the light cones are all lined up
-in an orderly way, which is analogous to the orderly rectangular structure of the grid
-lines in the left-hand map of the world. This is an overwhelming advantage, since the
-light cone dictates all of the possible cause-and-effect relationships. For this reason,
-professional relativists use Penrose diagrams much more frequently than the ones
-with tipping light cones. The disadvantage of the Penrose diagram is that sizes are not
-represented accurately. For example, the triangle representing the interior of the black
-hole looks half as big as the diamond showing the whole outside universe.
