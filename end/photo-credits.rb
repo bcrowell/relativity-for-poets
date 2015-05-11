@@ -93,6 +93,8 @@ photo_credit("map-projections","Mercator projection","Wikimedia Commons user Eri
   # http://commons.wikimedia.org/wiki/File:Tissot_indicatrix_world_map_Mercator_proj.svg
 photo_credit("gravitational-wave","Einstein","Oren Jack Turner, 1947, public domain in the U.S")
   # http://commons.wikimedia.org/wiki/File:Albert_Einstein_1947.jpg
+photo_credit("hubble-flow","Galaxies","Ville Koistinen, CC-BY-SA")
+  # http://commons.wikimedia.org/wiki/File:Hubble_sequence_photo.png
 
 
 print <<-'HEAD'

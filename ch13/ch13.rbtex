@@ -1,0 +1,115 @@
+<% require "./scripts/simple_figures.rb" %>
+
+
+\chapter{The Einstein field equation}\label{ch:efe}
+
+In John Wheeler's formulation (ch.~\ref{ch:matter}, p.~\pageref{ch:matter}),
+``spacetime tells matter how to move, and matter tells spacetime how to curve.''
+So far, we've applied these ideas to black holes.
+Clearly cosmology and the big bang are the other must-see item on our whirlwind tour of general relativity,
+and in order to understand these things we need to flesh out Wheeler's description
+a little more. Whereas a black hole is 100\%
+empty space, the cosmos is more of a uniform soup of matter whizzing around.
+Whether we look at a black hole from a safe distance or are brave enough to dive
+in past the event horizon, the effects we see are all due to the matter contained in
+the singularity, which is at a distance from us. But when we study the cosmos, we
+can't go outside and observe it from far away --- as far as we know, there is no outside.
+We're inside, like a fly in the soup.
+
+\pagebreak
+
+\section{Tidal and non-tidal curvature}
+
+This distinction between matter-here and matter-over-there is directly coded into the
+Einstein field equation, which I'll describe here in words and pictures rather than mathematical symbols.
+
+<% fig("tidal-versus-not-tidal","!htpb") %>
+
+In figure 1, someone releases a bag of marbles near the earth, in a spherical cloud that is initially
+at rest and at some distance from our planet. As in the real-world example of Comet
+Shoemaker-Levy (section \ref{sec:tidal}, p.~\pageref{sec:tidal}), the cloud stretches out due to tidal
+stresses; the marbles that start out closer to the earth experience stronger gravity and accelerate more quickly than the
+ones farther away. But this is not the only effect on the shape of the cloud. The whole cloud is angling in along a
+cone whose tip is at the center of the earth, and therefore the cloud simultaneously gets \emph{narrower} in the
+transverse direction. The result turns out to be that although the cloud is distorted into an ellipse,
+its volume stays exactly the same.
+
+The cloud of marbles in figure 2 has been released so that it encompasses the earth. This is gravity due to a mass
+that is present, not absent. The cloud contracts in all three dimensions. Its volume gets smaller, and its
+rate of contraction gets faster as time goes on, because the marbles are \emph{accelerating}, not just
+moving at constant speed.
+
+Although these pictures are presented in terms of a cloud of physical particles, their only role was to
+free-fall along geodesic paths and let us visualize that set of geodesics. These world-lines are initially
+parallel, because the marbles start ar rest, but as time goes on they start to converge. When lines start
+out parallel but later start to converge or diverge, we're dealing with curvature
+(recall section \ref{sec:gravity-as-curvature}, \pageref{sec:gravity-as-curvature}). What figures 1 and 2
+really show us, then, is a distinction between two types of \emph{curvature}: tidal curvature caused
+by matter-over-there as distinguished from non-tidal curvature caused by matter-right-here.
+
+The main idea of the Einstein field equations, translated into words, is that they relate the non-tidal
+curvature to the matter-right-here. Ordinary matter with positive mass-energy creates non-tidal curvature
+that is positive, meaning that a cloud tends to pull together. If it's initially at rest, it contracts
+faster and faster. If it's initially expanding, its expansion slows down; it may or may not reach a point
+where it stops and recontracts.
+
+If there is no matter-right-here (other than that of the marbles themselves, which we assume to be
+negligible), we have only tidal curvature. A common reason for tidal curvature is that there is some
+mass-over-there, as in figure 1. This is not the only possibility, however. For example, gravitational
+waves are also a type of tidal curvature; perhaps you noticed the similarity between figure 1 and the
+illustration on p.~\pageref{fig:gravitational-wave} of gravitational waves stretching and squishing
+Einstein's head.
+
+\pagebreak
+
+\section{Conservation}
+
+Many of the most fundamental laws of physics we have are conservation laws, which say that
+stuff can't just appear or disappear. For example, let's say in a cosmological context that ``stuff''
+means galaxies. Of course there is no specific law of conservation of galaxies, but counting galaxies
+is easy visually, and if an entire galaxy did spontaneously wink out of existence (scary!), it would
+certainly violate conservation laws such as conservation of energy-momentum.
+
+<% fig("hubble-flow","!htpb") %>
+
+The figure shows a simple way of visualizing this on
+a spacetime diagram.\footnote{By the way, I've drawn them so that their
+world-lines appear to flow like a liquid, and although there
+is no reason that they have to do this, real galaxies usually approximately do. This is because they
+formed by gravitational collapse from a primordial cloud of gas and dust, and that cloud did behave somewhat
+like a fluid. When we average out the individual variations, the broad flock-of-birds pattern is called
+the Hubble flow.}
+Galaxies are entering and
+exiting the stage, but that doesn't mean they're being spontaneously created or destroyed. In fact we
+can verify the conservation of galaxies by counting how many world-lines enter the rectangular figure
+and how many exit. Seven come in (six through the bottom and one through the left side) and seven go out
+(six out the top and one out the right side). Because $7=7$, we have conservation of galaxies.
+
+This counting technique is in fact a mathematically precise and complete way of defining some of the
+fundamental conservation laws of physics,
+such as conservation of electrical charge. When you use a laptop computer, you aren't using up the charge
+of the battery, although people may say it that way in popular speech. The same electrons stay in the laptop
+computer the whole time; they only get shuffled around, not created or used up. If we imagine hypothetically
+the physically impossible situation in which one of the electrons gets used up, it would be like a situation
+in which one of the world-lines simply terminated in the middle of the picture. That world-line would have
+entered the picture but never exited, and the mismatch in the two counts is how we would detect the violation
+(and presumably get the Nobel prize for it).
+
+I don't know of a nonmathematical argument to prove it, but conservation of energy-momentum
+is directly implied by the Einstein field equation; without it, the equation breaks down and
+becomes mathematical nonsense. This is a firm prediction of general relativity, so if any
+observation ever does disprove conservation of energy-momentum, even by some tiny amount,
+then general relativity will have been disproved as well.
+
+Conservation of energy-momentum
+is similar to the other examples above, but with the difference that energy-momentum is a vector,
+not a scalar (section \ref{sec:vectors}, p.~\pageref{sec:vectors}, and
+section \ref{sec:energy-momentum}, p.~\pageref{sec:energy-momentum}).
+This leads to an important loophole in general relativity's conservation of energy-momentum.
+If was draw our rectangular diagram too big, then we have a problem verifying that the energy-momentum
+vectors coming into the box add up to the same amount as what emerges. This is because if we want
+to compare two vectors, we have to do it using parallel transport
+(\ref{sec:parallel-transport}, p.~\pageref{sec:parallel-transport}). But when spacetime is curved,
+parallel transport is ambiguous. Therefore the conservation law only holds if we draw a box small
+enough so that the curvature of spacetime doesn't matter. In other words, conservation of energy-momentum
+in general relativity is only a \emph{local} conservation law.

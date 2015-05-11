@@ -70,7 +70,7 @@ In fancy language, we say that the magnitude of a vector is \emph{invariant} und
 A meter-stick is
 still a meter-stick, no matter how we turn it around.
 
-\section{Relativistic vectors and scalars}
+\section{Relativistic vectors and scalars}\label{sec:vectors}
 
 But in relativity, a meter-stick might not be a meter long. Its length could be Lorentz contracted.
 This is a sign that we need to rethink the idea of vectors and scalars a little in order to make

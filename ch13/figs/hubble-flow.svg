@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3067"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="hubble-flow.svg">
+  <defs
+     id="defs3069">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path4634"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-9"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-2"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-7"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-8"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-0"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5181"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5183"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-3"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5369"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5371"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-79"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-81"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-70"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6769896"
+     inkscape:cx="536.62978"
+     inkscape:cy="655.51135"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3072">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect2985-8-1-4"
+       width="379.0441"
+       height="251.89188"
+       x="375.50616"
+       y="198.04773" />
+    <image
+       y="31.047604"
+       x="623.22876"
+       id="image3975-5-5"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+       height="44.528065"
+       width="60.054646"
+       transform="matrix(0.95687241,0.2905085,-0.2905085,0.95687241,0,0)" />
+    <image
+       y="225.83551"
+       x="495.87137"
+       id="image4037-5-8"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       height="29.906752"
+       width="31.69223" />
+    <image
+       y="370.69901"
+       x="571.12451"
+       id="image4099-3-5"
+       xlink:href="hubble-flow-bitmaps/galaxy-3.png"
+       height="37.092575"
+       width="65.94236"
+       transform="matrix(0.9735025,-0.22867638,0.22867638,0.9735025,0,0)" />
+    <image
+       y="227.32626"
+       x="555.3385"
+       id="image4037-9-6-8"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       height="26.925219"
+       width="23.343937" />
+    <image
+       y="232.69302"
+       x="632.26215"
+       id="image4037-9-2-3-5"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       height="14.999086"
+       width="23.343937" />
+    <image
+       y="128.38365"
+       x="589.99298"
+       id="image3975-5"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+       height="44.528065"
+       width="60.054646"
+       transform="matrix(0.95687241,0.2905085,-0.2905085,0.95687241,0,0)" />
+    <image
+       y="309.31842"
+       x="429.23267"
+       id="image4037-5"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       height="29.906752"
+       width="31.69223" />
+    <image
+       y="442.45831"
+       x="511.54227"
+       id="image4099-3"
+       xlink:href="hubble-flow-bitmaps/galaxy-3.png"
+       height="37.092575"
+       width="65.94236"
+       transform="matrix(0.9735025,-0.22867638,0.22867638,0.9735025,0,0)" />
+    <image
+       y="310.80917"
+       x="489.8924"
+       id="image4037-9-6"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       height="26.925219"
+       width="23.343937" />
+    <image
+       y="316.77225"
+       x="582.91632"
+       id="image4037-9-2-3"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       height="14.999086"
+       width="23.343937" />
+    <image
+       y="220.6178"
+       x="583.02356"
+       id="image3975"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+       height="44.528065"
+       width="60.054646"
+       transform="matrix(0.95687241,0.2905085,-0.2905085,0.95687241,0,0)" />
+    <image
+       y="395.55002"
+       x="390.40219"
+       id="image4037"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       height="29.906752"
+       width="31.69223" />
+    <image
+       y="520.66168"
+       x="467.3732"
+       id="image4099"
+       xlink:href="hubble-flow-bitmaps/galaxy-3.png"
+       height="37.092575"
+       width="65.94236"
+       transform="matrix(0.9735025,-0.22867638,0.22867638,0.9735025,0,0)" />
+    <path
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 389.96752,449.14298 c 27.26809,-92.14656 68.62329,-144.85216 97.05169,-178.00952 28.42845,-33.15734 70.57677,-72.60065 70.57677,-72.60065"
+       id="path4581-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <image
+       y="397.04077"
+       x="455.23608"
+       id="image4037-9"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       height="26.925219"
+       width="23.343937" />
+    <image
+       y="215.10196"
+       x="416.47617"
+       id="image4037-5-2"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       height="42.429192"
+       width="50.774044" />
+    <path
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 454.16115,449.15664 c 27.26809,-92.14656 55.7638,-141.72642 84.19221,-174.88377 28.42845,-33.15734 68.97246,-75.39265 68.97246,-75.39265"
+       id="path4581-1-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 500.25078,449.11716 c 27.2681,-92.14656 40.97878,-120.26913 62.4558,-153.00652 22.94943,-34.98181 74.91022,-97.28962 74.91022,-97.28962"
+       id="path4581-1-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <image
+       y="406.5817"
+       x="553.0304"
+       id="image4037-9-2"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       height="14.999086"
+       width="23.343937" />
+    <path
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 554.7489,449.49345 c 27.2681,-92.14656 29.22207,-106.57688 51.33102,-148.13335 19.14173,-35.97923 70.5163,-102.64197 70.5163,-102.64197"
+       id="path4581-1-0-3-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 601.2428,449.16331 c 16.97083,-86.88271 26.90751,-105.02769 42.47631,-138.56309 19.73601,-42.51155 58.73082,-111.88851 58.73082,-111.88851"
+       id="path4581-1-0-3-9-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <image
+       y="-143.41049"
+       x="-833.64984"
+       id="image3975-0"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+       height="61.820957"
+       width="25.468861"
+       transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+       inkscape:transform-center-y="16.100283" />
+    <image
+       y="-66.325378"
+       x="-816.39722"
+       id="image3975-0-0"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+       height="61.820957"
+       width="25.468861"
+       transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+       inkscape:transform-center-y="16.100276" />
+    <path
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 714.65073,449.38405 c 11.01278,-90.27167 40.22052,-206.78575 40.16135,-205.0767"
+       id="path5343"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 374.69228,298.96867 c 0,0 37.59595,-37.00398 60.73519,-57.726 17.97862,-16.10051 53.84896,-42.67821 53.84896,-42.67821"
+       id="path5347"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+  </g>
+</svg>

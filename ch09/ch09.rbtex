@@ -106,7 +106,7 @@ where it describes the world-line of an object moving inertially.
 
 <% fig("gravitational-lune","!htpb") %>
 
-\section{Gravity as curvature}
+\section{Gravity as curvature}\label{sec:gravity-as-curvature}
 
 The figure on this page shows the parable of the bugs translated from space into spacetime.
 Spacesuited astronauts 1 and 2 are initially flying off in opposite directions. Each astronaut can verify

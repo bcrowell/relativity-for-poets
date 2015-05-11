@@ -29,7 +29,7 @@ If the results are the same for the standard object as for our object of unknown
 then the unknown has a mass of one unit. If three copies of the standard object bundled
 together give the same results as our unknown, then its mass is three units.
 
-\section[How hard, how loud?]{How hard is the hit, how loud is the bang?}
+\section[How hard, how loud?]{How hard is the hit, how loud is the bang?}\label{sec:energy-momentum}
 
 Mass measures how hard it would be to change an object's motion, but we would also
 like to have some way to measure how much motion it actually \emph{has}.
