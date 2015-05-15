@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="hubble-homogeneity.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0803639"
+     inkscape:cx="154.85467"
+     inkscape:cy="811.99535"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="872"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3190"
+       width="297.2088"
+       height="279.07928"
+       x="13.874607"
+       y="80.626602" />
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/alr/ch12/figs/no-landmarks-line-bitmaps/galaxy-3.png"
+       xlink:href="no-landmarks-line-bitmaps/galaxy-3.png"
+       y="251.36076"
+       x="201.81149"
+       id="image3187"
+       height="37.228718"
+       width="66.184387"
+       transform="matrix(0.99744327,0.07146272,-0.07146272,0.99744327,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="210.26266"
+       y="322.29123"
+       id="text4012"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4014"
+         x="210.26266"
+         y="322.29123">C</tspan></text>
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/alr/ch12/figs/no-landmarks-line-bitmaps/galaxy-1.png"
+       xlink:href="no-landmarks-line-bitmaps/galaxy-1.png"
+       y="211.00095"
+       x="169.67902"
+       id="image3063"
+       height="44.655266"
+       width="60.27507"
+       transform="matrix(0.94435042,0.32894115,-0.32894115,0.94435042,0,0)" />
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/alr/ch12/figs/no-landmarks-line-bitmaps/galaxy-2.png"
+       xlink:href="no-landmarks-line-bitmaps/galaxy-2.png"
+       y="299.14078"
+       x="57.906136"
+       id="image3125"
+       height="39.592449"
+       width="41.956177"
+       transform="matrix(0.96332398,-0.26834102,0.26834102,0.96332398,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="104.27172"
+       y="322.29123"
+       id="text4004"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4006"
+         x="104.27172"
+         y="322.29123">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="156.08911"
+       y="322.29123"
+       id="text4008"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4010"
+         x="156.08911"
+         y="322.29123">B</tspan></text>
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/alr/ch12/figs/no-landmarks-line-bitmaps/galaxy-3.png"
+       xlink:href="no-landmarks-line-bitmaps/galaxy-3.png"
+       y="170.73123"
+       x="222.04195"
+       id="image3187-4"
+       height="37.228718"
+       width="66.184387"
+       transform="matrix(0.99744327,0.07146272,-0.07146272,0.99744327,0,0)" />
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/alr/ch12/figs/no-landmarks-line-bitmaps/galaxy-1.png"
+       xlink:href="no-landmarks-line-bitmaps/galaxy-1.png"
+       y="144.27791"
+       x="121.13612"
+       id="image3063-4"
+       height="44.655266"
+       width="60.27507"
+       transform="matrix(0.94435042,0.32894115,-0.32894115,0.94435042,0,0)" />
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/alr/ch12/figs/no-landmarks-line-bitmaps/galaxy-2.png"
+       xlink:href="no-landmarks-line-bitmaps/galaxy-2.png"
+       y="223.05968"
+       x="79.099083"
+       id="image3125-7"
+       height="39.592449"
+       width="41.956177"
+       transform="matrix(0.96332398,-0.26834102,0.26834102,0.96332398,0,0)" />
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/alr/ch12/figs/no-landmarks-line-bitmaps/galaxy-3.png"
+       xlink:href="no-landmarks-line-bitmaps/galaxy-3.png"
+       y="80.253326"
+       x="241.46017"
+       id="image3187-4-6"
+       height="37.228718"
+       width="66.184387"
+       transform="matrix(0.99744327,0.07146272,-0.07146272,0.99744327,0,0)" />
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/alr/ch12/figs/no-landmarks-line-bitmaps/galaxy-1.png"
+       xlink:href="no-landmarks-line-bitmaps/galaxy-1.png"
+       y="66.991684"
+       x="72.879158"
+       id="image3063-4-1"
+       height="44.655266"
+       width="60.27507"
+       transform="matrix(0.94435042,0.32894115,-0.32894115,0.94435042,0,0)" />
+    <image
+       sodipodi:absref="/home/bcrowell/Documents/writing/books/poets/alr/ch12/figs/no-landmarks-line-bitmaps/galaxy-2.png"
+       xlink:href="no-landmarks-line-bitmaps/galaxy-2.png"
+       y="137.45972"
+       x="102.94359"
+       id="image3125-7-9"
+       height="39.592449"
+       width="41.956177"
+       transform="matrix(0.96332398,-0.26834102,0.26834102,0.96332398,0,0)" />
+  </g>
+</svg>

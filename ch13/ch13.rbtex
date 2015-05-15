@@ -1,24 +1,41 @@
 <% require "./scripts/simple_figures.rb" %>
 
+\chapter{For dust thou art}
 
-\chapter{The Einstein field equation}\label{ch:efe}
+\begin{quote}
+In the sweat of thy face shalt thou eat bread, till thou return unto
+the ground; for out of it wast thou taken: for dust thou art, and unto
+dust shalt thou return. --- Genesis 3:19
+\end{quote}
+
+The physical processes being described in this
+famous verse from Genesis show a spooky similarity to the modern
+scientific description of matter. Replace ``dust'' with ``atoms,''
+and you have a picture in which matter is conserved, and atoms are
+recycled as they pass through various forms.
+
+``Dust'' also has a technical meaning in relativity: a swarm of
+material objects, all moving relative to each other at speeds that are
+small compared to $c$. A flock of galaxies, for example, would be
+``dust'' to a cosmologist, with the galaxies as the dust particles.
+In this chapter we look at cosmological models in which the matter is
+in the form of dust, and the dust is ordinary matter, ultimately
+composed of atoms. As we'll see later, this picture was drastically
+revised starting around 1998 with the discovery of dark matter and dark energy.
+
+\section{The Einstein field equation}\label{sec:efe}
 
 In John Wheeler's formulation (ch.~\ref{ch:matter}, p.~\pageref{ch:matter}),
 ``spacetime tells matter how to move, and matter tells spacetime how to curve.''
-So far, we've applied these ideas to black holes.
-Clearly cosmology and the big bang are the other must-see item on our whirlwind tour of general relativity,
-and in order to understand these things we need to flesh out Wheeler's description
+So far, we've applied these ideas to black holes, but to apply them to cosmology
+we need to flesh out Wheeler's description
 a little more. Whereas a black hole is 100\%
-empty space, the cosmos is more of a uniform soup of matter whizzing around.
+empty space, the cosmos is more of a uniform soup (possibly of ``dust'').
 Whether we look at a black hole from a safe distance or are brave enough to dive
 in past the event horizon, the effects we see are all due to the matter contained in
 the singularity, which is at a distance from us. But when we study the cosmos, we
 can't go outside and observe it from far away --- as far as we know, there is no outside.
 We're inside, like a fly in the soup.
-
-\pagebreak
-
-\section{Tidal and non-tidal curvature}
 
 This distinction between matter-here and matter-over-there is directly coded into the
 Einstein field equation, which I'll describe here in words and pictures rather than mathematical symbols.
@@ -59,8 +76,6 @@ mass-over-there, as in figure 1. This is not the only possibility, however. For 
 waves are also a type of tidal curvature; perhaps you noticed the similarity between figure 1 and the
 illustration on p.~\pageref{fig:gravitational-wave} of gravitational waves stretching and squishing
 Einstein's head.
-
-\pagebreak
 
 \section{Conservation}
 
