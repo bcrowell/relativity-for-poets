@@ -5,23 +5,18 @@
 \begin{quote}
 In the sweat of thy face shalt thou eat bread, till thou return unto
 the ground; for out of it wast thou taken: for dust thou art, and unto
-dust shalt thou return. --- Genesis 3:19
+dust shalt thou return.
 \end{quote}
 
-The physical processes being described in this
-famous verse from Genesis show a spooky similarity to the modern
-scientific description of matter. Replace ``dust'' with ``atoms,''
-and you have a picture in which matter is conserved, and atoms are
+Replace ``dust'' with ``atoms,''
+and this verse from Genesis tells a physics story in which matter is conserved, and atoms are
 recycled as they pass through various forms.
-
 ``Dust'' also has a technical meaning in relativity: a swarm of
 material objects, all moving relative to each other at speeds that are
 small compared to $c$. A flock of galaxies, for example, would be
 ``dust'' to a cosmologist, with the galaxies as the dust particles.
 In this chapter we look at cosmological models in which the matter is
-in the form of dust, and the dust is ordinary matter, ultimately
-composed of atoms. As we'll see later, this picture was drastically
-revised starting around 1998 with the discovery of dark matter and dark energy.
+all in the form of dust, which until about 1998 was thought to be a a realistic assumption.
 
 \section{The Einstein field equation}\label{sec:efe}
 
@@ -30,7 +25,7 @@ In John Wheeler's formulation (ch.~\ref{ch:matter}, p.~\pageref{ch:matter}),
 So far, we've applied these ideas to black holes, but to apply them to cosmology
 we need to flesh out Wheeler's description
 a little more. Whereas a black hole is 100\%
-empty space, the cosmos is more of a uniform soup (possibly of ``dust'').
+empty space, the cosmos is more of a uniform soup.
 Whether we look at a black hole from a safe distance or are brave enough to dive
 in past the event horizon, the effects we see are all due to the matter contained in
 the singularity, which is at a distance from us. But when we study the cosmos, we
@@ -64,7 +59,7 @@ out parallel but later start to converge or diverge, we're dealing with curvatur
 really show us, then, is a distinction between two types of \emph{curvature}: tidal curvature caused
 by matter-over-there as distinguished from non-tidal curvature caused by matter-right-here.
 
-The main idea of the Einstein field equations, translated into words, is that they relate the non-tidal
+The main idea of the Einstein field equation, translated into words, is that it relates the non-tidal
 curvature to the matter-right-here. Ordinary matter with positive mass-energy creates non-tidal curvature
 that is positive, meaning that a cloud tends to pull together. If it's initially at rest, it contracts
 faster and faster. If it's initially expanding, its expansion slows down; it may or may not reach a point
@@ -72,10 +67,16 @@ where it stops and recontracts.
 
 If there is no matter-right-here (other than that of the marbles themselves, which we assume to be
 negligible), we have only tidal curvature. A common reason for tidal curvature is that there is some
-mass-over-there, as in figure 1. This is not the only possibility, however. For example, gravitational
+matter-over-there, as in figure 1. This is not the only possibility, however. For example, gravitational
 waves are also a type of tidal curvature; perhaps you noticed the similarity between figure 1 and the
 illustration on p.~\pageref{fig:gravitational-wave} of gravitational waves stretching and squishing
 Einstein's head.
+
+How do we measure ``matter'' for the purposes of the field equation? Roughly speaking, we should use
+mass-energy, but in fact the \emph{pressure} of the matter also comes into play in a mathematical way
+that is too complex to describe here. It turns out, however,
+that this pressure effect can be safely ignored if the relative speeds of the matter particles are small
+compared to $c$, which is part of what we mean by the definition of dust.
 
 \section{Conservation}
 
@@ -88,12 +89,7 @@ certainly violate conservation laws such as conservation of energy-momentum.
 <% fig("hubble-flow","!htpb") %>
 
 The figure shows a simple way of visualizing this on
-a spacetime diagram.\footnote{By the way, I've drawn them so that their
-world-lines appear to flow like a liquid, and although there
-is no reason that they have to do this, real galaxies usually approximately do. This is because they
-formed by gravitational collapse from a primordial cloud of gas and dust, and that cloud did behave somewhat
-like a fluid. When we average out the individual variations, the broad flock-of-birds pattern is called
-the Hubble flow.}
+a spacetime diagram.
 Galaxies are entering and
 exiting the stage, but that doesn't mean they're being spontaneously created or destroyed. In fact we
 can verify the conservation of galaxies by counting how many world-lines enter the rectangular figure
@@ -128,3 +124,58 @@ to compare two vectors, we have to do it using parallel transport
 parallel transport is ambiguous. Therefore the conservation law only holds if we draw a box small
 enough so that the curvature of spacetime doesn't matter. In other words, conservation of energy-momentum
 in general relativity is only a \emph{local} conservation law.
+
+\section{Change or changelessness?}
+
+Now we have two tools: the Einstein field equation and conservation of energy-momentum.
+When Einstein invented these two tools in 1915, scientists had a preexisting preference for
+uniformitarianism, which was the idea that the universe had always existed, would always exist,
+and would, on the average, always look the same. Uniformitarianism had arisen as a reaction
+against catastrophism, an outlook on natural history associated with Goerges Cuvier (1769-1832),
+who told a story of a world dominated by dramatic events such as massive volcanic eruptions.
+The debate between
+the two schools of thought had revolved around concrete scientific questions, such as whether
+California's spectacular Yosemite Valley had been formed by a sudden and breathtaking subsidence
+or a gradual process of glacial erosion. But the backdrop to this debate had been the feeling
+that catastrophism smelled like an attempt to shoehorn Biblical events such as Noah's flood
+into the geological record.
+
+The Einstein field equation doesn't allow for a permanent and unchanging cosmos
+with dust as its contents.
+Suppose that we had such
+a universe, and consider a small region within it, containing a sampling of galaxies (dust particles).
+The definition of dust tells us that the galaxies are moving at nonrelativistic speeds relative to their
+neighbors, so we can adopt a frame of reference tied to one of the galaxies, and
+in this frame the speeds of the
+others will also be approximately zero, as in spacetime diagram 1 in the 
+figure. We've picked out a set of particles, initially at rest,
+very much like one of the clouds of marbles
+in the figures on p.~\pageref{fig:tidal-versus-not-tidal}.
+But unlike the marbles, our galaxies have a significant amount of mass of their own.
+That's matter-right-here, so the cloud will start to shrink faster and faster, as shown in figure 2.
+But this is a contradiction to our assumption that the universe was unchanging.
+What general relativity \emph{does} allow is a universe that is contracting, expanding (figure 3),
+or expanding and then recontracting (figure 4).
+
+<% fig("possible-and-impossible-cosmologies","!htpb") %>
+
+Einstein realized this early on, but the idea of a contracting or expanding universe
+had never been suggested on any theoretical or empirical grounds, so he rejected it
+and focused his ingenuity on fixing what he saw as a problem with his theory.
+It was not until the 1930s that evidence began to appear that the universe actually
+was expanding. The crucial foundational work had been done by the astronomers
+Henrietta Swan Leavitt and Vesto Slipher, who worked out methods of determining the
+distances to other galaxies as well as their motion along the line connecting us to them.
+The techniques were put together by Edwin Hubble at the Mount Wilson observatory near
+Los Angeles. The theory was worked out in full by the Russian physicist
+Alexander Friedmann, and the Belgian priest Georges Lema\^itre proposed that if one
+extrapolated backward, there must have been a time when all of the matter in the universe
+had emerged from a ``cosmic egg'' --- what we now call the big bang.
+
+Einsten hated it, and told Lema\^itre, ``Your calculations are correct, but your physics is abominable.''
+The British astronomer Fred Hoyle came up with an alternative, shown in figure 5, called the steady-state model.
+According to Hoyle's idea, the universe expands, and everything gets farther apart, but at the same time
+matter is spontaneously springing into existence, so that on the average, the density of matter stays the same.
+Thus although the universe isn't static (unmoving), it looks the same at all eras of history. One problem
+with Hoyle's theory was that the proposed creation of matter is exactly the kind of nonconservation of
+energy-momentum that is forbidden by general relativity.
