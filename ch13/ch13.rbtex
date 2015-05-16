@@ -179,3 +179,58 @@ matter is spontaneously springing into existence, so that on the average, the de
 Thus although the universe isn't static (unmoving), it looks the same at all eras of history. One problem
 with Hoyle's theory was that the proposed creation of matter is exactly the kind of nonconservation of
 energy-momentum that is forbidden by general relativity.
+
+\section{Homogeneity and isotropy}
+
+The night sky looks like a bowl: the eye has no way of judging depth. But once Leavitt and
+others had developed the appropriate techniques, it became possible to map out the structure
+of the universe on large scales --- the scales on which we could consider galaxies as the
+``dust'' grains in our models. As surveys of the sky became more sensitive, these maps were
+able to cover larger and larger distance scales, like a cosmic zoom outward. Structure is
+evident on these maps, including black empty spaces like the holes in Swiss cheese 
+and stringy structures like spiderwebs. These voids and filaments are believed to have been
+formed by gravitational collapse that occurred during and despite cosmological expansion.
+But on the very largest scales, beyond a few hundred million light years, we no longer
+see any structure. The map looks like an undifferentiated, random scattering of galaxies.
+
+It is therefore natural to simplify our cosmological models by making the approximation that
+the universe is \emph{homogeneous} on the average, i.e., no region looks different from any
+other region. Furthermore, it does not appear that the universe has any special axis or preferred
+direction, such as an axis of rotation or a special direction with which spiral galaxies like to
+align themselves. This additional symmetry is called \emph{isotropy}. The figures on the facing
+page show visual examples that demonstrate these two symmetries.
+
+<% fig("homogeneity-and-isotropy","!htpb") %>
+
+\pagebreak
+
+\section{Hubble's law}
+
+The spacetime diagram in figure 1 on the facing page shows an expanding universe,
+simplified by focusing on three galaxies that happen to start out equally spaced along a line.
+This is the frame of an observer in the middle galaxy, B. Galaxies A and C each
+start out one unit of distance away from B, and over the course of the time shown,
+they end up two units away. 
+
+Why do distances AB and BC both have to grow by the same
+amount over the same time interval? They don't, and in reality they probably wouldn't, if
+we were actually talking about three nearby galaxies. But consider this instead as a cartoon
+representing the structure of the universe on the largest scales.
+Then by homogeneity, both of these distances have to expand at the same rate.
+
+Figure 2 shows the same situation in a frame where galaxy A is at rest. Initially,
+observer Alice in galaxy A sees B as being one unit away, and C as lying at a distance of two
+units. These distances of 1 and 2 double to 2 and 4. Alice says that B is moving away from her
+at some speed, and C is fleeing at double that speed. (Of course Alice won't live long enough
+to watch the process play out. She will actually measure these speeds using Doppler shifts ---
+the technique pioneered by Slipher.) The velocity of recession $v$ is proportional to the distance $d$.
+
+This proportionality is known as Hubble's law. The constant of proportionality is called the
+Hubble constant, $H$, so that we have $v=Hd$. Suppose for the moment that, as implied by the diagrams, the motion
+of each galaxy is inertial; gravity is negligible. Then by using the grade-school equation
+$(\text{speed})=(\text{distance})/(\text{time})$, we find that if we extrapolate the expansion backward
+in time, there was a time equal to $1/H$ in the past when all three galaxies were in the same place.
+That is, the Hubble constant can be interpreted as the inverse of the age of the universe, provided that
+the expansion has been at a constant rate.
+
+<% fig("hubble-law","!htpb") %>

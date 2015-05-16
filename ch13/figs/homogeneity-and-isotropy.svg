@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3067"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="homogeneity-and-isotropy.svg">
+  <defs
+     id="defs3069">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path4634"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-9"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-2"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-7"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-8"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-0"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5181"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5183"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-3"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5369"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5371"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-79"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-81"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4634-70"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.187837"
+     inkscape:cx="597.30725"
+     inkscape:cy="549.81247"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3072">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4379"
+       transform="matrix(1,0,0,1.0150911,0.58815002,-11.981404)">
+      <rect
+         y="195.4679"
+         x="370.53448"
+         height="188.325"
+         width="382.5"
+         id="rect2985-3"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <image
+         sodipodi:absref="hubble-flow-bitmaps/galaxy-1.png"
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="95.245964"
+         x="466.06042"
+         id="image3975"
+         height="24.478376"
+         width="33.01379"
+         transform="matrix(0.95687241,0.2905085,-0.2905085,0.95687241,0,0)" />
+      <image
+         sodipodi:absref="hubble-flow-bitmaps/galaxy-1.png"
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-205.62161"
+         x="-498.60464"
+         id="image3975-0-0"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+         inkscape:transform-center-y="8.8507882"
+         inkscape:transform-center-x="2.5542908e-05" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="257.66309"
+         x="486.18549"
+         id="image3975-7"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.99377406,-0.11141413,0.11540304,0.99331875,0,0)" />
+      <image
+         inkscape:transform-center-y="-4.5781578"
+         inkscape:transform-center-x="-10.188234"
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-354.35526"
+         x="-495.75632"
+         id="image3975-7-9"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.99448322,0.10489577,-0.06334937,-0.99799141,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-35.251324"
+         x="735.14795"
+         id="image3975-7-6"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.93618587,0.35150535,-0.34774392,0.93758955,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="18.376547"
+         x="683.20099"
+         id="image3975-7-0"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.91026557,0.41402487,-0.41036699,0.91192046,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-120.66839"
+         x="654.29352"
+         id="image3975-7-7"
+         height="28.667194"
+         width="27.95208"
+         transform="matrix(0.848668,0.52892591,-0.37015723,0.92896912,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-70.353844"
+         x="-654.26654"
+         id="image3975-7-2"
+         height="26.690357"
+         width="32.179054"
+         transform="matrix(-0.91436739,-0.40488552,0.50113737,-0.86536775,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="205.3914"
+         x="504.66599"
+         id="image3975-7-08"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.96216133,0.27248042,-0.26861534,0.96324753,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="490.25317"
+         x="163.51634"
+         id="image3975-7-1"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.77231736,-0.63523688,0.63833247,0.76976078,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="406.62344"
+         x="451.56805"
+         id="image3975-7-5"
+         height="32.785568"
+         width="19.671644"
+         transform="matrix(0.97829142,-0.2072339,0.06137186,0.99811497,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="741.42194"
+         x="-45.001972"
+         id="image3975-7-3"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.43159898,-0.90206559,0.9037911,0.42797388,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-40.131355"
+         x="-709.19257"
+         id="image3975-0-0-8"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+         inkscape:transform-center-y="8.8507882"
+         inkscape:transform-center-x="2.5542908e-05" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-127.43051"
+         x="-673.00391"
+         id="image3975-0-0-0"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+         inkscape:transform-center-y="8.8507882"
+         inkscape:transform-center-x="2.5542908e-05" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="427.54196"
+         x="-451.25198"
+         id="image3975-0-0-2"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.32603643,-0.9453572,0.9453572,-0.32603643,0,0)"
+         inkscape:transform-center-y="5.8363778"
+         inkscape:transform-center-x="6.6538224" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-79.52504"
+         x="-604.87109"
+         id="image3975-0-0-4"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+         inkscape:transform-center-y="8.8507882"
+         inkscape:transform-center-x="2.5542908e-05" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="227.90456"
+         x="-479.79105"
+         id="image3975-0-0-5"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.59609628,-0.80291296,0.80291296,-0.59609628,0,0)"
+         inkscape:transform-center-y="7.5720836"
+         inkscape:transform-center-x="4.582585" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-55.106575"
+         x="-506.19641"
+         id="image3975-0-0-6"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+         inkscape:transform-center-y="8.8507882"
+         inkscape:transform-center-x="2.5542908e-05" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-498.27109"
+         x="51.846554"
+         id="image3975-0-0-7"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.46806732,0.88369281,-0.88369281,-0.46806732,0,0)"
+         inkscape:transform-center-y="0.87624872"
+         inkscape:transform-center-x="-8.807282" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-609.65161"
+         x="-537.66748"
+         id="image3975-0-0-3"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.89820781,0.43957107,-0.43957107,-0.89820781,0,0)"
+         inkscape:transform-center-y="5.8873847"
+         inkscape:transform-center-x="-6.6087334" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-424.99146"
+         x="-495.70691"
+         id="image3975-7-9-2"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.92486075,0.38030593,-0.34142236,-0.93990998,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-490.31583"
+         x="-441.19342"
+         id="image3975-7-9-0"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.9536487,0.30092217,-0.26090757,-0.96536379,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="277.32468"
+         x="-615.36261"
+         id="image3975-7-9-06"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.62293275,-0.78227539,0.80756251,-0.58978199,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-189.00085"
+         x="-696.23108"
+         id="image3975-7-9-7"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.99870568,-0.05086224,0.09244928,-0.9957174,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="583.9859"
+         x="-442.67511"
+         id="image3975-7-9-5"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.2555289,-0.96680142,0.97661284,-0.21500548,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="366.16531"
+         x="697.25323"
+         id="image3975-7-9-6"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(0.99912618,-0.04179563,1.1053229e-4,0.99999999,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="523.99158"
+         x="-133.35735"
+         id="image3975-7-9-4"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(0.34946641,-0.93694889,0.92156691,0.38821956,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="178.63045"
+         x="-430.63431"
+         id="image3975-7-9-9"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.62293275,-0.78227539,0.80756251,-0.58978199,0,0)" />
+    </g>
+    <g
+       id="g4410"
+       transform="matrix(1,0,0,1.0150911,-2.0952301,-13.674296)">
+      <rect
+         y="402.20731"
+         x="373.21786"
+         height="188.325"
+         width="382.5"
+         id="rect2985-3-2"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="228.69412"
+         x="700.92926"
+         id="image3975-0"
+         height="24.478376"
+         width="33.01379"
+         transform="matrix(0.95687241,0.2905085,-0.2905085,0.95687241,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-395.98325"
+         x="-579.29437"
+         id="image3975-0-0-72"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+         inkscape:transform-center-y="8.8507882"
+         inkscape:transform-center-x="2.5542908e-05" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="463.41595"
+         x="464.99246"
+         id="image3975-7-35"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.99377406,-0.11141413,0.11540304,0.99331875,0,0)" />
+      <image
+         inkscape:transform-center-y="-4.5781578"
+         inkscape:transform-center-x="-10.188234"
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-560.41467"
+         x="-485.3284"
+         id="image3975-7-9-23"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.99448322,0.10489577,-0.06334937,-0.99799141,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="157.35352"
+         x="809.55682"
+         id="image3975-7-6-9"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.93618587,0.35150535,-0.34774392,0.93758955,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="212.20688"
+         x="638.90601"
+         id="image3975-7-0-4"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.91026557,0.41402487,-0.41036699,0.91192046,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="56.164307"
+         x="734.58319"
+         id="image3975-7-7-1"
+         height="28.667194"
+         width="27.95208"
+         transform="matrix(0.848668,0.52892591,-0.37015723,0.92896912,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-259.40582"
+         x="-760.815"
+         id="image3975-7-2-0"
+         height="26.690357"
+         width="32.179054"
+         transform="matrix(-0.91436739,-0.40488552,0.50113737,-0.86536775,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="366.51486"
+         x="595.62427"
+         id="image3975-7-08-9"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.96216133,0.27248042,-0.26861534,0.96324753,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="685.01941"
+         x="122.46362"
+         id="image3975-7-1-4"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.77231736,-0.63523688,0.63833247,0.76976078,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="642.38196"
+         x="419.15628"
+         id="image3975-7-5-9"
+         height="32.785568"
+         width="19.671644"
+         transform="matrix(0.97829142,-0.2072339,0.06137186,0.99811497,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="892.68158"
+         x="-214.41246"
+         id="image3975-7-3-2"
+         height="29.724855"
+         width="33.014618"
+         transform="matrix(0.43159898,-0.90206559,0.9037911,0.42797388,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-193.53796"
+         x="-841.19122"
+         id="image3975-0-0-8-8"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+         inkscape:transform-center-y="8.8507882"
+         inkscape:transform-center-x="2.5542908e-05" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-317.79214"
+         x="-753.69366"
+         id="image3975-0-0-0-3"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+         inkscape:transform-center-y="8.8507882"
+         inkscape:transform-center-x="2.5542908e-05" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="362.67413"
+         x="-647.56946"
+         id="image3975-0-0-2-7"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.32603643,-0.94535721,0.94535721,-0.32603643,0,0)"
+         inkscape:transform-center-y="5.8363778"
+         inkscape:transform-center-x="6.6538224" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-269.88666"
+         x="-685.56085"
+         id="image3975-0-0-4-6"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+         inkscape:transform-center-y="8.8507882"
+         inkscape:transform-center-x="2.5542908e-05" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="106.82249"
+         x="-647.3844"
+         id="image3975-0-0-5-2"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.59609628,-0.80291296,0.80291296,-0.59609628,0,0)"
+         inkscape:transform-center-y="7.5720836"
+         inkscape:transform-center-x="4.582585" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-245.4682"
+         x="-586.88617"
+         id="image3975-0-0-6-0"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.92569049,-0.3782818,0.3782818,-0.92569049,0,0)"
+         inkscape:transform-center-y="8.8507882"
+         inkscape:transform-center-x="2.5542908e-05" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-732.67261"
+         x="213.81508"
+         id="image3975-0-0-7-8"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.46806732,0.88369281,-0.88369281,-0.46806732,0,0)"
+         inkscape:transform-center-y="0.87624872"
+         inkscape:transform-center-x="-8.807282" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-796.52612"
+         x="-449.20111"
+         id="image3975-0-0-3-2"
+         height="33.984783"
+         width="14.000976"
+         transform="matrix(-0.89820781,0.43957107,-0.43957107,-0.89820781,0,0)"
+         inkscape:transform-center-y="5.8873847"
+         inkscape:transform-center-x="-6.6087334" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-617.38434"
+         x="-427.58438"
+         id="image3975-7-9-2-2"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.92486075,0.38030593,-0.34142236,-0.93990998,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-688.45233"
+         x="-389.79932"
+         id="image3975-7-9-0-6"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.9536487,0.30092217,-0.26090757,-0.96536379,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="129.67273"
+         x="-808.34314"
+         id="image3975-7-9-06-1"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.62293275,-0.78227539,0.80756251,-0.58978199,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="-395.51569"
+         x="-718.03479"
+         id="image3975-7-9-7-9"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.99870568,-0.05086224,0.09244928,-0.9957174,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="554.79211"
+         x="-669.4505"
+         id="image3975-7-9-5-5"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.2555289,-0.96680142,0.97661284,-0.21500548,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="573.01599"
+         x="699.91608"
+         id="image3975-7-9-6-7"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(0.99912618,-0.04179563,1.1053229e-4,0.99999999,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="596.73358"
+         x="-371.25565"
+         id="image3975-7-9-4-9"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(0.34946641,-0.93694889,0.92156691,0.38821956,0,0)" />
+      <image
+         xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+         y="51.834637"
+         x="-599.31854"
+         id="image3975-7-9-9-7"
+         height="5.7049403"
+         width="33.012142"
+         transform="matrix(-0.62293275,-0.78227539,0.80756251,-0.58978199,0,0)" />
+    </g>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect2985-3-7"
+       width="382.5"
+       height="191.16702"
+       x="371.12262"
+       y="602.76929" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-89"
+       x="-628.66553"
+       y="-449.84088"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-3"
+       x="-663.4057"
+       y="-488.34424"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-33"
+       x="-738.56653"
+       y="-441.444"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-6"
+       x="-707.9552"
+       y="-434.70853"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-2"
+       x="-714.44623"
+       y="-502.49741"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-7"
+       x="-787.08655"
+       y="-479.54099"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-9"
+       x="-866.3407"
+       y="-378.0976"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-5"
+       x="-953.13379"
+       y="-446.19174"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-93"
+       x="-881.44135"
+       y="-475.80362"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-4"
+       x="-809.31128"
+       y="-405.17657"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-1"
+       x="-745.10126"
+       y="-392.93942"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-19"
+       x="-907.35724"
+       y="-332.96814"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-0"
+       x="-864.41595"
+       y="-442.31555"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-931"
+       x="-725.23761"
+       y="-555.05573"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-75"
+       x="-652.58398"
+       y="-565.04578"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.24999988px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       x="495.19"
+       y="372.13416"
+       id="text4459"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4461"
+         x="495.19"
+         y="372.13416">homogeneous and isotropic</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.24999988px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       x="541.04938"
+       y="578.85327"
+       id="text4459-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4461-5"
+         x="541.04938"
+         y="578.85327">isotropic</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.24999988px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       x="734.10742"
+       y="202.91904"
+       id="text4505"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4507"
+         x="734.10742"
+         y="202.91904">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.24999988px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       x="734.10742"
+       y="412.17648"
+       id="text4509"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4511"
+         x="734.10742"
+         y="412.17648">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.24999988px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       x="734.10742"
+       y="621.3266"
+       id="text4513"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4515"
+         x="734.10742"
+         y="621.3266">3</tspan></text>
+    <image
+       inkscape:transform-center-x="2.5542908e-05"
+       inkscape:transform-center-y="8.8507882"
+       transform="matrix(-0.92368293,-0.38315772,0.37344738,-0.92765137,0,0)"
+       width="14.031405"
+       height="34.424728"
+       id="image3975-0-0-8-93-5"
+       x="-836.41241"
+       y="-504.14673"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.24999988px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       x="528.04156"
+       y="785.52844"
+       id="text4459-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4461-50"
+         x="528.04156"
+         y="785.52844">homogeneous</tspan></text>
+  </g>
+</svg>
