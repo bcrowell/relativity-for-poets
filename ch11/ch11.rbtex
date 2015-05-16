@@ -275,6 +275,37 @@ with tipping light cones. The disadvantage of the Penrose diagram is that sizes 
 represented accurately. For example, the triangle representing the interior of the black
 hole looks half as big as the diamond showing the whole outside universe.
 
+\section{Tests of general relativity in weaker fields}
+
+Figure 1 on the facing page contrasts the predictions of Newton's laws and general relativity for
+an object whose orbit brings it inside the event horizon of a black hole. They are qualitatively
+different. According to Newton, the event horizon doesn't even exist, so nothing special happens.
+The object's orbit is a Keplerian ellipse. But according to relativity, the object can never come back
+out once it has passed the event horizon. It impacts the singularity at the center.
+
+Relativity also predicts smaller deviations from Newtonian behavior under less extreme
+conditions. Figure 2 shows that for a body in an elliptical orbit that only comes moderately
+close to the black hole, the main relativistic effect is a gradual twisting of the ellipse's
+orientation. This is called precession. By the way, these diagrams were traced from a cool
+browser-based simulation, which you can play with at \url{m4r35n357.github.io/orbits/}.
+
+If we are to observe such an effect in reality, we want
+to look for the strongest possible gravitational field. This makes it logical to examine the
+orbit of the planet Mercury. Mercury's orbit is significantly elliptical, and just as importantly
+it comes closer to the sun than any other planet, therefore experiencing stronger relativistic
+effects.
+
+Before Einstein published the general theory of relativity, it had already been observed that
+Mercury's orbit precessed very slightly, by 1.6 degrees per century. Nearly all of this effect
+had been explained by Newtonian effects such as the gravitational influence of Jupiter and the
+slightly nonspherical shape of the sun. But after all of these had been accounted for, there
+remained an unexplained 0.012 degrees per century. One of the first things Einstein
+did after finding the field equation of general relativity was to calculate this anomalous precession.
+It came out right, and he later recalled, ``I was beside myself 
+for several days with joyous excitement.''
+
+<% fig("orbits","!htpb") %>
+
 \section{Speed of light}
 
 The equivalence principle tells us that locally, gravity is an illusion.
