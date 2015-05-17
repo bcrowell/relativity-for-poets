@@ -234,3 +234,37 @@ That is, the Hubble constant can be interpreted as the inverse of the age of the
 the expansion has been at a constant rate.
 
 <% fig("hubble-law","!htpb") %>
+
+\section{The cosmic microwave background}
+
+Despite scientists' initial reluctance to accept the big bang model, many independent threads of evidence
+point to it. For example, our universe has quite a bit of hydrogen-2, also known as deuterium. This is
+an isotope of hydrogen in which the nucleus has one proton and one neutron. The present-day universe
+has physical processes in the cores of stars that steadily destroy deuterium, but no processes that
+produce it. If the universe had been infinitely old and always in its present state, as in the steady-state
+model, all of the deuterium should have long since been eliminated.
+
+<% fig("penzias-wilson-antenna","!htpb") %>
+
+The steady-state model finally went to its grave in 1964 when
+Arno Penzias and Robert Wilson at Bell Labs in New Jersey found an annoying source of
+background radiation in the signals picked up by the microwave antenna, shown in the photo,
+which they had
+hoped to use for satellite communications and radio astronomy.
+They tried to fix their apparently broken instrument by rousting out the pigeons that
+had been nesting in it, and cleaning out the droppings. The signal was still there.
+Was it human-generated, like radio waves from power lines or cars' spark plugs?
+But that type of noise would typically change in intensity
+between day and night. Not only did the signal fail to vary with a 24-hour periodicity,
+but it also didn't show the telltale variation over 23.93 hours (a sidereal day, the time it takes the
+earth to spin on its axis)  that is characteristic of emissions
+from a source at one location in the sky.
+
+
+Eventually they became convinced that these radio waves
+were coming from outside our galaxy, and uniformly from all directions in the sky.
+Communication with the physics community at nearby Princeton led them to realize that they had
+detected the afterglow of the big bang, Doppler shifted from the visible spectrum down into
+radio. The big bang model accounts not only for the existence of the radiation but also for
+its detailed characteristics, such as the variation of the intensity with wavelength.
+The steady-state model is unable to account for these facts.
