@@ -239,7 +239,8 @@ the expansion has been at a constant rate.\index{Hubble constant}
 \section{The cosmic microwave background}\index{cosmic microwave background}\index{CMB|see {cosmic microwave background}}
 
 Despite scientists' initial reluctance to accept the big bang model, many independent threads of evidence
-point to it. For example, our universe has quite a bit of hydrogen-2, also known as deuterium. This is
+point to it. For example, our universe has quite a bit of hydrogen-2, also known as 
+deuterium.\index{deuterium}\label{deuterium} This is
 an isotope of hydrogen in which the nucleus has one proton and one neutron. The present-day universe
 has physical processes in the cores of stars that steadily destroy deuterium, but no processes that
 produce it. If the universe had been infinitely old and always in its present state, as in the steady-state
@@ -269,4 +270,83 @@ Communication with the physics community at nearby Princeton led them to realize
 detected the afterglow of the big bang, Doppler shifted from the visible spectrum down into
 radio. The big bang model accounts not only for the existence of the radiation but also for
 its detailed characteristics, such as the variation of the intensity with wavelength.
-The steady-state model is unable to account for these facts.
+The steady-state model is unable to account for these facts. The radiation is referred
+to as the cosmic microwave background, or CMB.
+
+\section{A hot big bang}
+
+These days the study of the CMB is an entire scientific field of its own,
+as technical and sophisticated as the study of wine, ballet, plumbing, or rock climbing.
+Without delving into the details too deeply, we can pick out some straightforward ideas.
+It's a glow, and hot things glow, so we suspect that the universe used to be hot.
+The temperature scale we use for this is the Kelvin scale, whose zero is \emph{absolute}
+zero, the temperature at which all random motion ceases completely. A Kelvin degree (K) is the same size
+as a Celsius degree, so the Kelvin and Celsius scales are the same except for an additive constant.
+Everyday temperatures that we experience on our planet are in the ballpark of 300 K.\index{temperature}\index{Kelvin scale}
+
+The mixture of wavelengths emitted by a glowing object depends on its temperature.
+Right now, your body is emitting infrared radiation, which means light with a wavelength
+a little too long to be visible without infrared goggles. A hot poker glows red. If you
+heat it more and more, the mixture of wavelengths it emits shifts toward lower and
+lower wavelengths. Presently, the CMB has a mixture of wavelengths that is typical of
+a temperature of only 2.7 K, but these wavelengths have been Doppler shifted. The light waves
+have been traveling across the universe for billions of years, and as the universe has expanded
+during that time, their wavelengths have been lengthening. Since most of the normal matter in the universe
+is hydrogen, we expect that this light was originally emitted by hot hydrogen gas at a temperature
+of about 3000 K, which is the highest temperature at which hydrogen is transparent; at higher temperatures,
+the electrons are stripped off of the atoms, and the gas becomes opaque. So the CMB is a relic of
+an era in which the universe had a temperature of about 3000 K. When originally emitted, the CMB
+has a yellowish-orange color. The drop of a factor of about 1000 in
+temperature between then and now indicates that the wavelengths have expanded by 1000 times, and therefore
+that cosmological expansion since that era amounts to a factor of 1000.
+
+We are therefore led to cosmological models in which the big bang was \emph{hot}.
+Presumably it was even hotter at times before the CMB was emitted. Support for this
+extrapolation comes from the mixture of chemical elements and isotopes of those elements that we observe in the present
+universe. We noted on p.~\pageref{deuterium} that deuterium (hydrogen-2) is currently being depleted by
+nuclear reactions in stars. That means that the universe's present supply of deuterium must have originated
+from nuclear fusion reactions in the first few minutes after the big bang, when the temperature was
+millions of degrees kelvin.
+
+\section{A singularity at the big bang}
+
+It seems as though the universe keeps getting hotter and denser as we extrapolate back in time closer and closer
+to the big bang. When Friedman\index{Friedmann, Alexander} first constructed isotropic and homogeneous
+cosmological models using the
+Einstein field equations, he always got results in which the temperature and density blew up to infinity
+at the big bang. This would indicate a \emph{singularity},\index{singularity!big bang}\index{big bang!singularity}
+similar to, but different from, a black hole singularity. Cosmologists were at first skeptical as to whether
+these singularities were real. The assumption of homogeneity was after all only an approximation. They
+expected something more like the situation shown in the figure, where instead of a big bang we have a big near miss.
+This expectation was natural based on their knowledge of the universe, because in general astronomical objects are
+tiny compared to the distances between them, so they make small targets, and collisions are extremely rare.
+
+<% fig("extrapolate-singularity","!htpb") %>
+
+But in the 1970s, relativist Stephen Hawking (b.~1942) proved a theorem, known as the Hawking singularity theorem,
+which proves that there was a big bang singularity provided that three assumptions are satisfied:
+(1) general relativity and the Einstein field equation are valid, 
+(2) matter behaves in a reasonable way by obeying certain energy conditions (p.~\pageref{energy-conditions}), and
+(3) present-day conditions in the universe fall a within certain range of parameters.
+(A similar theorem was proved by Penrose for black hole singularities.)
+Condition 3 has been verified definitively through astronomical observations. Condition 2 is believed to have been
+valid in the early universe. Condition 1 is expected to hold up to certain known, very high densities and
+temperatures, at which quantum mechanics is expected to invalidate general relativity.
+
+Like a black hole singularity, the big bang singularity is spacelike. A black hole singularity becomes
+an inevitable part of the future light cone of an observer who passes inside the event horizon, but other observers
+never come in contact with it. The big bang singularity, on the other hand, lies in the past light cone of every
+observer.
+
+<% fig("dust-penrose-diagrams","!htpb") %>
+
+The figures show Penrose diagrams for two possible scenarios according to Friedman. In figure 1, the universe
+has enough mass in it so that gravitational attraction gradually slows down the expansion of the universe and
+brings it to a halt. After that, the universe recontracts and ends up going out in style, in a fiery implosion
+called, naturally enough, a big crunch. Because Penrose diagrams don't try to show times and distances to scale,
+the expansion and recontraction are not shown. What the diagram does show accurately is that in this type of
+universe, space is finite, and it wraps around on itself.
+
+In figure 2 we see a possibility in which the universe does not contain enough mass to cause it to recontract.
+Its expansion is analogous to the motion of a projectile that has been shot up from the earth's surface at
+greater than escape velocity, so it will never fall back down. This universe is infinite both in space and in time.

@@ -161,7 +161,7 @@ beyond the scope of this book, but the foregoing discussion should
 make it clear what the general idea is.  It turns out that there is
 more than one way of giving an exact formulation, and the different
 ways are not equivalent to one another; some are stricter requirements
-and some are weaker. These are referred to as \emph{energy conditions}.\index{energy conditions}
+and some are weaker. These are referred to as \emph{energy conditions}.\index{energy conditions}\label{energy-conditions}
 If we look at the ordinary forms of matter that surround
 us in our solar system, or that we have been able to test in the
 laboratory, all of them obey all of the energy conditions. A notable

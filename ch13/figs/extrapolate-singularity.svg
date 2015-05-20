@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="extrapolate-singularity.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0803639"
+     inkscape:cx="-311.88201"
+     inkscape:cy="670.78367"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3190-7"
+       width="381.31247"
+       height="292.96347"
+       x="-404.99948"
+       y="101.02603" />
+    <image
+       sodipodi:absref="hubble-flow-bitmaps/galaxy-3.png"
+       xlink:href="hubble-flow-bitmaps/galaxy-3.png"
+       y="221.082"
+       x="-168.1725"
+       id="image3187-1"
+       height="37.228718"
+       width="66.184387"
+       transform="matrix(0.99744327,0.07146272,-0.07146272,0.99744327,0,0)" />
+    <image
+       sodipodi:absref="hubble-flow-bitmaps/galaxy-1.png"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+       y="278.19141"
+       x="-195.41054"
+       id="image3063-6"
+       height="44.655266"
+       width="60.27507"
+       transform="matrix(0.94435042,0.32894115,-0.32894115,0.94435042,0,0)" />
+    <image
+       sodipodi:absref="hubble-flow-bitmaps/galaxy-2.png"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       y="146.12872"
+       x="-280.31345"
+       id="image3125-0"
+       height="39.592449"
+       width="41.956177"
+       transform="matrix(0.96332398,-0.26834102,0.26834102,0.96332398,0,0)" />
+    <image
+       sodipodi:absref="hubble-flow-bitmaps/galaxy-3.png"
+       xlink:href="hubble-flow-bitmaps/galaxy-3.png"
+       y="176.78851"
+       x="-151.35399"
+       id="image3187-4-1"
+       height="37.228718"
+       width="66.184387"
+       transform="matrix(0.99744327,0.07146272,-0.07146272,0.99744327,0,0)" />
+    <image
+       sodipodi:absref="hubble-flow-bitmaps/galaxy-1.png"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+       y="247.4386"
+       x="-237.77773"
+       id="image3063-4-6"
+       height="44.655266"
+       width="60.27507"
+       transform="matrix(0.94435042,0.32894115,-0.32894115,0.94435042,0,0)" />
+    <image
+       sodipodi:absref="hubble-flow-bitmaps/galaxy-2.png"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       y="103.11731"
+       x="-274.56067"
+       id="image3125-7-0"
+       height="39.592449"
+       width="41.956177"
+       transform="matrix(0.96332398,-0.26834102,0.26834102,0.96332398,0,0)" />
+    <image
+       sodipodi:absref="hubble-flow-bitmaps/galaxy-3.png"
+       xlink:href="hubble-flow-bitmaps/galaxy-3.png"
+       y="122.64738"
+       x="-135.3477"
+       id="image3187-4-6-1"
+       height="37.228718"
+       width="66.184387"
+       transform="matrix(0.99744327,0.07146272,-0.07146272,0.99744327,0,0)" />
+    <image
+       sodipodi:absref="hubble-flow-bitmaps/galaxy-1.png"
+       xlink:href="hubble-flow-bitmaps/galaxy-1.png"
+       y="206.12231"
+       x="-279.85876"
+       id="image3063-4-1-2"
+       height="44.655266"
+       width="60.27507"
+       transform="matrix(0.94435042,0.32894115,-0.32894115,0.94435042,0,0)" />
+    <image
+       sodipodi:absref="hubble-flow-bitmaps/galaxy-2.png"
+       xlink:href="hubble-flow-bitmaps/galaxy-2.png"
+       y="50.587009"
+       x="-266.15634"
+       id="image3125-7-9-2"
+       height="39.592449"
+       width="41.956177"
+       transform="matrix(0.96332398,-0.26834102,0.26834102,0.96332398,0,0)" />
+    <path
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m -313.78316,133.22744 144.39579,249.91579"
+       id="path3002"
+       inkscape:connector-curvature="0" />
+    <path
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m -217.5193,134.15305 34.24772,249.91579"
+       id="path3772"
+       inkscape:connector-curvature="0" />
+    <path
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M -111.07369,135.07866 -211.96562,379.44077"
+       id="path3774"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.24999988px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="-269.3537"
+       y="341.4906"
+       id="text3776"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3778"
+         x="-269.3537"
+         y="341.4906"
+         style="font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:Liberation Sans Bold">a near miss?</tspan></text>
+  </g>
+</svg>
