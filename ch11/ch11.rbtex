@@ -5,7 +5,7 @@
 
 \section{Collapse to a singularity}\label{sec:death-of-stars}
 
-Let's talk about death.
+Let's talk about death.\index{star!evolution and death}
 Our sun is very close to the end of the time during which it will be the right brightness to support
 life on our planet. As it nears total depletion of the hydrogen fuel that it burns, it will pass
 through a series of complicated changes, at first subtle and gradual but then more rapid and violent.
@@ -27,7 +27,8 @@ But this will not, according to our current understanding, be a runaway collapse
 Our sun is after all a pretty small and insignificant star, and its gravity is not exceptionally strong.
 In the end, we think matter's resistance to compression will be strong enough to
 slow the collapse to a stop, leaving our
-dead star in a very dense form called a white dwarf. A new and final equilibrium will have been
+dead star in a very dense form called a white dwarf.\index{white dwarf}\index{star!white dwarf}
+A new and final equilibrium will have been
 achieved. White dwarf matter has
 the fantastic density of about a ton per cubic centimeter, far beyond anything we can
 achieve in the laboratory.\footnote{The white dwarf in the figure is not drawn to scale; it would actually
@@ -35,12 +36,13 @@ be about the size of the earth, which would be too small to see on the page.} Bu
 extrapolation. Our galaxy is littered with white dwarfs, which are
 the most common type of stellar corpse. 
 
-In 1930, at the age of 19, the astrophysicist Subrahmanyan Chandrasekhar (1910-1995) demonstrated in a theoretical
+In 1930, at the age of 19, the astrophysicist Subrahmanyan Chandrasekhar (1910-1995)\index{Chandrasekhar, Subrahmanyan}
+demonstrated in a theoretical
 calculation that white dwarf matter could not stand up to more than a certain amount of pressure.
 Inside a big enough dying star, the atoms themselves begin to collapse under the pressure of gravity, with the 
 electrons and protons fusing to form neutrons. The result is a ball made mostly of pure neutrons, called a neutron star.
 Observational evidence for the existence of neutron stars came in 1967
-with the detection by Bell and Hewish at Cambridge of a mysterious
+with the detection by Bell and Hewish at Cambridge of a mysterious\index{Bell, Jocelyn}
 radio signal, repeating at an interval of exactly 1.3373011 seconds.\label{neutron-star}
 The signal's
 observability was synchronized with the rotation of the earth relative
@@ -57,7 +59,7 @@ magnetization they may emit a directional beam of electromagnetic
 radiation that sweeps across the sky once per rotation ---
 the ``lighthouse effect.'' If the earth lies in the plane of the beam,
 a repeating signal can be detected, and the star is referred to as a
-pulsar.
+pulsar.\index{pulsar}\index{star!pulsar}\index{star!neutron star}\index{neutron star}
 
 As we saw in section \ref{sec:finite-strength}, p.~\pageref{sec:finite-strength},
 relativity predicts that we can't go on discovering more and more compressed forms
@@ -71,9 +73,9 @@ than an atom of ordinary matter.
 This tiny object, which is a mathematical point according to general relativity,
 is called a \emph{singularity}. It represents a point where either the laws of
 physics break down completely, or general relativity stops making sense and should
-not be trusted.
+not be trusted.\index{singularity!black hole}\index{black hole!singularity}
 
-\section{The event horizon}
+\section{The event horizon}\index{event horizon!black hole}\index{black hole!event horizon}
 
 The most distinctive property of black holes is that they are expected to be black.
 To see why, consider what we know about gravitational time dilation
@@ -139,7 +141,7 @@ time between one vibration of the wave and the next is very short, but
 to a distant observer it's an infinite time. Clearly the light wave
 simply isn't escaping.
 
-\section{Detection}
+\section{Detection}\index{black hole!detection}
 
 Because light can't escape from inside the event horizon, we can never hope to observe
 black holes by seeing them shine, as normal stars do. There are nevertheless several
@@ -164,7 +166,7 @@ of gas. Internal friction causes the gas to become so hot that it glows in the x
 These x-rays are a highly distinctive sign of a black hole. 
 The object known as Cygnus X-1\index{Cygnus X-1} is
 the best-studied example. This X-ray-emitting object was discovered by
-a rocket-based experiment in 1964.
+a rocket-based experiment in 1964.\index{black hole!Cygnus X-1}
 
 Around the turn of the 21st century, new evidence was found for the
 prevalence of supermassive black holes near the centers of nearly all
@@ -176,7 +178,7 @@ a radius less than 22 million kilometers.  There is no known
 astrophysical model that could prevent the collapse of such a compact
 object into a black hole, nor is there any plausible model that would
 allow this much mass to exist in equilibrium in such a small space,
-without emitting enough light to be observable. 
+without emitting enough light to be observable.\index{black hole!supermassive}
 
 The existence of supermassive black holes is surprising. Gas clouds
 with masses greater than about 100 solar masses cannot form stable
@@ -189,7 +191,7 @@ supermassive black holes' existence, a variety of mechanisms was
 proposed for their formation. Little is known about which of these
 mechanisms is correct. 
 
-\section{Light cones}\label{sec:black-hole-light-cones}
+\section{Light cones}\label{sec:black-hole-light-cones}\index{light cone!tipping}
 
 A typical scheme for evading the one-way nature of the event horizon would be to put a space
 probe on the end of a rope, lower the rope down through the horizon, and then pull it back out.
@@ -238,7 +240,7 @@ light cone tips over so far that it all points inward, not outward. Alice can no
 escape, nor can she send a signal back to Bob. For her, there is no future other than the region
 inside the black hole.
 
-\section{Penrose diagrams}
+\section{Penrose diagrams}\index{Penrose diagram}\index{Penrose diagram!black hole}\index{black hole!Penrose diagram}
 
 Because the world is round, we can never reproduce it perfectly on a flat map.
 To flatten its curved surface, we must distort, fold, or cut it.
@@ -275,7 +277,7 @@ with tipping light cones. The disadvantage of the Penrose diagram is that sizes 
 represented accurately. For example, the triangle representing the interior of the black
 hole looks half as big as the diamond showing the whole outside universe.
 
-\section{Tests of general relativity in weaker fields}
+\section{Tests of general relativity in weaker fields}\index{general relativity!tests of!orbit of Mercury}\index{Mercury}
 
 Figure 1 on the facing page contrasts the predictions of Newton's laws and general relativity for
 an object whose orbit brings it inside the event horizon of a black hole. They are qualitatively
@@ -306,7 +308,7 @@ for several days with joyous excitement.''
 
 <% fig("orbits","!htpb") %>
 
-\section{Speed of light}
+\section{Speed of light}\index{$c$!near a black hole}
 
 The equivalence principle tells us that locally, gravity is an illusion.
 To any local, free-falling observer, the laws of physics and the properties of spacetime seem absolutely normal.

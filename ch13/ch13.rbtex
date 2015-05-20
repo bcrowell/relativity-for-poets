@@ -16,9 +16,9 @@ material objects, all moving relative to each other at speeds that are
 small compared to $c$. A flock of galaxies, for example, would be
 ``dust'' to a cosmologist, with the galaxies as the dust particles.
 In this chapter we look at cosmological models in which the matter is
-all in the form of dust, which until about 1998 was thought to be a a realistic assumption.
+all in the form of dust, which until about 1998 was thought to be a a realistic assumption.\index{dust (relativistic usage)}
 
-\section{The Einstein field equation}\label{sec:efe}
+\section{The Einstein field equation}\label{sec:efe}\index{general relativity!Einstein field equation}\index{Einstein field equation}
 
 In John Wheeler's formulation (ch.~\ref{ch:matter}, p.~\pageref{ch:matter}),
 ``spacetime tells matter how to move, and matter tells spacetime how to curve.''
@@ -57,7 +57,7 @@ parallel, because the marbles start ar rest, but as time goes on they start to c
 out parallel but later start to converge or diverge, we're dealing with curvature
 (recall section \ref{sec:gravity-as-curvature}, \pageref{sec:gravity-as-curvature}). What figures 1 and 2
 really show us, then, is a distinction between two types of \emph{curvature}: tidal curvature caused
-by matter-over-there as distinguished from non-tidal curvature caused by matter-right-here.
+by matter-over-there as distinguished from non-tidal curvature caused by matter-right-here.\index{tidal forces}
 
 The main idea of the Einstein field equation, translated into words, is that it relates the non-tidal
 curvature to the matter-right-here. Ordinary matter with positive mass-energy creates non-tidal curvature
@@ -78,7 +78,7 @@ that is too complex to describe here. It turns out, however,
 that this pressure effect can be safely ignored if the relative speeds of the matter particles are small
 compared to $c$, which is part of what we mean by the definition of dust.
 
-\section{Conservation}
+\section{Conservation}\index{conservation laws!general relativity}
 
 Many of the most fundamental laws of physics we have are conservation laws, which say that
 stuff can't just appear or disappear. For example, let's say in a cosmological context that ``stuff''
@@ -110,7 +110,7 @@ I don't know of a nonmathematical argument to prove it, but conservation of ener
 is directly implied by the Einstein field equation; without it, the equation breaks down and
 becomes mathematical nonsense. This is a firm prediction of general relativity, so if any
 observation ever does disprove conservation of energy-momentum, even by some tiny amount,
-then general relativity will have been disproved as well.
+then general relativity will have been disproved as well.\index{conservation laws!general relativity!energy-momentum}
 
 Conservation of energy-momentum
 is similar to the other examples above, but with the difference that energy-momentum is a vector,
@@ -123,9 +123,9 @@ to compare two vectors, we have to do it using parallel transport
 (\ref{sec:parallel-transport}, p.~\pageref{sec:parallel-transport}). But when spacetime is curved,
 parallel transport is ambiguous. Therefore the conservation law only holds if we draw a box small
 enough so that the curvature of spacetime doesn't matter. In other words, conservation of energy-momentum
-in general relativity is only a \emph{local} conservation law.
+in general relativity is only a \emph{local} conservation law.\index{conservation laws!general relativity!only local}
 
-\section{Change or changelessness?}
+\section{Change or changelessness?}\index{static cosmology}\index{cosmology!static}
 
 Now we have two tools: the Einstein field equation and conservation of energy-momentum.
 When Einstein invented these two tools in 1915, scientists had a preexisting preference for
@@ -164,23 +164,24 @@ had never been suggested on any theoretical or empirical grounds, so he rejected
 and focused his ingenuity on fixing what he saw as a problem with his theory.
 It was not until the 1930s that evidence began to appear that the universe actually
 was expanding. The crucial foundational work had been done by the astronomers
-Henrietta Swan Leavitt and Vesto Slipher, who worked out methods of determining the
+Henrietta Swan Leavitt\index{Leavitt, Henrietta Swan} and Vesto Slipher,\index{Slipher!Vesto} who worked out methods of determining the
 distances to other galaxies as well as their motion along the line connecting us to them.
-The techniques were put together by Edwin Hubble at the Mount Wilson observatory near
+The techniques were put together by Edwin Hubble\index{Hubble, Edwin} at the Mount Wilson observatory near
 Los Angeles. The theory was worked out in full by the Russian physicist
-Alexander Friedmann, and the Belgian priest Georges Lema\^itre proposed that if one
+Alexander Friedmann,\index{Friedmann, Alexander} and the Belgian priest Georges Lema\^itre\index{Lema\^itre, Georges} proposed that if one
 extrapolated backward, there must have been a time when all of the matter in the universe
-had emerged from a ``cosmic egg'' --- what we now call the big bang.
+had emerged from a ``cosmic egg'' --- what we now call the big bang.\index{cosmology!big bang}
 
 Einsten hated it, and told Lema\^itre, ``Your calculations are correct, but your physics is abominable.''
-The British astronomer Fred Hoyle came up with an alternative, shown in figure 5, called the steady-state model.
+The British astronomer Fred Hoyle came up with an alternative, shown in figure 5, called the steady-state 
+model.\index{cosmology!steady state}\index{steady state|see {cosmology}}\index{Hoyle, Fred}
 According to Hoyle's idea, the universe expands, and everything gets farther apart, but at the same time
 matter is spontaneously springing into existence, so that on the average, the density of matter stays the same.
 Thus although the universe isn't static (unmoving), it looks the same at all eras of history. One problem
 with Hoyle's theory was that the proposed creation of matter is exactly the kind of nonconservation of
 energy-momentum that is forbidden by general relativity.
 
-\section{Homogeneity and isotropy}
+\section{Homogeneity and isotropy}\index{homogeneity}\index{isotropy}
 
 The night sky looks like a bowl: the eye has no way of judging depth. But once Leavitt and
 others had developed the appropriate techniques, it became possible to map out the structure
@@ -204,7 +205,7 @@ page show visual examples that demonstrate these two symmetries.
 
 \pagebreak
 
-\section{Hubble's law}
+\section{Hubble's law}\index{Hubble's law}
 
 The spacetime diagram in figure 1 on the facing page shows an expanding universe,
 simplified by focusing on three galaxies that happen to start out equally spaced along a line.
@@ -222,7 +223,7 @@ Figure 2 shows the same situation in a frame where galaxy A is at rest. Initiall
 observer Alice in galaxy A sees B as being one unit away, and C as lying at a distance of two
 units. These distances of 1 and 2 double to 2 and 4. Alice says that B is moving away from her
 at some speed, and C is fleeing at double that speed. (Of course Alice won't live long enough
-to watch the process play out. She will actually measure these speeds using Doppler shifts ---
+to watch the process play out. She will actually measure these speeds using Doppler shifts\index{Doppler shift!cosmological} ---
 the technique pioneered by Slipher.) The velocity of recession $v$ is proportional to the distance $d$.
 
 This proportionality is known as Hubble's law. The constant of proportionality is called the
@@ -231,11 +232,11 @@ of each galaxy is inertial; gravity is negligible. Then by using the grade-schoo
 $(\text{speed})=(\text{distance})/(\text{time})$, we find that if we extrapolate the expansion backward
 in time, there was a time equal to $1/H$ in the past when all three galaxies were in the same place.
 That is, the Hubble constant can be interpreted as the inverse of the age of the universe, provided that
-the expansion has been at a constant rate.
+the expansion has been at a constant rate.\index{Hubble constant}
 
 <% fig("hubble-law","!htpb") %>
 
-\section{The cosmic microwave background}
+\section{The cosmic microwave background}\index{cosmic microwave background}\index{CMB|see {cosmic microwave background}}
 
 Despite scientists' initial reluctance to accept the big bang model, many independent threads of evidence
 point to it. For example, our universe has quite a bit of hydrogen-2, also known as deuterium. This is
@@ -246,8 +247,9 @@ model, all of the deuterium should have long since been eliminated.
 
 <% fig("penzias-wilson-antenna","!htpb") %>
 
-The steady-state model finally went to its grave in 1964 when
-Arno Penzias and Robert Wilson at Bell Labs in New Jersey found an annoying source of
+The steady-state model finally went to its grave in 1964 when\index{cosmology!steady state!disproved by CMB}
+Arno Penzias and Robert Wilson\index{Penzias, Arno}\index{Wilson, Robert}
+at Bell Labs in New Jersey found an annoying source of
 background radiation in the signals picked up by the microwave antenna, shown in the photo,
 which they had
 hoped to use for satellite communications and radio astronomy.

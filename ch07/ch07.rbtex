@@ -2,7 +2,7 @@
 
 \chapter{Newtonian gravity}\label{ch:newtonian-gravity}
 
-\section{Galileo and free fall}
+\section{Galileo and free fall}\index{Galileo!free fall|see {free fall}}\index{free fall!universality}
 
 Galileo had an astounding knack for zeroing in on scientific issues that we still
 consider crucial four centuries later. Special relativity can be traced directly
@@ -38,7 +38,7 @@ all the way up to the vertical, so that the object is falling freely (panel 2). 
 that objects on earth gain very nearly 10 meters per second (m/s) of speed in every second, so that if we release a rock
 at rest (0 m/s), then after one second of falling its speed is 10 m/s, after two seconds 20 m/s, and so on.
 This rate of speeding up is called the rock's \emph{acceleration}, and it is 10 meters per second every second,
-i.e., 10 meters per second per second, also written as $10\ \zu{m}/\zu{s}^2$.
+i.e., 10 meters per second per second, also written as $10\ \zu{m}/\zu{s}^2$.\index{free fall!acceleration}\index{acceleration}
 
 Not only did Galileo disprove Aristotle empirically,
 but he also pointed out a logical
@@ -81,9 +81,9 @@ Experiments of this type were done by E\"otvos around 1900, and later refined by
 Braginskii, Dicke, and their co-workers to give a precision of about one part in 100 billion.
 Attempts are even under way to test whether the universality extends to antimatter. It's conceivable that
 antimatter is actually \emph{repelled} by the earth, so that it would fall \emph{up}, like the imaginary
-``upsydaisium'' from the Rocky and Bullwinkle cartoon series.
+``upsydaisium'' from the Rocky and Bullwinkle cartoon series.\index{free fall!universality!experimental tests}\index{E\"otvos}
 
-\section{Orbits}
+\section{Orbits}\index{solar system!orbits}\index{planets|see {solar system}}
 
 You can count yourself lucky to live in a universe where free fall seems to be universal. At this moment, both
 you and the planet earth are in a state of free fall, being pulled in by the sun's gravitational attraction.
@@ -102,11 +102,12 @@ Understanding the motion of the planets was originally considered important part
 Europe, one of the best ways to make a living doing astronomy was to cast horoscopes --- at the time,
 there was no clear distinction between the science of astronomy and the pseudoscience of astrology.
 After the Copernican-Galilean revolution (see section \ref{sec:scientific-revolutions},
-p.~\pageref{sec:scientific-revolutions}), the planets were described as revolving around the sun, and
-the observational astronomer Johannes Kepler (1571-1630) arrived at a complete and fairly accurate mathematical
+p.~\pageref{sec:scientific-revolutions}), the planets were described as revolving around the sun,\index{Copernicus} and
+the observational astronomer Johannes Kepler (1571-1630)\index{Kepler}
+arrived at a complete and fairly accurate mathematical
 characterization of their motion in terms of three laws. Two of these laws describe the speeds of the planets'
 motion, while the remaining one states that each planet's orbit is an ellipse,
-with the sun lying at a certain well-defined off-center point called a focus.
+with the sun lying at a certain well-defined off-center point called a focus.\index{ellipse}
 One way of defining an ellipse is that it's a circle that
 has been distorted by shrinking and stretching along perpendicular axes.
 An ellipse can also be constructed by tying a string to two
@@ -118,7 +119,7 @@ a circle is a special case of the ellipse. In a circle, the two foci coincide.
 
 \section{Newton's laws}
 
-Isaac Newton (1642-1727) firmed up Galileo's work on motion by defining a set of natural laws
+Newton\index{Newton, Isaac} firmed up Galileo's work on motion by defining a set of natural laws
 that applied both to objects on earth and to the heavens --- a radical idea at the time.
 We'll soon see that these laws give a simple and natural explanation for the universality of free fall.
 Newton was also able to use his laws to prove all three of Kepler's laws for the motion of the planets, although
@@ -128,7 +129,7 @@ In Newton's description, objects push and pull on each other through attractive 
 Gravity is a specific type of force, a universal attraction between any two objects that is proportional
 to their masses. When objects interact through a force, each one's momentum is changed --- in fact, we
 can \emph{define} force as the rate of change of momentum. The changes in momentum are like transferring money
-from one bank account to another; the total amount of momentum is conserved.
+from one bank account to another; the total amount of momentum is conserved.\index{force}
 
 <% fig("old-lady","h") %>
 
@@ -142,7 +143,7 @@ violent.
 
 \pagebreak
 
-In summary, Newton's description of motion consists of the following three laws:
+In summary, Newton's description of motion consists of the following three laws:\index{Newton, Isaac!laws of motion}
 
 \begin{enumerate}
 \item If no force acts on an object, its momentum doesn't change.\index{inertia!Newton's first law}
@@ -161,10 +162,10 @@ But Newton's explanation is a sort of non-explanation explanation. It depends on
 inertia is proportional to its gravitational mass. That is, we have two separate concepts of mass, and Newton
 can't tell us why they're equal. He just observes that they are. When I shake a lead brick back and force, I sense
 its inertia, or inertial mass. When I put it on a scale, I measure its gravitational mass. There is no known reason
-why these two things \emph{have} to be related; it just seems that they are.
+why these two things \emph{have} to be related; it just seems that they are.\index{free fall!universality!explained by Newton's laws}
 Besides gravity, we have other fundamental forces, such as electricity. These forces have no such property.
 
-\section{Tidal forces}\label{sec:tidal}
+\section{Tidal forces}\label{sec:tidal}\index{tidal forces}
 
 If the shoe and the coin start out right next to each other, they stay right next to each other as they fall.
 A different situation is shown in figure 1. In this spacetime diagram, objects A and B start out at unequal distances
@@ -180,4 +181,4 @@ gravity between the front and back of the comet was enough to pull it apart, and
 separated from each other even more, forming the string of pearls shown in figure 2.
 The fragments hit Jupiter in succession, and because Jupiter spins on its own axis, the impacts occurred at
 different places in the jovian cloud-tops. Figure 3 shows the resulting string of bruises, each about as big
-as the planet earth.
+as the planet earth.\index{Jupiter!Shoemaker-Levy 9 impact}

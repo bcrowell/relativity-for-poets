@@ -1,9 +1,9 @@
 <% require "./scripts/simple_figures.rb" %>
 
 
-\chapter{Waves}
+\chapter{Waves}\index{wave}
 
-\section{No action at a distance}
+\section{No action at a distance}\index{action at a distance}
 
 The Newtonian picture of the universe has particles interacting with each other by exerting
 forces from a distance, and these forces are imagined to occur without any time
@@ -15,7 +15,7 @@ cried out in terror, and were suddenly silenced.'' No matter what kind of force 
 Force'' is, this is impossible. The planet is light-years away, so any information about
 its destruction can only arrive after a time delay of years.
 
-\section{Fields}
+\section{Fields}\index{field}
 
 Since forces can't be transmitted instantaneously, it becomes natural to imagine force-effects
 spreading outward from their source like ripples on a pond, and we then have no choice but to
@@ -75,7 +75,7 @@ Newton is wrong. Both effects would travel at $c$, and they would be detected si
 
 \pagebreak
 
-\section{Electromagnetic waves}\label{sec:em-waves}
+\section{Electromagnetic waves}\label{sec:em-waves}\index{light!electromagnetic wave model|see {electromagnetic wave}}\index{electromagnetic wave}
 
 ``And God said, Let there be light: and there was light.''
 Light is pretty important to us, as implied by this passage's prominent placement in
@@ -85,7 +85,7 @@ The operationalist philosophy (section \ref{sec:operationalism}, p.~\pageref{sec
 this means knowing how to measure them. A magnetic compass measures the direction of the magnetic field.
 A crude method of measuring an electric field is to rub a balloon against your hair in order to put
 some electric charge on it, and then release the balloon; any ambient electric field will cause the balloon
-to accelerate in a certain direction, which is the direction of the field. 
+to accelerate in a certain direction, which is the direction of the field.\index{field!electric}\index{field!magnetic}\index{electric field}\index{magnetic field}
 
 Although physicists didn't realize
 it until late in the game, it turns out that electric and magnetic fields are very closely related.
@@ -93,7 +93,8 @@ If an observer in frame of reference A detects only an electric field, an observ
 sees a mixture of magnetic and electric fields. Similarly, a field that is purely magnetic in one frame
 is a mixture in another frame. For related reasons, a changing electric field creates ---
 or ``induces'' --- a magnetic
-field, and vice versa. This is the principle behind devices such as generators and transformers.
+field, and vice versa. This is the principle behind devices such 
+as generators and transformers.\index{induction}\index{generator}\index{transformer}
 
 <% fig("em-wave","!htpb") %>
 
@@ -106,7 +107,7 @@ Because of the close relationship between the two fields, any vibration of the e
 vibration of the magnetic field, and vice versa. Therefore there are no purely electric or purely magnetic
 waves. As shown in the diagram, the waves are structured so that the fields vibrate in directions that are
 perpendicular both to each other and to the direction in which the wave is moving.
-Unlike sound waves and water waves, electromagnetic waves are not vibrations of any physical medium.
+Unlike sound waves and water waves, electromagnetic waves are not vibrations of any physical medium.\index{electromagnetic wave!spectrum}
 
 <% fig("em-spectrum","!htpb") %>
 
@@ -118,7 +119,7 @@ spectrum, which includes such superficially disparate phenomena as radio waves a
 
 Electromagnetic waves carry energy, as you can tell when you use a microwave oven to heat your food.
 
-\section{Gravitational waves}
+\section{Gravitational waves}\index{wave!gravitational}\index{gravity!wave|see {gravitational wave}}
 
 The equivalence principle tells us that the gravitational field can, at least locally, be considered to be
 an illusion: for a free-falling observer, there is no field. This suggests the possibility that waves in
@@ -160,7 +161,7 @@ The weak interaction of gravitational waves with matter also means that detector
 are not very sensitive to them.
 Therefore it's very difficult to get such a detector to work well enough to give a definite blip.
 
-Luckily direct detection is not the only possible way to verify that
+Luckily direct detection is not the only possible way to verify that\index{Hulse-Taylor pulsar}\index{general relativity!tests of!Hulse-Taylor pulsar}
 gravitational waves exist.  In 1974, Russell Hulse and Joseph Taylor
 used the Arecibo radio telescope to discover a pair of neutron stars
 (see p.~\pageref{neutron-star}) orbiting around each other once every

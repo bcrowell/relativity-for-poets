@@ -14,7 +14,7 @@ the motion of matter.  The relativistic picture is called Einstein's
 theory of general relativity. The word ``general'' is used because in
 special relativity, the curvature of spacetime is assumed to be zero;
 general relativity generalizes the theory to allow the curvature to be
-nonzero. Relativist John Wheeler summarizes this in a slogan:
+nonzero. Relativist John Wheeler summarizes this in a slogan:\index{Wheeler, John}\index{general relativity!verbal summary}
 
 \begin{important}
 ``Spacetime tells matter how to move; matter tells spacetime how to curve.''
@@ -36,7 +36,7 @@ metallurgists, physical chemists, and condensed-matter physicists. But, surprisi
 itself makes some more \emph{general} predictions about matter that are independent of its
 detailed structure.
 
-\section{No nongravitating matter}
+\section{No nongravitating matter}\index{matter!no nongravitating}
 
 One such prediction is that there is no such thing as matter that is immune to gravity; anything
 that has mass-energy \emph{is} affected by gravity.
@@ -91,7 +91,7 @@ we can with electrical, magnetic, or other forces. If we could, then we could ta
 ordinary piece of matter, such as a brick, and turn it into a gravity-immune object by
 wrapping it in gravitational shielding. This is why, in our operational definition of an inertial
 frame of reference (section \ref{sec:inertial-frame-defined}, p.~\pageref{sec:inertial-frame-defined}),
-we shielded against all forces \emph{except} for gravity, which would have been impossible.
+we shielded against all forces \emph{except} for gravity, which would have been impossible.\index{gravity!no shielding}
 
 \pagebreak
 
@@ -112,7 +112,7 @@ hole, you can never escape. The nonexistence of gravitationless matter and gravi
 why this should be so. If you had a flying car that was made out of gravitationless matter, it certainly
 does seem like it would be able to escape a black hole's gravity.
 
-\section{No repulsive gravity}
+\section{No repulsive gravity}\index{gravity!not repulsive for ordinary matter}
 
 The black holes that we observe are believed to have formed by the runaway gravitational collapse
 of stars or clouds of gas and dust. This would be much like the formation of objects such as the earth and the
@@ -161,15 +161,16 @@ beyond the scope of this book, but the foregoing discussion should
 make it clear what the general idea is.  It turns out that there is
 more than one way of giving an exact formulation, and the different
 ways are not equivalent to one another; some are stricter requirements
-and some are weaker. These are referred to as \emph{energy
-conditions}. If we look at the ordinary forms of matter that surround
+and some are weaker. These are referred to as \emph{energy conditions}.\index{energy conditions}
+If we look at the ordinary forms of matter that surround
 us in our solar system, or that we have been able to test in the
 laboratory, all of them obey all of the energy conditions. A notable
-exception is \emph{dark energy}, a recently discovered, mysterious
+exception is \emph{dark energy},\index{energy conditions!violated by dark energy}
+a recently discovered, mysterious
 phenomenon that seems to pervade the universe, but that has a
 negligible effect except at cosmic scales. 
 
-\section{Finite strength of materials}\label{sec:finite-strength}
+\section{Finite strength of materials}\label{sec:finite-strength}\index{matter!finite strength}
 
 A final possible objection to the possibility of runaway gravitational
 collapse is that with many materials, the more we compress them, the more

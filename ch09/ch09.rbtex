@@ -1,6 +1,6 @@
 <% require "./scripts/simple_figures.rb" %>
 
-\chapter{Curvature of spacetime}
+\chapter{Curvature of spacetime}\index{gravity!as curvature of spacetime}
 
 This chapter is called ``curvature of spacetime,'' which sounds pretty scary,
 but if you're willing to wholeheartedly accept the equivalence principle, it
@@ -41,7 +41,7 @@ is sort of like the view you'd see of the ground if you were a bug riding on the
 of air resistance, the ball's trajectory is slightly curved; it is swept downward by the air rushing down past it,
 and then decelerated again as the air comes back up.
 
-The principle of greatest time
+The principle of greatest time\index{time!principle of greatest!general relativity}
 (section \ref{sec:greatest-time}, p.~\pageref{sec:greatest-time}) says that of all the possible world-lines that a clock
 can follow from one event to another, the one that gives the greatest elapsed time is the inertial one.
 This leads to an analogy between straightness in space and straightness in spacetime.
@@ -81,7 +81,7 @@ is two-dimensional. They can nevertheless work out what has happened. Their two 
 formed a kind of shape that you never learned about in kindergarten. The shape with
 four sides is a square, three sides make a triangle, and two is ---
 
-``Oh yeah,'' says one bug knowingly, ``it's a lune. Really obscure shape, you probably never heard of it.''
+``Oh yeah,'' says one bug knowingly, ``it's a lune. Really obscure shape, you probably never heard of it.''\index{lune}
 
 You can't draw a lune on a flat surface using straight lines. If a lune exists, it means that the surface
 is curved. What's crucial is that the bugs can detect, understand, and measure this curvature without knowing
@@ -136,7 +136,7 @@ being caused by the gravity of the planet. In relativity, this is how we describ
 curvature of spacetime.
 
 
-\section{Deflection of starlight}\label{sec:bending-light}
+\section{Deflection of starlight}\label{sec:bending-light}\index{general relativity!tests of!deflection of starlight}
 
 Since the mass of a ray of light is zero, Newton would have expected it to be immune to gravity.
 But in general relativity, several different arguments lead us to expect that a ray of light
@@ -189,7 +189,7 @@ on a sphere, that doesn't mean that our universe actually has extra dimensions t
 Nobody has ever succeeded in observing a fifth dimension, although attempts have been made using
 particle accelerators (Franceschini \emph{et al.}, \url{arxiv.org/abs/1101.4919}).
 
-\section{Parallel transport}\label{sec:parallel-transport}
+\section{Parallel transport}\label{sec:parallel-transport}\index{vector!parallel transport}\index{parallel transport}
 
 This unobservability of extra dimensions has some interesting consequences. In figure 1, a woman walks
 from the earth's equator to the north pole, and as she does so, her body rotates by 90 degrees relative to
@@ -235,7 +235,8 @@ we mean by curvature: when curvature is present, parallel-transport from point A
 give a result that depends on the path chosen.
 
 This path-dependence of parallel transport was verified directly in 2005 in a satellite-based experiment
-called Gravity Probe B. On board the satellite was a gyroscope in the form of a silicon ball spinning frictionlessly
+called Gravity Probe B.\index{general relativity!tests of!Gravity Probe B}
+On board the satellite was a gyroscope in the form of a silicon ball spinning frictionlessly
 in a vacuum inside a box. The satellite was orbiting the earth, so on a spacetime diagram we would visualize
 its world-line as a helix. Parallel-transporting the gyroscope along this helical world-line gives a different
 result than if its path through spacetime had not been orbiting. If the gyroscope had then been brought down

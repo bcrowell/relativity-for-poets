@@ -1,6 +1,6 @@
 <% require "./scripts/simple_figures.rb" %>
 
-\chapter{The equivalence principle}
+\chapter{The equivalence principle}\index{equivalence principle}\index{free fall!universality!equivalence principle}
 \section{The equivalence principle}
 
 The universality of free fall has the following very subversive consequences. Consider Alice, the girl in figure 1.
@@ -23,13 +23,15 @@ both at the same time.
 From the perspective of Newton and Galileo, this is deeply disturbing. According to one scenario, the box is an inertial
 frame of reference. Based on the other, it's not.
 
-These ideas lead relativists to the following point of view. Gravity is not really a force. Any observer who
+These ideas lead relativists to the following point of view. Gravity is not really a force.\index{force!gravity is not}\index{gravity!not a force}
+Any observer who
 thinks she's experiencing a gravitational field can equally well interpret her observations by switching to a
 different frame of reference, a \emph{free-falling} frame of reference, in which there is no gravity. These free-falling
 frames are the ones that deserve to be called inertial.\index{frame of reference!inertial!general relativity}
 (By this definition, the room in which you're reading this
 book is not an inertial frame.) Summarizing these observations, we say that the existence of a gravitational field
-is equivalent to choosing an accelerated frame of reference. This is called the \emph{equivalence principle}, and
+is equivalent to choosing an accelerated frame of reference. This is called the \emph{equivalence principle},\index{equivalence principle!defined}
+and
 it is the single most important feature of Einstein's theory of general relativity.
 
 The equivalence principle has an important application to flying an
@@ -98,7 +100,7 @@ She knows she's shielded from all forces, so she knows her frame of reference is
 problem is solved. Once she knows that her frame, tied to the white ball, is inertial, she can determine
 that the black ball's motion is inertial as well.
 
-\section{Apparent weightlessness}\label{sec:apparent-weightlessness}
+\section{Apparent weightlessness}\label{sec:apparent-weightlessness}\index{weightlessness|see {gravity}}\index{gravity!apparent weightlessness}
 
 This may all seem pretty bizarre, so let's connect it to the real world. At an amusement park near where I
 live in Southern California, there is a ride called the Supreme Scream. Riders are raised in chairs up to the
@@ -125,7 +127,7 @@ As in the case of the Vomit Comet, their free fall carries them not straight dow
 kilometers per second), the arc is a very broad one --- broad enough to carry them around the world in
 a circular orbit, without ever hitting the ground.
 
-\section{Locality}
+\section{Locality}\index{frame of reference!only local in general relativity}
 
 The equivalence principle guarantees that we can always define an inertial frame of reference, by choosing
 a free-falling object as a point of reference.
@@ -200,7 +202,8 @@ would be slightly lengthened compared to the time between their emission.
 
 If we're willing to take the equivalence principle seriously, then we should expect exactly the same effect
 in a laboratory that sits in a gravitational field. That is what was observed in a famous experiment by
-Pound and Rebka at Harvard in 1959. Figure 3 above shows the basic idea. The experiment was done in a 22 meter
+Pound and Rebka at Harvard in 1959.\index{Pound-Rebka experiment}
+Figure 3 above shows the basic idea. The experiment was done in a 22 meter
 tower in one of the university's lab buildings. Rather than sending two discrete flashes of light up from the
 floor to the ceiling, they used the fact that light is a wave, so that two successive wave crests play the role
 of the two flashes. The light waves used were gamma rays emitted in the decay of a radioactive source.
