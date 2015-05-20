@@ -26,7 +26,8 @@ frame of reference. Based on the other, it's not.
 These ideas lead relativists to the following point of view. Gravity is not really a force. Any observer who
 thinks she's experiencing a gravitational field can equally well interpret her observations by switching to a
 different frame of reference, a \emph{free-falling} frame of reference, in which there is no gravity. These free-falling
-frames are the ones that deserve to be called inertial. (By this definition, the room in which you're reading this
+frames are the ones that deserve to be called inertial.\index{frame of reference!inertial!general relativity}
+(By this definition, the room in which you're reading this
 book is not an inertial frame.) Summarizing these observations, we say that the existence of a gravitational field
 is equivalent to choosing an accelerated frame of reference. This is called the \emph{equivalence principle}, and
 it is the single most important feature of Einstein's theory of general relativity.
@@ -148,7 +149,7 @@ Gravity is after all inescapably real, if we look at large scales.
 Similarly, tidal forces cannot be dismissed as illusions;
 for example, they destroyed of the comet in figure 2 on p.~\pageref{fig:tidal-force}.
 
-\section{Gravitational time dilation}\label{sec:gravitational-time-dilation}
+\section{Gravitational time dilation}\label{sec:gravitational-time-dilation}\index{time!dilation!due to gravity}
 
 The equivalence principle makes powerful and surprising predictions.
 In figure 1, Amy (gray) stands on the ground while her twin brother Bob (white) jumps straight up in the air

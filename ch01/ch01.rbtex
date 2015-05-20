@@ -1,17 +1,17 @@
 <% require "./scripts/simple_figures.rb" %>
 
-\chapter{Galilean relativity}\label{ch:galilean-relativity}
+\chapter{Galilean relativity}\label{ch:galilean-relativity}\index{Galilean relativity}
 
 \section{Galileo versus Aristotle}
 
 Once upon a time, there was an ornery man who liked to argue.
 He was undiplomatic and had a talent for converting allies into enemies.
-His name was Galileo, and it was his singular misfortune to be correct in most of his opinions.
+His name was Galileo,\index{Galileo} and it was his singular misfortune to be correct in most of his opinions.
 When he was arguing, Galileo had a few annoying habits. One was to answer a perfectly sound theoretical
 argument with a contradictory experiment or observation. Another was that, since he
 knew he was right, he freely made up descriptions of experiments that he hadn't actually done.
 
-Galileo's true opponent was a dead man, the ancient Greek philosopher Aristotle.
+Galileo's true opponent was a dead man, the ancient Greek philosopher Aristotle.\index{Aristotle}
 Aristotle, probably based on generalizations from everyday experience, had come up
 with some seemingly common-sense theories about motion.
 
@@ -48,7 +48,7 @@ brass ball on a smooth ramp, in order to make the frictional force as small as p
 He carried out careful quantitative observations of the balls' motion, with time
 measured using a primitive water clock. By taking measurements under a variety of
 conditions, he showed by extrapolation from his data that if the ramp was perfectly level,
-and friction completely absent, the ball would roll forever. 
+and friction completely absent, the ball would roll forever.\index{friction}
 
 Today we have easier ways
 to convince ourselves of the same conclusion. For example, you've seen a puck glide frictionlessly
@@ -65,7 +65,7 @@ force in c serves only to recover from the loss in speed.
 Galileo's second argument had to do with the fact that we can't judge motion except by
 comparing with some reference point, which we consider to be stationary. Aristotle
 used the earth as a reference point. 
-But in 1610, Galileo looked at the planet Jupiter through a telescope that he had invented, and
+But in 1610, Galileo looked at the planet Jupiter\index{Jupiter} through a telescope that he had invented, and
 saw something startling. The planet, which looks like a bright and starlike point to the naked eye,
 appeared as a disk, and accompanying it were four points of light. Observing them from one
 night to the next, as shown in the notebook page reproduced here, he saw that they wove their
@@ -87,7 +87,7 @@ making it into just one of several planets in the solar system.
 
 \vfill\pagebreak
 
-\section{Frames of reference}\label{sec:frames-of-reference}
+\section{Frames of reference}\label{sec:frames-of-reference}\index{frame of reference}
 
 If Aristotle had grown up on Jupiter, maybe he would have considered Jupiter to be the natural reference
 point that was obviously at rest. In fact there is no one reference point that is always right. Psychologically,
@@ -98,7 +98,7 @@ If you were to describe the motion of the drink cart progressing down the aisle 
 you might say, ``Five minutes ago, it was at row 23, and now it's at row 38.'' You've implicitly laid out
 a number line along the length of the plane, with a reference point near the front hatch (where ``row zero'' would be).
 The measurements like 23 and 38 are called \emph{coordinates}, and in order to define them you need to pick
-a frame of reference.
+a frame of reference.\index{coordinates}
 
 <% fig("cow-and-car") %>
 
@@ -111,9 +111,9 @@ who considers herself to be at rest while the scenery rolls by.
 
 Aristotle believed that there was one special, or \emph{preferred} frame of reference, which was
 the one attached to the earth. Relativity says there is no such
-preferred frame.
+preferred frame.\index{frame of reference!no preferred frame}
 
-\section{Inertial and noninertial frames}
+\section{Inertial and noninertial frames}\index{frame of reference!inertial!Galilean relativity}
 
 That's not to say that all frames of reference are equally good. It's a little like the line from
 Orwell's satirical novel Animal Farm: ``All animals are equal, but some animals are more equal than others.''
@@ -129,7 +129,7 @@ Similarly, when a plane hits bad turbulence, it's possible for passengers to go 
 heads on the ceiling. That's why the crew tells you to buckle your seatbelts. Normally we assume that when an
 object is at rest, it will stay at rest unless a force acts on it. Furthermore, Galileo realized that
 an object in motion will tend
-to stay in motion. This tendency to keep on doing the same thing is called \emph{inertia}.
+to stay in motion. This tendency to keep on doing the same thing is called \emph{inertia}.\index{inertia}
 One of our cues that the bouncing cabin is not a valid frame of reference is that if we use the cabin as a
 reference point, objects do not appear to behave inertially. The person who goes flying up and hits the ceiling
 was not acted on by any force, and yet he changed from being at rest to being in motion. We would interpret this
@@ -137,7 +137,7 @@ as meaning that the plane's motion was not steady. The person didn't really pop 
 happened, as suggested in the figure, was that the ceiling swerved downward and hit the person on the head. The cabin is a \emph{noninertial frame
 of reference}. Moving frames are all right, but noninertial ones aren't.
 
-\section{Circular motion}
+\section{Circular motion}\index{circular motion}
 
 In the era of Galileo and Newton, there was quite a bit of confusion about whether inertial
 motion was a broad enough notion to include both motion in a straight line and motion in a circle.
@@ -156,7 +156,7 @@ For these reasons, a rotating frame of reference is not considered an inertial f
 
 <% fig("rock-on-string") %>
 
-\section{Addition of velocities}\label{sec:galilean-velocity-addition}
+\section{Addition of velocities}\label{sec:galilean-velocity-addition}\index{velocity!combination of!Galilean relativity}
 
 All inertial frames of reference are equally valid. However, observers in different frames of reference
 can give different answers to questions and get different, correct answers from measurements. For example,
@@ -199,7 +199,7 @@ numbers, and the one it tells you is not the one that the pilots on Air France 4
 
 \pagebreak
 
-\section{The Galilean twin paradox}\label{sec:galilean-twin-paradox}
+\section{The Galilean twin paradox}\label{sec:galilean-twin-paradox}\index{twin paradox!Galilean}
 
 Alice and Betty are identical teenage twins. Betty goes on a space voyage to get a fish taco with
 cilantro and grated carrots from a
@@ -225,7 +225,7 @@ physical effects. The earth's motion is inertial, and the spaceship's isn't.
 
 \pagebreak
 
-\section{The Galilean transformation}\label{sec:galilean-transformation}
+\section{The Galilean transformation}\label{sec:galilean-transformation}\index{Galilean transformation}
 
 <% fig("galilean-transformation") %>
 
@@ -251,7 +251,7 @@ This method of translating between two frames of reference is called the Galilea
 
 \pagebreak
 
-\sectionwithsurtitle{Science and society}{The Galileo affair}{The Galileo affair}
+\sectionwithsurtitle{Science and society}{The Galileo affair}{The Galileo affair}\index{Galileo!conflict with the Church}
 
 Galileo had a famous showdown with the Church, which ought to teach us something useful about
 the relationship between science and religion and their roles in society. But having taught

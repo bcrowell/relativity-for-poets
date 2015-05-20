@@ -145,7 +145,7 @@ violent.
 In summary, Newton's description of motion consists of the following three laws:
 
 \begin{enumerate}
-\item If no force acts on an object, its momentum doesn't change.
+\item If no force acts on an object, its momentum doesn't change.\index{inertia!Newton's first law}
 \item If forces act on an object, its momentum changes at a rate given by the total force.
 \item Forces always occur in pairs. If object A exerts a force on object B, then B is also
          exerting a force on A. These forces are in opposite directions and have equal magnitudes.

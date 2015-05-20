@@ -41,7 +41,7 @@ But even with Einstein synchronization, the example of the train, section
 is relative. If  observers A and B are not at rest relative to one another, they have
 different definitions of ``now.''
 
-\section{The Lorentz transformation}
+\section{The Lorentz transformation}\index{Lorentz transformation}
 
 Subject to these limitations, the best we can do is to construct the relativistic
 version of the Galilean transformation (section \ref{sec:galilean-transformation},
@@ -59,7 +59,7 @@ The most noticeable feature of the Lorentz transformation is that it doesn't
 maintain simultaneity. The horizontal lines on the white grid connect points
 that are simultaneous in the earth's frame of reference, but they are not
 parallel to the corresponding lines on the black grid, which represents the
-rocket ship's frame.
+rocket ship's frame.\index{Lorentz transformation!doesn't preserve simultaneity}
 
 One thing that does coincide between the two grids is the 45-degree diagonal,
 which is a piece of the light cone. This makes sense, because the two observers
@@ -71,7 +71,7 @@ As in the Galilean case, the slope of the black grid's left edge relates to the 
 the spaceship relative to the earth. In this example, the spaceship takes 5 time units to
 travel 3 distance units, so its velocity relative to the earth is 3/5 of $c$.
 
-\section{Correspondence principle}
+\section{Correspondence principle}\index{Lorentz transformation!correspondence principle}\index{correspondence principle!Lorentz transformation}
 
 The correspondence principle requires that the Lorentz transformation (p.~\pageref{fig:lorentz-transformation})
 match up with the Galilean transformation (p.~\pageref{sec:galilean-transformation}) when the
@@ -106,7 +106,7 @@ It's done by stretching one diagonal by a certain amount and squishing the other
 of that factor, so that the total area stays the same. The figure shows the case where the velocity is $3/5$ of
 $c$, which happens to give a stretch by a factor of 2 and a squish by 1/2.
 
-\section{No acceleration past $c$}\label{sec:no-accel-past-c}
+\section{No acceleration past $c$}\label{sec:no-accel-past-c}\index{$c$!no acceleration past}
 
 The stretch and squish factors give us an easy way to visualize what happens if we try to keep accelerating
 an object past the speed of light. Since the numbers are simple for a velocity of $3/5$, let's imagine that
@@ -131,7 +131,7 @@ The accelerator was powerful enough to have accelerated the electrons to many ti
 the speed of light, had Galileo been right. As shown in the right panel of the figure,
 the actual speeds measured just got closer
 and closer to $c$. The experimental data-points are in good agreement with the dashed line, which
-shows the predictions of special relativity.
+shows the predictions of special relativity.\index{$c$!no acceleration past!experiments}
 
 \section{Time dilation}
 
@@ -155,7 +155,8 @@ As the velocity gets closer and closer to $c$, the time-dilation factor blows up
 scientific background for science fiction stories such as the Planet of the Apes movies, in which thousands of
 years pass back home while astronauts aboard a spaceship experience only a few months.
 This kind of motion very close to the speed of light is referred to as
-\emph{ultrarelativistic}. In theory, if we had enough
+\emph{ultrarelativistic}.\index{velocity!ultrarelativistic}
+In theory, if we had enough
 energy, we could accelerate ourselves to very close to the speed of light and watch the stars grow cold and the
 cosmos slip into senescence.
 
@@ -177,17 +178,17 @@ The Lorentz transformation describes distortions of both time and space. To the 
 foreshortened, as suggested by the figure. This shortening of distances, called length contraction, is by the
 same ratio as the time dilation factor. Summarizing these results, we have the following:
 
-\begin{important}[Time dilation]
+\begin{important}[Time dilation]\index{time!dilation!due to motion}
 A clock appears to run fastest to an observer at rest relative to  the clock.
 \end{important}
 
-\begin{important}[Length contraction]
+\begin{important}[Length contraction]\index{length contraction}\index{Lorentz contraction|see {length contraction}}
 A meter stick appears longest to an observer who is at rest relative to it.
 \end{important}
 
 <% fig("convertible-and-cube") %>
 
-\section{Not what you see}
+\section{Not what you see}\index{length contraction!not what you see}
 
 By the way, you shouldn't get the impression from words like ``appears'' that these are the only effects that
 one actually \emph{sees} with optical observations using the eye or a camera. What we mean here is what an
@@ -229,7 +230,7 @@ of propagation is different for different parts of the cube, so in the observer'
 c, rays from different points had to be emitted when the cube was at different
 points in its motion, if those rays were to reach the eye.
 
-\section{Causality}
+\section{Causality}\index{causality}
 
 Although time dilation is a kind of time travel, it's always time travel into the future,
 so special relativity avoids scenarios such as the Robert Heinlein story ``--- All You Zombies ---,''
@@ -242,7 +243,7 @@ of reference as well.
 \pagebreak
 
 \sectionwithsurtitle{Optional}{Proof that area stays the same in a Lorentz transformation}%
-           {Proof that area stays the same}\label{sec:area-proof}
+           {Proof that area stays the same}\label{sec:area-proof}\index{area!in spacetime diagrams}\index{Lorentz transformation!preserves area}
 
 This optional section gives a proof that
  Lorentz transformations don't change area in the $t-x$ plane

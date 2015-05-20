@@ -35,7 +35,7 @@ long as the earth's positions form a line.
 In other words, the things we've been saying about motion can also be taken as claims about
 the structure of the background, the stage of space and time on which motion is played out.
 We call this background \emph{spacetime}, and each point on it is an \emph{event}: a certain time and
-place, such as July 1, 1863 at Gettysburg, Pennsylvania.
+place, such as July 1, 1863 at Gettysburg, Pennsylvania.\index{spacetime}\index{event}\index{spacetime diagram}
 
 Aristotelian spacetime comes equipped with a special structure, represented by the blue
 lines on the notebook paper. They represent a preferred frame of reference, and they always
@@ -47,12 +47,13 @@ of opinion, because it depends on the frame of reference we pick.
 But \emph{both} Galileo and Aristotle implicitly assumed a further type of structure
 for spacetime, which we can visualize as a set of \emph{horizontal} lines on the paper.
 Events lying on the same horizontal line are \emph{simultaneous}, and the assumption has been that
-simultaneity is not a matter of opinion. It's absolute.
+simultaneity is not a matter of opinion. It's absolute.\index{time!simultaneity|see {simultaneity}}\index{simultaneity!absolute in Galilean relativity}
 
 \pagebreak
 
 Neither Galileo nor Aristotle realized
-that this was a nontrivial assumption, but Isaac Newton (1642-1726) did, and he explicitly stated it:
+that this was a nontrivial assumption, but Isaac Newton (1642-1726) did,\index{Newton, Isaac}
+and he explicitly stated it:\index{time!absolute in Galilean relativity}
 %
 \begin{quote}
 Absolute, true, and mathematical time, of itself, and from its own nature,
@@ -65,7 +66,7 @@ flows uniformly without regard to anything external [...]
 
 The photo
 % \vpageref{fig:hk-in-cabin}
-shows a 1971 experiment that proves this hidden assumption to be wrong.
+shows a 1971 experiment that proves this hidden assumption to be wrong.\index{Hafele-Keating experiment}
 There had been plenty of earlier evidence, but this experiment is particularly direct and easy to explain.
 Physicist J.C.~Hafele and astronomer R.E.~Keating  brought atomic clocks aboard commercial
 airliners and flew around the world, once from east to west and once from west to east.
@@ -76,14 +77,14 @@ traveling clocks and the times measured by similar clocks that stayed home at th
 The effect was small enough that it has to be expressed in units of nanoseconds (ns), or billionths of a second.
 The east-going clock lost time, ending up off by $-59\ \zu{ns}$, while the west-going 
 one gained $273\ \zu{ns}$. Although the effects were small, they were statistically significant compared
-to the clocks' margins of error of about $\pm 10\ \zu{ns}$. 
+to the clocks' margins of error of about $\pm 10\ \zu{ns}$.\index{time!experiments showing relativity of!airplanes}
 
 Actually it makes sense that the effects were small.
 Galileo's description of spacetime  had already been thoroughly tested by experiments under a wide variety of conditions,
 so even if it's wrong, and we're going to replace it with some new theory, the
 new theory must agree with Galileo's to a good approximation, within the Galilean theory's
 realm of applicability. This requirement of backward-compatibility is known as
-the \emph{correspondence principle}.\label{correspondence-principle-defined}
+the \emph{correspondence principle}.\label{correspondence-principle-defined}\index{correspondence principle}
 
 It's also reassuring that the effects on time were
 small compared to the three-day lengths of the plane trips. There was therefore no
@@ -92,7 +93,9 @@ back in Washington before he left and then convinced himself not to take the tri
 A theory that maintains this kind of orderly relationship between cause and effect is said to satisfy causality.
 
 Hafele and Keating were not working in the dark. They already had access to an improved
-theory of spacetime, which was Albert Einstein's theory of relativity, developed around 1905-1916.
+theory of spacetime, which was Albert Einstein's theory of 
+relativity, developed around 
+1905-1916.\index{special relativity}\index{relativity|see {Galilean relativity, special relativity, general relativity}}
 They were testing relativity's predictions (and they were not the first to do so).
 Let's work backward instead, and
 inspect the empirical results for clues as to how time works.
@@ -117,7 +120,7 @@ implies that there is a second effect involved, simply due to the planes' being 
 This was verified more directly in a 1978 experiment by Iijima and Fujiwara, in which one clock was
 kept in Mitaka, a suburb of Tokyo, while an identical clock was driven up nearby Mount Norikura,
 left motionless there for about a week, and then brought back down and compared with the one at the bottom of the mountain.
-Their results are shown in the graph.\label{iijima}
+Their results are shown in the graph.\label{iijima}\index{time!experiments showing relativity of!mountain-valley experiments}
 This experiment, unlike the Hafele-Keating one, isolates one effect on time, the gravitational one: time's
 rate of flow increases with height in a gravitational field. Einstein didn't figure out
 how to incorporate gravity into relativity until 1915, after much frustration and many false starts. The
@@ -139,7 +142,7 @@ funding from the Navy. There is a legend that the military brass in charge of th
 they believed in all the crazy relativity stuff being spouted by the longhaired physics professors, so they
 demanded that the satellites have special software switches designed into them so that the relativity corrections
 could be turned off if necessary. In fact, both special and general relativity are crucially important to GPS,
-and the system would be completely broken without them.
+and the system would be completely broken without them.\index{GPS}
 
 <% fig("correspondence-dramatized") %>
 
@@ -172,14 +175,15 @@ destructive power
 greater than the total megatonnage of all the world's nuclear arsenals. We can, however, accelerate subatomic particles
 to very high speeds. For experimental particle physicists, relativity is something you do all day
 before heading home and stopping off at the store for milk. An early, low-precision experiment of this kind was
-performed by Rossi and Hall in 1941, using naturally occurring cosmic rays. The figure shows
-a 1974 particle-accelerator experiment of a similar type.
+performed by Rossi and Hall in 1941, using naturally occurring cosmic rays.\index{Rossi-Hall experiment}
+The figure shows
+a 1974 particle-accelerator experiment of a similar type.\index{time!experiments showing relativity of!subatomic particles}
 
 <% fig("cern-muons","h") %>
 
 
 
-Particles called muons (named after Greek $\mu$, ``myoo'') were produced by an
+Particles called muons (named after Greek $\mu$, ``myoo'') were produced by an\index{muon}
 accelerator at CERN, near Geneva. A muon is essentially a heavier version
 of the electron. Muons undergo radioactive decay,
 lasting an average of only 2.197 microseconds (millionths of a second, coincidentally also written with the Greek $\mu$).
@@ -194,7 +198,7 @@ selected time. The graph shows the number of radioactive decays counted, plotted
 time elapsed after a given stream of muons was injected into the storage ring. The two dashed lines show the rates
 of decay predicted with and without relativity. The relativistic line is the one that agrees with experiment.
 
-\section{The principle of greatest time}\label{sec:greatest-time}
+\section{The principle of greatest time}\label{sec:greatest-time}\index{time!principle of greatest}\index{greatest time|see {time, principle of greatest}}\index{principle of greatesr time|see {time, principle of greatest}}\index{maximal time, principle of|see {time, principle of greatest}}
 
 
 A paradox now arises: how can all of this be reconciled with the fact that motion is relative?
@@ -208,7 +212,8 @@ by looking for the frame in which clocks run the fastest?
 To clear this up, it will help if we start with
 a simpler example than the Hafele-Keating experiment, which involved three different sets of clocks, motion
 in circles, and the motion of the planes being superimposed on the rotation of the earth.
-Let's consider instead the relativistic version of the Galilean twin paradox from section
+Let's consider instead the relativistic version of the Galilean twin paradox\index{twin paradox!special relativity}
+from section
 \ref{sec:galilean-twin-paradox}, p.~\pageref{sec:galilean-twin-paradox}, reproduced here in
 panel a of the figure. Recall that in this thought
 experiment, Alice stays at home on earth while her twin Betty goes on a space voyage and returns. The relativistic version
@@ -269,7 +274,8 @@ the truth of the matter: who is really slow and who is really fast. We are force
 opposite conclusion, that the phones do \emph{not} send signals that propagate at an infinite speed --- in fact,
 that \emph{no} form of communication, no method of cause and effect, can operate at a distance without a
 certain time lag. The whole logical structure of relativity falls apart unless we assume 
-a universal speed limit for all motion in the universe. We refer to this speed with the letter $c$.
+a universal speed limit for all motion in the universe. We refer to 
+this speed with the letter $c$.\index{$c$!maximum speed of cause and effect}\index{speed of light|see {$c$}}
 
 <% fig("symmetric-signals","h") %>
 
@@ -291,11 +297,12 @@ handle times and distances on the human scale, $c$ is a huge number, about $300,
 ($3\times10^8\ \zu{m}/\zu{s}$ in scientific notation). This is an example of the equivalence principle at
 work. One of the reasons that we don't notice the effects of Einstein's relativity (``relativistic'' effects)
 very often in everyday life is that the speeds at which we walk, drive a car, and throw baseballs are
-so small compared to $c$.
+so small compared to $c$.\index{$c$!speed of light}\index{velocity!relativistic}
 
 \section{Einstein's train}\label{sec:einstein-train}
 
-We've seen that if simultaneity isn't absolute, then there must be a universal speed limit $c$.
+We've seen that if simultaneity isn't absolute,\index{simultaneity!relative in special relativity}
+then there must be a universal speed limit $c$.
 The converse is also true: if $c$ is universal, then simultaneity must be relative.
 The figure shows a famous thought experiment used by Einstein to present this idea.
 
@@ -320,7 +327,7 @@ flash 2 must
 have occurred first. The two events that in Alice's frame are simultaneous
 are not simultaneous to Bob.
 
-\section{Velocities don't simply add}\label{sec:velocities-do-not-add}
+\section{Velocities don't simply add}\label{sec:velocities-do-not-add}\index{velocity!combination of!special relativity}
 
 It's crucial to the example of the train
 in section \ref{sec:einstein-train} that the speed of light is the same for Bob as for Alice.
@@ -345,7 +352,8 @@ But all of these experiments had been ones involving material objects at speeds 
 to $c$. We'll see later how to combine velocities correctly, but that method will have to give
 results nearly the same as straight addition when the velocities are small. For example,
 in section \ref{sec:galilean-velocity-addition} we added velocities of 30 km/hr and 20 km/hr
-to get 50 km/hr. The correct relativistic result is 49.9999999999999995 km/hr.
+to get 50 km/hr. The correct relativistic 
+result is 49.9999999999999995 km/hr.\index{correspondence principle!combination of velocities}\index{velocity!combination of!correspondence principle}
 
 That was for velocities small compared to $c$. If we go to the opposite extreme, combining
 a velocity that \emph{equals} $c$ with any other velocity should simply give back $c$, since
@@ -361,14 +369,15 @@ precision of $\pm0.01$\%.
 
 \pagebreak
 
-\section{The light cone}\label{sec:light-cone}
+\section{The light cone}\label{sec:light-cone}\index{light cone}
 
 <% fig("light-cone") %>
 
 
 
 In figure a above, a light bulb blinks on momentarily and then back off. Flashes of light spread out from
-it at $c$ to the right and left, tracing lines which, because of our choice of units, make 45-degree angles.
+it at $c$ to the right and left, tracing lines which, because of our choice of units, 
+make 45-degree angles.\index{equals 1 in relativistic units}
 These lines form a geometrical figure, which is called the \emph{light cone}, for reasons that may be more
 clear from figure b, which attempts to represent two dimensions of space as well as the time dimension.
 
@@ -392,7 +401,7 @@ said to be \emph{spacelike} in relation to $\star$, and events on the surface of
 <% fig("light-cone-conical","!htpb") %>
 
 
-\sectionwithsurtitle{Science and society}{Scientific revolutions}{Scientific revolutions}\label{sec:scientific-revolutions}
+\sectionwithsurtitle{Science and society}{Scientific revolutions}{Scientific revolutions}\label{sec:scientific-revolutions}\index{revolutions, scientific}
 
 Special relativity overthrew Galilean relativity, a scientific theory that
 physicists had wholeheartedly believed in for hundreds of years.
@@ -420,8 +429,8 @@ became accepted in physics, it was because it was supported
 by a vast number of experiments. It's just that experiments never have perfect
 accuracy. The old experiments weren't all
 wrong. They were right, within their limitations.
-This point of view is associated with the philosopher of science Karl Popper (1902-1994). Trained as
-a psychologist during the era when Freud was a dominant figure, Popper proposed \emph{falsifiability}
+This point of view is associated with the philosopher of science Karl Popper (1902-1994).\index{Popper, Karl} Trained as
+a psychologist during the era when Freud was a dominant figure, Popper proposed \emph{falsifiability}\index{falsifiability}
 as the criterion for distinguishing science from non-science. According to Popper, real science makes
 itself vulnerable by proposing theories that predict new things, and that could be disproved if the
 predictions turned out to be false. He saw Freudianism as nonscientific, since it was so elastic that
@@ -437,9 +446,10 @@ unscientific.
 
 <% fig("duck-rabbit-illusion","h") %>
 
-A controversial alternative to Popper comes from Thomas Kuhn (1922-1996), who argues that
+A controversial alternative to Popper comes from Thomas Kuhn (1922-1996),\index{Kuhn, Thomas} who argues that
 science operates in two different modes, a normal one in which knowledge is steadily accumulated,
-and revolutionary steps, or \emph{paradigm shifts}. According to Kuhn,
+and revolutionary steps, or \emph{paradigm shifts}.\index{paradigm shift}
+According to Kuhn,
 Galilean relativity and heliocentrism were a paradigm shift that only much later led to a theory
 that was superior to the old one in terms of falsifiability.
 Kuhn claims that theories from after a paradigm shift are incommensurable with theories from before

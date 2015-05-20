@@ -4,7 +4,7 @@
 
 We now trace essentially the same chain of reasoning that Einstein used in arriving at his most famous equation.
 
-\section{Energy shift of a beam of light}
+\section{Energy shift of a beam of light}\index{Doppler shift!energy}
 
 A ray of light always moves at $c$, and this leads to some big differences in behavior between the energy of matter
 and the energy of light. If a boxer throws a harder punch, his fist has more energy because of its greater speed.
@@ -83,7 +83,7 @@ That is of course logically possible, and there were in fact a couple of occasio
 in which physicists did seriously consider abandoning energy conservation as a fundamental law of physics.
 Einstein decided to do something trickier. He decided to \emph{redefine} energy. He proposed the following:
 
-\begin{important}[Equivalence of mass and energy]
+\begin{important}[Equivalence of mass and energy]\index{mass-energy equivalence}\index{$E=mc^2$|see {mass-energy equivalence}}
 Mass and energy are equivalent, and the conversion between mass and energy units is given by the equation $E=mc^2$.
 \end{important}
 
@@ -104,7 +104,7 @@ the nonrelativistic formula for kinetic energy is known to be a good approximati
 conservation of energy is eliminated. It is eliminated at higher velocities as well, but only if we use
 the correct relativistic equation for kinetic energy.
 
-\section{Correspondence principle}
+\section{Correspondence principle}\index{mass-energy equivalence!correspondence principle}
 
 <% fig("bell-jar","h") %>
 
@@ -120,7 +120,8 @@ relativity, which was that the mass measured on the balance would remain exactly
 Mass is conserved.
 
 Now Einstein claims that the energy of the light escaping from the jar is equivalent to some mass.
-How can this be? Experiments like this had been done by physicists as far back in history as Lavoisier, at the time of
+How can this be? Experiments like this had been done by physicists as far back in history as 
+Lavoisier,\index{Lavoisier} at the time of
 the French Revolution. But recall our numerical estimate above. A joule is actually a pretty reasonable
 estimate of the energy released by a burning match, and we saw that a joule is only equivalent to an
 extremely small amount of mass. Lavoisier was right, to within the precision of the balances he had available.
@@ -133,7 +134,8 @@ reconstituted in another place. Before Einstein, mass and energy had been though
 separately conserved, so this would be impossible. According to relativity, they are
 equivalent, and we only have conservation of
 the \emph{total} amount of mass plus energy (with the two quantities converted into compatible
-units before addition). The sum is called mass-energy. It's as though we believed that Euros
+units before addition). The sum is called mass-energy.\index{conservation laws!special relativity!mass-energy}
+It's as though we believed that Euros
 and Swiss Francs were completely different things, until one day we found out that there was
 a money changing shop that would let us trade in one for the other.
 
@@ -144,12 +146,12 @@ of radioactivity that are present naturally in our environment.
 Some naturally radioactive substances in the earth produce positrons, which are like electrons
 but have the opposite electric charge.
 A form of antimatter, positrons annihilate with electrons to produce gamma
-rays, a form of short-wavelength light.
+rays, a form of short-wavelength light.\index{positron}\index{antimatter}\index{gamma ray}\index{light!gamma ray}
 
 <% fig("pet-scan","h") %>
 
 Positron annihilation forms the basis for the medical imaging technique called
-a PET (positron emission tomography) scan, in which a positron-emitting chemical
+a PET (positron emission tomography) scan, in which a positron-emitting chemical\index{PET scan}
 is injected into the patient and mapped by the emission of gamma rays from the parts
 of the body where it accumulates. Because the gamma rays fly off back to back, the detector
 can reconstruct the line along which they flew out and therefore the direction to the source
@@ -162,7 +164,7 @@ not just by radiation from minerals in the earth but also by radiation from oute
 cosmic rays. Some of these cosmic rays are gamma rays, which can interact with matter by converting
 part of their energy into the creation of an electron and a positron.
 
-\section{The energy-momentum vector}
+\section{The energy-momentum vector}\index{momentum!relativistic|see {energy-momentum vector}}\index{energy!relativistic|see {energy-momentum vector}}
 
 We saw earlier that spatial displacement wasn't a valid relativistic vector, and to make
 a valid one, we had to combine it with a time interval. A similar approach works for mass-energy
@@ -244,7 +246,7 @@ but no doubt they will use it as a justification for another project, even large
 
 <% fig("accelerator-experiment","h") %>
 
-\section[Tachyons]{Why can't I have tachyons?}\label{sec:tachyons}
+\section[Tachyons]{Why can't I have tachyons?}\label{sec:tachyons}\index{tachyons}\index{$c$!tachyons}
 
 The energy-momentum vector is timelike for matter and lightlike for massless phenomena such as light.
 A hypothetical third category of particles, called tachyons (``TACK-y-ons''), would have a spacelike energy-momentum vector.
@@ -281,7 +283,7 @@ One could also look for
 particles with spacelike energy-mom\-ent\-um vectors. Alvager and Erman, in a 1965 experiment, studied the radioactive decay
 of thulium-170, and found that no such particles were emitted at the level of 1 per 10,000 decays.
 
-Some known subatomic particles, such as neutrinos, don't interact strongly with matter, and are therefore
+Some known subatomic particles, such as neutrinos,\index{neutrino} don't interact strongly with matter, and are therefore
 difficult to detect directly.
 It's possible that tachyons exist but don't interact strongly with matter. If so, then
 it might be possible to infer their existence indirectly through missing energy-momentum

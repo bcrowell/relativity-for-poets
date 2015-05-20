@@ -4,10 +4,11 @@
 
 \section{How much does matter really matter?}\label{sec:mass}
 
-Everyone knows $E=mc^2$, even if they don't know what the letters stand for.
-You already know about $c$, so let's move on to $m$. It stands for mass,
+Everyone knows $E=mc^2$,
+even if they don't know what the letters stand for.
+You already know about $c$, so let's move on to $m$. It stands for mass,\index{mass}
 and most dictionaries define it as something like the quantity of
-matter. This definition falls into the category referred to by the physicist Wolfgang Pauli
+matter. This definition falls into the category referred to by the physicist Wolfgang Pauli\index{Pauli, Wolfgang}
 as ``not even wrong,'' meaning that it doesn't even mean enough for us to decide whether
 it's right. The basic problem is that it's not an operational definition.
 As an operational definition, pick up the nearest handy heavy object, such as your backpack
@@ -15,7 +16,7 @@ full of textbooks. Hold it firmly in both hands, and shake it back and forth. Wh
 feeling is a sensation of its mass. If you were in outer space, where there is no gravity,
 you'd get exactly the same results, because mass doesn't depend on gravity. This is in fact
 a technique sometimes used by astronauts to check on their body mass while they're in orbit.
-They sit in a chair attached to a spring, and measure how fast the vibrations are.
+They sit in a chair attached to a spring, and measure how fast the vibrations are.\index{mass!operational definition}
 
 <% fig("define-mass","h") %>
 
@@ -24,7 +25,7 @@ much inertia an object has: how hard it is to change its state of motion.
 
 To define a numerical scale of mass, we can just start with a standard object, and do
 this kind of vibration measurement on the standard object. (The metric kilogram unit, for
-example, is defined by a standard platinum-iridum cylinder housed in a shrine in Paris.)
+example, is defined by a standard platinum-iridum cylinder housed in a shrine in Paris.)\index{mass!kilogram unit}
 If the results are the same for the standard object as for our object of unknown mass,
 then the unknown has a mass of one unit. If three copies of the standard object bundled
 together give the same results as our unknown, then its mass is three units.
@@ -37,7 +38,7 @@ We could measure its velocity, but that would give the same measure of ``motion'
 to world-champion sprinter Usain Bolt as to my skinny little spaniel-greyhound
 mutt, who can run at about the same pace. Bolt is a big, burly guy, and if I had
 to choose whether to get hit by him or my dog, running at full speed, I'd choose
-the dog. What we're groping for here is something called \emph{momentum}. As an operational
+the dog. What we're groping for here is something called \emph{momentum}.\index{momentum} As an operational
 definition, momentum can be defined by taking the moving object (say my dog), colliding
 it with a target (me), and seeing how fast the target recoils. If stopping Usain Bolt
 makes me recoil ten times faster than stopping my little dog, then Bolt has ten times
@@ -48,7 +49,7 @@ that momentum is proportional to the object's mass multiplied by its velocity --
 only an approximation for nonrelativistic speeds.
 In nonrelativistic physics, momentum is a vector. 
 
-One of the most fundamental known laws of physics
+One of the most fundamental known laws of physics\index{conservation laws!Galilean!momentum}
 is that momentum is \emph{conserved}, meaning that the total amount of it always stays the same.
 For example, if my dog runs into me and I stop her motion, her momentum vanishes, but I recoil
 with the same amount of momentum, so that the same amount still exists. In the photo, the sprinters
@@ -62,7 +63,8 @@ As a measure of ``oomph,'' however, momentum can't be the whole story. The firew
 the photo has pieces that move in all directions symmetrically. Since momentum is a vector,
 the momenta of the pieces cancel out. We want some other number that measures how much of a
 bang was stored up in the gunpowder and released as heat, light, sound, and motion when the gunpowder exploded.
-This is called \emph{energy}, and it's the $E$ in $E=mc^2$. In nonrelativistic physics, energy is
+This is called \emph{energy}, and it's the $E$ in $E=mc^2$.\index{energy}\index{conservation laws!Galilean!energy}
+In nonrelativistic physics, energy is
 conserved, and its conservation is essentially the only way of defining it operationally.
 For example, if we define a unit of energy as a certain amount of heat, then the energy content of
 a battery can be determined by using it to heat something. Whatever amount of energy was gained as heat,
@@ -71,7 +73,7 @@ that same amount must have been lost by the battery.
 In nonrelativistic physics, energy is a scalar. For example, if we rotate a car, there is no change
 in the amount of energy stored in its gas tank.
 
-\emph{Kinetic energy} is the term for the
+\emph{Kinetic energy} is the term for the\index{energy!kinetic}
 energy that a material object has because of its motion.
 Although I intend this to be a book with almost no equations, it will be helpful to introduce an
 equation for kinetic energy. Since conservation laws are additive, kinetic energy must be proportional
@@ -89,7 +91,7 @@ negative. But driving a car in the opposite direction doesn't negate its energy 
 gas tank back up by driving that way! Mathematically, when we multiply a negative number by itself, we get a
 positive result, so the kinetic energy comes out the same.
 
-\section{Light}
+\section{Light}\index{light}
 
 As a physics student, Einstein was taught that the universe consisted of two ingredients: matter and light.
 Because we can't touch and feel light, and can't manipulate it with our hands, its properties can be hard to
@@ -98,7 +100,7 @@ of light were probably one of the things Euclid had in mind when he imagined per
 The wave model, discussed in section \ref{sec:em-waves}, p.~\pageref{sec:em-waves},
 has the advantage of providing a straightforward explanation of color: the different rainbow
 colors are different wavelengths of light. The particle model seems to contradict the wave model, but in fact
-can be reconciled with it; today light is believed to have both wave and particle properties.
+can be reconciled with it; today light is believed to have both wave and particle properties.\index{light!models}
 
 <% fig("three-models-of-light","h") %>
 
