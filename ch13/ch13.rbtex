@@ -173,13 +173,15 @@ extrapolated backward, there must have been a time when all of the matter in the
 had emerged from a ``cosmic egg'' --- what we now call the big bang.\index{cosmology!big bang}
 
 Einsten hated it, and told Lema\^itre, ``Your calculations are correct, but your physics is abominable.''
-The British astronomer Fred Hoyle came up with an alternative, shown in figure 5, called the steady-state 
+In 1948, the British astronomers Bondi, Gold, and Hoyle came up with an alternative, shown in figure 5, called the steady-state 
 model.\index{cosmology!steady state}\index{steady state|see {cosmology}}\index{Hoyle, Fred}
-According to Hoyle's idea, the universe expands, and everything gets farther apart, but at the same time
-matter is spontaneously springing into existence, so that on the average, the density of matter stays the same.
+According to this idea, the universe expands, and everything gets farther apart, but at the same time
+atoms are spontaneously springing into existence, so that on the average, the density of matter stays the same.
 Thus although the universe isn't static (unmoving), it looks the same at all eras of history. One problem
-with Hoyle's theory was that the proposed creation of matter is exactly the kind of nonconservation of
-energy-momentum that is forbidden by general relativity.
+with the theory was that the proposed creation of matter is exactly the kind of nonconservation of
+energy-momentum that is forbidden by general relativity. Although Hoyle went on trying to get around this
+and other difficulties with the theory, it was eventually conclusively disproved (see section \ref{sec:cmb},
+p.~\pageref{sec:cmb}).
 
 \section{Homogeneity and isotropy}\index{homogeneity}\index{isotropy}
 
@@ -236,7 +238,7 @@ the expansion has been at a constant rate.\index{Hubble constant}
 
 <% fig("hubble-law","!htpb") %>
 
-\section{The cosmic microwave background}\index{cosmic microwave background}\index{CMB|see {cosmic microwave background}}
+\section{The cosmic microwave background}\label{sec:cmb}\index{cosmic microwave background}\index{CMB|see {cosmic microwave background}}
 
 Despite scientists' initial reluctance to accept the big bang model, many independent threads of evidence
 point to it. For example, our universe has quite a bit of hydrogen-2, also known as 
@@ -289,11 +291,15 @@ Right now, your body is emitting infrared radiation, which means light with a wa
 a little too long to be visible without infrared goggles. A hot poker glows red. If you
 heat it more and more, the mixture of wavelengths it emits shifts toward lower and
 lower wavelengths. Presently, the CMB has a mixture of wavelengths that is typical of
-a temperature of only 2.7 K, but these wavelengths have been Doppler shifted. The light waves
-have been traveling across the universe for billions of years, and as the universe has expanded
-during that time, their wavelengths have been lengthening. Since most of the normal matter in the universe
+a temperature of only 2.7 K, but these wavelengths are not the ones originally emitted.
+General relativity predicts that as the universe expands, and galaxies get farther apart,
+the space between them also expands. Because of this expansion, when a
+light wave
+travels across the universe for billions of years, its wavelength stretches.
+
+ Since most of the normal matter in the universe
 is hydrogen, we expect that this light was originally emitted by hot hydrogen gas at a temperature
-of about 3000 K, which is the highest temperature at which hydrogen is transparent; at higher temperatures,
+of about 3000 K, which is the highest at which hydrogen is transparent; at higher temperatures,
 the electrons are stripped off of the atoms, and the gas becomes opaque. So the CMB is a relic of
 an era in which the universe had a temperature of about 3000 K. When originally emitted, the CMB
 has a yellowish-orange color. The drop of a factor of about 1000 in
@@ -340,13 +346,16 @@ observer.
 
 <% fig("dust-penrose-diagrams","!htpb") %>
 
-The figures show Penrose diagrams for two possible scenarios according to Friedman. In figure 1, the universe
+The figures show two possible scenarios according to Friedmann. In figure 1, we see the world-lines
+of several objects in a universe that
 has enough mass in it so that gravitational attraction gradually slows down the expansion of the universe and
-brings it to a halt. After that, the universe recontracts and ends up going out in style, in a fiery implosion
-called, naturally enough, a big crunch. Because Penrose diagrams don't try to show times and distances to scale,
+brings it to a halt.
+After that, the universe recontracts and ends up going out in style, in a fiery implosion
+called, naturally enough, a big crunch. Figure 2 shows the same cosmology as a Penrose diagram.
+Because Penrose diagrams don't try to show times and distances to scale,
 the expansion and recontraction are not shown. What the diagram does show accurately is that in this type of
 universe, space is finite, and it wraps around on itself.
 
-In figure 2 we see a possibility in which the universe does not contain enough mass to cause it to recontract.
+In figures 3 and 4 we see a possibility in which the universe does not contain enough mass to cause it to recontract.
 Its expansion is analogous to the motion of a projectile that has been shot up from the earth's surface at
 greater than escape velocity, so it will never fall back down. This universe is infinite both in space and in time.
