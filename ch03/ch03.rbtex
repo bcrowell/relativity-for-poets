@@ -242,6 +242,94 @@ of reference as well.
 
 \pagebreak
 
+\section{How can they both\ldots ?}
+
+When I first learned relativity, what bothered me the most was the following question.
+According to Einstein,
+if observers A and B aren't at rest relative to each other, then A says B's time
+is slow, but B says A is the slow one. How can this be? If A says B is slow, shouldn't
+B say A is fast? After all, if I took a pill that sped up my brain, everyone else would
+seem slow to me, and I would seem fast to them.
+
+<% fig("symmetric-signals") %>
+
+The figure shows how relativity resolves the first question.
+If A and B had an instantaneous method of communication such as Star Trek's subspace
+radio, then they could indeed resolve the question of who was really slow. 
+
+But relativity
+does not allow cause and effect to be propagated outside the light cone, so the best
+they can actually do is to send each other signals at $c$. In figure 1,
+B sends signals to A in the form of radio beeps at time intervals of one hour as measured by B's clock.
+Radio waves travel at $c$, and are in fact a low-frequency form of light. According to
+A's clock, the signals arrive at an interval that is shorter than one hour as the two spaceships
+approach one another, then longer than an hour after they pass each other and begin to recede.
+As shown in 2, the situation is entirely symmetric if A sends
+signals to B.
+
+\section[Doppler shift]{The stretch factor is the Doppler shift}\label{sec:doppler-frequency}\index{Doppler shift!frequency}
+
+If you hear little kids playing with toy race cars, they'll often imitate the sound
+they've heard on TV as the cars go by: the buzz of the engine starts out a little higher
+in pitch as it approaches, then shifts a little lower as it goes away. This is called a
+Doppler shift. The size of the effect depends on how fast the car is moving compared to
+the speed of sound. We don't notice Doppler shifts as much for ordinary cars, because
+their speeds are much smaller compared to the speed of sound. The revolutions of the
+spinning motor are like the ticks of a clock. The rate at which these sound impulses arrive at the
+ear of a stationary observer is distorted because between the emission of one impulse and the
+next, the distance to the ear has changed.
+
+It should be evident that this is directly analogous to the situation shown
+in the figure on p.~\pageref{fig:symmetric-signals}, except that we change the
+sound impulses into radio beeps, and what matters now is how fast the ships are traveling
+compared to the speed of \emph{light}. The mathematical description of this type of
+Doppler shift is very simple. The motion of A relative to B is at some speed, and at
+this speed the Lorentz transformation has a certain stretch and squish factor
+(section \ref{sec:stretch}, p.~\pageref{sec:stretch}). Suppose that the stretch
+and squish factors are 2 and 1/2. Then the Doppler shift changes the rate at which the
+signals are received by a factor of 2 if A and B are approaching one another, or by
+1/2 if they're receding.
+
+Because the velocities in everyday life are so small compared to the speed of light, the
+Doppler shifts are very small. For example, if a jet plane is flying directly toward
+us at 300 meters per second, the light that comes from it to our eyes is shifted up in frequency by a
+factor of 1.000001, which is only a ten thousandth of a percent, so although the light is
+shifted a little bit toward the blue end of the spectrum, the change isn't noticeable.
+As it recedes from us, the frequencies get multiplied by 0.999999, which is a drop of
+a ten thousandth of a percent, and we have a tiny shift toward the red.
+
+But there is at least one example in everyday life where Doppler shifts matter. When you use
+GPS, your receiver is getting signals from satellites that are moving about ten times faster
+than a jet plane. Although this is still very small compared to the speed of light, GPS
+depends on extremely accurate time measurements, so the Doppler shifts are big enough so
+that if we didn't take them into account, the system wouldn't work at all.
+
+Because the Lorentz transformation preserves the area of a square as it distorts it into
+a parallelogram, the stretch and shift factors are always inverses of one another: 2 and 1/2,
+7 and 1/7, and so on. This exact relationship would not be true without relativity, so testing
+it provides a test of relativity. Physicists using specialized equipment can measure Doppler
+shifts extremely accurately, so these tests are among the strictest to which anyone has ever
+subjected the theory. The first such test was done by Ives and Stilwell in 1938, and the
+results were as predicted by relativity. A modern,
+more precise version by Saathoff \emph{et al.} in 2003 used lithium ions moving at 6.4\%
+of $c$ in a particle accelerator. The forward and backward Doppler shifts were measured
+to be $1.06592034$ and $0.93815641$, respectively, and if you multiply these two numbers
+together, you'll see that the product equals 1 to nine digits of precision, which is
+impressive by anyone's standards. The spectacular agreement with theory has made this experiment a lightning rod for
+anti-relativity kooks.
+
+% calc -e "f=582490203.44; b=512671442.9; f0=546466918.8; D1=f/f0; D2=b/f0"
+%    D1 = 1.06592033918376
+%    D2 = 0.938156410319929
+% calc -e "1.06592034*0.93815641"
+
+As we'll see in chapter \ref{ch:dust}, p.~\pageref{ch:dust}, Doppler shifts are the method
+we use to measure the motion of distant galaxies toward or away from us, and this
+was the technique by which we discovered that the universe was expanding.
+
+\pagebreak
+
+
 \sectionwithsurtitle{Optional}{Proof that area stays the same in a Lorentz transformation}%
            {Proof that area stays the same}\label{sec:area-proof}\index{area!in spacetime diagrams}\index{Lorentz transformation!preserves area}
 

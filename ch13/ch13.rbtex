@@ -1,6 +1,6 @@
 <% require "./scripts/simple_figures.rb" %>
 
-\chapter{For dust thou art}
+\chapter{For dust thou art}\label{ch:dust}
 
 \begin{quote}
 In the sweat of thy face shalt thou eat bread, till thou return unto
@@ -166,6 +166,10 @@ It was not until the 1930s that evidence began to appear that the universe actua
 was expanding. The crucial foundational work had been done by the astronomers
 Henrietta Swan Leavitt\index{Leavitt, Henrietta Swan} and Vesto Slipher,\index{Slipher!Vesto} who worked out methods of determining the
 distances to other galaxies as well as their motion along the line connecting us to them.
+Swan's distance-measuring technique is more technical than we need to go into here.
+Slipher's velocity measurement  was done by observing Doppler shifts (section \ref{sec:doppler-frequency},
+p.~\pageref{sec:doppler-frequency}).
+
 The techniques were put together by Edwin Hubble\index{Hubble, Edwin} at the Mount Wilson observatory near
 Los Angeles. The theory was worked out in full by the Russian physicist
 Alexander Friedmann,\index{Friedmann, Alexander} and the Belgian priest Georges Lema\^itre\index{Lema\^itre, Georges} proposed that if one
@@ -196,16 +200,15 @@ formed by gravitational collapse that occurred during and despite cosmological e
 But on the very largest scales, beyond a few hundred million light years, we no longer
 see any structure. The map looks like an undifferentiated, random scattering of galaxies.
 
+<% fig("homogeneity-and-isotropy","!htpb") %>
+
+
 It is therefore natural to simplify our cosmological models by making the approximation that
 the universe is \emph{homogeneous} on the average, i.e., no region looks different from any
 other region. Furthermore, it does not appear that the universe has any special axis or preferred
 direction, such as an axis of rotation or a special direction with which spiral galaxies like to
 align themselves. This additional symmetry is called \emph{isotropy}. The figures on the facing
 page show visual examples that demonstrate these two symmetries.
-
-<% fig("homogeneity-and-isotropy","!htpb") %>
-
-\pagebreak
 
 \section{Hubble's law}\index{Hubble's law}
 
@@ -228,6 +231,9 @@ at some speed, and C is fleeing at double that speed. (Of course Alice won't liv
 to watch the process play out. She will actually measure these speeds using Doppler shifts\index{Doppler shift!cosmological} ---
 the technique pioneered by Slipher.) The velocity of recession $v$ is proportional to the distance $d$.
 
+<% fig("hubble-law","!htpb") %>
+
+
 This proportionality is known as Hubble's law. The constant of proportionality is called the
 Hubble constant, $H$, so that we have $v=Hd$. Suppose for the moment that, as implied by the diagrams, the motion
 of each galaxy is inertial; gravity is negligible. Then by using the grade-school equation
@@ -236,7 +242,6 @@ in time, there was a time equal to $1/H$ in the past when all three galaxies wer
 That is, the Hubble constant can be interpreted as the inverse of the age of the universe, provided that
 the expansion has been at a constant rate.\index{Hubble constant}
 
-<% fig("hubble-law","!htpb") %>
 
 \section{The cosmic microwave background}\label{sec:cmb}\index{cosmic microwave background}\index{CMB|see {cosmic microwave background}}
 
@@ -339,12 +344,13 @@ Condition 3 has been verified definitively through astronomical observations. Co
 valid in the early universe. Condition 1 is expected to hold up to certain known, very high densities and
 temperatures, at which quantum mechanics is expected to invalidate general relativity.
 
+<% fig("dust-penrose-diagrams","!htpb") %>
+
 Like a black hole singularity, the big bang singularity is spacelike. A black hole singularity becomes
 an inevitable part of the future light cone of an observer who passes inside the event horizon, but other observers
 never come in contact with it. The big bang singularity, on the other hand, lies in the past light cone of every
 observer.
 
-<% fig("dust-penrose-diagrams","!htpb") %>
 
 The figures show two possible scenarios according to Friedmann. In figure 1, we see the world-lines
 of several objects in a universe that
@@ -359,3 +365,26 @@ universe, space is finite, and it wraps around on itself.
 In figures 3 and 4 we see a possibility in which the universe does not contain enough mass to cause it to recontract.
 Its expansion is analogous to the motion of a projectile that has been shot up from the earth's surface at
 greater than escape velocity, so it will never fall back down. This universe is infinite both in space and in time.
+
+\section{A cosmic calendar}
+
+I've been blithely referring to ideas like the age of the universe and the time at which the CMB was
+emitted. When we use words like ``age'' and ``time,'' we need to be careful, because relativity tells
+us that time is not absolute. For example, the age of the universe is currently estimated at 14 billion
+years, but whose clock would we use to measure that time? It makes a difference what state of motion the
+clock is in.
+
+But because the universe has been evolving over time, we have a natural way of getting around this
+ambiguity. For example, the average temperature of the universe (meaning the average temperature
+of all the matter and light in it) has gone down over time. In the figure, we have a spacetime
+diagram that shows this cooling process. All three thermometers are at rest relative to the average
+motion of the nearby galaxies. By homogeneity, all three thermometers measure the same process of
+cooling, which happens at the same rate according to a clock attached to the thermometer.
+The result of all this is that we get a preferred notion of simultaneity, indicated by the
+horizontal dashed line in the figure. We are free to pick some other notion of simultaneity,
+as suggested by the slanted line, but this is less natural and convenient.
+
+<% fig("preferred-time","!htpb") %>
+
+This whole process is similar to how we can estimate the time of year by looking out the window. If there's snow
+on the ground in my front yard, it's probably December, not July.
