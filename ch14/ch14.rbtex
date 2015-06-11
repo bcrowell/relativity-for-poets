@@ -1,0 +1,84 @@
+<% require "./scripts/simple_figures.rb" %>
+
+\chapter{Dark matter and dark energy}\label{ch:dark-matter-and-dark-energy}
+
+\indentpattern{013}
+\begin{verse}
+\begin{patverse}
+Some say the world will end in fire,\\
+    Some say in ice.\\
+        \emph{Robert Frost}
+\end{patverse}
+\end{verse}
+% http://en.wikisource.org/wiki/American_Poetry_1922/Fire_and_Ice
+
+How will the world end? Nuclear war? Environmental ruin? Zombie apocalypse?
+Surprisingly, science has an easier time answering this question for
+the universe as a whole, rather than for our own planet, which we can so easily touch, see, and
+feel. How, then, will the \emph{universe} end its days?
+
+\section{A difficult census}
+
+If gravity didn't exist, then the answer would clearly be neither fire nor ice but
+dilution. Everything is moving farther apart, and as time goes on it gets more spread out.
+The lumps of matter  are separated by more and more empty space.
+If the expansion continues indefinitely, and at a constant rate, then the universe will
+eventually get to be like the thinnest soup
+imaginable.
+
+Gravity does exist. Suppose, as was believed until about 1998,
+that the universe's matter consists mostly of ordinary atoms
+(not, say, exotic subatomic particles), which move nonrelativistic speeds relative to
+other nearby matter. It then qualifies as the ``dust'' of ch.~\ref{ch:dust}.
+The Einstein field equation tells us that the expansion is not at a constant rate.
+Since dust satisfies certain energy conditions (p.~\pageref{energy-conditions}), the
+result is as we would expect according to Newton's description of gravity as an attractive force.
+The expansion decelerates. We then have the two possible scenarios described in section
+\ref{sec:big-bang-singularity}, p.~\pageref{sec:big-bang-singularity}. Either the universe
+recollapses into a big crunch, or it goes on expanding forever. To figure out which of these
+would happen, astronomers devoted a great deal of effort in the 20th century to trying to
+measure the average density of the matter in the cosmos. Essentially they were trying to
+take a census of the universe's contents.
+
+\section{Dark matter}
+
+In our own solar system, the sun accounts for 99.8\% of the mass. (The earth's contribution is
+only a few ten thousandths of a percent.) Stars are bright objects,
+so this makes it seem like it would be easy to see through
+a telescope where almost all of the universe's mass was.
+
+If only it were so simple. Within a galaxy, stars orbit at high speeds, and if the only mass
+present was that of the other stars, there would not be enough gravitational attraction to keep
+them from flying off, like the sparks flying off of the grinding wheel in the photo.
+Similar observations apply at the scale of clusters of galaxies.
+There must be a large amount of nonluminous matter to hold these structures together.
+
+<% fig("sparks-fly-on-tangent","!htpb") %>
+
+Now the weirdness starts. We have multiple independent lines of evidence telling us that this
+mysterious matter can't be made out of atoms:
+
+\begin{enumerate}
+\item If the universe contained this much matter in the form of atoms, then nuclear fusion reactions
+      in the first few minutes after the big bang would have proceeded more efficiently, and the universe
+      would contain a higher proportion than is actually observed of elements such as helium.
+\item The CMB is very nearly uniform, but does contain tiny irregularities, which are clues as to what happened
+      in the early universe.
+      The existence of non-atomic matter is required in order to
+      make models that  reproduce these fluctuations.
+\item In merging galaxy clusters, it has been observed that the gravitational forces don't point in the direction
+      they should if they were being produced by the clouds of gas made of normal, atomic matter.
+\end{enumerate}
+
+Because we don't know what this exotic matter is, we just call it ``dark matter.''
+Our best guess is that it consists of some kind of subatomic particle, similar to the neutrino,
+that doesn't interact strongly with ordinary matter. (We know that it can't actually be neutrinos,
+though, because we can detect neutrinos, and there aren't enough of them flying around.)
+
+When the Large Hadron Collider came online in 2010, it was hoped that it would create
+a slew of new particles, some of which might be the same as the ones in dark matter.
+That didn't happen, so we remain ignorant. 
+A number of experiments, buried in deep mineshafts to shield against background noise,
+are under way to detect dark matter
+directly. As of 2013, the most sensitive experiment has given null
+results.\footnote{\url{arxiv.org/abs/1310.8214}}
