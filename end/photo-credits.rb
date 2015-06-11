@@ -103,6 +103,12 @@ photo_credit("hubble-law","Galaxies","Ville Koistinen, CC-BY-SA")
   # http://commons.wikimedia.org/wiki/File:Hubble_sequence_photo.png
 photo_credit("penzias-wilson-antenna","Penzias-Wilson antenna","NASA, public domain")
   # http://upload.wikimedia.org/wikipedia/commons/f/f7/Horn_Antenna-in_Holmdel%2C_New_Jersey.jpeg
+photo_credit("astronomers","Slipher","1905, public domain")
+  # http://commons.wikimedia.org/wiki/File:V.M._Slipher.gif
+photo_credit("astronomers","Leavitt","public domain")
+  # http://commons.wikimedia.org/wiki/File:V.M._Slipher.gif
+photo_credit("astronomers","Hubble","1920, public domain")
+  # http://commons.wikimedia.org/wiki/File:Edwin-hubble.jpg
 
 
 print <<-'HEAD'

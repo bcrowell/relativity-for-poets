@@ -128,19 +128,18 @@ in general relativity is only a \emph{local} conservation law.\index{conservatio
 \section{Change or changelessness?}\index{static cosmology}\index{cosmology!static}
 
 Now we have two tools: the Einstein field equation and conservation of energy-momentum.
-When Einstein invented these two tools in 1915, scientists had a preexisting preference for
+When Einstein invented these in 1915, scientists had a preexisting preference for
 uniformitarianism, which was the idea that the universe had always existed, would always exist,
-and would, on the average, always look the same. Uniformitarianism had arisen as a reaction
-against catastrophism, an outlook on natural history associated with Goerges Cuvier (1769-1832),
-who told a story of a world dominated by dramatic events such as massive volcanic eruptions.
+and would, on the average, always look the same. Uniformitarianism was a reaction
+against catastrophism, a natural history dominated by dramatic events such as massive volcanic eruptions.
 The debate between
-the two schools of thought had revolved around concrete scientific questions, such as whether
-California's spectacular Yosemite Valley had been formed by a sudden and breathtaking subsidence
-or a gradual process of glacial erosion. But the backdrop to this debate had been the feeling
-that catastrophism smelled like an attempt to shoehorn Biblical events such as Noah's flood
+the two schools of thought had revolved around scientific questions such as whether
+California's spectacular Yosemite Valley had been formed by a sudden subsidence
+or slow glacial erosion. The subtext was a suspicion
+that catastrophism was an attempt to shoehorn Biblical events such as Noah's flood
 into the geological record.
 
-The Einstein field equation doesn't allow for a permanent and unchanging cosmos
+The Einstein field equation doesn't allow for a static cosmos
 with dust as its contents.
 Suppose that we had such
 a universe, and consider a small region within it, containing a sampling of galaxies (dust particles).
@@ -163,15 +162,9 @@ Einstein realized this early on, but the idea of a contracting or expanding univ
 had never been suggested on any theoretical or empirical grounds, so he rejected it
 and focused his ingenuity on fixing what he saw as a problem with his theory.
 It was not until the 1930s that evidence began to appear that the universe actually
-was expanding. The crucial foundational work had been done by the astronomers
-Henrietta Swan Leavitt\index{Leavitt, Henrietta Swan} and Vesto Slipher,\index{Slipher!Vesto} who worked out methods of determining the
-distances to other galaxies as well as their motion along the line connecting us to them.
-Swan's distance-measuring technique is more technical than we need to go into here.
-Slipher's velocity measurement  was done by observing Doppler shifts (section \ref{sec:doppler-frequency},
+was expanding (section \ref{sec:doppler-frequency},
 p.~\pageref{sec:doppler-frequency}).
-
-The techniques were put together by Edwin Hubble\index{Hubble, Edwin} at the Mount Wilson observatory near
-Los Angeles. The theory was worked out in full by the Russian physicist
+The theory was worked out in full by the Russian physicist
 Alexander Friedmann,\index{Friedmann, Alexander} and the Belgian priest Georges Lema\^itre\index{Lema\^itre, Georges} proposed that if one
 extrapolated backward, there must have been a time when all of the matter in the universe
 had emerged from a ``cosmic egg'' --- what we now call the big bang.\index{cosmology!big bang}
@@ -187,10 +180,13 @@ energy-momentum that is forbidden by general relativity. Although Hoyle went on 
 and other difficulties with the theory, it was eventually conclusively disproved (see section \ref{sec:cmb},
 p.~\pageref{sec:cmb}).
 
+<% fig("astronomers","!htpb") %>
+
 \section{Homogeneity and isotropy}\index{homogeneity}\index{isotropy}
 
-The night sky looks like a bowl: the eye has no way of judging depth. But once Leavitt and
-others had developed the appropriate techniques, it became possible to map out the structure
+The night sky looks like a bowl: the eye has no way of judging depth. But once astronomers such
+as Henrietta Swan Leavitt\index{Leavitt, Henrietta Swan}
+had developed the appropriate techniques, it became possible to map out the structure
 of the universe on large scales --- the scales on which we could consider galaxies as the
 ``dust'' grains in our models. As surveys of the sky became more sensitive, these maps were
 able to cover larger and larger distance scales, like a cosmic zoom outward. Structure is
@@ -209,6 +205,8 @@ other region. Furthermore, it does not appear that the universe has any special 
 direction, such as an axis of rotation or a special direction with which spiral galaxies like to
 align themselves. This additional symmetry is called \emph{isotropy}. The figures on the facing
 page show visual examples that demonstrate these two symmetries.
+
+\vfill\pagebreak
 
 \section{Hubble's law}\index{Hubble's law}
 
@@ -234,7 +232,9 @@ the technique pioneered by Slipher.) The velocity of recession $v$ is proportion
 <% fig("hubble-law","!htpb") %>
 
 
-This proportionality is known as Hubble's law. The constant of proportionality is called the
+This proportionality is known as Hubble's law,
+after Edwin Hubble,\index{Hubble, Edwin} who worked at the Mount Wilson observatory near
+Los Angeles. The constant of proportionality is called the
 Hubble constant, $H$, so that we have $v=Hd$. Suppose for the moment that, as implied by the diagrams, the motion
 of each galaxy is inertial; gravity is negligible. Then by using the grade-school equation
 $(\text{speed})=(\text{distance})/(\text{time})$, we find that if we extrapolate the expansion backward
@@ -311,7 +311,7 @@ has a yellowish-orange color. The drop of a factor of about 1000 in
 temperature between then and now indicates that the wavelengths have expanded by 1000 times, and therefore
 that cosmological expansion since that era amounts to a factor of 1000.
 
-We are therefore led to cosmological models in which the big bang was \emph{hot}.
+We are led to cosmological models in which the big bang was \emph{hot}.
 Presumably it was even hotter at times before the CMB was emitted. Support for this
 extrapolation comes from the mixture of chemical elements and isotopes of those elements that we observe in the present
 universe. We noted on p.~\pageref{deuterium} that deuterium (hydrogen-2) is currently being depleted by
@@ -334,8 +334,8 @@ tiny compared to the distances between them, so they make small targets, and col
 
 <% fig("extrapolate-singularity","!htpb") %>
 
-But in the 1970s, relativist Stephen Hawking (b.~1942) proved a theorem, known as the Hawking singularity theorem,
-which proves that there was a big bang singularity provided that three assumptions are satisfied:
+But in the 1970s, relativist Stephen Hawking (b.~1942) proved the Hawking singularity theorem,
+which tells us that there was a big bang singularity provided that three assumptions are satisfied:
 (1) general relativity and the Einstein field equation are valid, 
 (2) matter behaves in a reasonable way by obeying certain energy conditions (p.~\pageref{energy-conditions}), and
 (3) present-day conditions in the universe fall a within certain range of parameters.
@@ -376,7 +376,8 @@ clock is in.
 
 But because the universe has been evolving over time, we have a natural way of getting around this
 ambiguity. For example, the average temperature of the universe (meaning the average temperature
-of all the matter and light in it) has gone down over time. In the figure, we have a spacetime
+of all the matter and light in it) has gone down over time. In the figure on p.~\pageref{fig:preferred-time},
+we have a spacetime
 diagram that shows this cooling process. All three thermometers are at rest relative to the average
 motion of the nearby galaxies. By homogeneity, all three thermometers measure the same process of
 cooling, which happens at the same rate according to a clock attached to the thermometer.
