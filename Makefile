@@ -53,8 +53,9 @@ slides:
 	@make clean
 
 figs:
-	#make cover
 	make interior_figures
+	scripts/render_one_figure.pl cover/cover-for-pdf.svg $(FORCE)
+	scripts/pdf_to_bitmap.pl cover/cover-for-pdf.pdf png $(FORCE) && rm cover/cover-for-pdf.pdf
 
 eruby:
 	perl -e 'foreach $$f(<ch*/*rbtex>) {$$g=$$f; $$g=~s/\.rbtex/temp.tex/; $$c="RBTEX=$$f ./scripts/fruby $$f >$$g"; system $$c}'
