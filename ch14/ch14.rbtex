@@ -26,7 +26,7 @@ If the expansion continues indefinitely, and at a constant rate, then the univer
 eventually get to be like the thinnest soup
 imaginable.
 
-Gravity does exist. Suppose, as was believed until about 1998,
+Gravity does exist. Suppose, as was believed for most of the 20th century,
 that the universe's matter consists mostly of ordinary atoms
 (not, say, exotic subatomic particles), which move nonrelativistic speeds relative to
 other nearby matter. It then qualifies as the ``dust'' of ch.~\ref{ch:dust}.
@@ -40,16 +40,18 @@ would happen, astronomers devoted a great deal of effort in the 20th century to 
 measure the average density of the matter in the cosmos. Essentially they were trying to
 take a census of the universe's contents.
 
-\section{Dark matter}
+\section{Dark matter}\index{dark matter}
 
 In our own solar system, the sun accounts for 99.8\% of the mass. (The earth's contribution is
 only a few ten thousandths of a percent.) Stars are bright objects,
 so this makes it seem like it would be easy to see through
 a telescope where almost all of the universe's mass was.
 
-If only it were so simple. Within a galaxy, stars orbit at high speeds, and if the only mass
+If only it were so simple. As discovered by Vera Rubin in the 1970s,\index{Rubin, Vera}
+stars orbit within their galaxies at high speeds, and if the only mass
 present was that of the other stars, there would not be enough gravitational attraction to keep
-them from flying off, like the sparks flying off of the grinding wheel in the photo.
+them in orbit. They would be ejected,
+like the sparks flying off of the grinding wheel in the photo.
 Similar observations apply at the scale of clusters of galaxies.
 There must be a large amount of nonluminous matter to hold these structures together.
 
@@ -71,14 +73,63 @@ mysterious matter can't be made out of atoms:
 \end{enumerate}
 
 Because we don't know what this exotic matter is, we just call it ``dark matter.''
-Our best guess is that it consists of some kind of subatomic particle, similar to the neutrino,
+Our best guess is that it consists of some kind of subatomic particle, similar to the neutrino\index{neutrino} (which we met
+on p.~\pageref{neutrino}),
 that doesn't interact strongly with ordinary matter. (We know that it can't actually be neutrinos,
 though, because we can detect neutrinos, and there aren't enough of them flying around.)
 
-When the Large Hadron Collider came online in 2010, it was hoped that it would create
+When the Large Hadron Collider\index{Large Hadron Collider} came online in 2010, it was hoped that it would create
 a slew of new particles, some of which might be the same as the ones in dark matter.
 That didn't happen, so we remain ignorant. 
 A number of experiments, buried in deep mineshafts to shield against background noise,
 are under way to detect dark matter
 directly. As of 2013, the most sensitive experiment has given null
 results.\footnote{\url{arxiv.org/abs/1310.8214}}
+
+\section{Dark energy}
+
+As if this wasn't weird enough, astronomers determined in 1998 that
+the acceleration of the universe was \emph{accelerating} rather than
+decelerating. The original evidence came from the Doppler shifts of
+supernovae (exploding stars) in distant galaxies. Because the light
+from such galaxies has taken billions of years to reach us, it gives
+us a window into the past, and allows us to determine how fast the
+universe \emph{used} to be expanding. Unexpectedly, the data showed
+that the universe used to be expanding more slowly, and has now sped up.
+
+The statistical quality of the supernova data was not very solid, and
+many people, including me, were skeptical. Extraordinary claims require
+extraordinary evidence. But since then, the acceleration has been confirmed two other independent methods
+(analysis of CMB fluctuations, and a method called baryon acoustic oscillations).
+
+The Einstein field equation tells us that this cannot happen as a result of
+the gravitational fields of ordinary matter or dark matter. These forms of matter
+obey the energy conditions --- roughly speaking, their mass is positive, rather
+than negative --- and therefore they create a gravitational \emph{attraction} that would
+\emph{decelerate} the expansion of the universe. The acceleration must be caused
+by something else, which we refer to as \emph{dark energy}.\index{dark energy}
+According to current estimates, the universe is about 68\% dark energy,
+27\% dark matter, and 5\% matter made of atoms. 
+
+Unlike dark matter and ordinary
+matter, dark energy is believed to be nearly uniformly distributed across
+the universe; if it were concentrated in galaxies, then it would cause those
+galaxies to fly apart. 
+In our current models, dark energy is described as
+a kind of energy that is automatically built in to the structure of empty space.
+As the universe expands, more space is produced, and this leads to the
+production of more dark energy, which fuels further expansion.
+(Surprisingly, the careful mathematical analysis of this process shows that it does not
+violate the local conservation of energy-momentum described in section \ref{sec:conservation-in-gr}.)
+In the early universe, the gravitational fields were dominated first by
+light and later by matter, but we have now entered the universe's final era,
+in which the dominant effect is that of dark energy.
+
+In closing, it's worth remarking on the fact that in relativity and cosmology,
+as is often the case in the sciences, we learn definite answers to questions
+that most people would imagine science could not answer, while conversely
+we know very little about things that laypeople would think were elementary and well established.
+We know all about the detailed history of the universe and its ultimate fate, questions
+that would traditionally have been relegated to myths or religion.
+At the same time, we turn out to know nothing at all about what 95\%
+of the universe is made of.

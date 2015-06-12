@@ -284,7 +284,7 @@ particles with spacelike energy-mom\-ent\-um vectors. Alvager and Erman, in a 19
 of thulium-170, and found that no such particles were emitted at the level of 1 per 10,000 decays.
 
 Some known subatomic particles, such as neutrinos,\index{neutrino} don't interact strongly with matter, and are therefore
-difficult to detect directly.
+difficult to detect directly.\label{neutrino}
 It's possible that tachyons exist but don't interact strongly with matter. If so, then
 it might be possible to infer their existence indirectly through missing energy-momentum
 in nuclear reactions. This is how the neutrino was first discovered.

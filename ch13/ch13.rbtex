@@ -78,7 +78,7 @@ that is too complex to describe here. It turns out, however,
 that this pressure effect can be safely ignored if the relative speeds of the matter particles are small
 compared to $c$, which is part of what we mean by the definition of dust.
 
-\section{Conservation}\index{conservation laws!general relativity}
+\section{Conservation}\label{sec:conservation-in-gr}\index{conservation laws!general relativity}
 
 Many of the most fundamental laws of physics we have are conservation laws, which say that
 stuff can't just appear or disappear. For example, let's say in a cosmological context that ``stuff''
