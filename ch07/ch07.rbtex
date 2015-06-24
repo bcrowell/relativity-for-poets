@@ -59,7 +59,7 @@ of reference moving vertically or horizontally, we may see the balls as going up
 curved arcs. Therefore projectiles must also have universal motion, in the absence of friction. The figure below
 shows computer simulations of the trajectories of a golf ball, baseball, and softball, all shot at the same initial
 speed and angle. (The baseball hit
-in this sumulation goes a distance of 200 meters, roughly a home-run distance.) Although the trajectories of the three types of
+in this simulation goes a distance of 200 meters, roughly a home-run distance.) Although the trajectories of the three types of
 balls are not the same in air, their trajectories
 would be exactly the same (and considerably longer) in vacuum.
 
@@ -160,7 +160,7 @@ then the earth's gravitational force on the shoe is 50 times greater. But the sh
 so that when I drop shoe and coin together, their responses to the force are exactly the same.
 But Newton's explanation is a sort of non-explanation explanation. It depends on the fact that an object's
 inertia is proportional to its gravitational mass. That is, we have two separate concepts of mass, and Newton
-can't tell us why they're equal. He just observes that they are. When I shake a lead brick back and force, I sense
+can't tell us why they're equal. He just observes that they are. When I shake a lead brick back and forth, I sense
 its inertia, or inertial mass. When I put it on a scale, I measure its gravitational mass. There is no known reason
 why these two things \emph{have} to be related; it just seems that they are.\index{free fall!universality!explained by Newton's laws}
 Besides gravity, we have other fundamental forces, such as electricity. These forces have no such property.

@@ -2,6 +2,11 @@
 
 require_relative "../scripts/eruby_util.rb"
 
+cover_photo_credit("Clock face","Wikimedia commons user Lexlexlex, retouched by user Any23cu")
+  # http://en.wikipedia.org/wiki/File:1214Clock.svg
+cover_photo_credit("Ladybug","Redrawn from a photo by Wikimedia Commons user Gilles San Martin, CC-BY-SA")
+  # http://commons.wikimedia.org/wiki/File:Coccinella_magnifica01.jpg
+
 photo_credit("cow-and-car","Cow","Redrawn from a photo by Wikimedia Commons user Cgoodwin, CC-BY-SA")
   # http://commons.wikimedia.org/wiki/File:Adaptaur.jpg
 photo_credit("cow-and-car","Car","Redrawn from a photo by Wikimedia Commons user Auregann, CC-BY-SA")

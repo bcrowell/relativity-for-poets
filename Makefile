@@ -46,6 +46,9 @@ book:
 post:
 	cp poets.pdf ~/Lightandmatter/poets
 
+prepress:
+	scripts/pdf_extract_pages.rb poets.pdf 3-end poets_lulu.pdf
+
 slides:
 	@./scripts/make_slides.rb figures.csv >slides.tex
 	@pdflatex slides
@@ -74,9 +77,9 @@ clean:
 
 very_clean:
 	make clean
-	rm -f poets.pdf
+	rm -f poets.pdf poets_lulu.pdf
 
 preflight:
 	@chmod +x scripts/*
 	@chmod +x end/photo-credits.rb
-	@perl -e 'if (-e "../scripts/custom/enable") {system("chmod +x ../scripts/custom/*"); foreach $$f(<../scripts/custom/*.pl>) {$$c="$$f $(BOOK) $(PROBLEMS_CSV)"; system($$c)}}'
+	@perl -e 'if (-e "scripts/custom/enable") {system("chmod +x scripts/custom/*"); foreach $$f(<scripts/custom/*.pl>) {$$c="$$f $(BOOK) $(PROBLEMS_CSV)"; system($$c)}}'

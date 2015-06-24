@@ -53,7 +53,7 @@ moving at constant speed.
 
 Although these pictures are presented in terms of a cloud of physical particles, their only role was to
 free-fall along geodesic paths and let us visualize that set of geodesics. These world-lines are initially
-parallel, because the marbles start ar rest, but as time goes on they start to converge. When lines start
+parallel, because the marbles start at rest, but as time goes on they start to converge. When lines start
 out parallel but later start to converge or diverge, we're dealing with curvature
 (recall section \ref{sec:gravity-as-curvature}, \pageref{sec:gravity-as-curvature}). What figures 1 and 2
 really show us, then, is a distinction between two types of \emph{curvature}: tidal curvature caused
@@ -117,7 +117,7 @@ is similar to the other examples above, but with the difference that energy-mome
 not a scalar (section \ref{sec:vectors}, p.~\pageref{sec:vectors}, and
 section \ref{sec:energy-momentum}, p.~\pageref{sec:energy-momentum}).
 This leads to an important loophole in general relativity's conservation of energy-momentum.
-If was draw our rectangular diagram too big, then we have a problem verifying that the energy-momentum
+If we draw our rectangular diagram too big, then we have a problem verifying that the energy-momentum
 vectors coming into the box add up to the same amount as what emerges. This is because if we want
 to compare two vectors, we have to do it using parallel transport
 (\ref{sec:parallel-transport}, p.~\pageref{sec:parallel-transport}). But when spacetime is curved,
