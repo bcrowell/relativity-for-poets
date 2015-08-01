@@ -381,6 +381,19 @@ rooms are occupied, and the farmers can check in to the odd ones. Similarly, we 
 supply of cubic centimeters of space, but still have it make sense to talk about doubling its volume over a certain
 period of time.
 
+Regardless of whether the universe is finite or infinite, the part of it that we can presently \emph{observe}
+is finite, because it's confined to our past light cone. This is called the 
+\emph{observable universe}.\index{observable universe}\index{universe!observable}
+The edge of the observable universe is at a distance from us such that information traveling at the speed
+of light would have just arrived here today if it had been emitted immediately after the big bang.
+Tomorrow this distance will be greater by one light-day, and the observable universe will be a little bigger.
+
+A common solecism is to fail to distinguish between the universe and the observable universe,
+and to use the same word ``universe'' for both. For example, there are about 100 billion galaxies in
+the observable universe, but people will sometimes say that there are this many galaxies ``in the universe.''
+This is incorrect. The universe may be infinite, and in that case
+the number of galaxies in it is presumably infinite as well.
+
 \section{A cosmic calendar}
 
 I've been blithely referring to ideas like the age of the universe and the time at which the CMB was
