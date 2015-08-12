@@ -357,7 +357,7 @@ of several objects in a universe that
 has enough mass in it so that gravitational attraction gradually slows down the expansion of the universe and
 brings it to a halt.
 After that, the universe recontracts and ends up going out in style, in a fiery implosion
-called, naturally enough, a big crunch. Figure 2 shows the same cosmology as a Penrose diagram.
+called, naturally enough, a big crunch. Figure 2 shows the same cosmology as a Penrose diagram.\index{Penrose diagram!cosmology}
 Because Penrose diagrams don't try to show times and distances to scale,
 the expansion and recontraction are not shown. What the diagram does show accurately is that in this type of
 universe, space is finite, and it wraps around on itself.
@@ -366,14 +366,27 @@ In figures 3 and 4 we see a possibility in which the universe does not contain e
 Its expansion is analogous to the motion of a projectile that has been shot up from the earth's surface at
 greater than escape velocity, so it will never fall back down. This universe is infinite both in space and in time.
 
+The Penrose diagram in figure 4 looks exactly like the one in figure 1 on \pageref{fig:penrose-flat-spacetime},
+for the future half of the flat spacetime of special relativity. The past half is missing, because there was
+no time before the big bang. These two spacetimes are not actually the same --- one is curved and the other is
+flat. But Penrose diagrams aren't designed to show every aspect of curvature. The two spacetimes \emph{do}
+have the same structure in terms of light cones, and cause and effect.
+
 Figures 2 and 4 accurately show that the big bang was not an explosion that happened at one point in space.
 The big bang happened everywhere at once. In the case where the universe is infinite, figure 4, it has always been
 infinite and always will be.
 
+The triangular shape of figure 4 makes it look as though everything in the universe is
+getting closer together over time, which would be a contraction rather than an expansion. But remember, Penrose
+diagrams aren't supposed to show distances on a consistent scale. Similarly, the parallel painted lines
+on the highway in the photo on p.~\pageref{fig:rear-view-mirror} \emph{look} like they're getting closer together,
+but actually they're not; even if the people who painted the lines had decided to make them get gradually farther
+and farther apart, they would still appear to the eye to converge at a vanishing point.
+
 It may seem strange to imagine an infinite universe that is expanding. If infinity is already bigger than anything,
 how can it get bigger than that? This is similar to a famous paradox proposed by the mathematician Hilbert.
 Suppose we have a hotel with infinitely many rooms, and each of them is occupied by one of the infinitely
-many dentists attending a convention. While the dentists' conference is still going on, a soybean farmers' convention
+many dentists attending a convention. While ToothCon is still going on, a soybean farmers' convention
 begins, and there are also infinitely many farmers attending. If the hotel is the only one in town, and it's already
 full of dentists, where can the farmers stay? We can accomodate them in the same hotel. All we have to do is move
 the dentist from room 1 into room 2, and similarly from room 2 to 4, 3 to 6, and so on. Now only the even-numbered
@@ -386,13 +399,14 @@ is finite, because it's confined to our past light cone. This is called the
 \emph{observable universe}.\index{observable universe}\index{universe!observable}
 The edge of the observable universe is at a distance from us such that information traveling at the speed
 of light would have just arrived here today if it had been emitted immediately after the big bang.
-Tomorrow this distance will be greater by one light-day, and the observable universe will be a little bigger.
 
 A common solecism is to fail to distinguish between the universe and the observable universe,
 and to use the same word ``universe'' for both. For example, there are about 100 billion galaxies in
 the observable universe, but people will sometimes say that there are this many galaxies ``in the universe.''
 This is incorrect. The universe may be infinite, and in that case
 the number of galaxies in it is presumably infinite as well.
+
+\pagebreak
 
 \section{A cosmic calendar}
 

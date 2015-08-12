@@ -90,6 +90,10 @@ photo_credit("detection-by-lensing-and-accretion","Lensing","Wikimedia Commons u
   # https://commons.wikimedia.org/wiki/File:BlackHole_Lensing.gif
 photo_credit("detection-by-lensing-and-accretion","Accretion","S.~Gezari, J.~Guillochon, STScI/NASA, public domain")
   # http://commons.wikimedia.org/wiki/File:A_star_is_consumed_by_a_black_hole.ogv
+photo_credit("rear-view-mirror","Rear-view mirror, main landscape","Bradley Gordon, CC-BY")
+  # https://www.flickr.com/photos/icanchangethisright/9008657767
+photo_credit("rear-view-mirror","Rear-view mirror, landscape in mirror","Benjamin D. Esham, CC-BY-SA")
+  # https://upload.wikimedia.org/wikipedia/commons/9/9b/Flats_Road_and_fields_in_Groveland.jpg
 photo_credit("map-projections","Landforms for Goode homolosine","Wikimedia Commons user Strebe, CC-BY-SA")
   # http://commons.wikimedia.org/wiki/File:Goode_homolosine_projection_SW.jpg
 photo_credit("map-projections","Grid for Goode homolosine","Wikimedia Commons user Strebe, CC-BY-SA")

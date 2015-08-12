@@ -242,6 +242,61 @@ inside the black hole.
 
 \section{Penrose diagrams}\index{Penrose diagram}\index{Penrose diagram!black hole}\index{black hole!Penrose diagram}
 
+The figure with the tipping light cones on p.~\pageref{fig:gravity-light-cones} is one way of visualizing
+the curved spacetime around a black hole. In this section I introduce a different method called a Penrose
+diagram, named after mathematician and relativist
+Roger Penrose, which is in some ways nicer.
+It starts from the simple idea of a vanishing point, demonstrated in the
+image below of the view through a car's windshield.
+
+<% fig("rear-view-mirror","!htpb") %>
+
+The parallel lines painted on the asphalt appear to converge toward a vanishing point in the distance.
+This is simply because distant objects look smaller, which is a type of distortion, but it's a
+distortion that we're accustomed to and don't normally think about. In fact, it's a useful distortion.
+The ancient Egyptians didn't understand how to handle perspective in their art, so they couldn't render
+a landscape the way it's shown in this figure, simulating the eye's view. Without the useful
+distortion of perspective, we wouldn't
+be able to simultaneously perceive both the distant mountains and a nearby feature like a bush.
+If the bush were rendered on the same scale as the mountain, we would either have to make the bush
+microscopic, and too small to see, or we'd have to make the mountains so big that they wouldn't fit
+in the picture.
+By the way, the road also has a vanishing point behind your head, which is shown in the rear-view mirror.
+You don't normally see this one, but if you had eyes in back as well as in front, like some jumping spiders,
+it would look the same to you as the one in front.
+
+In a Penrose diagram, shown in figure 1 below, we have the same idea,
+but this is now a spacetime diagram, so the vanishing point at the top
+doesn't represent a point infinitely far in space but one infinitely
+far in the future. As in perspective art, we distort scales in order
+to fit everything in. Even though the vanishing point is infinitely
+far in the future, we draw it just a few centimeters away from the
+bottom of the diagram.  (The distance scale also gets more and more
+distorted as we move out toward the corners on the sides. These
+corners represent infinitely distant space at the present time.)
+The two thinner lines in the diagram are analogous to the painted white lines in the photo of the road.
+They are parallel, i.e., they always maintain the same distance away from one another in space.
+
+<% fig("penrose-flat-spacetime","!htpb") %>
+
+Keep in mind that all we've drawn so far is a Penrose diagram for flat
+spacetime, i.e., special relavitity, with no gravity.  There are no
+black holes lurking in our landscape.  All of the distortions are
+distortions in the way we've \emph{draw} the diagram, not real
+curvature of spacetime. 
+
+Figure 2 shows some light cones superimposed on the Penrose diagram.
+Despite all the distortions, the light cones don't tip. This is the big advantage of a Penrose
+diagram. Light cones spell out the logic of possible cause and effect relationships, so they're
+very important. When we refrain from tipping them, we make it easier to look at the diagram and
+reason about the light cone.
+
+Figures 1 and 2 started from the present moment in time and went forward into the future.
+But we can also represent the past on the same Penrose diagram, as in figure 3, making the
+result into a diamond. This is like adding in the rear-view mirror in the original photo of the landscape.
+
+So far this has all been in flat spacetime. Before we go into curved spacetime, let's
+warm up by thinking about ordinary curved surfaces, like the surface of the earth.
 Because the world is round, we can never reproduce it perfectly on a flat map.
 To flatten its curved surface, we must distort, fold, or cut it.
 The figure below shows two of the many possible ways of accomplishing this.
@@ -256,8 +311,8 @@ as big as Africa, whereas in reality Africa is much larger.
 The version on the right has its own pros and cons. Lengths and areas are much more accurately
 represented, but the latitude-longitude boxes have funny nonrectangular shapes.
 
-Something exactly analogous happens when we represent curved spacetime on a flat diagram.
-Two options are shown in the diagram on the facing page. The one on the right is
+Something exactly analogous happens when we represent cur\-ved spacetime on a flat diagram.
+Two options are shown in the diagram below. The one on the right is
 just like the one we drew in section \ref{sec:black-hole-light-cones}, with the light cones
 tipping over drunkenly. This tipping is analogous to the non-perpendicularity of the lines
 of latitude and longitude in the right-hand map of the earth. As in the earth map, we have
@@ -267,8 +322,8 @@ edge of the page.
 
 <% fig("tipping-vs-penrose","!htpb") %>
 
-The figure on the left is called a Penrose diagram, after mathematician and relativist
-Roger Penrose. Here the light cones are all lined up
+The figure on the left is a Penrose diagram for a black hole.
+Here the light cones are all lined up
 in an orderly way, which is analogous to the orderly rectangular structure of the grid
 lines in the left-hand map of the world. This is an overwhelming advantage, since the
 light cone dictates all of the possible cause-and-effect relationships. For this reason,
