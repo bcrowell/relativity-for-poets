@@ -125,6 +125,11 @@ In the early universe, the gravitational fields were dominated first by
 light and later by matter, but we have now entered the universe's final era,
 in which the dominant effect is that of dark energy.
 
+The figure below shows the Penrose diagram for a universe that, like ours, ends up
+dominated by dark energy.\index{Penrose diagram!universe with dark energy}
+
+<% fig("real-penrose-diagram","!htpb") %>
+
 In closing, it's worth remarking on the fact that in relativity and cosmology,
 as is often the case in the sciences, we learn definite answers to questions
 that most people would imagine science could not answer, while conversely
