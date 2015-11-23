@@ -280,7 +280,7 @@ They are parallel, i.e., they always maintain the same distance away from one an
 <% fig("penrose-flat-spacetime","!htpb") %>
 
 Keep in mind that all we've drawn so far is a Penrose diagram for flat
-spacetime, i.e., special relavitity, with no gravity.  There are no
+spacetime, i.e., special relativity, with no gravity.  There are no
 black holes lurking in our landscape.  All of the distortions are
 distortions in the way we've \emph{draw} the diagram, not real
 curvature of spacetime. 
