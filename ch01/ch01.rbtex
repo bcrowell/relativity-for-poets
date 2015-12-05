@@ -18,7 +18,7 @@ with some seemingly common-sense theories about motion.
 \pagebreak
 
 The figure \vpageref{fig:soccer-ball} shows an example of the kind of observation that might lead you to
-the same conclusions as Aristotle. It shows a series of snapshots in the motion
+the same conclusions as Aristotle. It is a series of snapshots in the motion
 of a rolling ball. Time moves forward as we go up the page.
 Because the ball slows down and eventually stops, it traces out the shape of a
 letter ``J.'' If you get rid of the artistic details, and connect the drawings of
@@ -160,9 +160,10 @@ For these reasons, a rotating frame of reference is not considered an inertial f
 
 All inertial frames of reference are equally valid. However, observers in different frames of reference
 can give different answers to questions and get different, correct answers from measurements. For example,
-suppose that Sparkly Elf Lady is riding her unicorn at 30 kilometers per hour to the east, and she fires
-an arrow from her bow. To her, the bow fires the arrow at its normal speed of 20 km/hr. To an observer
-watching her go by, however, the arrow is going 50 km/hr. That is, to convert velocities between different
+suppose that Sparkly Elf Lady is riding her unicorn at 30 kilometers per hour, and she fires
+an arrow from her bow in the forwar direction. 
+To her, the bow fires the arrow at its normal speed of 20 km/hr. But to an observer
+watching her go by the arrow is going 50 km/hr. To convert velocities between different
 frames of reference, we add and subtract.
 
 \pagebreak
