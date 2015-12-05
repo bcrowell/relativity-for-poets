@@ -242,31 +242,6 @@ of reference as well.
 
 \pagebreak
 
-\section{How can they both\ldots ?}
-
-When I first learned relativity, what bothered me the most was the following question.
-According to Einstein,
-if observers A and B aren't at rest relative to each other, then A says B's time
-is slow, but B says A is the slow one. How can this be? If A says B is slow, shouldn't
-B say A is fast? After all, if I took a pill that sped up my brain, everyone else would
-seem slow to me, and I would seem fast to them.
-
-<% fig("symmetric-signals") %>
-
-The figure shows how relativity resolves the first question.
-If A and B had an instantaneous method of communication such as Star Trek's subspace
-radio, then they could indeed resolve the question of who was really slow. 
-
-But relativity
-does not allow cause and effect to be propagated outside the light cone, so the best
-they can actually do is to send each other signals at $c$. In figure 1,
-B sends signals to A in the form of radio beeps at time intervals of one hour as measured by B's clock.
-Radio waves travel at $c$, and are in fact a low-frequency form of light. According to
-A's clock, the signals arrive at an interval that is shorter than one hour as the two spaceships
-approach one another, then longer than an hour after they pass each other and begin to recede.
-As shown in 2, the situation is entirely symmetric if A sends
-signals to B.
-
 \section[Doppler shift]{The stretch factor is the Doppler shift}\label{sec:doppler-frequency}\index{Doppler shift!frequency}
 
 If you hear little kids playing with toy race cars, they'll often imitate the sound
@@ -279,10 +254,37 @@ spinning motor are like the ticks of a clock. The rate at which these sound impu
 ear of a stationary observer is distorted because between the emission of one impulse and the
 next, the distance to the ear has changed.
 
-It should be evident that this is directly analogous to the situation shown
-in the figure on p.~\pageref{fig:symmetric-signals}, except that we change the
-sound impulses into radio beeps, and what matters now is how fast the ships are traveling
-compared to the speed of \emph{light}. The mathematical description of this type of
+We can also observe Doppler shifts with light rather than sound. The concept turns out
+to be very closely related to the situation illustrated
+in the figure on p.~\pageref{fig:symmetric-signals}. This was a spacetime diagram for
+a situation in which Alice and Betty, flying away from each other in spaceships, try and
+fail to establish whose time is really slow and whose fast. In that experiment, Alice
+clapped her hands twice, one second apart, next to her cell phone, and Betty heard the
+hand claps more than one second apart. Although Betty might conclude from this that
+Alice's time is slow, the situation is symmetric, and Alice gets the same results if Betty
+sends hand-claps to her.
+
+The figure on the facing page shows what happens if we \emph{repeat} the hand claps over and over.
+The claps begin while Alice and Betty are approaching one another, and continue after they
+do their flyby and recede. While they're approaching, the hand claps are received closer together
+in time, and this can be interpreted as a combination of two effects: their earlier and earlier
+arrival as the distance shrinks, and a time dilation effect, which only partially counteracts the
+distance effect. As they recede, the distance effect causes the time intervals to be wider,
+and the time dilation effect cooperates with the diatance effect to make the intervals even
+longer.
+
+<% fig("symmetric-signals") %>
+
+But now suppose that the signal is not a series of claps but simply a radio wave.
+We previously thought of the diagonal world-lines as the hand-clap signals traveling
+through space. Now we can think of them as the peaks of the wave traveling through space.
+During the receding part of the motion, the peaks are farther apart
+in time when received, so the receiver perceives the wave as having slower vibrations (a lower
+frequency). This is similar to the Doppler shift of the race car's sound, but
+what matters now is how fast the ships are traveling
+compared to the speed of \emph{light}. 
+
+The mathematical description of this type of
 Doppler shift is very simple. The motion of A relative to B is at some speed, and at
 this speed the Lorentz transformation has a certain stretch and squish factor
 (section \ref{sec:stretch}, p.~\pageref{sec:stretch}). Suppose that the stretch
@@ -326,9 +328,6 @@ anti-relativity kooks.
 As we'll see in chapter \ref{ch:dust}, p.~\pageref{ch:dust}, Doppler shifts are the method
 we use to measure the motion of distant galaxies toward or away from us, and this
 was the technique by which we discovered that the universe was expanding.
-
-\pagebreak
-
 
 \sectionwithsurtitle{Optional}{Proof that area stays the same in a Lorentz transformation}%
            {Proof that area stays the same}\label{sec:area-proof}\index{area!in spacetime diagrams}\index{Lorentz transformation!preserves area}
