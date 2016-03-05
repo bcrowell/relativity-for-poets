@@ -104,8 +104,6 @@ photo_credit("gravitational-wave","Einstein","Oren Jack Turner, 1947, public dom
   # http://commons.wikimedia.org/wiki/File:Albert_Einstein_1947.jpg
 photo_credit("hubble-flow","Galaxies","Ville Koistinen, CC-BY-SA")
   # http://commons.wikimedia.org/wiki/File:Hubble_sequence_photo.png
-photo_credit("hubble-flow","Galaxies","Ville Koistinen, CC-BY-SA")
-  # http://commons.wikimedia.org/wiki/File:Hubble_sequence_photo.png
 photo_credit("homogeneity-and-isotropy","Galaxy","Ville Koistinen, CC-BY-SA")
   # http://commons.wikimedia.org/wiki/File:Hubble_sequence_photo.png
 photo_credit("hubble-law","Galaxies","Ville Koistinen, CC-BY-SA")

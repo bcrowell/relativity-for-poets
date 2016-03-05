@@ -160,28 +160,14 @@ waves are uncommon. If such events happen, they happen rarely and typically at v
 The weak interaction of gravitational waves with matter also means that detectors made out of matter
 are not very sensitive to them.
 Therefore it's very difficult to get such a detector to work well enough to give a definite blip.
-
-Luckily direct detection is not the only possible way to verify that\index{Hulse-Taylor pulsar}\index{general relativity!tests of!Hulse-Taylor pulsar}
-gravitational waves exist.  In 1974, Russell Hulse and Joseph Taylor
-used the Arecibo radio telescope to discover a pair of neutron stars
-(see p.~\pageref{neutron-star}) orbiting around each other once every
-7.75 hours. They found that this orbital period was gradually shortening,
-by about 68 nanoseconds with each revolution. Detailed analysis of the radio signals
-allowed the stars' masses and orbits to be fully characterized.
-Because these are large masses moving very violently, general
-relativity predicts that they will radiate a huge amount of energy in
-the form of gravitational waves ---  $7\times10^{24}$ watts, or
-about a trillion times our world's total production of electrical
-power.  Because of this loss of energy, the stars are predicted to be
-gradually spiraling inward toward one another, resulting in a
-quickening of their revolutions that matches the observed speed-up to
-within a fraction of a percent. Because of the excellent agreement
-with general relativity in this as well as other observations of the system,
-physicists consider Hulse and Taylor's observations to be a very clearcut,
-albeit indirect, confirmation of the existence of gravitational waves,
-and the two physicists were awarded the Nobel Prize in 1993.
-
-% calc -e "t=(7.75)/(365*24); (76.5 us)t->ns"
-
-% calc -e "x=20000*(10^9)(10^3)(3600 J); y=365*24*3600 s; x/y"
-% http://www.eia.gov/cfapps/ipdbproject/IEDIndex3.cfm?tid=2&pid=2&aid=12
+That's why it took until 2016, a hundred years after Einstein predicted gravitational waves,
+for their first direct detection, by the LIGO collaboration.\index{LIGO} The detector was actually two detectors, one in Louisiana and
+one in Washington state. Two were needed because each of the detectors by itself is essentially  the
+most sensitive vibration detector ever built, and would be overwhelmed by the ordinary background
+of subsonic rattles and buzzes caused by sources like wind, animals, and passing trucks.
+With two detectors, physicists could look for a vibration that occurred simultaneously in both,
+thousands of kilometers apart. The event that caused the 2016 signal is believed to have been
+the collision of two black holes, about a billion light-years away. For the brief time leading up
+to the collision, the inward-spiraling black holes radiated energy in the form of gravitational
+waves at a rate that is believed to have been greater than the power emitted as visible light by
+all the stars in the visible universe.
