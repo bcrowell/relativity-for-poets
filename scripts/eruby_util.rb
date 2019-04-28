@@ -15,6 +15,7 @@
 # See INTERNALS for documentation on all the files: geom.pos, marg.pos, chNN.pos,
 # figfeedbackNN, all.pos.
 
+require 'tempfile'
 require 'json'
 
 $label_counter = 0 # for generating labels when the user doesn't supply one
@@ -25,6 +26,7 @@ $store_hw_label = []
 $hw_block = 0 # for style used in Fundamentals of Calculus
 $hw = []
 $hw_has_solution = []
+$hw_trailing = []
 $hw_names_referred_to = []
 $hw_freeze = 0
 $tex_points_to_mm = (25.4)/(65536.*72.27)
@@ -76,7 +78,7 @@ end
 
 def save_complaint(message)
   File.open('eruby_complaints','a') { |f| 
-    f.print message,"\n"
+    f.print "eruby_util.rb: ",message,"\n"
   }
 end
 
@@ -107,13 +109,14 @@ $config = {
   # In the following, nil means that there is no default and it's an error if it's not given explicitly.
   # If adding a new config variable here, then also add it below (why did I do this?).
   'titlecase_above'=>nil, # e.g., 1 means titlecase for chapters but not for sections or subsections
-  'hw_block_style'=>0 # 1 means hw numbered like a7, as in Fundamentals of Calculus
+  'hw_block_style'=>0, # 1 means hw numbered like a7, as in Fundamentals of Calculus
+  'allow_renumbering'=>0 # if a homework problem gets renumbered, is it ok in merge_problems_data.rb ?
 }
 File.open(config_file,'r') { |f|
   c = f.gets(nil) # nil means read whole file
   c.scan(/(\w+),(.*)/) { |var,value|
     if ! $config.has_key?(var) then fatal_error("Error in config file #{config_file}, illegal variable '#{var}'") end
-    if {'titlecase_above'=>nil,'hw_block_style'=>nil}.has_key?(var) then
+    if {'titlecase_above'=>nil,'hw_block_style'=>nil,'allow_renumbering'=>nil}.has_key?(var) then
       value = value.to_i
     end
     $config[var] = value
@@ -184,7 +187,7 @@ end
 # for use when generating screen-resolution figures
 # e.g., ../9share/optics
 def shared_figs
-  return [ENV['SHARED_FIGS'],ENV['SHARED_FIGS2']]
+  return [ENV['SHARED_FIGS'],ENV['SHARED_FIGS2'],ENV['SHARED_FIGS3']]
 end
 
 def is_print
@@ -201,7 +204,7 @@ end
 
 # argument can be 0, 1, true, or false; don't do, e.g., !__sn, because in ruby !0 is false
 def begin_if(condition)
-  if condition.class() == Fixnum then
+  if condition.class() == 1.class then
     if condition==1 then condition=true else condition=false end
   end
   if condition.class()!=TrueClass && condition.class()!=FalseClass then
@@ -224,11 +227,34 @@ def pos_file
   return "ch#{$ch}.pos"
 end
 
-def previous_pos_file
-  p = $ch.to_i-1
+def strip_leading_zero_from_ch(ch)
+  if ch=~/\A(([a-z]?)(\d+))\Z/ then
+    whole,prefix,num = $1,$2,$3
+    return prefix+num.to_i.to_s
+  end
+  save_complaint("warning: in strip_leading_zero_from_ch(), illegal chapter number #{ch}")
+  return nil
+end
+
+def decrement_ch_num(n) # don't use directly, use previous_pos_file(), which calls this
+  p = n.to_i-1
   if p<0 then return nil end
   if p<10 then p = '0'+p.to_s end
-  return "ch#{p}.pos"
+  return p
+end
+
+def previous_pos_file
+  if $ch=~/\A\d+\Z/ then
+    p = decrement_ch_num($ch)
+    return "ch#{p}.pos"
+  end
+  # can have, e.g., 'a01' in fp
+  if $ch=~/\A(([a-z]?)(\d+))\Z/ then
+    whole,prefix,num = $1,$2,$3
+    return "ch"+prefix+decrement_ch_num(num)+".pos"
+  end
+  save_complaint("warning: in previous_pos_file(), illegal chapter number #{$ch}")
+  return nil
 end
 
 # returns data in units of mm, in the coordinate system used by pdfsavepos (positive y up)
@@ -337,6 +363,8 @@ def marg_print(delta_y)
 end
 
 # options is normally {}
+# Used in Fundamentals of Calulus, looks like a shaded box with >Box 2.2  Title.
+# Won't work in physics books, which don't have the necessary macros. For them, do a fig() with a 'text' option.
 def marginbox(delta_y,name,caption,options,text)
   options['text'] = text
   options['textbox'] = true
@@ -365,7 +393,7 @@ def warn_marg(severity,nmarg,page,message)
   if File.exist?($marg_file) then
     File.open($marg_file,'r') do |f|
       f.each_line { |line|
-        if line=~/fig:(.*),nmarg=(\d+),ch=(\d+)/ then
+        if line=~/fig:(.*),nmarg=(\d+),ch=([a-z]?\d+)/ then
           fig,gr,ch = $1,$2.to_i,$3
           mine[fig]=1 if (gr==nmarg.to_i && ch==$ch)
         else
@@ -408,7 +436,7 @@ def height_of_marg
     # ************ Bug: if the same figure is used in two different chapters, I think this will mess up **************************
     # ************ It's inefficient to call this many times. ********************
     f.each_line { |line|
-      if line=~/(.*),nmarg=(\d+),ch=(\d+)/ then
+      if !line.nil? && line=~/(.*),nmarg=(\d+),ch=([a-z]?\d+)/ then
         fig,gr,ch = $1,$2.to_i,$3
         mine[fig] = 1 if (gr==$n_marg.to_i and ch==$ch)
         $stderr.print "#{fig} is mine!\n" if debug and mine[fig]
@@ -476,8 +504,9 @@ def find_directory_where_figure_is(name)
   if figure_exists_in_my_own_dir?(name) then return dir = "\\figprefix\\chapdir/figs" end
   # bug: doesn't support \figprefix
   s = shared_figs()
-  if figure_exists_in_this_dir?(name,s[0]) then return s[0] end
-  if figure_exists_in_this_dir?(name,s[1]) then return s[1] end
+  s.each { |ss|
+    if figure_exists_in_this_dir?(name,ss) then return ss end
+  }
   return nil
 end
 
@@ -521,20 +550,41 @@ def raw_fig(name)
   fig(name,'',{'raw'=>true})
 end
 
+def eqn_image(name,hardcoded_dir=nil)
+  # Embed an image inside an equation.
+  # Used in SN 14 and FAC ac/b.
+  dir = hardcoded_dir
+  if hardcoded_dir.nil? then
+    dir = find_directory_where_figure_is(name)
+    if dir.nil? then fatal_error("figure #{name} not found in #{dir()}/figs or #{shared_figs()}, ch=#{$ch}") end
+  end
+  file = "#{dir}/#{name}"
+  file_with_extension = file+".png"
+  # used to have \includegraphics[resolution=300], but that now causes an error:
+  #       https://tex.stackexchange.com/questions/301494/how-to-use-includegraphics
+  resolution = `identify -units PixelsPerInch -format "%x" #{file_with_extension}`.to_i
+  # ... generates an exception if this fails, e.g., if imagemagick isn't installed
+  if (resolution.nil? || resolution<299) then
+    do_system_command("mogrify -units PixelsPerInch -density 300 #{file_with_extension}")
+  end
+  print "\\raisebox{-.2\\height}{\\includegraphics{#{file}}}"
+end
+
+def do_system_command(c)
+  result = system(c)
+  if !($?.success?) then
+    die('do_system_command',"failed on command #{c}, error is #{$?}")
+  end
+end
+
 def fig(name,caption=nil,options={})
   default_options = {
     'anonymous'=>'default',# true means figure has no figure number, but still gets labeled (which is, e.g., 
                            #      necessary for photo credits)
                            # default is false, except if caption is a null string, in which case it defaults to true
-    'width'=>'narrow',     # 'narrow'=52 mm, 'wide'=113 mm, 'fullpage'=171 mm
+    'width'=>'narrow',     # 'native'=whatever the figure says it is, 'narrow'=52 mm, 'column'=76.5 mm,
+                           #   'wide'=113 mm, 'fullpage'=171 mm
                            #   refers to graphic, not graphic plus caption (which is greater for sidecaption option)
-                           #   may get automagically changed for 2-column layout
-    'width2'=>'auto',      # width for 2-col layout;
-                           #   width='narrow',  width2='auto'  --  narrow figure stays same width, is not as wide as text colum
-                           #   width='fullpage',width2='auto'  --  nothing special
-                           #   width='wide',    width2='auto'  --  makes it a sidecaption regardless of whether sidecaption was actually set
-                           #   width2='column' -- generates a warning if an explicitly created 82.5-mm wide figure doesn't exist
-                           #   width2='column_auto' -- like column, but expands automatically, and warns if an explicit alternative *does* exist
     'sidecaption'=>false,
     'sidepos'=>'t',        # positioning of the side caption relative to the figure; can also be b, c
     'float'=>'default',    # defaults to false for narrow, true for wide or fullpage (because I couldn't get odd-even to work reliably for those if not floating)
@@ -544,8 +594,12 @@ def fig(name,caption=nil,options={})
                            #   typically 'suffix'=>'2'; don't need this option on the first fig, only the second
     'text'=>nil,           # if it exists, puts the text in the figure rather than a graphic (name is still required for labeling)
                            #      see macros \starttextfig and \finishtextfig
+                           # For an example of how to do this, see SN ch. 3, "Gory details of the proof..."
+                           # Tables and align* don't work in text, nor does \\, but paragraph breaks work;
+                           # may be able to get around this with minipage.
+    'title'=>nil,          # for use with 'text', goes above the text
     'raw'=>false,          # used for anonymous inline figures, e.g., check marks; generates a raw call to includegraphics
-    'textbox'=>false       # marginbox(), as used in Fund.
+    'textbox'=>false       # marginbox(), as used in Fund.; won't work in other books, which don't have the macros in their cls files
     # not yet implemeted: 
     #    translated=false
     #      or just have the script autodetect whether a translated version exists!
@@ -565,7 +619,7 @@ def fig(name,caption=nil,options={})
     #    resize=true
     #      see macros \fignoresize, \inlinefignocaptionnoresize
   }
-  caption.gsub!(/\A\s+/,'') # blank lines on the front make latex freak out
+  unless caption.nil? then caption.gsub!(/\A\s+/,'') end # blank lines on the front make latex freak out
   if caption=='' then caption=nil end
   default_options.each { 
     |option,default|
@@ -577,14 +631,24 @@ def fig(name,caption=nil,options={})
   if options['narrowfigwidecaption'] then
     options['width']='wide'; options['sidecaption']=true; options['float']=false; options['anonymous']=false
   end
+
+  # Generate fig_widths. To regenerate these, change false to true below, and then follow
+  # directions in ~/Documents/writing/books/physics/data/README. This data file is used by problems book.
+  if false && width!='narrow' then
+    File.open('/home/bcrowell/fig_widths','a') { |f|
+      f.print "\"#{name}\":\"#{width}\",\n"
+    }
+  end
+
   if options['float']=='default' then
     options['float']=(width=='wide' or width=='fullpage')
   end
+  has_caption = !(caption.nil?)
   if options['anonymous']=='default' then
-    options['anonymous']=(!caption)
+    options['anonymous']=!has_caption
   end
   dir = find_directory_where_figure_is(name)
-  if dir.nil? && options['text'].nil? then save_complaint("figure #{name} not found in #{dir()}/figs, #{shared_figs()[0]}, or #{shared_figs()[1]}") end
+  if dir.nil? && options['text'].nil? then fatal_error("figure #{name} not found in #{dir()}/figs or #{shared_figs()}, ch=#{$ch}") end
   #------------------------------------------------------------
   if is_print then fig_print(name,caption,options,dir) end
   #------------------------------------------------------------
@@ -613,6 +677,7 @@ end
 
 # sets $page_rendered_on as a side-effect (or sets it to nil if all.pos isn't available yet)
 def fig_print(name,caption,options,dir)
+  has_caption = !(caption.nil?)
   if options['raw'] then spit("\\includegraphics{#{dir}/#{name}}"); return end
   width=options['width']
   $fig_handled = false
@@ -663,34 +728,70 @@ def fig_print(name,caption,options,dir)
   #============================================================================
   #----------------------- text ----------------------
   if options['text']!=nil then
+    text = options['text']
+    if options['title'] then text="\\noindent\\textit{#{options['title']}}\\\\"+text end
     if options['textbox'] then
-      spit("\\startmargintextbox{#{name}}{#{caption}}\n#{options['text']}\n\\finishmargintextbox{#{name}}\n")
+      spit("\\startmargintextbox{#{name}}{#{caption}}\n#{text}\n\\finishmargintextbox{#{name}}\n")
     else
-      spit("\\starttextfig{#{name}}#{options['text']}\n\\finishtextfig{#{name}}{%\n#{caption}}\n")
+      if has_caption then m = "finishtextfig" else m = "finishtextfignocaption" end
+      spit("\\starttextfig{#{name}}#{text}\n\\#{m}{#{name}}{%\n#{caption}}\n")
     end
+  end
+  #----------------------- native ----------------------
+  if width=='native' then
+    spit("\\fignocaptionnativewidth{#{name}}{#{dir}}\n")
   end
   #----------------------- narrow ----------------------
   if width=='narrow' and options['text']==nil then
     if options['anonymous'] then
-      if caption then
+      if has_caption then
         spit("\\anonymousfig{#{name}}{%\n#{caption}}{#{dir}}\n")
       else
         spit("\\fignocaption{#{name}}{#{dir}}\n")
       end
     else # not anonymous
-      if caption then
+      if has_caption then
         spit("\\fig{#{name}}{%\n#{caption}}{#{suffix}}{#{dir}}\n")
       else
         die(name,"no caption, but not anonymous")
       end
     end
   end
+  #----------------------- column ------------------------
+  if width=='column' and options['text']==nil then
+    if options['sidecaption'] then
+      die(name,"width is column but sidecaption is true")
+    end
+    if options['narrowfigwidecaption'] then
+      die(name,"width is column but narrowfigwidecaption is true")
+    end
+    if !has_caption && !options['anonymous']
+      die(name,"no caption, but not anonymous")
+    end
+    if options['anonymous'] then
+      if options['float']  then
+        spit("\\columnfig[#{floatpos}]{#{name}}{%\n#{caption}}{#{suffix}}{anonymous}{#{dir}}\n")
+      else # not floating
+        if has_caption then
+          spit("\\columnfignofloatanon[#{dir}]{#{name}}{#{caption}}")
+        else
+          spit("\\columnfignocaptionnofloat[#{dir}]{#{name}}\n")
+        end
+      end
+    else # not anonymous
+      if options['float'] then
+        spit("\\columnfig[#{floatpos}]{#{name}}{%\n#{caption}}{#{suffix}}{labeled}{#{dir}}\n") # tested
+      else # not floating
+        spit("\\columnfignofloat{#{name}}{%\n#{caption}}\n") # tested
+      end # not floating
+    end # not anonymous
+  end
   #----------------------- wide ------------------------
   if width=='wide' and options['text']==nil then
     if options['anonymous'] then
       if options['narrowfigwidecaption'] then die(name,'narrowfigwidecaption requires anonymous=false, and float=false') end
       if options['float']  then
-        if caption || true then # see einstein-train
+        if has_caption || true then # see einstein-train
           if options['sidecaption'] then
             spit("\\widefigsidecaption{#{sidepos}}{#{name}}{%\n#{caption}}{anonymous}{#{floatpos}}{float}{#{suffix}}{#{dir}}\n")
           else
@@ -700,7 +801,7 @@ def fig_print(name,caption,options,dir)
           die(name,"widefignocaption is currently only implemented as a nonfloating figure")
         end
       else # not floating
-        if caption then
+        if has_caption then
           #die(name,"widefig is currently only implemented as a floating figure, because I couldn't get it to work right unless it was floating (see comments in lmcommon.sty)")
         else
           spit("\\widefignocaptionnofloat[#{dir}]{#{name}}\n")
@@ -709,7 +810,7 @@ def fig_print(name,caption,options,dir)
     else # not anonymous
       if options['float'] then
         if options['narrowfigwidecaption'] then die(name,'narrowfigwidecaption requires anonymous=false, and float=false') end
-        if caption then
+        if has_caption then
           if options['sidecaption'] then
             spit("\\widefigsidecaption{#{sidepos}}{#{name}}{%\n#{caption}}{labeled}{#{floatpos}}{float}{#{suffix}}{#{dir}}\n")
           else
@@ -730,13 +831,13 @@ def fig_print(name,caption,options,dir)
   #----------------------- fullpage ----------------------
   if width=='fullpage' and options['text']==nil then
     if options['anonymous'] then
-      if caption then
+      if has_caption then
         die(name,"the combination of options fullpage+anonymous+caption is not currently supported")
       else
         spit("\\fullpagewidthfignocaption[#{dir}]{#{name}}\n")
       end
     else # not anonymous
-      if caption then
+      if has_caption then
         spit("\\fullpagewidthfig[#{dir}]{#{name}}{%\n#{caption}}\n")
       else
         die(name,"no caption, but not anonymous")
@@ -884,6 +985,10 @@ def begin_hw(name,difficulty=1,options={})
   label = hw_label()
   $store_hw_label[$hw_number] = label
   print "\\begin{homeworkforcelabel}{#{name}}{#{difficulty}}{#{calc}}{#{label}}"
+  $hw_trailing[$hw_number] = ''
+  if !(options['credit'].nil?) then 
+     $hw_trailing[$hw_number] =  $hw_trailing[$hw_number] + "\\hwaddtrailingstuff{\\hwcredit{#{options['credit']}}}"
+  end
 end
 
 def hw_solution()
@@ -895,6 +1000,8 @@ end
 def hw_hint(label)
   print "\\hwhint{hwhint:#{label}}"
   write_to_answer_data('hint')
+  #debug = (label=='nestedsolenoids' || label=='erbium')
+  #if debug then $stderr.print "hw_hint: wrote to answer data, label=#{label}\n" end
 end
 
 def hw_answer()
@@ -914,7 +1021,7 @@ end
 def write_to_answer_data(type,label=nil)
   if label==nil then label = $hw[$hw_number] end
   File.open($answer_data_file,'a') { |f|
-    f.print "#{$ch.to_i},#{label},#{type}\n"
+    f.print "#{strip_leading_zero_from_ch($ch)},#{label},#{type}\n"
   }
 end
 
@@ -950,6 +1057,8 @@ def print_answers_of_one_type(lo_ch,hi_ch,type,header)
   for ch in lo_ch..hi_ch do
     $answer_data.each { |a|
       #$stderr.print "type=",type,' ',a.join(','),"\n" if ch==0 && a[0]==0
+      #debug = (a[1]=='nestedsolenoids' || a[1]=='erbium')
+      #if debug then $stderr.print "debugging, ch=#{ch}, a=#{a}\n" end
       name = a[1]
       if ch==a[0] && type==a[2] then
         if last_ch!=ch then
@@ -959,7 +1068,7 @@ def print_answers_of_one_type(lo_ch,hi_ch,type,header)
         last_ch = ch
         long = answer_short_label_to_long(name,type)
         if long==nil then
-          save_complaint("No answer text available for problem #{name}, type #{type}")
+          save_complaint("No answer text available for problem #{name}, type #{type}; this may be because you didn't put an appropriate line in hwans.rbtex")
         else
           print answer_header(long,type)+$answer_text[type][long]
         end
@@ -996,6 +1105,7 @@ def hw_ref(name)
 end
 
 def end_hw()
+  print $hw_trailing[$hw_number]
   print "\\end{homeworkforcelabel}"
 end
 
@@ -1020,8 +1130,28 @@ def set_answer_text(label,long_label,text,type)
   # short label is used only for latex references
   if long_label==nil then long_label = label end
   text = handle_answer_text_caching(long_label,text,type)
+  text = handle_m4_in_answer_file(text)
   $answer_text[type][long_label] = text
   $answer_long_label_to_short[long_label] = label 
+  #debug = (label=~/nestedsolenoids/ || label=~/erbium/)
+  #if debug then $stderr.print "set_answer_text: label=#{label}\n" end
+end
+
+def handle_m4_in_answer_file(text)
+  # This happens in lowering-climber.
+  return text unless text=~/m4_/;
+  run_m4 = whichever_file_exists(["../scripts/run_m4.pl","scripts/run_m4.pl"])
+  if run_m4.nil? then save_complaint("couldn't find scripts/run_m4.pl in handle_m4_in_answer_file"); return text end
+  result = text
+  temp_file_name = "handle_m4_in_answer_file.temp"
+  File.open(temp_file_name,'w') { |f|
+    f.print text
+  }
+  cmd = "#{run_m4} #{temp_file_name} dummy ."
+  result = `#{cmd}`
+  if result=='' then $stderr.print "error in handle_m4_in_answer_file, result is null string" end
+  File.delete(temp_file_name)
+  return result
 end
 
 def handle_answer_text_caching(label,text,type)
@@ -1064,6 +1194,54 @@ end
 
 def end_ex
   print "\\end{handson}"
+end
+
+# The following are used in FAC:
+def begin_lab(title,columns=2,suffix='',type='mini',number='')
+  # suffix is, e.g., B for ex. 3B in ch. 3
+  title = alter_titlecase(title,1)
+  if type=='mini' then
+    typename = 'Minilab'
+  else
+    typename = 'Lab'
+  end
+  if number==''
+    number = "\\thechapter"    
+  end
+  column_command = (columns==1 ? "\\onecolumn" : "\\twocolumn")
+  label = $ch+suffix
+  full_label = "activity-#{type}:"+label
+  if is_prepress then t = t + "\\anchor{anchor-#{full_label}}" end
+  t = "\\begin{activity}{#{suffix}}{#{title}}{#{column_command}}{#{typename} #{number}: }"
+  t = t+"\\normalcaptions\\zapcounters"
+  if is_prepress then
+    t = t + "\\addcontentsline{toc}{section}{#{title}}"
+  else
+    t = t + "\\addcontentsline{toc}{section}{\\protect\\link{#{full_label}}{#{typename} #{number}: #{title}}}"
+  end
+  print t
+end
+
+def end_lab
+  print "\\end{activity}"
+end
+
+def begin_notes(columns=2)
+  title = "Notes for chapter \\thechapter"
+  column_command = (columns==1 ? "\\onecolumn" : "\\twocolumn");
+  if is_prepress then t = t + "\\anchor{anchor-#{full_label}}" end
+  t = "\\begin{activity}{}{#{title}}{#{column_command}}{}"
+  full_label = "notes:#{$ch}"
+  if is_prepress then
+    t = t + "\\addcontentsline{toc}{section}{#{title}}"
+  else
+    t = t + "\\addcontentsline{toc}{section}{\\protect\\link{#{full_label}}{#{title}}}"
+  end
+  print t
+end
+
+def end_notes
+  print "\\end{activity}"
 end
 
 # Examples:
@@ -1139,7 +1317,7 @@ def begin_sec(title,pagebreak=nil,label='',options={})
   end
   title = alter_titlecase(title,$section_level)
   cmd = "\\#{macro}#{pagebreak}{#{title}}"
-  t = sectioning_command_with_href(cmd,$section_level,label,label_level,title)
+  t = sectioning_command_with_href(cmd,$section_level,label,label_level,title,options['optional'])
   #$stderr.print t
   print t
   $section_most_recently_begun = title
@@ -1149,8 +1327,8 @@ end
 def begin_hw_sec(title='Problems')
   label = "hw-#{$ch}-#{title.downcase.gsub(/\s+/,'_')}"
   t = <<-TEX
-    \\begin{hwsection}[#{title}]
     \\anchor{anchor-#{label}}% navigator_package
+    \\begin{hwsection}[#{title}]
     TEX
   if is_prepress then
     t = t + "\\addcontentsline{toc}{section}{#{title}}"
@@ -1158,13 +1336,15 @@ def begin_hw_sec(title='Problems')
     t = t + "\\addcontentsline{toc}{section}{\\protect\\link{#{label}}{#{title}}}"
   end
   print t
+  $inside_hw_sec = true
 end
 
 def end_hw_sec
+  $inside_hw_sec = false
   print '\end{hwsection}'
 end
 
-def sectioning_command_with_href(cmd,section_level,label,label_level,title)
+def sectioning_command_with_href(cmd,section_level,label,label_level,title,optional)
   # http://tex.stackexchange.com/a/200940/6853
   name_level = {0=>'chapter',1=>'section',2=>'subsection',3=>'subsubsection',4=>'subsubsubsection'}[section_level]
   label_command = ''
@@ -1186,7 +1366,7 @@ def sectioning_command_with_href(cmd,section_level,label,label_level,title)
   if section_level==0 then anchor_command_2=anchor_command else anchor_command_1=anchor_command end
   if is_prepress then toc_macro="toclinewithoutlink" else toc_macro="toclinewithlink" end
   # In the following, I had been using begingroup/endgroup to temporarily disable \addcontentsline,
-  # but that had the side-effect that had the side effect of causing a \label{} that came after
+  # but that had the side-effect of causing a \label{} that came after
   # begin_sec to have a null string as the label instead of the section number.
   # - 
   # similar code in begin_hw_sec
@@ -1201,9 +1381,14 @@ def sectioning_command_with_href(cmd,section_level,label,label_level,title)
   t3 = <<-TEX
     \\let\\addcontentsline\\oldacl
     TEX
-  t4 = <<-TEX
-    \\#{toc_macro}{#{name_level}}{#{complete_label}}{#{title}}{\\the#{name_level}}
-    TEX
+  if section_level<4 then
+    if optional then toc_title = "$\\star$"+title else toc_title=title  end
+    t4 = <<-TEX
+      \\#{toc_macro}{#{name_level}}{#{complete_label}}{#{toc_title}}{\\the#{name_level}}
+      TEX
+  else
+    t4 = ''
+  end
   return mark_to_ignore_for_web(t1)+t2+mark_to_ignore_for_web(t3+t4)
 end
 
@@ -1222,12 +1407,23 @@ end
 
 # The following allows me to control what's titlecase and what's not, simply by changing book.config. Since text can be shared between books,
 # and the same title may be a section in LM but a subsection in SN, this needs to be done on the fly.
+# As of Dec. 2017, I've switched all books to not using titlecase anywhere. The source-code files now
+# all have non-titlecase in all begin_secs. Some chapter titles still have titlecase in the source
+# files, but that gets converted to non-titlecase here. We now throw a warning if alter_titlecase
+# actually produces a change other than removing titlecase from a chapter title.
 def alter_titlecase(title,section_level)
+  result = title
+  warn = false
   if section_level>=$config['titlecase_above'] then
-    return remove_titlecase(title) 
+    # don't warn or try to fix; this happens for any proper noun that isn't in the list
+    # result = remove_titlecase(title) 
+    # warn = (result != title) && section_level>0
   else
-    return add_titlecase(title)
+    result = add_titlecase(title)
+    warn = (result != title)
   end
+  if warn then $stderr.print "warning from alter_titlecase in eruby_util.rb: title #{title} appears to have the wrong case, was automatically fixed ch=#{$ch}\n" end
+  return result
 end
 
 def add_titlecase(title)
@@ -1300,6 +1496,9 @@ def initial_cap(x)
 end
 
 def end_chapter
+  if $inside_hw_sec then
+    fatal_error("begin_hw_sec not matched by any end_hw_sec before end_chapter")
+  end
   $section_level -= 1
   if $section_level != -1 then
     $stderr.print "warning, at end_chapter, ch #{$ch}, section level at end of chapter is #{$section_level}, should be -1; probably begin_sec's and end_sec's are not properly balanced (happens in NP preface)\n"
@@ -1310,7 +1509,7 @@ def end_chapter
   File.open("ch#{$ch}_problems.csv",'w') { |f|
     # book,ch,num,name
     book = ENV['BK']
-    chnum = $ch.to_i
+    chnum = strip_leading_zero_from_ch($ch)
     if $ch=='002' then chnum=0 end
     1.upto($hw_number) { |i| # output doesn't always get sorted correctly; see fund/solns/prep_solutions for perl code that sorts it correctly
       name = $hw[i]
@@ -1347,7 +1546,8 @@ def chapter(number,title,label,caption='',options={})
     'sidecaption'=>false,
     'special_width'=>nil,  # used in CL4, to let part of the figure hang out into the margin
     'short_title'=>nil,      # used in TOC; if omitted, taken from title
-    'very_short_title'=>nil  # used in running headers; if omitted, taken from short_title
+    'very_short_title'=>nil,  # used in running headers; if omitted, taken from short_title
+    'optional'=>false
   }
   $section_level += 1
   $ch = number
@@ -1381,14 +1581,16 @@ def chapter(number,title,label,caption='',options={})
   if is_web   then   chapter_web(number,title,label,caption,options) end
 end
 
-def chapter_web(number,title,label,caption,options)
+def chapter_web(number,raw_title,label,caption,options)
+  if options['optional'] then title="* "+raw_title else title=raw_title  end
   if options['opener']!='' then
     process_fig_web(options['opener'],caption,options)
   end
   print "\\mychapter{#{title}}\n"
 end
 
-def chapter_print(number,title,label,caption,options)
+def chapter_print(number,raw_title,label,caption,options)
+  if options['optional'] then title = "$\\star$"+raw_title else title=raw_title end
   opener = options['opener']
   has_opener = (opener!='')
   result = nil
@@ -1446,7 +1648,7 @@ def chapter_print(number,title,label,caption,options)
     $stderr.print "**************************************** Error, ch #{$ch}, processing chapter header. ****************************************\n"
     exit(-1)
   end
-  print sectioning_command_with_href(result,0,bare_label,'ch',title)
+  print sectioning_command_with_href(result,0,bare_label,'ch',raw_title,options['optional'])
   #print "#{result}\\label{#{label}}\n"
 end
 
