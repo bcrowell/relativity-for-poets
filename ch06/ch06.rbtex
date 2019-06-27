@@ -1,6 +1,6 @@
 <% require "./scripts/simple_figures.rb" %>
 
-\chapter{\boldmath $E=mc^2$}
+\chapter{ $\mathbf{E=mc^2}$}
 
 We now trace essentially the same chain of reasoning that Einstein used in arriving at his most famous equation.
 
