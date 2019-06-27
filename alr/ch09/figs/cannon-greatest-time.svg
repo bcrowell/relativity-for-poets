@@ -44,18 +44,9 @@
          id="stop10"
          style="stop-color:#7F7F7F"
          offset="1" />
-      <midPointStop
-         id="midPointStop12"
-         style="stop-color:#FFFFFF"
-         offset="0" />
-      <midPointStop
-         id="midPointStop14"
-         style="stop-color:#FFFFFF"
-         offset="0.5" />
-      <midPointStop
-         id="midPointStop16"
-         style="stop-color:#7F7F7F"
-         offset="1" />
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.8,0,0,0.8,14.4465,10.5098)"
@@ -73,18 +64,9 @@
          id="stop24"
          style="stop-color:#E9E9E9"
          offset="1" />
-      <midPointStop
-         id="midPointStop26"
-         style="stop-color:#FFFFFF"
-         offset="0" />
-      <midPointStop
-         id="midPointStop28"
-         style="stop-color:#FFFFFF"
-         offset="0.5" />
-      <midPointStop
-         id="midPointStop30"
-         style="stop-color:#E9E9E9"
-         offset="1" />
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.8,0,0,0.8,14.4465,10.5098)"
@@ -102,18 +84,9 @@
          id="stop38"
          style="stop-color:#7F7F7F"
          offset="1" />
-      <midPointStop
-         id="midPointStop40"
-         style="stop-color:#FFFFFF"
-         offset="0" />
-      <midPointStop
-         id="midPointStop42"
-         style="stop-color:#FFFFFF"
-         offset="0.5" />
-      <midPointStop
-         id="midPointStop44"
-         style="stop-color:#7F7F7F"
-         offset="1" />
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.8,0,0,0.8,14.4465,10.5098)"
@@ -131,18 +104,9 @@
          id="stop52"
          style="stop-color:#7F7F7F"
          offset="1" />
-      <midPointStop
-         id="midPointStop54"
-         style="stop-color:#FFFFFF"
-         offset="0" />
-      <midPointStop
-         id="midPointStop56"
-         style="stop-color:#FFFFFF"
-         offset="0.5" />
-      <midPointStop
-         id="midPointStop58"
-         style="stop-color:#7F7F7F"
-         offset="1" />
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.3817,-101.3102)"
@@ -208,26 +172,11 @@
          id="stop94"
          style="stop-color:#a2a2a2;stop-opacity:1;"
          offset="1" />
-      <midPointStop
-         id="midPointStop96"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop98"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop100"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop102"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop104"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.2274,-101.3215)"
@@ -293,26 +242,11 @@
          id="stop136"
          style="stop-color:#a2a2a2;stop-opacity:1;"
          offset="1" />
-      <midPointStop
-         id="midPointStop138"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop140"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop142"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop144"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop146"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <clipPath
        id="XMLID_22_">
@@ -390,18 +324,9 @@
          id="stop371"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop373"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop375"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop377"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        gradientUnits="userSpaceOnUse"
@@ -444,18 +369,9 @@
          id="stop397"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop399"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop401"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop403"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <linearGradient
        gradientTransform="matrix(0.8,0,0,0.8,14.4465,10.5098)"
@@ -473,18 +389,9 @@
          id="stop411"
          style="stop-color:#E9E9E9"
          offset="1" />
-      <midPointStop
-         id="midPointStop413"
-         style="stop-color:#EDEDED"
-         offset="0" />
-      <midPointStop
-         id="midPointStop415"
-         style="stop-color:#EDEDED"
-         offset="0.5" />
-      <midPointStop
-         id="midPointStop417"
-         style="stop-color:#E9E9E9"
-         offset="1" />
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.8,0,0,0.8,14.4465,10.5098)"
@@ -502,18 +409,9 @@
          id="stop425"
          style="stop-color:#7F7F7F"
          offset="1" />
-      <midPointStop
-         id="midPointStop427"
-         style="stop-color:#FFFFFF"
-         offset="0" />
-      <midPointStop
-         id="midPointStop429"
-         style="stop-color:#FFFFFF"
-         offset="0.5" />
-      <midPointStop
-         id="midPointStop431"
-         style="stop-color:#7F7F7F"
-         offset="1" />
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.8,0,0,0.8,14.4465,10.5098)"
@@ -531,18 +429,9 @@
          id="stop439"
          style="stop-color:#7F7F7F"
          offset="1" />
-      <midPointStop
-         id="midPointStop441"
-         style="stop-color:#FFFFFF"
-         offset="0" />
-      <midPointStop
-         id="midPointStop443"
-         style="stop-color:#FFFFFF"
-         offset="0.5" />
-      <midPointStop
-         id="midPointStop445"
-         style="stop-color:#7F7F7F"
-         offset="1" />
+      
+      
+      
     </linearGradient>
     <radialGradient
        gradientUnits="userSpaceOnUse"
@@ -585,18 +474,9 @@
          id="stop465"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        gradientUnits="userSpaceOnUse"
@@ -639,18 +519,9 @@
          id="stop512"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop514"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop516"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop518"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.3817,-101.3102)"
@@ -716,26 +587,11 @@
          id="stop3471"
          style="stop-color:#FCC249"
          offset="1" />
-      <midPointStop
-         id="midPointStop3473"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop3475"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop3477"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop3479"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop3481"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.2274,-101.3215)"
@@ -801,26 +657,11 @@
          id="stop3512"
          style="stop-color:#FCC249"
          offset="1" />
-      <midPointStop
-         id="midPointStop3514"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop3516"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop3518"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop3520"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop3522"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.3817,-101.3102)"
@@ -886,26 +727,11 @@
          id="stop94-4"
          style="stop-color:#a2a2a2;stop-opacity:1;"
          offset="1" />
-      <midPointStop
-         id="midPointStop96-1"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop98-1"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop100-7"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop102-5"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop104-5"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.2274,-101.3215)"
@@ -971,26 +797,11 @@
          id="stop136-6"
          style="stop-color:#a2a2a2;stop-opacity:1;"
          offset="1" />
-      <midPointStop
-         id="midPointStop138-6"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop140-8"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop142-4"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop144-7"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop146-7"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.3817,-101.3102)"
@@ -1056,26 +867,11 @@
          id="stop94-47"
          style="stop-color:#a2a2a2;stop-opacity:1;"
          offset="1" />
-      <midPointStop
-         id="midPointStop96-7"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop98-0"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop100-1"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop102-1"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop104-51"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.2274,-101.3215)"
@@ -1141,26 +937,11 @@
          id="stop136-63"
          style="stop-color:#a2a2a2;stop-opacity:1;"
          offset="1" />
-      <midPointStop
-         id="midPointStop138-0"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop140-89"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop142-5"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop144-5"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop146-3"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.3817,-101.3102)"
@@ -1226,26 +1007,11 @@
          id="stop94-8"
          style="stop-color:#a2a2a2;stop-opacity:1;"
          offset="1" />
-      <midPointStop
-         id="midPointStop96-6"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop98-2"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop100-8"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop102-6"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop104-3"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.2274,-101.3215)"
@@ -1311,26 +1077,11 @@
          id="stop136-8"
          style="stop-color:#a2a2a2;stop-opacity:1;"
          offset="1" />
-      <midPointStop
-         id="midPointStop138-8"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop140-2"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop142-8"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop144-79"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop146-31"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.3817,-101.3102)"
@@ -1396,26 +1147,11 @@
          id="stop94-6"
          style="stop-color:#a2a2a2;stop-opacity:1;"
          offset="1" />
-      <midPointStop
-         id="midPointStop96-2"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop98-4"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop100-3"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop102-64"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop104-9"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <linearGradient
        gradientTransform="matrix(0.6176,0.0459,-0.0932,1.2537,10.2274,-101.3215)"
@@ -1481,26 +1217,11 @@
          id="stop136-5"
          style="stop-color:#a2a2a2;stop-opacity:1;"
          offset="1" />
-      <midPointStop
-         id="midPointStop138-07"
-         style="stop-color:#FEC349"
-         offset="0" />
-      <midPointStop
-         id="midPointStop140-0"
-         style="stop-color:#FEC349"
-         offset="0.8" />
-      <midPointStop
-         id="midPointStop142-3"
-         style="stop-color:#FCF5D1"
-         offset="0.81" />
-      <midPointStop
-         id="midPointStop144-52"
-         style="stop-color:#FCF5D1"
-         offset="0.6" />
-      <midPointStop
-         id="midPointStop146-71"
-         style="stop-color:#FCC249"
-         offset="1" />
+      
+      
+      
+      
+      
     </linearGradient>
     <radialGradient
        gradientUnits="userSpaceOnUse"
@@ -1543,18 +1264,9 @@
          id="stop465-8"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-4"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-8"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-9"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        gradientUnits="userSpaceOnUse"
@@ -1597,18 +1309,9 @@
          id="stop465-6"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-7"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-3"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-6"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        gradientUnits="userSpaceOnUse"
@@ -1651,18 +1354,9 @@
          id="stop465-7"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        gradientUnits="userSpaceOnUse"
@@ -1705,18 +1399,9 @@
          id="stop465-4"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-78"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-0"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-1"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        r="10.6301"
@@ -1770,18 +1455,9 @@
          id="stop465-60"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-5"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-82"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-4"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <linearGradient
        inkscape:collect="always"
@@ -1855,18 +1531,9 @@
          id="stop465-7-8"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1-9"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35-0"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5-3"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        r="10.6301"
@@ -1931,18 +1598,9 @@
          id="stop465-7-8-6"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1-9-3"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35-0-1"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5-3-6"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        r="10.6301"
@@ -2007,18 +1665,9 @@
          id="stop465-7-8-6-3"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1-9-3-4"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35-0-1-4"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5-3-6-1"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        r="10.6301"
@@ -2083,18 +1732,9 @@
          id="stop465-7-8-6-3-0"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1-9-3-4-0"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35-0-1-4-4"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5-3-6-1-8"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        r="10.6301"
@@ -2159,18 +1799,9 @@
          id="stop465-7-8-6-3-0-1"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1-9-3-4-0-6"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35-0-1-4-4-2"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5-3-6-1-8-5"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        r="10.6301"
@@ -2345,18 +1976,9 @@
          id="stop465-7-8-8"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1-9-30"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35-0-9"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5-3-8"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        inkscape:collect="always"
@@ -2410,18 +2032,9 @@
          id="stop465-7-8-6-4"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1-9-3-8"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35-0-1-45"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5-3-6-4"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        inkscape:collect="always"
@@ -2475,18 +2088,9 @@
          id="stop465-7-8-6-3-7"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1-9-3-4-6"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35-0-1-4-3"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5-3-6-1-2"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        inkscape:collect="always"
@@ -2540,18 +2144,9 @@
          id="stop465-7-8-6-3-0-6"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1-9-3-4-0-8"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35-0-1-4-4-8"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5-3-6-1-8-8"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        inkscape:collect="always"
@@ -2605,18 +2200,9 @@
          id="stop465-7-8-6-3-0-1-1"
          style="stop-color:#000000"
          offset="1" />
-      <midPointStop
-         id="midPointStop467-1-9-3-4-0-6-0"
-         style="stop-color:#CACACA"
-         offset="0" />
-      <midPointStop
-         id="midPointStop469-35-0-1-4-4-2-0"
-         style="stop-color:#CACACA"
-         offset="0.27" />
-      <midPointStop
-         id="midPointStop471-5-3-6-1-8-5-5"
-         style="stop-color:#000000"
-         offset="1" />
+      
+      
+      
     </radialGradient>
     <radialGradient
        r="10.6301"

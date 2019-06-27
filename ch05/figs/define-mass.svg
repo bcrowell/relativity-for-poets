@@ -35,12 +35,6 @@
          offset="0" /><svg:stop
          id="stop10"
          style="stop-color:#505050;stop-opacity:1;"
-         offset="1" /><midPointStop
-         style="stop-color:#FFFFFF"
-         offset="0" /><midPointStop
-         style="stop-color:#FFFFFF"
-         offset="0.5" /><midPointStop
-         style="stop-color:#000000"
          offset="1" /></svg:linearGradient><svg:linearGradient
        gradientTransform="matrix(1.6018,0,0,1.6018,-44.3346,-13.7865)"
        y2="29.3896"
@@ -54,12 +48,6 @@
          offset="0" /><svg:stop
          id="stop59"
          style="stop-color:#505050;stop-opacity:1;"
-         offset="1" /><midPointStop
-         style="stop-color:#FFFFFF"
-         offset="0" /><midPointStop
-         style="stop-color:#FFFFFF"
-         offset="0.5" /><midPointStop
-         style="stop-color:#000000"
          offset="1" /></svg:linearGradient><svg:linearGradient
        inkscape:collect="always"
        xlink:href="#XMLID_3_"
