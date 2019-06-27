@@ -51,7 +51,7 @@
 \newcommand{\zu}[1]{\textup{#1}}
 
 %
-
+\newlength{\saveleftskip}
 \newenvironment{important}[1][]%
         {%
           \setlength{\saveleftskip}{\leftskip}%
