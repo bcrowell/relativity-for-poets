@@ -248,14 +248,14 @@ while his twin sister Amy stands on the ground. Analyzing figure 2 on p.~\pagere
 we previously said:
 
 \begin{itemize}
-Bob's motion is inertial while Amy's is not. Therefore by the principle of greatest time, Amy experiences
+\item Bob's motion is inertial while Amy's is not. Therefore by the principle of greatest time, Amy experiences
 less time than Bob.
 \end{itemize}
 
 \noindent An equally valid explanation, leading to the same numerical predictions, is:
 
 \begin{itemize}
-Amy experiences less time for a combination of
+\item Amy experiences less time for a combination of
 two reasons. (1) As seen in Bob's inertial frame, she is the one who is moving.
 Motion causes time dilation. (2) Amy is also lower in a gravitational field than Bob is.
 For this reason as well, Amy experiences less time. These two effects reinforce each other,
